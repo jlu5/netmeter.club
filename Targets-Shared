@@ -322,6 +322,12 @@ menu = [US/CA] ColoCrossing (LA)
 title = [US/CA] ColoCrossing (Los Angeles) [lg.la.colocrossing.com]
 host = lg.la.colocrossing.com
 
+
+++ dediserve-lax1
+menu = [US/CA] Dediserve (Los Angeles)
+title = [US/CA] Dediserve - Los Angeles, California, USA [speedtest.c1.lax1.dediserve.com]
+host = speedtest.c1.lax1.dediserve.com
+
 #++ gcp-la
 #menu = [US/CA] Google Cloud (LA)
 #title = [US/CA] Google Cloud Platform (Los Angeles us-west2) [us-west2-gce.cloudharmony.net]
@@ -441,6 +447,11 @@ host = core1.ywg1.he.net
 menu = [CA/ON] Amazon (C. Canada)
 title = [CA/ON] Amazon Web Services (Central Canada ca-central-1) [35.182.0.251]
 host = 35.182.0.251
+
+++ dediserve-tor1
+menu = [CA/ON] Dediserve (Toronto)
+title = [CA/ON] Dediserve - Toronto, Ontario, Canada [speedtest.c1.tor1.dediserve.com]
+host = speedtest.c1.tor1.dediserve.com
 
 ++ digitalocean-tor1
 menu = [CA/ON] DigitalOcean (TOR1)
@@ -571,6 +582,11 @@ title = Points of Interest (North America South)
 menu = [US/TX] ColoCrossing (Dallas)
 title = [US/TX] ColoCrossing (Dallas) [66.225.198.198]
 host = 66.225.198.198
+
+++ dediserve-dal1
+menu = [US/TX] Dediserve (Dallas)
+title = [US/TX] Dediserve - Dallas, Texas, USA [speedtest.c1.dal1.dediserve.com]
+host = speedtest.c1.dal1.dediserve.com
 
 ++ impactvps-dal
 menu = [US/TX] ImpactVPS (Dallas)
@@ -716,6 +732,11 @@ host = nj-us-ping.vultr.com
 menu = [US/NY] ColoCrossing (Buffalo)
 title = [US/NY] ColoCrossing (Buffalo, New York) [192.3.180.103]
 host = 192.3.180.103
+
+++ dediserve-nyc1
+menu = [US/NY] Dediserve (Buffalo)
+title = [US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]
+host = speedtest.c1.nyc1.dediserve.com
 
 ++ hurricane-electric-nyc4
 menu = [US] he.net (New York)
@@ -867,6 +888,11 @@ menu = [UK] BudgetNode (London)
 title = [UK] BudgetNode (London Docklands 1) [185.187.242.2]
 host = 185.187.242.2
 
+++ dediserve-lon2
+menu = [UK] Dediserve (London)
+title = [UK] Dediserve - London, UK [speedtest.c1.lon2.dediserve.com]
+host = speedtest.c1.lon2.dediserve.com
+
 ++ digitalocean-lon
 menu = [UK] DigitalOcean (London)
 title = [UK] DigitalOcean (London LON1) [speedtest-lon1.digitalocean.com]
@@ -911,6 +937,11 @@ host = 77.81.107.11
 menu = [IE] Amazon AWS (Ireland)
 title = [IE] Amazon Web Services (Ireland eu-west-1) [54.216.0.1]
 host = 54.216.0.1
+
+++ dediserve-dub2
+menu = [IE] Dediserve (Dublin)
+title = [IE] Dediserve - Dublin, Ireland [speedtest.c1.dub2.dediserve.com]
+host = speedtest.c1.dub2.dediserve.com
 
 #++ proxad
 #menu = [FR] Proxad
@@ -981,6 +1012,11 @@ host = core1.bru1.he.net
 menu = [LU] BuyVM (Luxembourg)
 title = [LU] BuyVM (Roost, Luxembourg) [lu-test.buyvm.net]
 host = lu-test.buyvm.net
+
+++ dediserve-ams1
+menu = [NL] Dediserve (Amsterdam)
+title = [NL] Dediserve - Amsterdam, Netherlands [speedtest.c1.ams1.dediserve.com]
+host = speedtest.c1.ams1.dediserve.com
 
 ++ digitalocean-ams
 menu = [NL] DigitalOcean (Amsterdam)
@@ -1057,6 +1093,11 @@ host = lg.combahton.net
 menu = [DE] CTG (Germany)
 title = [DE] China Telecom Global (Germany) [5.154.145.1]
 host = 5.154.145.1
+
+++ dediserve-fra1
+menu = [DE] Dediserve (Frankfurt)
+title = [DE] Dediserve - Frankfurt, Germany [speedtest.c1.fra1.dediserve.com]
+host = speedtest.c1.fra1.dediserve.com
 
 ++ digitalocean-fra
 menu = [DE] DigitalOcean (Frankfurt)
@@ -1178,6 +1219,11 @@ menu = [EE] he.net (Tallinn)
 title = [EE] Hurricane Electric - Elion Tallinn Tallinn, EE [core1.tll1.he.net]
 host = core1.tll1.he.net
 
+++ dediserve-vie1
+menu = [AT] Dediserve (Vienna)
+title = [AT] Dediserve - Vienna, Austria [speedtest.c1.vie1.dediserve.com]
+host = speedtest.c1.vie1.dediserve.com
+
 ++ hosthatch-vie
 menu = [AT] HostHatch (Vienna)
 title = [AT] HostHatch - Vienna, Austria [lg.vie.hosthatch.com]
@@ -1187,6 +1233,11 @@ host = lg.vie.hosthatch.com
 menu = [AT] he.net (Vienna)
 title = [AT] Hurricane Electric - Interxion Vienna Vienna, AT [core1.vie1.he.net]
 host = core1.vie1.he.net
+
+++ dediserve-pol1
+menu = [PL] Dediserve (Warsaw)
+title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
+host = speedtest.c1.pol1.dediserve.com
 
 ++ ovh-waw
 menu = [PL] OVH (Warsaw)
@@ -1443,6 +1494,11 @@ menu = [HK] CTG (Hong Kong)
 title = [HK] China Telecom Global (Hong Kong) [203.14.188.1]
 host = 203.14.188.1
 
+++ dediserve-hkg1
+menu = [HK] Dediserve (Hong Kong)
+title = [HK] Dediserve - Hong Kong, China [speedtest.c1.hkg1.dediserve.com]
+host = speedtest.c1.hkg1.dediserve.com
+
 ++ dmit-io-hk
 menu = [HK] DMIT.IO (Hong Kong)
 title = [HK] DMIT.IO (Hong Kong) [193.110.200.233]
@@ -1603,6 +1659,11 @@ menu = [JP] CTG (Japan)
 title = [JP] China Telecom Global (Japan) [203.80.137.1]
 host = 203.80.137.1
 
+++ dediserve-jap1
+menu = [JP] Dediserve (Tokyo)
+title = [JP] Dediserve - Tokyo, Japan [speedtest.c1.jap1.dediserve.com]
+host = speedtest.c1.jap1.dediserve.com
+
 ++ gcp-jp
 menu = [JP] Google Cloud (Tokyo)
 title = [JP] Google Cloud Platform (Tokyo asia-northeast1) via CloudHarmony [asia-northeast1-gce.cloudharmony.net]
@@ -1724,6 +1785,11 @@ menu = [SG] CTG (Singapore)
 title = [SG] China Telecom Global (Singapore) [203.33.10.1]
 host = 203.33.10.1
 
+++ dediserve-sin1
+menu = [SG] Dediserve (Singapore)
+title = [SG] Dediserve - Singapore [speedtest.c1.sin1.dediserve.com]
+host = speedtest.c1.sin1.dediserve.com
+
 ++ digitalocean-sgp
 menu = [SG] Digital Ocean (SGP1)
 title = [SG] Digital Ocean (Singapore SGP1) [speedtest-sgp1.digitalocean.com]
@@ -1768,6 +1834,11 @@ host = sg1.lg.starrydns.com
 menu = [SG] Vultr (Singapore)
 title = [SG] Vultr / Choopa (Singapore) [sgp-ping.vultr.com]
 host = sgp-ping.vultr.com
+
+++ dediserve-jkt1
+menu = [IN] Dediserve (Jakarta)
+title = [IN] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
+host = speedtest.c1.jkt1.dediserve.com
 
 ++ amazon-mumbai
 menu = [AU] Amazon AWS (Mumbai)
@@ -1919,6 +1990,11 @@ menu = [AU] CTG (Sydney)
 title = [AU] China Telecom Global (Sydney) [218.100.88.244]
 host = 218.100.88.244
 
+++ dediserve-syd1
+menu = [AU] Dediserve (Sydney)
+title = [AU] Dediserve - Sydney, Australia [speedtest.c1.syd1.dediserve.com]
+host = speedtest.c1.syd1.dediserve.com
+
 #++ hostus-syd
 #menu = [AU] HostUS (Sydney)
 #title = [AU] HostUS (Sydney) [syd-lg.hostus.us]
@@ -1973,6 +2049,11 @@ host = auckland-lg.ransomit.com.au
 menu = [NZ] ZappieHost (Auckland)
 title = [NZ] ZappieHost (Auckland) [lg-nz.zappiehost.com]
 host = lg-nz.zappiehost.com
+
+++ dediserve-mel1
+menu = [AU] Dediserve (Melbourne)
+title = [AU] Dediserve - Melbourne, Australia [speedtest.c1.mel1.dediserve.com]
+host = speedtest.c1.mel1.dediserve.com
 
 ++ ransomit-mel
 menu = [AU] Ransom IT (Melbourne)
