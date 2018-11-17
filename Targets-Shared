@@ -152,10 +152,10 @@ menu = [US/WA] IonSwitch (Seattle)
 title = [US/WA] IonSwitch (Seattle) [lg.ionswitch.com]
 host = lg.ionswitch.com
 
-++ nfoservers-sea
-menu = [US/WA] NFOservers (Seattle)
-title = [US/WA] NFOservers (Seattle) [192.223.25.100]
-host = 192.223.25.100
+#++ nfoservers-sea
+#menu = [US/WA] NFOservers (Seattle)
+#title = [US/WA] NFOservers (Seattle) [192.223.25.100]
+#host = 192.223.25.100
 
 ++ ramnode-sea
 menu = [US/WA] RamNode (Seattle)
@@ -287,10 +287,10 @@ menu = [US/CA] LeaseWeb (sfo12)
 title = [US/CA] LeaseWeb (San Francisco sfo12) [mirror.sfo12.us.leaseweb.net]
 host = mirror.sfo12.us.leaseweb.net
 
-++ nfoservers-sjc
-menu = [US/CA] NFOservers (San Jose)
-title = [US/CA] NFOservers / InterNAP (San Jose) [66.151.138.9]
-host = 66.151.138.9
+#++ nfoservers-sjc
+#menu = [US/CA] NFOservers (San Jose)
+#title = [US/CA] NFOservers / InterNAP (San Jose) [66.151.138.9]
+#host = 66.151.138.9
 
 ++ softlayer-sjc
 menu = [US/CA] Softlayer (San Jose)
@@ -327,11 +327,6 @@ host = lg.la.colocrossing.com
 #title = [US/CA] Google Cloud Platform (Los Angeles us-west2) [us-west2-gce.cloudharmony.net]
 #host = us-west2-gce.cloudharmony.net
 
-#++ hiformance-la
-#menu = [US/CA] HiFormance (LA)
-#title = [US/CA] HiFormance (Los Angeles) [72.11.129.4]
-#host = 72.11.129.4
-
 ++ hosthatch-lax
 menu = [US/CA] HostHatch (Los Angeles)
 title = [US/CA] HostHatch - Los Angeles [lg.lax.hosthatch.com]
@@ -342,10 +337,10 @@ menu = [US/CA] KLayer (Los Angeles)
 title = [US/CA] KLayer / Zenlayer (Los Angeles) [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
 
-++ nfoservers-lax
-menu = [US/CA] NFOservers (LA)
-title = [US/CA] NFOservers (Los Angeles) [66.150.188.101]
-host = 66.150.188.101
+#++ nfoservers-lax
+#menu = [US/CA] NFOservers (LA)
+#title = [US/CA] NFOservers (Los Angeles) [66.150.188.101]
+#host = 66.150.188.101
 
 ++ psychz-la
 menu = [US/CA] Psychz (Los Angeles)
@@ -467,15 +462,20 @@ menu = [US/IL] ColoCrossing (Chicago)
 title = [US/IL] ColoCrossing (Chicago) [66.225.198.198]
 host = 66.225.198.198
 
+++ dediserve-chg1
+menu = [US/IL] Dediserve (Chicago)
+title = [US/IL] Dediserve - Chicago, Illinois, USA [speedtest.c1.chg1.dediserve.com]
+host = speedtest.c1.chg1.dediserve.com
+
 #++ host1plus-chi
 #menu = [US/IL] Host1Plus (Chicago)
 #title = [US/IL] Host1Plus (Chicago) [181.214.61.207]
 #host = 181.214.61.207
 
-++ nfoservers-chi
-menu = [US/IL] NFOservers (Chicago)
-title = [US/IL] NFOservers (Chicago) [216.52.148.4]
-host = 216.52.148.4
+#++ nfoservers-chi
+#menu = [US/IL] NFOservers (Chicago)
+#title = [US/IL] NFOservers (Chicago) [216.52.148.4]
+#host = 216.52.148.4
 
 ++ psychz-chi
 menu = [US/IL] Psychz (Chicago)
@@ -582,10 +582,10 @@ menu = [US/TX] Linode (Dallas)
 title = [US/TX] Linode (Dallas) [speedtest.dallas.linode.com]
 host = speedtest.dallas.linode.com
 
-++ nfoservers-dal
-menu = [US/TX] NFOservers (Dallas)
-title = [US/TX] NFOservers (Dallas) [66.150.214.8]
-host = 66.150.214.8
+#++ nfoservers-dal
+#menu = [US/TX] NFOservers (Dallas)
+#title = [US/TX] NFOservers (Dallas) [66.150.214.8]
+#host = 66.150.214.8
 
 ++ psychz-texas
 menu = [US/TX] Psychz (Dallas)
@@ -732,10 +732,10 @@ menu = [US/NY] ImpactVPS (NYC)
 title = [US/NY] ImpactVPS / Incero (New York City) [172.110.20.1]
 host = 172.110.20.1
 
-++ nfoservers-nyc
-menu = [US/NY] NFOservers (New York)
-title = [US/NY] NFOservers / InterNAP (New York) [63.251.20.100]
-host = 63.251.20.100
+#++ nfoservers-nyc
+#menu = [US/NY] NFOservers (New York)
+#title = [US/NY] NFOservers / InterNAP (New York) [63.251.20.100]
+#host = 63.251.20.100
 
 ++ digitalocean-nyc3
 menu = [US/NY] DigitalOcean (NYC3)
