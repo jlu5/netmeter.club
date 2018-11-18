@@ -1,3 +1,4 @@
+# Credit to https://0x4a42.net/2016/smokeping-with-nginx-and-fastcgi/
 [Unit]
 Description=SmokePing FastCGI Service
 After=network.target smokeping.service
