@@ -292,6 +292,11 @@ menu = [US/CA] LeaseWeb (sfo12)
 title = [US/CA] LeaseWeb (San Francisco sfo12) [mirror.sfo12.us.leaseweb.net]
 host = mirror.sfo12.us.leaseweb.net
 
+++ rivencloud-fremont
+menu = [US/CA] Riven Cloud (Fremont)
+title = [US/CA] Riven Cloud - Fremont, CA [speedtest-fm1.sa.net]
+host = speedtest-fm1.sa.net
+
 #++ nfoservers-sjc
 #menu = [US/CA] NFOservers (San Jose)
 #title = [US/CA] NFOservers / InterNAP (San Jose) [66.151.138.9]
@@ -942,6 +947,11 @@ host = lon1-eri.smokeping.ovh.net
 menu = [UK] Psychz (London)
 title = [UK] Psychz (London) [lg.lon.psychz.net]
 host = lg.lon.psychz.net
+
+++ rivencloud-london
+menu = [UK] Riven Cloud (London)
+title = [UK] Riven Cloud - London, United Kingdom [speedtest-ld1.sa.net]
+host = speedtest-ld1.sa.net
 
 ++ vmhaus-lon
 menu = [UK] VMHaus (London)
@@ -1716,8 +1726,18 @@ host = tokyo-lg.ransomit.com.au
 
 ++ softbank-osaka
 menu = [JP] Softbank (Osaka)
-title = [JP] Softbank (Osaka) [202.5.222.1]
+title = [JP] Softbank / xTom (Osaka) [202.5.222.1]
 host = 202.5.222.1
+
+++ rivencloud-osaka
+menu = [JP] Riven Cloud (Osaka)
+title = [JP] Riven Cloud - Osaka, Japan [speedtest-os1.sa.net]
+host = speedtest-os1.sa.net
+
+++ rivencloud-tokyo
+menu = [JP] Riven Cloud (Tokyo)
+title = [JP] Riven Cloud - Tokyo, Japan [speedtest-ty1.sa.net]
+host = speedtest-ty1.sa.net
 
 ++ softlayer-tok
 menu = [JP] Softlayer (Tokyo)
@@ -1924,6 +1944,11 @@ title = Points of Interest (Africa)
 menu = [ZA] Psychz (Johannesburg)
 title = [ZA] Psychz (Johannesburg) [lg.jnb.psychz.net]
 host = lg.jnb.psychz.net
+
+++ rivencloud-johannesburg
+menu = [ZA] Riven Cloud (Johannesburg)
+title = [ZA] Riven Cloud - Johannesburg, South Africa [speedtest-jb1.sa.net]
+host = speedtest-jb1.sa.net
 
 ++ mirror-ac-za
 menu = [ZA] TENET
