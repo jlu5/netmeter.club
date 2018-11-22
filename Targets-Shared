@@ -113,7 +113,7 @@ title = [CA/BC] Bandwagonhost (Vancouver) [172.93.32.16]
 host = 172.93.32.16
 
 ++ freerangecloud-yvr
-menu = [CA/BC] Free Range (Vancouver)
+menu = [CA/BC] Free Range (YVR)
 title = [CA/BC] Free Range Cloud (Vancouver) [van.lg.freerangecloud.com]
 host = van.lg.freerangecloud.com
 
@@ -183,7 +183,7 @@ title = [US/OR] Amazon Web Services (Oregon us-west-2) [54.188.0.0]
 host = 54.188.0.0
 
 ++ ceranetworks-pdx
-menu = [US/OR] CeraNetworks (Portland)
+menu = [US/OR] CeraNetworks (PDX)
 title = [US/OR] CeraNetworks / 50KVM (Portland) [lg.cera-ncp.pdx.50network.com]
 host = lg.cera-ncp.pdx.50network.com
 
@@ -334,7 +334,7 @@ host = lg.la.colocrossing.com
 
 
 ++ dediserve-lax1
-menu = [US/CA] Dediserve (Los Angeles)
+menu = [US/CA] Dediserve (LA)
 title = [US/CA] Dediserve - Los Angeles, California, USA [speedtest.c1.lax1.dediserve.com]
 host = speedtest.c1.lax1.dediserve.com
 
@@ -344,7 +344,7 @@ host = speedtest.c1.lax1.dediserve.com
 #host = us-west2-gce.cloudharmony.net
 
 ++ hosthatch-lax
-menu = [US/CA] HostHatch (Los Angeles)
+menu = [US/CA] HostHatch (LA)
 title = [US/CA] HostHatch - Los Angeles [lg.lax.hosthatch.com]
 host = lg.lax.hosthatch.com
 
@@ -424,7 +424,7 @@ title = [US] Hurricane Electric - PhoenixNAP Phoenix, AZ, US [core1.phx2.he.net]
 host = core1.phx2.he.net
 
 ++ securedragon-phoenix
-menu = [US/AZ] SecureDragon (Phoenix)
+menu = [US/AZ] SecureDragon (PHX)
 title = [US/AZ] SecureDragon / PhoenixNAP - Phoenix, AZ, United States [162.253.177.4]
 host = 162.253.177.4
 
@@ -529,7 +529,7 @@ title = [US] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.
 host = core1.den1.he.net
 
 ++ securedragon-denver
-menu = [US/CO] SecureDragon (Denver)
+menu = [US/CO] SecureDragon (DEN)
 title = [US/CO] SecureDragon / Handy Networks - Denver, CO, United States [198.57.46.4]
 host = 198.57.46.4
 
@@ -799,12 +799,12 @@ title = [US/DC] LeaseWeb (Washington D.C.) [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
 ++ colocrossing-pnj
-menu = [US/NJ] ColoCrossing (PNJ)
+menu = [US/NJ] ColoCrossing (NJ)
 title = [US/NJ] ColoCrossing / Virmach (Piscataway, New Jersey) [107.174.64.68]
 host = 107.174.64.68
 
 ++ securedragon-piscataway
-menu = [US/NJ] SecureDragon (Piscataway)
+menu = [US/NJ] SecureDragon (NJ)
 title = [US/NJ] SecureDragon / DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
 host = 162.253.176.4
 
@@ -844,7 +844,7 @@ title = [US/SC] Google Cloud Platform (South Carolina us-east1) [us-east1-gce.cl
 host = us-east1-gce.cloudharmony.net
 
 ++ hostnamaste-fl
-menu = [US/FL] HostNamaste (Jacksonville)
+menu = [US/FL] HostNamaste (FL)
 title = [US/FL] HostNamaste / ServerComplete (Jacksonville, Florida) [184.175.242.2]
 host = 184.175.242.2
 
@@ -1946,7 +1946,7 @@ title = [ZA] Psychz (Johannesburg) [lg.jnb.psychz.net]
 host = lg.jnb.psychz.net
 
 ++ rivencloud-johannesburg
-menu = [ZA] Riven Cloud (Johannesburg)
+menu = [ZA] Riven Cloud (JNB)
 title = [ZA] Riven Cloud - Johannesburg, South Africa [speedtest-jb1.sa.net]
 host = speedtest-jb1.sa.net
 
