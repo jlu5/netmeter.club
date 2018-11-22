@@ -197,6 +197,11 @@ menu = [US/OR] OVH (Portland)
 title = [US/OR] OVH (Portland Hillsboro) [pdx1-hil.smokeping.ovh.net]
 host = pdx1-hil.smokeping.ovh.net
 
+++ securedragon-portland
+menu = [US/OR] SecureDragon (Portland)
+title = [US/OR] SecureDragon / CNServers - Portland, OR, United States [198.57.47.4]
+host = 198.57.47.4
+
 ++ shaw-okbc
 menu = [CA/BC] Shaw (Kelowna)
 title = [CA/BC] Shaw (Kelowna) [speedtest.ok.shawcable.net]
@@ -413,6 +418,11 @@ menu = [US] he.net (Phoenix)
 title = [US] Hurricane Electric - PhoenixNAP Phoenix, AZ, US [core1.phx2.he.net]
 host = core1.phx2.he.net
 
+++ securedragon-phoenix
+menu = [US/AZ] SecureDragon (Phoenix)
+title = [US/AZ] SecureDragon / PhoenixNAP - Phoenix, AZ, United States [162.253.177.4]
+host = 162.253.177.4
+
 ++ serverhub-phx
 menu = [US/AZ] ServerHub (Phoenix)
 title = [US/AZ] ServerHub / Virmach (Phoenix, Arizona) [phx.lg.virmach.com]
@@ -512,6 +522,11 @@ host = il-us-ping.vultr.com
 menu = [US] he.net (Denver)
 title = [US] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.net]
 host = core1.den1.he.net
+
+++ securedragon-denver
+menu = [US/CO] SecureDragon (Denver)
+title = [US/CO] SecureDragon / Handy Networks - Denver, CO, United States [198.57.46.4]
+host = 198.57.46.4
 
 ++ hurricane-electric-mci3
 menu = [US] he.net (Kansas City)
@@ -678,6 +693,11 @@ menu = [US/GA] Ramnode (Atlanta)
 title = [US/GA] Ramnode (Atlanta) [lg.atl.ramnode.com]
 host = lg.atl.ramnode.com
 
+++ securedragon-atlanta
+menu = [US/GA] SecureDragon (Atlanta)
+title = [US/GA] SecureDragon / QuadraNet - Atlanta, GA, United States [162.211.67.4]
+host = 162.211.67.4
+
 ++ vultr-atl
 menu = [US/GA] Vultr (Atlanta)
 title = [US/GA] Vultr (Atlanta) [ga-us-ping.vultr.com]
@@ -778,6 +798,11 @@ menu = [US/NJ] ColoCrossing (PNJ)
 title = [US/NJ] ColoCrossing / Virmach (Piscataway, New Jersey) [107.174.64.68]
 host = 107.174.64.68
 
+++ securedragon-piscataway
+menu = [US/NJ] SecureDragon (Piscataway)
+title = [US/NJ] SecureDragon / DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
+host = 162.253.176.4
+
 ++ amazon-nva
 menu = [US/VA] Amazon (N. Virginia)
 title = [US/VA] Amazon Web Services (North Virginia us-east-1) [52.1.255.254]
@@ -817,6 +842,11 @@ host = us-east1-gce.cloudharmony.net
 menu = [US/FL] HostNamaste (Jacksonville)
 title = [US/FL] HostNamaste / ServerComplete (Jacksonville, Florida) [184.175.242.2]
 host = 184.175.242.2
+
+++ securedragon-tampa
+menu = [US/FL] SecureDragon (Tampa)
+title = [US/FL] SecureDragon / Hivelocity - Tampa, FL, United States [199.167.30.105]
+host = 199.167.30.105
 
 ++ quadranet-mia
 menu = [US/FL] QuadraNet (Miami)
