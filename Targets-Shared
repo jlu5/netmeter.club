@@ -1827,7 +1827,7 @@ title = Points of Interest (Asia South, Southeast)
 
 ++ amazon-sg
 menu = [SG] Amazon AWS (Singapore)
-title = [SG] Amazon Web Services (Singapore ap-southheast-1) [54.255.0.2]
+title = [SG] Amazon Web Services (Singapore ap-southeast-1) [54.255.0.2]
 host = 54.255.0.2
 
 ++ chinatelecomglobal-sg
@@ -1891,8 +1891,8 @@ title = [IN] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
 host = speedtest.c1.jkt1.dediserve.com
 
 ++ amazon-mumbai
-menu = [AU] Amazon AWS (Mumbai)
-title = [AU] Amazon Web Services (Mumbai ap-southheast-2) [13.232.0.253]
+menu = [IN] Amazon AWS (Mumbai)
+title = [IN] Amazon Web Services (Mumbai ap-southeast-2) [13.232.0.253]
 host = 13.232.0.253
 
 ++ digitalocean-blr
@@ -2037,7 +2037,7 @@ title = Points of Interest (Oceania)
 
 ++ amazon-syd
 menu = [AU] Amazon AWS (Sydney)
-title = [AU] Amazon Web Services (Sydney ap-southheast-2) [54.206.128.2]
+title = [AU] Amazon Web Services (Sydney ap-southeast-2) [54.206.128.2]
 host = 54.206.128.2
 
 ++ chinatelecomglobal-au
