@@ -598,10 +598,10 @@ host = yk-netspeed.nwtel.ca
 menu = Points of Interest (N. America South)
 title = Points of Interest (North America South)
 
-++ colocrossing-dal
+++ colocrossing-dal-0
 menu = [US/TX] ColoCrossing (Dallas)
-title = [US/TX] ColoCrossing (Dallas) [66.225.198.198]
-host = 66.225.198.198
+title = [US/TX] ColoCrossing (Dallas) [lg.dal.colocrossing.com]
+host = lg.dal.colocrossing.com
 
 ++ dediserve-dal1
 menu = [US/TX] Dediserve (Dallas)
