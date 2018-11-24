@@ -1,6 +1,6 @@
 + PointsInterestCDN
-menu = Points of Interest (CDNs)
-title = Points of Interest (CDNs)
+menu = CDNs (Worldwide)
+title = netmeter.club Global Ping Monitoring - CDNs (Worldwide)
 
 ++ akamai
 menu = [CDN] Akamai
@@ -94,8 +94,8 @@ host = www.verizondigitalmedia.com
 
 
 + PointsInterestNAW
-menu = Points of Interest (North America NW)
-title = Points of Interest (North America Northwest)
+menu = North America - Northwest
+title = netmeter.club Global Ping Monitoring - North America (Northwest)
 
 ++ ubc
 menu = [CA/BC] UBC IT
@@ -264,8 +264,8 @@ host = seattle.speedtest.centurylink.net
 
 
 + PointsInterestNAW2
-menu = Points of Interest (North America SW)
-title = Points of Interest (North America Southwest)
+menu = North America - Southwest
+title = netmeter.club Global Ping Monitoring - North America (Southwest)
 
 ++ amazon-ncal
 menu = [US/CA] Amazon AWS (N. Calif.)
@@ -445,8 +445,8 @@ host = core1.hnl1.he.net
 
 
 + PointsInterestNAC
-menu = Points of Interest (N. America Central)
-title = Points of Interest (North America Central)
+menu = North America - Central
+title = netmeter.club Global Ping Monitoring - North America (Central)
 
 ++ freerangecloud-ywg
 menu = [CA/MB] Free Range (Winnipeg)
@@ -595,8 +595,8 @@ host = yk-netspeed.nwtel.ca
 
 
 + PointsInterestNAS
-menu = Points of Interest (N. America South)
-title = Points of Interest (North America South)
+menu = North America - South
+title = netmeter.club Global Ping Monitoring - North America (South)
 
 ++ colocrossing-dal-0
 menu = [US/TX] ColoCrossing (Dallas)
@@ -715,8 +715,8 @@ host = speedtest.mex01.softlayer.com
 
 
 + PointsInterestNAE
-menu = Points of Interest (North America East)
-title = Points of Interest (North America East)
+menu = North America - East
+title = netmeter.club Global Ping Monitoring - North America (East)
 
 #++ bell-moqc
 #menu = [CA/QC] Bell (Montreal)
@@ -895,8 +895,8 @@ host = halifax.speedtest.telus.com
 
 
 + PointsInterestEU
-menu = Points of Interest (Europe West)
-title = Points of Interest (Europe West)
+menu = Europe - West
+title = netmeter.club Global Ping Monitoring - Europe (West)
 
 #++ launchpad
 #menu = [UK] Launchpad / Canonical Ltd.
@@ -1111,8 +1111,8 @@ host = core1.lis1.he.net
 
 
 + PointsInterestEU2
-menu = Points of Interest (Europe Central)
-title = Points of Interest (Europe Central)
+menu = Europe - Central
+title = netmeter.club Global Ping Monitoring - Europe (Central)
 
 ++ acceleratedit-fra
 menu = [DE] AcceleratedIT (Frankfurt)
@@ -1291,8 +1291,8 @@ host = core1.bud1.he.net
 
 
 + PointsInterestEU3
-menu = Points of Interest (Europe East)
-title = Points of Interest (Europe East)
+menu = Europe - East
+title = netmeter.club Global Ping Monitoring - Europe (East)
 
 ++ veesp-stp
 menu = [RU] Veesp (St. Petersburg)
@@ -1406,8 +1406,8 @@ host = core1.kbp1.he.net
 
 
 + PointsInterestCN
-menu = Points of Interest (China Mainland)
-title = Points of Interest (China Mainland)
+menu = China - Mainland
+title = netmeter.club Global Ping Monitoring - Mainland China
 
 ++ cn-chinanet
 menu = [CN] China Telecom Backbone
@@ -1521,8 +1521,8 @@ host = 123.249.0.1
 
 
 + PointsInterestCN3
-menu = Points of Interest (China HK, TW)
-title = Points of Interest (Hong Kong, Taiwan)
+menu = China - Hong Kong, Taiwan
+title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 
 ++ 50kvm-hk-shatin
 menu = [HK] 50KVM (HK Shatin)
@@ -1616,8 +1616,8 @@ host = lg.tw.psychz.net
 
 
 + PointsInterestCN2
-menu = Points of Interest (China Sites)
-title = Points of Interest (China Sites)
+menu = China - Sites
+title = netmeter.club Global Ping Monitoring - China Sites
 
 ++ cn-tsinghua
 menu = [CN] Tsinghua TUNA
@@ -1686,8 +1686,8 @@ host = qq.com
 
 
 + PointsInterestAS
-menu = Points of Interest (Asia North/East)
-title = Points of Interest (Asia North/East excl. China)
+menu = Asia - North, East
+title = netmeter.club Global Ping Monitoring - North, East Asia
 
 ++ hurricane-electric-tyo1
 menu = [JP] he.net (Tokyo)
@@ -1827,8 +1827,8 @@ host = speedtest.teleguam.net
 
 
 + PointsInterestAS2
-menu = Points of Interest (Asia S/SE)
-title = Points of Interest (Asia South, Southeast)
+menu = Asia - South, Southeast
+title = netmeter.club Global Ping Monitoring - South, Southeast Asia
 
 ++ amazon-sg
 menu = [SG] Amazon AWS (Singapore)
@@ -1927,8 +1927,8 @@ host = lg.in.psychz.net
 
 
 + PointsInterestAS3
-menu = Points of Interest (Asia West, Central)
-title = Points of Interest (Asia West, Central)
+menu = Asia - West, Central
+title = netmeter.club Global Ping Monitoring - West, Central Asia
 
 ++ hurricane-electric-dxb1
 menu = [AE] he.net (Dubai)
@@ -1942,8 +1942,8 @@ host = 185.20.125.162
 
 
 + PointsInterestAfr
-menu = Points of Interest (Africa)
-title = Points of Interest (Africa)
+menu = Africa
+title = netmeter.club Global Ping Monitoring - Africa
 
 ++ psychz-jnb
 menu = [ZA] Psychz (Johannesburg)
@@ -1997,8 +1997,8 @@ host = 45.221.72.222
 
 
 + PointsInterestSA
-menu = Points of Interest (South America)
-title = Points of Interest (South America)
+menu = South America
+title = netmeter.club Global Ping Monitoring - South America
 
 ++ amazon-br
 menu = [BR] Amazon AWS (Sao Paulo)
@@ -2037,8 +2037,8 @@ host = st1.telecom.com.ar
 
 
 + PointsInterestOc
-menu = Points of Interest (Oceania)
-title = Points of Interest (Oceania)
+menu = Oceania
+title = netmeter.club Global Ping Monitoring - Oceania
 
 ++ amazon-syd
 menu = [AU] Amazon AWS (Sydney)
