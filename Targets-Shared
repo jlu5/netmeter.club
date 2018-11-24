@@ -1540,9 +1540,14 @@ title = [HK] Dediserve - Hong Kong, China [speedtest.c1.hkg1.dediserve.com]
 host = speedtest.c1.hkg1.dediserve.com
 
 ++ dmit-io-hk
-menu = [HK] DMIT.IO (Hong Kong)
-title = [HK] DMIT.IO (Hong Kong) [193.110.200.233]
+menu = [HK] DMIT (HK PVM.n2)
+title = [HK] DMIT (Hong Kong PVM.n2) [193.110.200.233]
 host = 193.110.200.233
+
+++ dmit-io-hkn3
+menu = [HK] DMIT (HK PVM.n3)
+title = [HK] DMIT (Hong Kong PVM.n3) [hka-n3.lg.dmit.io]
+host = hka-n3.lg.dmit.io
 
 #++ hostus-hk
 #menu = [HK] HostUS (Hong Kong)
