@@ -923,6 +923,11 @@ menu = [UK] BudgetNode (London)
 title = [UK] BudgetNode (London Docklands 1) [185.187.242.2]
 host = 185.187.242.2
 
+++ clouvider-lon
+menu = [UK] Clouvider (London)
+title = [UK] Clouvider (London) [lg.clouvider.net]
+host = lg.clouvider.net
+
 ++ dediserve-lon2
 menu = [UK] Dediserve (London)
 title = [UK] Dediserve - London, UK [speedtest.c1.lon2.dediserve.com]
