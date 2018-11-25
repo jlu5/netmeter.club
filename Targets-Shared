@@ -1073,6 +1073,11 @@ menu = [NL] LeaseWeb
 title = [NL] LeaseWeb (The Netherlands) [mirror.nl.leaseweb.net]
 host = mirror.nl.leaseweb.net
 
+++ liteserver-dro
+menu = [NL] LiteServer (Dronten)
+title = [NL] LiteServer (Dronten, Netherlands) [lg-dro.liteserver.nl]
+host = lg-dro.liteserver.nl
+
 ++ lunarvps-nl
 menu = [NL] LunarVPS
 title = [NL] LunarVPS (Netherlands) [lg.nl.lunarvps.com]
