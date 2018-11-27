@@ -763,6 +763,11 @@ menu = [US/NY] Dediserve (Buffalo)
 title = [US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]
 host = speedtest.c1.nyc1.dediserve.com
 
+++ hosthatch-nyc
+menu = [US/NY] HostHatch (NY)
+title = [US/NY] HostHatch - New York City [lg.ny.hosthatch.com]
+host = lg.ny.hosthatch.com
+
 ++ hurricane-electric-nyc4
 menu = [US] he.net (New York)
 title = [US] Hurricane Electric - Equinix New York (NY9) New York, NY, US [core1.nyc4.he.net]
@@ -1058,6 +1063,16 @@ menu = [LU] BuyVM (Luxembourg)
 title = [LU] BuyVM (Roost, Luxembourg) [lu-test.buyvm.net]
 host = lu-test.buyvm.net
 
+++ budgetnode-nl
+menu = [NL] BudgetNode (Lelystad)
+title = [NL] BudgetNode - Lelystad, Flevoland, Netherlands [nl.lg.budgetnode.net]
+host = nl.lg.budgetnode.net
+
+++ crowncloud-ams
+menu = [NL] CrownCloud (Amsterdam)
+title = [NL] CrownCloud @ Switch Datacenter - Amsterdam, Netherlands [185.243.112.1]
+host = 185.243.112.1
+
 ++ dediserve-ams1
 menu = [NL] Dediserve (Amsterdam)
 title = [NL] Dediserve - Amsterdam, Netherlands [speedtest.c1.ams1.dediserve.com]
@@ -1248,6 +1263,11 @@ host = lg.osl.hosthatch.com
 menu = [NO] Softlayer (Oslo)
 title = [NO] Softlayer (Oslo osl01) [speedtest.osl01.softlayer.com]
 host = speedtest.osl01.softlayer.com
+
+++ terrahost-no
+menu = [NO] Terrahost (Sandefjord)
+title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
+host = lg.terrahost.no
 
 #++ xhostfire-osl
 #menu = [NO] XHostFire (Oslo)
