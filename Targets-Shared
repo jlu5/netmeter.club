@@ -77,11 +77,6 @@ menu = [CDN] Microsoft Azure
 title = [CDN] Microsoft Azure [azure.microsoft.com]
 host = azure.microsoft.com
 
-++ quantil
-menu = [CDN] QUANTIL
-title = [CDN] QUANTIL [www.quantil.com]
-host = www.quantil.com
-
 ++ stackpath
 menu = [CDN] StackPath
 title = [CDN] StackPath [www.stackpath.com]
