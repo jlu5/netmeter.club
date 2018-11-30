@@ -533,6 +533,11 @@ menu = [US] he.net (Kansas City)
 title = [US] Hurricane Electric - 1102 Grand Kansas City Kansas City, MO, US [core1.mci3.he.net]
 host = core1.mci3.he.net
 
+++ mrvm-kck
+menu = [US/MO] mrvm.net (Kansas City)
+title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri
+host = lg-us-kck.mrvm.net
+
 ++ hurricane-electric-msp1
 menu = [US] he.net (Minneapolis)
 title = [US] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
@@ -833,6 +838,16 @@ menu = [US/VA] Rackspace (Virginia)
 title = [US/VA] Rackspace (Reston, Virginia) [iad.speedtest.rackspace.com]
 host = iad.speedtest.rackspace.com
 
+++ mrvm-bei
+menu = [US/WV] mrvm.net (W. Virginia)
+title = [US/WV] mrvm.net - Berkeley Springs, West Virginia
+host = lg-us-bei.mrvm.net
+
+++ mrvm-ler
+menu = [US/NC] mrvm.net (Lenoir)
+title = [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina
+host = lg-us-ler.mrvm.net
+
 ++ hostus-clt
 menu = [US/NC] HostUS (Charlotte)
 title = [US/NC] HostUS (Charlotte) [clt-lg.hostus.us]
@@ -1037,6 +1052,11 @@ host = ping.online.net
 menu = [FR] Vultr (Paris)
 title = [FR] Vultr (Paris) [par-fr-ping.vultr.com]
 host = par-fr-ping.vultr.com
+
+++ mrvm-rhe
+menu = [FR] mrvm.net (Reims)
+title = [FR] mrvm.net @ Ikoula - Reims, France
+host = lg-fr-rhe.mrvm.net
 
 ++ hurricane-electric-mrs1
 menu = [FR] he.net (Marseille)
@@ -1894,6 +1914,11 @@ host = sg.lg.klayer.com
 menu = [SG] Linode (Singapore)
 title = [SG] Linode (Singapore) [speedtest.singapore.linode.com]
 host = speedtest.singapore.linode.com
+
+++ mrvm-sgp
+menu = [SG] mrvm.net (Singapore)
+title = [SG] mrvm.net @ Equinix SG3 - Singapore
+host = lg-sg-sin.mrvm.net
 
 ++ ovh-sgp
 menu = [SG] OVH (Singapore)
