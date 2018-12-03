@@ -1299,6 +1299,11 @@ host = lg.terrahost.no
 #title = [NO] XHostFire - Oslo, Norway (TDC) [62.73.193.2]
 #host = 62.73.193.2
 
+++ telia-se
+menu = [SE] Telia (Sweden)
+title = [SE] Telia Company (Sweden) [lg.telia.net]
+host = lg.telia.net
+
 ++ vikinglayer-swe
 menu = [SE] VikingLayer (Sweden)
 title = [SE] VikingLayer / drServer / Portlane (Sweden) [sweden.drserver.net]
@@ -1980,10 +1985,25 @@ menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz (Mumbai) [lg.in.psychz.net]
 host = lg.in.psychz.net
 
-#++ tata-in
-#menu = [IN] Tata Communications
-#title = [IN] Tata Communications [203.196.202.225]
-#host = 203.196.202.225
+++ bharti-airtel
+menu = [IN] Bharti Airtel
+title = [IN] Bharti Airtel [125.18.8.109]
+host = 125.18.8.109
+
+++ tata-in
+menu = [IN] Tata Communications
+title = [IN] Tata Communications [203.196.202.225]
+host = 203.196.202.225
+
+++ cambohost
+menu = [KH] Cambo.Host
+title = [KH] Cambo.Host [cambo.host]
+host = cambo.host
+
+++ vnpt
+menu = [VN] VNPT
+title = [VN] VNPT (Vietnam Posts and Telecommunications Group) [www.vnpt.vn]
+host = www.vnpt.vn
 
 
 + PointsInterestAS3
@@ -1994,6 +2014,16 @@ title = netmeter.club Global Ping Monitoring - West, Central Asia
 menu = [AE] he.net (Dubai)
 title = [AE] Hurricane Electric - Equinix Dubai (DX1) Dubai, AE [core1.dxb1.he.net]
 host = core1.dxb1.he.net
+
+++ etisalat
+menu = [AE] Etisalat (EmIX)
+title = [AE] Etisalat AS8966 @ EmIX [lg.emix.net.ae]
+host = lg.emix.net.ae
+
+++ omantel
+menu = [OM] OmanTel
+title = [OM] OmanTel [212.72.10.134]
+host = 212.72.10.134
 
 ++ 80host-kaz
 menu = [KZ] 80host (Kazakhstan)
