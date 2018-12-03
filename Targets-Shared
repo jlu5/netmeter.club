@@ -19,17 +19,17 @@ host = www.cdn77.com
 
 #++ cdn-net-x
 #menu = [CDN] CDN.net X
-#title = CDN.net CDN-X (Western Hemisphere) [219848522.r.worldcdn.net]
+#title = [CDN] CDN.net CDN-X (Western Hemisphere) [219848522.r.worldcdn.net]
 #host = 219848522.r.worldcdn.net
 
 #++ cdn-net-exec
 #menu = [CDN] CDN.net EXEC
-#title = CDN.net CDN-EXEC (Northern Hemisphere) [31560279.r.worldcdn.net]
+#title = [CDN] CDN.net CDN-EXEC (Northern Hemisphere) [31560279.r.worldcdn.net]
 #host = 31560279.r.worldcdn.net
 
 ++ cdn-net-lux
 menu = [CDN] CDN.net LUX
-title = CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]
+title = [CDN] CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]
 host = 993660212.r.worldcdn.net
 
 ++ cloudflare-dns
