@@ -1158,6 +1158,15 @@ menu = [PT] he.net (Lisbon)
 title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
 host = core1.lis1.he.net
 
+++ angolacables-pt
+menu = [PT] Angola Cables (Portugal)
+title = [PT] Angola Cables - Lisbon, Portugal [185.148.112.29]
+host = 185.148.112.29
+
+++ nos-pt
+menu = [PT] NOS
+title = [PT] NOS COMUNICACOES, S.A. [www.nos.pt]
+host = www.nos.pt
 
 
 + PointsInterestEU2
@@ -2030,6 +2039,10 @@ menu = [KZ] 80host (Kazakhstan)
 title = [KZ] 80host (Kazakhstan) / JSC Kaztranscom [185.20.125.162]
 host = 185.20.125.162
 
+++ azertelecom
+menu = [AZ] Azertelecom
+title = [AZ] Azertelecom [109.235.192.22]
+host = 109.235.192.22
 
 + PointsInterestAfr
 menu = Africa
@@ -2125,6 +2138,11 @@ menu = [MZ] SEACOM (Maputo)
 title = [MZ] SEACOM - Maputo, Mozambique [lg-01-mpm.mz.seacomnet.com]
 host = lg-01-mpm.mz.seacomnet.com
 
+++ angolacables-ao
+menu = [AO] Angola Cables (Luanda)
+title = [AO] Angola Cables - Luanda, Angola [197.149.150.178]
+host = 197.149.150.178
+
 
 + PointsInterestSA
 menu = South America
@@ -2144,6 +2162,11 @@ host = 191.96.4.248
 menu = [BR] Softlayer (Sao Paulo)
 title = [BR] Softlayer (Sao Paulo sao01) [speedtest.sao01.softlayer.com]
 host = speedtest.sao01.softlayer.com
+
+++ angolacables-br-ftz
+menu = [BR] Angola Cables (Fortaleza)
+title = [BR] Angola Cables - Fortaleza, Brazil [170.238.232.38]
+host = 170.238.232.38
 
 #++ c3sl-ufpr
 #menu = [BR] C3SL/UFPR
