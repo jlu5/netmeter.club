@@ -47,10 +47,10 @@ menu = [CDN] Fastly
 title = [CDN] Fastly [cdn-fastly.deb.debian.org]
 host = cdn-fastly.deb.debian.org
 
-#++ gcorelabs
-#menu = [CDN] G-Core Labs
-#title = [CDN] G-Core Labs [gcorelabs.com]
-#host = gcorelabs.com
+++ gcorelabs-cdn
+menu = [CDN] G-Core Labs
+title = [CDN] G-Core Labs CDN [d.gcdn.co]
+host = d.gcdn.co
 
 ++ gcp-cdn
 menu = [CDN] Google Cloud Platform
@@ -61,6 +61,16 @@ host = cloud.google.com
 menu = [CDN] Google DNS
 title = [CDN] Google DNS [8.8.8.8]
 host = 8.8.8.8
+
+++ incapsula
+menu = [CDN] Incapsula
+title = [CDN] Imperva Incapsula [www.incapsula.com]
+host = www.incapsula.com
+
+++ ionos
+menu = [CDN] 1&1 IONOS
+title = [CDN] 1&1 IONOS (United Internet) [www.ionos.com]
+host = www.ionos.com
 
 ++ jsdelivr
 menu = [CDN] jsDelivr
