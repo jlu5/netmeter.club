@@ -535,7 +535,7 @@ host = core1.mci3.he.net
 
 ++ mrvm-kck
 menu = [US/MO] mrvm.net (Kansas City)
-title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri
+title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [lg-us-kck.mrvm.net]
 host = lg-us-kck.mrvm.net
 
 ++ hurricane-electric-msp1
@@ -840,12 +840,12 @@ host = iad.speedtest.rackspace.com
 
 ++ mrvm-bei
 menu = [US/WV] mrvm.net (W. Virginia)
-title = [US/WV] mrvm.net - Berkeley Springs, West Virginia
+title = [US/WV] mrvm.net - Berkeley Springs, West Virginia [lg-us-bei.mrvm.net]
 host = lg-us-bei.mrvm.net
 
 ++ mrvm-ler
 menu = [US/NC] mrvm.net (Lenoir)
-title = [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina
+title = [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [lg-us-ler.mrvm.net]
 host = lg-us-ler.mrvm.net
 
 ++ hostus-clt
@@ -1055,7 +1055,7 @@ host = par-fr-ping.vultr.com
 
 ++ mrvm-rhe
 menu = [FR] mrvm.net (Reims)
-title = [FR] mrvm.net @ Ikoula - Reims, France
+title = [FR] mrvm.net @ Ikoula - Reims, France [lg-fr-rhe.mrvm.net]
 host = lg-fr-rhe.mrvm.net
 
 ++ hurricane-electric-mrs1
@@ -1917,7 +1917,7 @@ host = speedtest.singapore.linode.com
 
 ++ mrvm-sgp
 menu = [SG] mrvm.net (Singapore)
-title = [SG] mrvm.net @ Equinix SG3 - Singapore
+title = [SG] mrvm.net @ Equinix SG3 - Singapore [lg-sg-sin.mrvm.net]
 host = lg-sg-sin.mrvm.net
 
 ++ ovh-sgp
