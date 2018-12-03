@@ -2035,6 +2035,11 @@ host = 185.20.125.162
 menu = Africa
 title = netmeter.club Global Ping Monitoring - Africa
 
+++ hurricane-electric-jnb1
+menu = [ZA] he.net (Johannesburg)
+title = [ZA] Hurricane Electric - Teraco JB1, Johannesburg Johannesburg, GP, ZA [core1.jnb1.he.net]
+host = core1.jnb1.he.net
+
 ++ psychz-jnb
 menu = [ZA] Psychz (Johannesburg)
 title = [ZA] Psychz (Johannesburg) [lg.jnb.psychz.net]
@@ -2044,26 +2049,6 @@ host = lg.jnb.psychz.net
 menu = [ZA] Riven Cloud (JNB)
 title = [ZA] Riven Cloud - Johannesburg, South Africa [speedtest-jb1.sa.net]
 host = speedtest-jb1.sa.net
-
-++ mirror-ac-za
-menu = [ZA] TENET
-title = [ZA] TENET The Tertiary Education and Research Network of South Africa [mirror.ac.za]
-host = mirror.ac.za
-
-++ zappiehost-za
-menu = [ZA] ZappieHost
-title = [ZA] ZappieHost [lg-za.zappiehost.com]
-host = lg-za.zappiehost.com
-
-++ hurricane-electric-jnb1
-menu = [ZA] he.net (Johannesburg)
-title = [ZA] Hurricane Electric - Teraco JB1, Johannesburg Johannesburg, GP, ZA [core1.jnb1.he.net]
-host = core1.jnb1.he.net
-
-++ hurricane-electric-jib1
-menu = [DJ] he.net (Djibouti City)
-title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
-host = core1.jib1.he.net
 
 ++ seacom-za-cpt
 menu = [ZA] SEACOM (Cape Town)
@@ -2085,6 +2070,26 @@ menu = [ZA] SEACOM (Mtunzini)
 title = [ZA] SEACOM - Mtunzini, South Africa [lg-01-emg.za.seacomnet.com]
 host = lg-01-emg.za.seacomnet.com
 
+++ mirror-ac-za
+menu = [ZA] TENET
+title = [ZA] TENET The Tertiary Education and Research Network of South Africa [mirror.ac.za]
+host = mirror.ac.za
+
+++ zappiehost-za
+menu = [ZA] ZappieHost
+title = [ZA] ZappieHost [lg-za.zappiehost.com]
+host = lg-za.zappiehost.com
+
+++ hurricane-electric-jib1
+menu = [DJ] he.net (Djibouti City)
+title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
+host = core1.jib1.he.net
+
+++ angani
+menu = [KE] Angani
+title = [KE] Angani [hosting.angani.co]
+host = hosting.angani.co
+
 ++ hurricane-electric-nbo1
 menu = [KE] he.net (Nairobi)
 title = [KE] Hurricane Electric - EADC Nairobi Nairobi, KE [core1.nbo1.he.net]
@@ -2099,11 +2104,6 @@ host = lg-01-mba.ke.seacomnet.com
 menu = [KE] SEACOM (Nairobi)
 title = [KE] SEACOM - Nairobi, Kenya [lg-01-nbo.ke.seacomnet.com]
 host = lg-01-nbo.ke.seacomnet.com
-
-++ angani
-menu = [KE] Angani
-title = [KE] Angani [hosting.angani.co]
-host = hosting.angani.co
 
 ++ seacom-ug-ebb
 menu = [UG] SEACOM (Kampala)
