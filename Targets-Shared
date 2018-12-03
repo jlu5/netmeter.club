@@ -2029,6 +2029,11 @@ menu = [AE] Etisalat (EmIX)
 title = [AE] Etisalat AS8966 @ EmIX [lg.emix.net.ae]
 host = lg.emix.net.ae
 
+++ zain-kw
+menu = [KW] Zain Kuwait
+title = [KW] Zain Kuwait [kw.zain.com]
+host = kw.zain.com
+
 ++ omantel
 menu = [OM] OmanTel
 title = [OM] OmanTel [212.72.10.134]
@@ -2043,6 +2048,7 @@ host = 185.20.125.162
 menu = [AZ] Azertelecom
 title = [AZ] Azertelecom [109.235.192.22]
 host = 109.235.192.22
+
 
 + PointsInterestAfr
 menu = Africa
@@ -2138,10 +2144,25 @@ menu = [MZ] SEACOM (Maputo)
 title = [MZ] SEACOM - Maputo, Mozambique [lg-01-mpm.mz.seacomnet.com]
 host = lg-01-mpm.mz.seacomnet.com
 
+++ orange-mg
+menu = [MG] Orange Madagascar
+title = [MG] Orange Madagascar [orange.mg]
+host = orange.mg
+
 ++ angolacables-ao
 menu = [AO] Angola Cables (Luanda)
 title = [AO] Angola Cables - Luanda, Angola [197.149.150.178]
 host = 197.149.150.178
+
+++ orange-sn
+menu = [SN] Orange Senegal
+title = [SN] Orange Senegal / SonaTel [orange.sn]
+host = orange.sn
+
+++ orange-ne
+menu = [NE] Orange Niger
+title = [NE] Orange Niger [orange.ne]
+host = orange.ne
 
 
 + PointsInterestSA
