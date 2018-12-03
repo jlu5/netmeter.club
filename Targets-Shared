@@ -2065,25 +2065,65 @@ menu = [DJ] he.net (Djibouti City)
 title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
 host = core1.jib1.he.net
 
+++ seacom-za-cpt
+menu = [ZA] SEACOM (Cape Town)
+title = [ZA] SEACOM - Cape Town, South Africa [lg-01-cpt.za.seacomnet.com]
+host = lg-01-cpt.za.seacomnet.com
+
+++ seacom-za-dur
+menu = [ZA] SEACOM (Durban)
+title = [ZA] SEACOM - Durban, South Africa [lg-01-dur.za.seacomnet.com]
+host = lg-01-dur.za.seacomnet.com
+
+++ seacom-za-jnb
+menu = [ZA] SEACOM (Johannesburg)
+title = [ZA] SEACOM - Johannesburg, South Africa [lg-01-jnb.za.seacomnet.com]
+host = lg-01-jnb.za.seacomnet.com
+
+++ seacom-za-emg
+menu = [ZA] SEACOM (Mtunzini)
+title = [ZA] SEACOM - Mtunzini, South Africa [lg-01-emg.za.seacomnet.com]
+host = lg-01-emg.za.seacomnet.com
+
 ++ hurricane-electric-nbo1
 menu = [KE] he.net (Nairobi)
 title = [KE] Hurricane Electric - EADC Nairobi Nairobi, KE [core1.nbo1.he.net]
 host = core1.nbo1.he.net
 
-#++ host1plus-jnb
-#menu = [ZA] Host1Plus (Johannesburg)
-#title = [ZA] Host1Plus (Johannesburg) [196.251.248.78]
-#host = 196.251.248.78
+++ seacom-ke-mba
+menu = [KE] SEACOM (Mombasa)
+title = [KE] SEACOM - Mombasa, Kenya [lg-01-mba.ke.seacomnet.com]
+host = lg-01-mba.ke.seacomnet.com
+
+++ seacom-ke-nbo
+menu = [KE] SEACOM (Nairobi)
+title = [KE] SEACOM - Nairobi, Kenya [lg-01-nbo.ke.seacomnet.com]
+host = lg-01-nbo.ke.seacomnet.com
 
 ++ angani
 menu = [KE] Angani
 title = [KE] Angani [hosting.angani.co]
 host = hosting.angani.co
 
+++ seacom-ug-ebb
+menu = [UG] SEACOM (Kampala)
+title = [UG] SEACOM - Kampala, Uganda [lg-01-ebb.ug.seacomnet.com]
+host = lg-01-ebb.ug.seacomnet.com
+
 ++ ugandahosting1
 menu = [UG] Uganda Hosting
 title = [UG] Uganda Hosting [45.221.72.222]
 host = 45.221.72.222
+
+++ seacom-tz-dar
+menu = [TZ] SEACOM (Dar Es Salaam)
+title = [TZ] SEACOM - Dar Es Salaam, Tanzania [lg-01-dar.tz.seacomnet.com]
+host = lg-01-dar.tz.seacomnet.com
+
+++ seacom-mz-mpm
+menu = [MZ] SEACOM (Maputo)
+title = [MZ] SEACOM - Maputo, Mozambique [lg-01-mpm.mz.seacomnet.com]
+host = lg-01-mpm.mz.seacomnet.com
 
 
 + PointsInterestSA
