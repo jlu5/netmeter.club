@@ -1242,6 +1242,11 @@ menu = [IT] ArubaCloud (Arezzo)
 title = [IT] ArubaCloud (Arezzo, Italy) [212.237.43.103]
 host = 212.237.43.103
 
+++ netsons-mil
+menu = [IT] Netsons (Milan)
+title = [IT] Netsons - Milan, Italy [46.252.149.1]
+host = 46.252.149.1
+
 ++ prometeus-mlo
 menu = [IT] Prometeus (Milan)
 title = [IT] Prometeus (Milan) [37.247.53.10]
@@ -1407,6 +1412,16 @@ menu = [BG] he.net (Sofia)
 title = [BG] Hurricane Electric - Telepoint Colocation, Sofia Sofia, BG [core1.sof1.he.net]
 host = core1.sof1.he.net
 
+++ voxility-ro
+menu = [RO] HostClean @ Voxility
+title = [RO] HostClean @ Voxility (Bucharest) [lg-voxility.hostclean.net]
+host = lg-voxility.hostclean.net
+
+++ hostclean-ro-m247
+menu = [RO] HostClean @ M247
+title = [RO] HostClean @ M247 DC (Bucharest) [lg-m247.hostclean.net]
+host = lg-m247.hostclean.net
+
 ++ prometeus-rom
 menu = [RO] Prometeus (Bucharest)
 title = [RO] Prometeus (Bucharest) [lg-romania.prometeus.net]
@@ -1416,11 +1431,6 @@ host = lg-romania.prometeus.net
 menu = [RO] Virtono (Bucharest)
 title = [RO] Virtono (Bucharest) [85.204.49.17]
 host = 85.204.49.17
-
-++ voxility-ro
-menu = [RO] Voxility (Bucharest)
-title = [RO] Voxility / HostClean (Bucharest) [lg-voxility.hostclean.net]
-host = lg-voxility.hostclean.net
 
 ++ mivocloud-md
 menu = [MD] MivoCloud (Bucharest)
