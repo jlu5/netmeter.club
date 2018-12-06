@@ -553,11 +553,6 @@ menu = [US] he.net (Minneapolis)
 title = [US] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
 host = core1.msp1.he.net
 
-++ hurricane-electric-oma1
-menu = [US] he.net (Omaha)
-title = [US] Hurricane Electric - Nebraska Colocation Centers Omaha Omaha, NE, US [core1.oma1.he.net]
-host = core1.oma1.he.net
-
 ++ gcp-iowa
 menu = [US/IA] Google Cloud (Iowa)
 title = [US/IA] Google Cloud Platform (Council Bluffs, Iowa us-central1) [us-central1-gce.cloudharmony.net]
@@ -663,20 +658,10 @@ menu = [US/TX] Vultr (Dallas)
 title = [US/TX] Vultr (Dallas) [tx-us-ping.vultr.com]
 host = tx-us-ping.vultr.com
 
-++ hurricane-electric-hou1
-menu = [US] he.net (Houston)
-title = [US] Hurricane Electric - Consolidated Houston Houston, TX, US [core1.hou1.he.net]
-host = core1.hou1.he.net
-
 ++ softlayer-hou
 menu = [US/TX] Softlayer (Houston)
 title = [US/TX] Softlayer (Houston hou02) [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
-
-++ hurricane-electric-mgm1
-menu = [US] he.net (Montgomery)
-title = [US] Hurricane Electric - RSA Dexter Montgomery Montgomery, AL, US [core1.mgm1.he.net]
-host = core1.mgm1.he.net
 
 ++ hurricane-electric-atl1
 menu = [US] he.net (Atlanta)
@@ -1073,21 +1058,6 @@ menu = [FR] he.net (Marseille)
 title = [FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]
 host = core1.mrs1.he.net
 
-++ gcp-bel
-menu = [BE] Google Cloud (Belgium)
-title = [BE] Google Cloud Platform (Belgium europe-west1) [europe-west1-gce.cloudharmony.net]
-host = europe-west1-gce.cloudharmony.net
-
-++ hurricane-electric-bru1
-menu = [BE] he.net (Zaventem)
-title = [BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he.net]
-host = core1.bru1.he.net
-
-++ buyvm-lux
-menu = [LU] BuyVM (Luxembourg)
-title = [LU] BuyVM (Roost, Luxembourg) [lu-test.buyvm.net]
-host = lu-test.buyvm.net
-
 ++ budgetnode-nl
 menu = [NL] BudgetNode (Lelystad)
 title = [NL] BudgetNode - Lelystad, Flevoland, Netherlands [nl.lg.budgetnode.net]
@@ -1143,6 +1113,21 @@ menu = [NL] UltraVPS (Amsterdam)
 title = [NL] UltraVPS (Amsterdam) [lg.ams.nl.ultravps.eu]
 host = lg.ams.nl.ultravps.eu
 
+++ gcp-bel
+menu = [BE] Google Cloud (Belgium)
+title = [BE] Google Cloud Platform (Belgium europe-west1) [europe-west1-gce.cloudharmony.net]
+host = europe-west1-gce.cloudharmony.net
+
+++ hurricane-electric-bru1
+menu = [BE] he.net (Zaventem)
+title = [BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he.net]
+host = core1.bru1.he.net
+
+++ buyvm-lux
+menu = [LU] BuyVM (Luxembourg)
+title = [LU] BuyVM (Roost, Luxembourg) [lu-test.buyvm.net]
+host = lu-test.buyvm.net
+
 ++ ginernet-mad
 menu = [ES] GinerNet (Madrid)
 title = [ES] GinerNet (Madrid Interxion) [5.134.117.74]
@@ -1157,16 +1142,6 @@ host = core1.bcn1.he.net
 menu = [PT] he.net (Lisbon)
 title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
 host = core1.lis1.he.net
-
-++ angolacables-pt
-menu = [PT] Angola Cables (Portugal)
-title = [PT] Angola Cables - Lisbon, Portugal [185.148.112.29]
-host = 185.148.112.29
-
-++ nos-pt
-menu = [PT] NOS
-title = [PT] NOS COMUNICACOES, S.A. [www.nos.pt]
-host = www.nos.pt
 
 
 + PointsInterestEU2
@@ -1994,6 +1969,11 @@ menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz (Mumbai) [lg.in.psychz.net]
 host = lg.in.psychz.net
 
+++ cambohost
+menu = [KH] Cambo.Host
+title = [KH] Cambo.Host [cambo.host]
+host = cambo.host
+
 ++ bharti-airtel
 menu = [IN] Bharti Airtel
 title = [IN] Bharti Airtel [125.18.8.109]
@@ -2003,11 +1983,6 @@ host = 125.18.8.109
 menu = [IN] Tata Communications
 title = [IN] Tata Communications [203.196.202.225]
 host = 203.196.202.225
-
-++ cambohost
-menu = [KH] Cambo.Host
-title = [KH] Cambo.Host [cambo.host]
-host = cambo.host
 
 ++ vnpt
 menu = [VN] VNPT
@@ -2184,11 +2159,6 @@ menu = [BR] Softlayer (Sao Paulo)
 title = [BR] Softlayer (Sao Paulo sao01) [speedtest.sao01.softlayer.com]
 host = speedtest.sao01.softlayer.com
 
-++ angolacables-br-ftz
-menu = [BR] Angola Cables (Fortaleza)
-title = [BR] Angola Cables - Fortaleza, Brazil [170.238.232.38]
-host = 170.238.232.38
-
 #++ c3sl-ufpr
 #menu = [BR] C3SL/UFPR
 #title = [BR] C3SL/UFPR [ubuntu.c3sl.ufpr.br]
@@ -2228,11 +2198,6 @@ host = 218.100.88.244
 menu = [AU] Dediserve (Sydney)
 title = [AU] Dediserve - Sydney, Australia [speedtest.c1.syd1.dediserve.com]
 host = speedtest.c1.syd1.dediserve.com
-
-#++ hostus-syd
-#menu = [AU] HostUS (Sydney)
-#title = [AU] HostUS (Sydney) [syd-lg.hostus.us]
-#host = syd-lg.hostus.us
 
 ++ leaseweb-syd
 menu = [AU] LeaseWeb (Sydney)
@@ -2299,16 +2264,6 @@ menu = [AU] Softlayer (Melbourne)
 title = [AU] Softlayer (Melbourne mel01) [speedtest.mel01.softlayer.com]
 host = speedtest.mel01.softlayer.com
 
-++ vocus-mel
-menu = [AU] Vocus (Melbourne)
-title = [AU] Vocus (Melbourne) [speedtest.mel.m2core.net.au]
-host = speedtest.mel.m2core.net.au
-
-++ telstra-mel
-menu = [AU] Telstra (Melbourne)
-title = [AU] Telstra (Melbourne) [mel1.speedtest.telstra.net]
-host = mel1.speedtest.telstra.net
-
 ++ ransomit-ade
 menu = [AU] Ransom IT (Adelaide)
 title = [AU] Ransom IT (Adelaide) [adelaide-lg.ransomit.com.au]
@@ -2324,12 +2279,8 @@ menu = [AU] Ransom IT (Perth)
 title = [AU] Ransom IT (Perth) [perth-lg.ransomit.com.au]
 host = perth-lg.ransomit.com.au
 
-++ telstra-per
-menu = [AU] Telstra (Perth)
-title = [AU] Telstra (Perth) [per1.speedtest.telstra.net]
-host = per1.speedtest.telstra.net
-
 ++ vocus-pth
 menu = [AU] Vocus (Perth)
 title = [AU] Vocus (Perth) [speedtest.pth.m2core.net.au]
 host = speedtest.pth.m2core.net.au
+
