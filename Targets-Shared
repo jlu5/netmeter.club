@@ -272,6 +272,11 @@ host = seattle.speedtest.centurylink.net
 menu = North America - Southwest
 title = netmeter.club Global Ping Monitoring - North America (Southwest)
 
+++ alibabacloud-sv
+menu = [US/CA] Alibaba Cloud (US West)
+title = [US/CA] Alibaba Cloud - Silicon Valley / US West [47.88.20.1]
+host = 47.88.20.1
+
 ++ amazon-ncal
 menu = [US/CA] Amazon AWS (N. Calif.)
 title = [US/CA] Amazon Web Services (North California us-west-1) [54.151.0.2]
@@ -342,11 +347,15 @@ menu = [US/CA] ColoCrossing (LA)
 title = [US/CA] ColoCrossing (Los Angeles) [lg.la.colocrossing.com]
 host = lg.la.colocrossing.com
 
-
 ++ dediserve-lax1
 menu = [US/CA] Dediserve (LA)
 title = [US/CA] Dediserve - Los Angeles, California, USA [speedtest.c1.lax1.dediserve.com]
 host = speedtest.c1.lax1.dediserve.com
+
+++ gigsgigs-lax-cn2gia
+menu = [US/CA] GigsGigsCloud (LA CN2 GIA)
+title = [US/CA] GigsGigsCloud - Los Angeles (CN2 GIA) [lg.lax.cn2.gigsgigscloud.com]
+host = lg.lax.cn2.gigsgigscloud.com
 
 #++ gcp-la
 #menu = [US/CA] Google Cloud (LA)
@@ -1473,10 +1482,10 @@ menu = [CN] Amazon AWS (Beijing)
 title = [CN] Amazon Web Services (Beijing cn-north1) [52.81.0.253]
 host = 52.81.0.253
 
-#++ cloudiplc-xzct
-#menu = [CN] CloudIPLC (Jiangsu CT)
-#title = [CN] CloudIPLC @ China Telecom - Xuzhou, Jiangsu 徐州电信 [ping.xzct.cloudiplc.com]
-#host = ping.xzct.cloudiplc.com
+++ cloudiplc-xzct
+menu = [CN] CloudIPLC (Jiangsu CT)
+title = [CN] CloudIPLC @ China Telecom - Xuzhou, Jiangsu 徐州电信 [ping.xzct.cloudiplc.com]
+host = ping.xzct.cloudiplc.com
 
 ++ cloudiplc-xzcu
 menu = [CN] CloudIPLC (Jiangsu CU)
@@ -1487,6 +1496,11 @@ host = ping.xzcu.cloudiplc.com
 menu = [CN] CloudIPLC (Jiangsu CM)
 title = [CN] CloudIPLC @ China Mobile - Jiangsu 江苏移动 (China East) [ping.jscm.cloudiplc.com]
 host = ping.jscm.cloudiplc.com
+
+++ stardo-xuzhou
+menu = [CN] StarDo (Jiangsu)
+title = [CN] StarDo - Xuzhou, Jiangsu (DDoS Protected) [58.218.210.1]
+host = 58.218.210.1
 
 ++ tcloud-zhenjiang-ct
 menu = [CN] TCloud (Jiangsu CT)
@@ -1567,6 +1581,11 @@ title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 menu = [HK] 50KVM (Hong Kong)
 title = [HK] 50KVM (Hong Kong) [lg.shatin.hkg.50network.com]
 host = lg.shatin.hkg.50network.com
+
+++ alibabacloud-hk
+menu = [HK] Alibaba Cloud (HK)
+title = [HK] Alibaba Cloud - Hong Kong, China [47.90.14.253]
+host = 47.90.14.253
 
 ++ chinatelecomglobal-hk
 menu = [HK] CTG (Hong Kong)
@@ -1864,6 +1883,11 @@ host = speedtest.teleguam.net
 menu = Asia - South, Southeast
 title = netmeter.club Global Ping Monitoring - South, Southeast Asia
 
+++ alibabacloud-sg
+menu = [SG] Alibaba Cloud (Singapore)
+title = [SG] Alibaba Cloud - Singapore [47.88.193.1]
+host = 47.88.193.1
+
 ++ amazon-sg
 menu = [SG] Amazon AWS (Singapore)
 title = [SG] Amazon Web Services (Singapore ap-southeast-1) [54.255.0.2]
@@ -1934,6 +1958,16 @@ menu = [IN] Dediserve (Jakarta)
 title = [IN] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
 host = speedtest.c1.jkt1.dediserve.com
 
+++ cloudsigma-ph
+menu = [PH] CloudSigma (Manila)
+title = [PH] CloudSigma - Manila, Philippines [116.93.97.1]
+host = 116.93.97.1
+
+++ cambohost
+menu = [KH] Cambo.Host
+title = [KH] Cambo.Host [cambo.host]
+host = cambo.host
+
 ++ amazon-mumbai
 menu = [IN] Amazon AWS (Mumbai)
 title = [IN] Amazon Web Services (Mumbai ap-southeast-2) [13.232.0.253]
@@ -1958,12 +1992,6 @@ host = speedtest.che01.softlayer.com
 menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz (Mumbai) [lg.in.psychz.net]
 host = lg.in.psychz.net
-
-++ cambohost
-menu = [KH] Cambo.Host
-title = [KH] Cambo.Host [cambo.host]
-host = cambo.host
-
 ++ bharti-airtel
 menu = [IN] Bharti Airtel
 title = [IN] Bharti Airtel [125.18.8.109]
