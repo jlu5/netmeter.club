@@ -498,10 +498,10 @@ menu = [US/IL] Dediserve (Chicago)
 title = [US/IL] Dediserve - Chicago, Illinois, USA [speedtest.c1.chg1.dediserve.com]
 host = speedtest.c1.chg1.dediserve.com
 
-#++ host1plus-chi
-#menu = [US/IL] Host1Plus (Chicago)
-#title = [US/IL] Host1Plus (Chicago) [181.214.61.207]
-#host = 181.214.61.207
+++ host1plus-chi
+menu = [US/IL] Host1Plus (Chicago)
+title = [US/IL] Host1Plus (Chicago) [181.214.61.207]
+host = 181.214.61.207
 
 #++ nfoservers-chi
 #menu = [US/IL] NFOservers (Chicago)
@@ -518,10 +518,10 @@ menu = [US/IL] QuadraNet (Chicago)
 title = [US/IL] QuadraNet (Chicago) [104.129.31.245]
 host = 104.129.31.245
 
-#++ rackspace-ord
-#menu = [US/IL] Rackspace (Chicago)
-#title = [US/IL] Rackspace (Chicago) [ord.speedtest.rackspace.com]
-#host = ord.speedtest.rackspace.com
+++ rackspace-ord
+menu = [US/IL] Rackspace (Chicago)
+title = [US/IL] Rackspace (Chicago) [ord.speedtest.rackspace.com]
+host = ord.speedtest.rackspace.com
 
 ++ vultr-chi
 menu = [US/IL] Vultr (Chicago)
@@ -638,15 +638,15 @@ menu = [US/TX] Psychz (Dallas)
 title = [US/TX] Psychz (Dallas) [lg.texas.psychz.net]
 host = lg.texas.psychz.net
 
-#++ rackspace-dfw
-#menu = [US/TX] Rackspace (Dallas)
-#title = [US/TX] Rackspace (Dallas) [dfw.speedtest.rackspace.com]
-#host = dfw.speedtest.rackspace.com
+++ rackspace-dfw
+menu = [US/TX] Rackspace (Dallas)
+title = [US/TX] Rackspace (Dallas) [dfw.speedtest.rackspace.com]
+host = dfw.speedtest.rackspace.com
 
-#++ softlayer-dal
-#menu = [US/TX] Softlayer (Dallas)
-#title = [US/TX] Softlayer (Dallas dal06) [speedtest.dal06.softlayer.com]
-#host = speedtest.dal06.softlayer.com
+++ softlayer-dal
+menu = [US/TX] Softlayer (Dallas)
+title = [US/TX] Softlayer (Dallas dal06) [speedtest.dal06.softlayer.com]
+host = speedtest.dal06.softlayer.com
 
 ++ quadranet-dal
 menu = [US/TX] QuadraNet (Dallas)
