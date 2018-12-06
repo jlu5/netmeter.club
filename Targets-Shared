@@ -189,7 +189,7 @@ host = 54.188.0.0
 
 ++ ceranetworks-pdx
 menu = [US/OR] CeraNetworks (PDX)
-title = [US/OR] CeraNetworks / 50KVM (Portland) [lg.cera-ncp.pdx.50network.com]
+title = [US/OR] 50KVM @ CeraNetworks (Portland) [lg.cera-ncp.pdx.50network.com]
 host = lg.cera-ncp.pdx.50network.com
 
 ++ gcp-pdx
@@ -327,9 +327,14 @@ menu = [US/CA] BudgetNode (LA)
 title = [US/CA] BudgetNode (Los Angeles) [172.82.152.3]
 host = 172.82.152.3
 
+++ voxility-la-buyvm
+menu = [US/CA] BuyVM/Voxility (LA)
+title = [US/CA] BuyVM / Voxility Asia-Optimized - Los Angeles [198.251.80.221]
+host = 198.251.80.221
+
 ++ ceranetworks-lax
 menu = [US/CA] CeraNetworks (LA)
-title = [US/CA] CeraNetworks / 50KVM (Los Angeles) [lg.cera-163.lax.50network.com]
+title = [US/CA] 50KVM @ CeraNetworks (Los Angeles) [lg.cera-163.lax.50network.com]
 host = lg.cera-163.lax.50network.com
 
 ++ colocrossing-la
@@ -394,14 +399,9 @@ title = [US/CA] VMHaus (Los Angeles) [103.105.49.34]
 host = 103.105.49.34
 
 ++ voxility-la
-menu = [US/CA] Voxility (LA)
-title = [US/CA] Voxility / Virmach (Los Angeles, DDOS Protected) [filtered-la.lg.virmach.com]
+menu = [US/CA] Virmach/Voxility (LA)
+title = [US/CA] Virmach / Voxility - Los Angeles, DDOS Protected [filtered-la.lg.virmach.com]
 host = filtered-la.lg.virmach.com
-
-++ voxility-la-buyvm
-menu = [US/CA] Voxility/BuyVM (LA)
-title = [US/CA] Voxility / BuyVM Asia-Optimized (LA) [198.251.80.221]
-host = 198.251.80.221
 
 ++ vultr-lax
 menu = [US/CA] Vultr (Los Angeles)
@@ -414,8 +414,8 @@ title = [US] China Telecom Global (Los Angeles) [104.192.111.1]
 host = 104.192.111.1
 
 ++ hurricane-electric-las1
-menu = [US] he.net (Las Vegas)
-title = [US] Hurricane Electric - Fiberhub Las Vegas Las Vegas, NV, US [core2.las1.he.net]
+menu = [US/LV] he.net (Las Vegas)
+title = [US/LV] Hurricane Electric - Fiberhub Las Vegas Las Vegas, NV, US [core2.las1.he.net]
 host = core2.las1.he.net
 
 ++ buyvm-lv
@@ -424,8 +424,8 @@ title = [US/NV] BuyVM (Las Vegas) [lv-test.buyvm.net]
 host = lv-test.buyvm.net
 
 ++ hurricane-electric-phx2
-menu = [US] he.net (Phoenix)
-title = [US] Hurricane Electric - PhoenixNAP Phoenix, AZ, US [core1.phx2.he.net]
+menu = [US/AZ] he.net (Phoenix)
+title = [US/AZ] Hurricane Electric - PhoenixNAP Phoenix, AZ, US [core1.phx2.he.net]
 host = core1.phx2.he.net
 
 ++ securedragon-phoenix
@@ -1475,32 +1475,32 @@ host = 52.81.0.253
 
 #++ cloudiplc-xzct
 #menu = [CN] CloudIPLC (Jiangsu CT)
-#title = [CN] CloudIPLC - Xuzhou, Jiangsu China Telecom 徐州电信 [ping.xzct.cloudiplc.com]
+#title = [CN] CloudIPLC @ China Telecom - Xuzhou, Jiangsu 徐州电信 [ping.xzct.cloudiplc.com]
 #host = ping.xzct.cloudiplc.com
 
 ++ cloudiplc-xzcu
 menu = [CN] CloudIPLC (Jiangsu CU)
-title = [CN] CloudIPLC - Xuzhou, Jiangsu China Unicom 徐州联通 [ping.xzcu.cloudiplc.com]
+title = [CN] CloudIPLC @ China Unicom - Xuzhou, Jiangsu 徐州联通 [ping.xzcu.cloudiplc.com]
 host = ping.xzcu.cloudiplc.com
 
 ++ cloudiplc-jscm
 menu = [CN] CloudIPLC (Jiangsu CM)
-title = [CN] CloudIPLC - Jiangsu China Mobile 江苏移动 (China East) [ping.jscm.cloudiplc.com]
+title = [CN] CloudIPLC @ China Mobile - Jiangsu 江苏移动 (China East) [ping.jscm.cloudiplc.com]
 host = ping.jscm.cloudiplc.com
 
 ++ tcloud-zhenjiang-ct
 menu = [CN] TCloud (Jiangsu CT)
-title = [CN] TCloud - Zhenjiang, Jiangsu China Telecom 镇江电信 (China East) [222.186.52.1]
+title = [CN] TCloud @ China Telecom - Zhenjiang, Jiangsu 镇江电信 (China East) [222.186.52.1]
 host = 222.186.52.1
 
 ++ uovz-xuzhou
 menu = [CN] UOvZ (Jiangsu CT+DP)
-title = [CN] UOvZ - Xuzhou, Jiangsu China Telecom 徐州電信 DDoS Protected (China East) [58.218.201.1]
+title = [CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州電信 DDoS Protected (China East) [58.218.201.1]
 host = 58.218.201.1
 
 ++ uovz-xuzhou-cu
 menu = [CN] UOvZ (Jiangsu CU)
-title = [CN] UOvZ - Xuzhou, Jiangsu China Unicom 徐州联通 (China East) [112.85.239.1]
+title = [CN] UOvZ @ China Unicom - Xuzhou, Jiangsu 徐州联通 (China East) [112.85.239.1]
 host = 112.85.239.1
 
 ++ tcloud-ningbo
@@ -1508,19 +1508,14 @@ menu = [CN] TCloud (Zhejiang BGP)
 title = [CN] TCloud - Ningbo, Zhejiang 宁波BGP (China East) [103.88.33.1]
 host = 103.88.33.1
 
-#++ tcloud-ningbo-cu
-#menu = [CN] TCloud (Zhejiang CU)
-#title = [CN] TCloud - Ningbo, Zhejiang China Unicom Premium 宁波联通精品网 (China East) [210.83.80.1]
-#host = 210.83.80.1
-
 ++ tcloud-jiaxing-dl
 menu = [CN] TCloud (Zhejiang DL)
-title = [CN] TCloud - Jiaxing, Zhejiang China Telecom / Unicom Dual-Uplink 嘉兴双线 (China East) [115.231.235.254]
+title = [CN] TCloud @ Dual-Uplink - Jiaxing, Zhejiang 嘉兴双线 (China East) [115.231.235.254]
 host = 115.231.235.254
 
 ++ tcloud-guangzhou-ct
 menu = [CN] TCloud (Guangzhou CT)
-title = [CN] TCloud - Guangzhou China Telecom 广州电信 (China South) [14.215.171.1]
+title = [CN] TCloud @ China Telecom - Guangzhou 广州电信 (China South) [14.215.171.1]
 host = 14.215.171.1
 
 ++ cloudiplc-dlbgp
@@ -1535,32 +1530,32 @@ host = 52.82.0.253
 
 ++ cloudiplc-qzcm
 menu = [CN] CloudIPLC (Fujian CM)
-title = [CN] CloudIPLC - Quanzhou, Fujian China Mobile 泉州移动 (China Southeast) [ping.qzcm.cloudiplc.com]
+title = [CN] CloudIPLC @ China Mobile - Quanzhou, Fujian泉州移动 (China Southeast) [ping.qzcm.cloudiplc.com]
 host = ping.qzcm.cloudiplc.com
 
 ++ cloudiplc-qzcn2
 menu = [CN] CloudIPLC (Fujian CN2)
-title = [CN] CloudIPLC - Quanzhou, Fujian CN2 泉州CN2 (China Southeast) [ping.qzcn2.cloudiplc.com]
+title = [CN] CloudIPLC @ CN2 - Quanzhou, Fujian 泉州CN2 (China Southeast) [ping.qzcn2.cloudiplc.com]
 host = ping.qzcn2.cloudiplc.com
 
 ++ uovz-fujian-cm
 menu = [CN] UOvZ (Fujian CM)
-title = [CN] UOvZ - Fujian China Mobile 福建移动 (China Southeast) [112.47.15.1]
+title = [CN] UOvZ @ China Mobile - Fujian 福建移动 (China Southeast) [112.47.15.1]
 host = 112.47.15.1
 
 ++ tcloud-nanyang-cm
 menu = [CN] TCloud (Henan CM)
-title = [CN] TCloud - Nanyang, Henan China Mobile 南阳移动 (China Central) [111.6.79.1]
+title = [CN] TCloud @ China Mobile - Nanyang, Henan 南阳移动 (China Central) [111.6.79.1]
 host = 111.6.79.1
 
 ++ uovz-henan-cm
 menu = [CN] UOvZ (Henan CM)
-title = [CN] UOvZ - Henan China Mobile 河南移动VDS (China Central) [117.159.147.1]
+title = [CN] UOvZ @ China Mobile - Henan 河南移动VDS (China Central) [117.159.147.1]
 host = 117.159.147.1
 
 ++ uovz-guizhou
 menu = [CN] UOvZ (Guizhou CT)
-title = [CN] UOvZ - Guizhou China Telecom 贵州電信 (China Southwest) [123.249.0.1]
+title = [CN] UOvZ @ China Telecom - Guizhou 贵州電信 (China Southwest) [123.249.0.1]
 host = 123.249.0.1
 
 
@@ -1569,8 +1564,8 @@ menu = China - Hong Kong, Taiwan
 title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 
 ++ 50kvm-hk-shatin
-menu = [HK] 50KVM (HK Shatin)
-title = [HK] 50KVM (HK Shatin) [lg.shatin.hkg.50network.com]
+menu = [HK] 50KVM (Hong Kong)
+title = [HK] 50KVM (Hong Kong) [lg.shatin.hkg.50network.com]
 host = lg.shatin.hkg.50network.com
 
 ++ chinatelecomglobal-hk
@@ -1630,18 +1625,13 @@ host = speedtest.hkg02.softlayer.com
 
 ++ uovz-hk-hkbn
 menu = [HK] UOvZ (HKBN)
-title = [HK] UOvZ (香港HKBN) [103.107.8.1]
+title = [HK] UOvZ @ HKBN (Hong Kong) [103.107.8.1]
 host = 103.107.8.1
 
 ++ uovz-hk-newworldtel
 menu = [HK] UOvZ (HK NWT)
-title = [HK] UOvZ (HK NewWorldTel 香港新世界) [103.228.130.1]
+title = [HK] UOvZ @ NewWorldTel (Hong Kong) [103.228.130.1]
 host = 103.228.130.1
-
-#++ uovz-hk-shatin
-#menu = [HK] UOvZ (HK Shatin)
-#title = [HK] UOvZ (HK Shatin 香港沙田) [103.80.16.1]
-#host = 103.80.16.1
 
 ++ gcp-tw
 menu = [TW] Google Cloud (Taiwan)
@@ -1839,13 +1829,13 @@ host = speedtest.seo01.softlayer.com
 #host = 14.63.245.93
 
 ++ 50kvm-ru-khv
-menu = [RU] 50KVM (Khaborovsk)
-title = [RU] 50KVM (Khaborovsk, Russia) [lg.russia.khv.50network.com]
+menu = [RU] 50KVM (Khabarovsk)
+title = [RU] 50KVM (Khabarovsk, Russia) [lg.russia.khv.50network.com]
 host = lg.russia.khv.50network.com
 
 ++ cloudiplc-khv
-menu = [RU] CloudIPLC (Khaborovsk)
-title = [RU] CloudIPLC - Khaborovsk, Russia [ping.ru1.cloudiplc.com]
+menu = [RU] CloudIPLC (Khabarovsk)
+title = [RU] CloudIPLC - Khabarovsk, Russia [ping.ru1.cloudiplc.com]
 host = ping.ru1.cloudiplc.com
 
 ++ xhostfire-khv
@@ -1866,7 +1856,7 @@ host = hd.ncc.snt.ru
 
 ++ teleguam
 menu = [GU] GTA Teleguam
-title = [GU] GTA Teleguam [speedtest.teleguam.net]
+title = [GU] GTA Teleguam - Guam, United States [speedtest.teleguam.net]
 host = speedtest.teleguam.net
 
 
