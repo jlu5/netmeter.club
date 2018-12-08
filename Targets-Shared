@@ -117,6 +117,11 @@ menu = [CA/BC] Bandwagonhost (YVR)
 title = [CA/BC] Bandwagonhost (Vancouver) [172.93.32.16]
 host = 172.93.32.16
 
+++ canadianwebhost-yvr
+menu = [CA/BC] Canadianwebhosting (YVR)
+title = [CA/BC] Canadianwebhosting - Vancouver, British Columbia [23.111.64.1]
+host = 23.111.64.1
+
 ++ freerangecloud-yvr
 menu = [CA/BC] Free Range (YVR)
 title = [CA/BC] Free Range Cloud (Vancouver) [van.lg.freerangecloud.com]
@@ -354,7 +359,7 @@ host = speedtest.c1.lax1.dediserve.com
 
 ++ gigsgigs-lax-cn2gia
 menu = [US/CA] GigsGigsCloud (LA CN2 GIA)
-title = [US/CA] GigsGigsCloud - Los Angeles (CN2 GIA) [lg.lax.cn2.gigsgigscloud.com]
+title = [US/CA] GigsGigsCloud / TechAvenue - Los Angeles (CN2 GIA) [lg.lax.cn2.gigsgigscloud.com]
 host = lg.lax.cn2.gigsgigscloud.com
 
 #++ gcp-la
@@ -401,6 +406,11 @@ host = 204.152.218.25
 menu = [US/CA] Ramnode (LA)
 title = [US/CA] Ramnode (Los Angeles) [lg.la.ramnode.com]
 host = lg.la.ramnode.com
+
+++ rfchost-la
+menu = [US/CA] RFChost (LA)
+title = [US/CA] RFChost - Los Angeles, California [103.86.70.1]
+host = 103.86.70.1
 
 ++ vmhaus-lax
 menu = [US/CA] VMHaus (Los Angeles)
@@ -477,6 +487,11 @@ menu = [CA/ON] Amazon (C. Canada)
 title = [CA/ON] Amazon Web Services (Central Canada ca-central-1) [35.182.0.251]
 host = 35.182.0.251
 
+++ canadianwebhost-tor
+menu = [CA/ON] Canadianwebhosting (TOR)
+title = [CA/ON] Canadianwebhosting - Toronto, Ontario [67.231.25.1]
+host = 67.231.25.1
+
 ++ dediserve-tor1
 menu = [CA/ON] Dediserve (Toronto)
 title = [CA/ON] Dediserve - Toronto, Ontario, Canada [speedtest.c1.tor1.dediserve.com]
@@ -551,6 +566,11 @@ host = 198.57.46.4
 menu = [US] he.net (Kansas City)
 title = [US] Hurricane Electric - 1102 Grand Kansas City Kansas City, MO, US [core1.mci3.he.net]
 host = core1.mci3.he.net
+
+++ rfchost-mci
+menu = [US/MO] RFCHost (Kansas)
+title = [US/MO] RFCHost @ Joe's Datacenter - Kansas City, Missouri [142.147.97.53]
+host = 142.147.97.53
 
 ++ mrvm-kck
 menu = [US/MO] mrvm.net (Kansas City)
@@ -1337,10 +1357,20 @@ menu = [PL] Dediserve (Warsaw)
 title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
 host = speedtest.c1.pol1.dediserve.com
 
+++ serwerydedykowane
+menu = [PL] SerweryDedykowane
+title = [PL] SerweryDedykowane - Poznan, Poland [185.140.120.11]
+host = 185.140.120.11
+
 ++ ovh-waw
 menu = [PL] OVH (Warsaw)
 title = [PL] OVH (Warsaw) [waw1-oza.smokeping.ovh.net]
 host = waw1-oza.smokeping.ovh.net
+
+++ webh
+menu = [PL] webh
+title = [PL] webh @ IWACOM - Warsaw, Poland [91.205.74.1]
+host = 91.205.74.1
 
 ++ hurricane-electric-bud1
 menu = [HU] he.net (Budapest)
@@ -1617,6 +1647,16 @@ menu = [HK] DMIT (HK PVM.n3)
 title = [HK] DMIT (Hong Kong PVM.n3) [hka-n3.lg.dmit.io]
 host = hka-n3.lg.dmit.io
 
+++ gigsgigscloud-hk
+menu = [HK] GigsGigsCloud
+title = [HK] GigsGigsCloud / TechAvenue - Hong Kong, China [43.251.159.10]
+host = 43.251.159.10
+
+++ hkserversolution
+menu = [HK] HKServerSolution
+title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
+host = 210.3.96.1
+
 #++ hostus-hk
 #menu = [HK] HostUS (Hong Kong)
 #title = [HK] HostUS (Hong Kong) [hk-lg.hostus.us]
@@ -1627,10 +1667,20 @@ menu = [HK] KLayer (Hong Kong)
 title = [HK] KLayer (Hong Kong) [hk.lg.klayer.com]
 host = hk.lg.klayer.com
 
+++ lightcloud-hk
+menu = [HK] LightCloud (Hong Kong)
+title = [HK] LightCloud @ HKT - Hong Kong, China [42.200.162.254]
+host = 42.200.162.254
+
 ++ leaseweb-hk
 menu = [HK] LeaseWeb (Hong Kong)
 title = [HK] LeaseWeb (Hong Kong) [mirror.hk.leaseweb.net]
 host = mirror.hk.leaseweb.net
+
+++ on9host
+menu = [HK] On9host (Hong Kong)
+title = [HK] On9host - Hong Kong, China [103.122.119.1]
+host = 103.122.119.1
 
 ++ rackspace-hk
 menu = [HK] Rackspace (Hong Kong)
@@ -1661,6 +1711,16 @@ host = 103.107.8.1
 menu = [HK] UOvZ (HK NWT)
 title = [HK] UOvZ @ NewWorldTel (Hong Kong) [103.228.130.1]
 host = 103.228.130.1
+
+++ dct
+menu = [TW] Dct
+title = [TW] Dct (210.203.22.254)
+host = 210.203.22.254
+
+++ kuaichedao
+menu = [TW] Kuaichedao (Taipei)
+title = [TW] Kuaichedao - Taipei, Taiwan [220.141.70.54]
+host = 220.141.70.54
 
 ++ gcp-tw
 menu = [TW] Google Cloud (Taiwan)
@@ -1867,6 +1927,11 @@ menu = [RU] CloudIPLC (Khabarovsk)
 title = [RU] CloudIPLC - Khabarovsk, Russia [ping.ru1.cloudiplc.com]
 host = ping.ru1.cloudiplc.com
 
+++ rfchost-khv
+menu = [RU] RFChost (Khabarovsk)
+title = [RU] RFChost - Khabarovsk, Russia [103.102.4.4]
+host = 103.102.4.4
+
 ++ xhostfire-khv
 menu = [RU] XHostFire (Khabarovsk)
 title = [RU] XHostFire - Khabarovsk, Russia (Rostelecom, TTK) [87.225.45.1]
@@ -1923,6 +1988,11 @@ menu = [SG] Google Cloud (Singapore)
 title = [SG] Google Cloud Platform (Singapore asia-southeast1) via CloudHarmony [asia-southeast1-gce.cloudharmony.net]
 host = asia-southeast1-gce.cloudharmony.net
 
+++ gigsgigscloud-sg
+menu = [SG] GigsGigsCloud
+title = [SG] GigsGigsCloud / TechAvenue - Singapore [27.122.59.1]
+host = 27.122.59.1
+
 ++ leaseweb-sg
 menu = [SG] LeaseWeb (Singapore)
 title = [SG] LeaseWeb (Singapore) [mirror.sg.leaseweb.net]
@@ -1978,6 +2048,11 @@ menu = [KH] Cambo.Host
 title = [KH] Cambo.Host [cambo.host]
 host = cambo.host
 
+++ hostingviet
+menu = [VN] HostingViet
+title = [VN] HostingViet @ FPT Telecom [103.81.86.64]
+host = 103.81.86.64
+
 ++ amazon-mumbai
 menu = [IN] Amazon AWS (Mumbai)
 title = [IN] Amazon Web Services (Mumbai ap-southeast-2) [13.232.0.253]
@@ -2002,6 +2077,7 @@ host = speedtest.che01.softlayer.com
 menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz (Mumbai) [lg.in.psychz.net]
 host = lg.in.psychz.net
+
 ++ bharti-airtel
 menu = [IN] Bharti Airtel
 title = [IN] Bharti Airtel [125.18.8.109]
