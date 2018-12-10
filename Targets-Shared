@@ -42,6 +42,11 @@ menu = [CDN] Dropbox
 title = [CDN] Dropbox [dropbox.com]
 host = dropbox.com
 
+++ facebook
+menu = [CDN] Facebook
+title = [CDN] Facebook [facebook.com]
+host = facebook.com
+
 ++ fastly
 menu = [CDN] Fastly
 title = [CDN] Fastly [cdn-fastly.deb.debian.org]
@@ -92,6 +97,11 @@ menu = [CDN] StackPath
 title = [CDN] StackPath [www.stackpath.com]
 host = www.stackpath.com
 
+++ twitter
+menu = [CDN] Twitter
+title = [CDN] Twitter [twitter.com]
+host = twitter.com
+
 ++ verizon-edgecast
 menu = [CDN] Verizon Edgecast
 title = [CDN] Verizon Edgecast [www.verizondigitalmedia.com]
@@ -118,7 +128,7 @@ title = [CA/BC] Bandwagonhost (Vancouver) [172.93.32.16]
 host = 172.93.32.16
 
 ++ canadianwebhost-yvr
-menu = [CA/BC] Canadianwebhosting (YVR)
+menu = [CA/BC] Canadianwebhosting
 title = [CA/BC] Canadianwebhosting - Vancouver, British Columbia [23.111.64.1]
 host = 23.111.64.1
 
@@ -162,10 +172,10 @@ menu = [US/WA] IonSwitch (Seattle)
 title = [US/WA] IonSwitch (Seattle) [lg.ionswitch.com]
 host = lg.ionswitch.com
 
-#++ nfoservers-sea
-#menu = [US/WA] NFOservers (Seattle)
-#title = [US/WA] NFOservers (Seattle) [192.223.25.100]
-#host = 192.223.25.100
+++ nfoservers-sea
+menu = [US/WA] NFOservers (Seattle)
+title = [US/WA] NFOservers (Seattle) [192.223.25.100]
+host = 192.223.25.100
 
 ++ ramnode-sea
 menu = [US/WA] RamNode (Seattle)
@@ -178,8 +188,8 @@ title = [US/WA] SpartanHost (Seattle) [lg.sea.spartanhost.net]
 host = lg.sea.spartanhost.net
 
 ++ serverhub-sea
-menu = [US/WA] ServerHub (Seattle)
-title = [US/WA] ServerHub / Virmach (Seattle) [sea.lg.virmach.com]
+menu = [US/WA] Virmach (Seattle)
+title = [US/WA] Virmach @ ServerHub - Seattle, Washington [sea.lg.virmach.com]
 host = sea.lg.virmach.com
 
 ++ vultr-sea
@@ -208,7 +218,7 @@ title = [US/OR] OVH (Portland Hillsboro) [pdx1-hil.smokeping.ovh.net]
 host = pdx1-hil.smokeping.ovh.net
 
 ++ securedragon-portland
-menu = [US/OR] SecureDragon (Portland)
+menu = [US/OR] SecureDragon (PDX)
 title = [US/OR] SecureDragon / CNServers - Portland, OR, United States [198.57.47.4]
 host = 198.57.47.4
 
@@ -312,10 +322,10 @@ menu = [US/CA] Riven Cloud (Fremont)
 title = [US/CA] Riven Cloud - Fremont, CA [speedtest-fm1.sa.net]
 host = speedtest-fm1.sa.net
 
-#++ nfoservers-sjc
-#menu = [US/CA] NFOservers (San Jose)
-#title = [US/CA] NFOservers / InterNAP (San Jose) [66.151.138.9]
-#host = 66.151.138.9
+++ nfoservers-sjc
+menu = [US/CA] NFOservers (San Jose)
+title = [US/CA] NFOservers @ InterNAP (San Jose) [66.151.138.9]
+host = 66.151.138.9
 
 ++ softlayer-sjc
 menu = [US/CA] Softlayer (San Jose)
@@ -362,11 +372,6 @@ menu = [US/CA] GigsGigsCloud (LA CN2 GIA)
 title = [US/CA] GigsGigsCloud / TechAvenue - Los Angeles (CN2 GIA) [lg.lax.cn2.gigsgigscloud.com]
 host = lg.lax.cn2.gigsgigscloud.com
 
-#++ gcp-la
-#menu = [US/CA] Google Cloud (LA)
-#title = [US/CA] Google Cloud Platform (Los Angeles us-west2) [us-west2-gce.cloudharmony.net]
-#host = us-west2-gce.cloudharmony.net
-
 ++ hosthatch-lax
 menu = [US/CA] HostHatch (LA)
 title = [US/CA] HostHatch - Los Angeles [lg.lax.hosthatch.com]
@@ -377,10 +382,10 @@ menu = [US/CA] KLayer (Los Angeles)
 title = [US/CA] KLayer / Zenlayer (Los Angeles) [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
 
-#++ nfoservers-lax
-#menu = [US/CA] NFOservers (LA)
-#title = [US/CA] NFOservers (Los Angeles) [66.150.188.101]
-#host = 66.150.188.101
+++ nfoservers-lax
+menu = [US/CA] NFOservers (LA)
+title = [US/CA] NFOservers (Los Angeles) [66.150.188.101]
+host = 66.150.188.101
 
 ++ psychz-la
 menu = [US/CA] Psychz (Los Angeles)
@@ -419,7 +424,7 @@ host = 103.105.49.34
 
 ++ voxility-la
 menu = [US/CA] Virmach/Voxility (LA)
-title = [US/CA] Virmach / Voxility - Los Angeles, DDOS Protected [filtered-la.lg.virmach.com]
+title = [US/CA] Virmach @ Voxility - Los Angeles, DDOS Protected [filtered-la.lg.virmach.com]
 host = filtered-la.lg.virmach.com
 
 ++ vultr-lax
@@ -453,8 +458,8 @@ title = [US/AZ] SecureDragon / PhoenixNAP - Phoenix, AZ, United States [162.253.
 host = 162.253.177.4
 
 ++ serverhub-phx
-menu = [US/AZ] ServerHub (Phoenix)
-title = [US/AZ] ServerHub / Virmach (Phoenix, Arizona) [phx.lg.virmach.com]
+menu = [US/AZ] Virmach (Phoenix)
+title = [US/AZ] Virmach @ ServerHub - Phoenix, Arizona [phx.lg.virmach.com]
 host = phx.lg.virmach.com
 
 ++ budgetnode-ogd
@@ -488,7 +493,7 @@ title = [CA/ON] Amazon Web Services (Central Canada ca-central-1) [35.182.0.251]
 host = 35.182.0.251
 
 ++ canadianwebhost-tor
-menu = [CA/ON] Canadianwebhosting (TOR)
+menu = [CA/ON] Canadianwebhosting
 title = [CA/ON] Canadianwebhosting - Toronto, Ontario [67.231.25.1]
 host = 67.231.25.1
 
@@ -527,10 +532,10 @@ menu = [US/IL] Host1Plus (Chicago)
 title = [US/IL] Host1Plus (Chicago) [181.214.61.207]
 host = 181.214.61.207
 
-#++ nfoservers-chi
-#menu = [US/IL] NFOservers (Chicago)
-#title = [US/IL] NFOservers (Chicago) [216.52.148.4]
-#host = 216.52.148.4
+++ nfoservers-chi
+menu = [US/IL] NFOservers (Chicago)
+title = [US/IL] NFOservers (Chicago) [216.52.148.4]
+host = 216.52.148.4
 
 ++ psychz-chi
 menu = [US/IL] Psychz (Chicago)
@@ -644,7 +649,7 @@ host = speedtest.c1.dal1.dediserve.com
 
 ++ impactvps-dal
 menu = [US/TX] ImpactVPS (Dallas)
-title = [US/TX] ImpactVPS / Incero (Dallas, Texas) [172.110.8.1]
+title = [US/TX] ImpactVPS @ Incero (Dallas, Texas) [172.110.8.1]
 host = 172.110.8.1
 
 ++ linode-dal
@@ -652,10 +657,10 @@ menu = [US/TX] Linode (Dallas)
 title = [US/TX] Linode (Dallas) [speedtest.dallas.linode.com]
 host = speedtest.dallas.linode.com
 
-#++ nfoservers-dal
-#menu = [US/TX] NFOservers (Dallas)
-#title = [US/TX] NFOservers (Dallas) [66.150.214.8]
-#host = 66.150.214.8
+++ nfoservers-dal
+menu = [US/TX] NFOservers (Dallas)
+title = [US/TX] NFOservers (Dallas) [66.150.214.8]
+host = 66.150.214.8
 
 ++ psychz-texas
 menu = [US/TX] Psychz (Dallas)
@@ -724,7 +729,7 @@ host = lg.atl.ramnode.com
 
 ++ securedragon-atlanta
 menu = [US/GA] SecureDragon (Atlanta)
-title = [US/GA] SecureDragon / QuadraNet - Atlanta, GA, United States [162.211.67.4]
+title = [US/GA] SecureDragon @ QuadraNet - Atlanta, GA, United States [162.211.67.4]
 host = 162.211.67.4
 
 ++ vultr-atl
@@ -804,13 +809,13 @@ host = lg.nyc.colocrossing.com
 
 ++ impactvps-nyk
 menu = [US/NY] ImpactVPS (NYC)
-title = [US/NY] ImpactVPS / Incero (New York City) [172.110.20.1]
+title = [US/NY] ImpactVPS @ Incero (New York City) [172.110.20.1]
 host = 172.110.20.1
 
-#++ nfoservers-nyc
-#menu = [US/NY] NFOservers (New York)
-#title = [US/NY] NFOservers / InterNAP (New York) [63.251.20.100]
-#host = 63.251.20.100
+++ nfoservers-nyc
+menu = [US/NY] NFOservers (New York)
+title = [US/NY] NFOservers @ InterNAP (New York) [63.251.20.100]
+host = 63.251.20.100
 
 ++ digitalocean-nyc3
 menu = [US/NY] DigitalOcean (NYC3)
@@ -828,13 +833,13 @@ title = [US/DC] LeaseWeb (Washington D.C.) [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
 ++ colocrossing-pnj
-menu = [US/NJ] ColoCrossing (NJ)
-title = [US/NJ] ColoCrossing / Virmach (Piscataway, New Jersey) [107.174.64.68]
+menu = [US/NJ] Virmach (NJ)
+title = [US/NJ] Virmach @ ColoCrossing (Piscataway, New Jersey) [107.174.64.68]
 host = 107.174.64.68
 
 ++ securedragon-piscataway
 menu = [US/NJ] SecureDragon (NJ)
-title = [US/NJ] SecureDragon / DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
+title = [US/NJ] SecureDragon @ DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
 host = 162.253.176.4
 
 ++ amazon-nva
@@ -884,12 +889,12 @@ host = us-east1-gce.cloudharmony.net
 
 ++ hostnamaste-fl
 menu = [US/FL] HostNamaste (FL)
-title = [US/FL] HostNamaste / ServerComplete (Jacksonville, Florida) [184.175.242.2]
+title = [US/FL] HostNamaste @ ServerComplete (Jacksonville, Florida) [184.175.242.2]
 host = 184.175.242.2
 
 ++ securedragon-tampa
 menu = [US/FL] SecureDragon (Tampa)
-title = [US/FL] SecureDragon / Hivelocity - Tampa, FL, United States [199.167.30.105]
+title = [US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]
 host = 199.167.30.105
 
 ++ quadranet-mia
@@ -1009,7 +1014,7 @@ host = lon-gb-ping.vultr.com
 
 ++ loveservers-man
 menu = [UK] LoveServers (Manchester)
-title = [UK] LoveServers / iomart (Manchester) [lg.loveservers.com]
+title = [UK] LoveServers @ iomart (Manchester) [lg.loveservers.com]
 host = lg.loveservers.com
 
 ++ virtono-man
@@ -1193,7 +1198,7 @@ title = [DE] combahton IT Services (Frankfurt FFM2) [lg.combahton.net]
 host = lg.combahton.net
 
 ++ chinatelecomglobal-de
-menu = [DE] CTG (Germany)
+menu = [DE] China Telecom Global
 title = [DE] China Telecom Global (Germany) [5.154.145.1]
 host = 5.154.145.1
 
@@ -1228,8 +1233,8 @@ title = [DE] OVH (Frankfurt/Limburg) [fra1-lim.smokeping.ovh.net]
 host = fra1-lim.smokeping.ovh.net
 
 ++ serverhub-ffm
-menu = [DE] ServerHub (Frankfurt)
-title = [DE] ServerHub / Virmach (Frankfurt) [ffm.lg.virmach.com]
+menu = [DE] Virmach (Frankfurt)
+title = [DE] Virmach @ ServerHub - Frankfurt, Germany [ffm.lg.virmach.com]
 host = ffm.lg.virmach.com
 
 ++ ultravps-de
@@ -1288,7 +1293,7 @@ title = [CH] Hurricane Electric - Equinix Geneva (GV1) Geneva, CH [core1.gva1.he
 host = core1.gva1.he.net
 
 ++ lunarvps-ch
-menu = [CH] LunarVPS (Switzerland)
+menu = [CH] LunarVPS
 title = [CH] LunarVPS (Switzerland) [lg.sw.lunarvps.com]
 host = lg.sw.lunarvps.com
 
@@ -1474,7 +1479,7 @@ host = lg.kiv.md.ultravps.eu
 
 ++ 80host-tur
 menu = [TR] 80host (Turkey)
-title = [TR] 80host (Turkey) / Sadecehosting [185.17.138.1]
+title = [TR] 80host (Turkey) @ Sadecehosting [185.17.138.1]
 host = 185.17.138.1
 
 ++ hostigger-ist
@@ -1618,32 +1623,32 @@ menu = China - Hong Kong, Taiwan
 title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 
 ++ 50kvm-hk-shatin
-menu = [HK] 50KVM (Hong Kong)
+menu = [HK] 50KVM
 title = [HK] 50KVM (Hong Kong) [lg.shatin.hkg.50network.com]
 host = lg.shatin.hkg.50network.com
 
 ++ alibabacloud-hk
-menu = [HK] Alibaba Cloud (HK)
+menu = [HK] Alibaba Cloud
 title = [HK] Alibaba Cloud - Hong Kong, China [47.90.14.253]
 host = 47.90.14.253
 
 ++ chinatelecomglobal-hk
-menu = [HK] CTG (Hong Kong)
+menu = [HK] China Telecom Global
 title = [HK] China Telecom Global (Hong Kong) [203.14.188.1]
 host = 203.14.188.1
 
 ++ dediserve-hkg1
-menu = [HK] Dediserve (Hong Kong)
+menu = [HK] Dediserve
 title = [HK] Dediserve - Hong Kong, China [speedtest.c1.hkg1.dediserve.com]
 host = speedtest.c1.hkg1.dediserve.com
 
 ++ dmit-io-hk
-menu = [HK] DMIT (HK PVM.n2)
+menu = [HK] DMIT (PVM.n2)
 title = [HK] DMIT (Hong Kong PVM.n2) [193.110.200.233]
 host = 193.110.200.233
 
 ++ dmit-io-hkn3
-menu = [HK] DMIT (HK PVM.n3)
+menu = [HK] DMIT (PVM.n3)
 title = [HK] DMIT (Hong Kong PVM.n3) [hka-n3.lg.dmit.io]
 host = hka-n3.lg.dmit.io
 
@@ -1653,62 +1658,62 @@ title = [HK] GigsGigsCloud / TechAvenue - Hong Kong, China [43.251.159.10]
 host = 43.251.159.10
 
 ++ hkserversolution
-menu = [HK] HKServerSolution
+menu = [HK] HKServerSolution @ HGC
 title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
 
 #++ hostus-hk
-#menu = [HK] HostUS (Hong Kong)
+#menu = [HK] HostUS
 #title = [HK] HostUS (Hong Kong) [hk-lg.hostus.us]
 #host = hk-lg.hostus.us
 
 ++ klayer-hk
-menu = [HK] KLayer (Hong Kong)
+menu = [HK] KLayer
 title = [HK] KLayer (Hong Kong) [hk.lg.klayer.com]
 host = hk.lg.klayer.com
 
 ++ lightcloud-hk
-menu = [HK] LightCloud (Hong Kong)
+menu = [HK] LightCloud @ HKT
 title = [HK] LightCloud @ HKT - Hong Kong, China [42.200.162.254]
 host = 42.200.162.254
 
 ++ leaseweb-hk
-menu = [HK] LeaseWeb (Hong Kong)
+menu = [HK] LeaseWeb
 title = [HK] LeaseWeb (Hong Kong) [mirror.hk.leaseweb.net]
 host = mirror.hk.leaseweb.net
 
 ++ on9host
-menu = [HK] On9host (Hong Kong)
+menu = [HK] On9host
 title = [HK] On9host - Hong Kong, China [103.122.119.1]
 host = 103.122.119.1
 
 ++ rackspace-hk
-menu = [HK] Rackspace (Hong Kong)
+menu = [HK] Rackspace
 title = [HK] Rackspace (Hong Kong) [hkg.speedtest.rackspace.com]
 host = hkg.speedtest.rackspace.com
 
 ++ starrydns-hk
-menu = [HK] StarryDNS (Hong Kong)
+menu = [HK] StarryDNS
 title = [HK] StarryDNS (Hong Kong) [hk4.lg.starrydns.com]
 host = hk4.lg.starrydns.com
 
 ++ ransomit-hk
-menu = [HK] Ransom IT (HK)
+menu = [HK] Ransom IT
 title = [HK] Ransom IT (Hong Kong) [hongkong-lg.ransomit.com.au]
 host = hongkong-lg.ransomit.com.au
 
 ++ softlayer-hk
-menu = [HK] SoftLayer (Hong Kong)
+menu = [HK] SoftLayer
 title = [HK] SoftLayer (Hong Kong) [speedtest.hkg02.softlayer.com]
 host = speedtest.hkg02.softlayer.com
 
 ++ uovz-hk-hkbn
-menu = [HK] UOvZ (HKBN)
+menu = [HK] UOvZ @ HKBN
 title = [HK] UOvZ @ HKBN (Hong Kong) [103.107.8.1]
 host = 103.107.8.1
 
 ++ uovz-hk-newworldtel
-menu = [HK] UOvZ (HK NWT)
+menu = [HK] UOvZ @ NWT
 title = [HK] UOvZ @ NewWorldTel (Hong Kong) [103.228.130.1]
 host = 103.228.130.1
 
@@ -1717,14 +1722,9 @@ menu = [TW] Dct
 title = [TW] Dct (210.203.22.254)
 host = 210.203.22.254
 
-++ kuaichedao
-menu = [TW] Kuaichedao (Taipei)
-title = [TW] Kuaichedao - Taipei, Taiwan [220.141.70.54]
-host = 220.141.70.54
-
 ++ gcp-tw
-menu = [TW] Google Cloud (Taiwan)
-title = [TW] Google Cloud Platform (Taiwan asia-east1) via CloudHarmony [asia-east1-gce.cloudharmony.net]
+menu = [TW] Google Cloud
+title = [TW] Google Cloud Platform (asia-east1) - Changhua County, Taiwan via CloudHarmony [asia-east1-gce.cloudharmony.net]
 host = asia-east1-gce.cloudharmony.net
 
 ++ hinet-tw
@@ -1733,7 +1733,7 @@ title = [TW] HiNet Chunghwa Telecom [168.95.192.15]
 host = 168.95.192.15
 
 ++ psychz-tw
-menu = [TW] Psychz (Taiwan)
+menu = [TW] Psychz
 title = [TW] Psychz (Taiwan) [lg.tw.psychz.net]
 host = lg.tw.psychz.net
 
@@ -1802,11 +1802,6 @@ menu = [CN] Tencent
 title = [CN] Tencent [qq.com]
 host = qq.com
 
-#++ cn-tencent
-#menu = [CN] Tencent (HK)
-#title = [CN] Tencent (Hong Kong) [im.qq.com]
-#host = im.qq.com
-
 
 + PointsInterestAS
 menu = Asia - North, East
@@ -1823,7 +1818,7 @@ title = [JP] Amazon Web Services (Tokyo ap-northeast-2) [18.182.0.0]
 host = 18.182.0.0
 
 ++ chinatelecomglobal-jp
-menu = [JP] CTG (Japan)
+menu = [JP] China Telecom Global
 title = [JP] China Telecom Global (Japan) [203.80.137.1]
 host = 203.80.137.1
 
@@ -1959,32 +1954,32 @@ menu = Asia - South, Southeast
 title = netmeter.club Global Ping Monitoring - South, Southeast Asia
 
 ++ alibabacloud-sg
-menu = [SG] Alibaba Cloud (Singapore)
+menu = [SG] Alibaba Cloud
 title = [SG] Alibaba Cloud - Singapore [47.88.193.1]
 host = 47.88.193.1
 
 ++ amazon-sg
-menu = [SG] Amazon AWS (Singapore)
+menu = [SG] Amazon AWS
 title = [SG] Amazon Web Services (Singapore ap-southeast-1) [54.255.0.2]
 host = 54.255.0.2
 
 ++ chinatelecomglobal-sg
-menu = [SG] CTG (Singapore)
+menu = [SG] China Telecom Global
 title = [SG] China Telecom Global (Singapore) [203.33.10.1]
 host = 203.33.10.1
 
 ++ dediserve-sin1
-menu = [SG] Dediserve (Singapore)
+menu = [SG] Dediserve
 title = [SG] Dediserve - Singapore [speedtest.c1.sin1.dediserve.com]
 host = speedtest.c1.sin1.dediserve.com
 
 ++ digitalocean-sgp
-menu = [SG] Digital Ocean (SGP1)
+menu = [SG] Digital Ocean
 title = [SG] Digital Ocean (Singapore SGP1) [speedtest-sgp1.digitalocean.com]
 host = speedtest-sgp1.digitalocean.com
 
 ++ gcp-sg
-menu = [SG] Google Cloud (Singapore)
+menu = [SG] Google Cloud
 title = [SG] Google Cloud Platform (Singapore asia-southeast1) via CloudHarmony [asia-southeast1-gce.cloudharmony.net]
 host = asia-southeast1-gce.cloudharmony.net
 
@@ -1994,27 +1989,27 @@ title = [SG] GigsGigsCloud / TechAvenue - Singapore [27.122.59.1]
 host = 27.122.59.1
 
 ++ leaseweb-sg
-menu = [SG] LeaseWeb (Singapore)
+menu = [SG] LeaseWeb
 title = [SG] LeaseWeb (Singapore) [mirror.sg.leaseweb.net]
 host = mirror.sg.leaseweb.net
 
 ++ klayer-sg
-menu = [SG] KLayer (Singapore)
+menu = [SG] KLayer
 title = [SG] KLayer (Singapore) [sg.lg.klayer.com]
 host = sg.lg.klayer.com
 
 ++ linode-sg
-menu = [SG] Linode (Singapore)
+menu = [SG] Linode
 title = [SG] Linode (Singapore) [speedtest.singapore.linode.com]
 host = speedtest.singapore.linode.com
 
 ++ mrvm-sgp
-menu = [SG] mrvm.net (Singapore)
+menu = [SG] mrvm.net
 title = [SG] mrvm.net @ Equinix SG3 - Singapore [lg-sg-sin.mrvm.net]
 host = lg-sg-sin.mrvm.net
 
 ++ ovh-sgp
-menu = [SG] OVH (Singapore)
+menu = [SG] OVH
 title = [SG] OVH (Singapore) [sgp.smokeping.ovh.net]
 host = sgp.smokeping.ovh.net
 
@@ -2024,7 +2019,7 @@ title = [SG] SG.GS (Singapore) [www.sg.gs]
 host = www.sg.gs
 
 ++ starrydns-sg
-menu = [SG] StarryDNS (Singapore)
+menu = [SG] StarryDNS
 title = [SG] StarryDNS (Singapore) [sg1.lg.starrydns.com]
 host = sg1.lg.starrydns.com
 
@@ -2120,7 +2115,7 @@ host = 212.72.10.134
 
 ++ 80host-kaz
 menu = [KZ] 80host (Kazakhstan)
-title = [KZ] 80host (Kazakhstan) / JSC Kaztranscom [185.20.125.162]
+title = [KZ] 80host (Kazakhstan) @ JSC Kaztranscom [185.20.125.162]
 host = 185.20.125.162
 
 ++ azertelecom
