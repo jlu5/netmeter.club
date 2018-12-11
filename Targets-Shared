@@ -119,12 +119,12 @@ host = mirror.it.ubc.ca
 
 ++ bell-yvr
 menu = [CA/BC] Bell (Vancouver)
-title = [CA/BC] Bell (Vancouver) [vancnspd01.srvr.bell.ca]
+title = [CA/BC] Bell - Vancouver, British Columbia [vancnspd01.srvr.bell.ca]
 host = vancnspd01.srvr.bell.ca
 
 ++ bandwagonhost-yvr
 menu = [CA/BC] Bandwagonhost (YVR)
-title = [CA/BC] Bandwagonhost (Vancouver) [172.93.32.16]
+title = [CA/BC] Bandwagonhost (IT7 Networks) - Vancouver, British Columbia [172.93.32.16]
 host = 172.93.32.16
 
 ++ canadianwebhost-yvr
@@ -134,57 +134,57 @@ host = 23.111.64.1
 
 ++ freerangecloud-yvr
 menu = [CA/BC] Free Range (YVR)
-title = [CA/BC] Free Range Cloud (Vancouver) [van.lg.freerangecloud.com]
+title = [CA/BC] Free Range Cloud - Vancouver, British Columbia [van.lg.freerangecloud.com]
 host = van.lg.freerangecloud.com
 
 ++ fullhost-yvr0
 menu = [CA/BC] FullHost (Vancouver)
-title = [CA/BC] FullHost (Vancouver) [lg.vancouver.fullhost.com]
+title = [CA/BC] FullHost - Vancouver, British Columbia [lg.vancouver.fullhost.com]
 host = lg.vancouver.fullhost.com
 
 ++ rogers-yvr
 menu = [CA/BC] Rogers (Vancouver)
-title = [CA/BC] Rogers (Vancouver) [speedtestbcvan.rogers.com]
+title = [CA/BC] Rogers - Vancouver, British Columbia [speedtestbcvan.rogers.com]
 host = speedtestbcvan.rogers.com
 
 ++ shaw-yvr
 menu = [CA/BC] Shaw (Vancouver)
-title = [CA/BC] Shaw (Vancouver) [speedtest.vc.shawcable.net]
+title = [CA/BC] Shaw - Vancouver, British Columbia [speedtest.vc.shawcable.net]
 host = speedtest.vc.shawcable.net
 
 ++ telus-yvr
 menu = [CA/BC] TELUS (Vancouver)
-title = [CA/BC] TELUS (Vancouver) [vancouver.speedtest.telus.com]
+title = [CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]
 host = vancouver.speedtest.telus.com
 
 ++ colocrossing-sea
 menu = [US/WA] ColoCrossing (Seattle)
-title = [US/WA] ColoCrossing (Seattle) [lg.sea.colocrossing.com]
+title = [US/WA] ColoCrossing - Seattle, Washington [lg.sea.colocrossing.com]
 host = lg.sea.colocrossing.com
 
 ++ impactvps-sea
 menu = [US/WA] ImpactVPS (Seattle)
-title = [US/WA] ImpactVPS / Incero (Seattle, Washington) [107.155.106.130]
+title = [US/WA] ImpactVPS @ Incero - Seattle, Washington [107.155.106.130]
 host = 107.155.106.130
 
 ++ ionswitch-sea
 menu = [US/WA] IonSwitch (Seattle)
-title = [US/WA] IonSwitch (Seattle) [lg.ionswitch.com]
+title = [US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]
 host = lg.ionswitch.com
 
 ++ nfoservers-sea
 menu = [US/WA] NFOservers (Seattle)
-title = [US/WA] NFOservers (Seattle) [192.223.25.100]
+title = [US/WA] NFOservers - Seattle, Washington [192.223.25.100]
 host = 192.223.25.100
 
 ++ ramnode-sea
 menu = [US/WA] RamNode (Seattle)
-title = [US/WA] RamNode (Seattle) [lg.sea.ramnode.com]
+title = [US/WA] RamNode - Seattle, Washington [lg.sea.ramnode.com]
 host = lg.sea.ramnode.com
 
 ++ spartanhost-sea
 menu = [US/WA] SpartanHost (Seattle)
-title = [US/WA] SpartanHost (Seattle) [lg.sea.spartanhost.net]
+title = [US/WA] SpartanHost - Seattle, Washington [lg.sea.spartanhost.net]
 host = lg.sea.spartanhost.net
 
 ++ serverhub-sea
@@ -194,37 +194,37 @@ host = sea.lg.virmach.com
 
 ++ vultr-sea
 menu = [US/WA] Vultr (Seattle)
-title = [US/WA] Vultr / Choopa (Seattle) [wa-us-ping.vultr.com]
+title = [US/WA] Vultr / Choopa - Seattle, Washington [wa-us-ping.vultr.com]
 host = wa-us-ping.vultr.com
 
 ++ amazon-pdx
 menu = [US/OR] Amazon AWS (Oregon)
-title = [US/OR] Amazon Web Services (Oregon us-west-2) [54.188.0.0]
+title = [US/OR] Amazon Web Services - Oregon (us-west-2) [54.188.0.0]
 host = 54.188.0.0
 
 ++ ceranetworks-pdx
 menu = [US/OR] CeraNetworks (PDX)
-title = [US/OR] 50KVM @ CeraNetworks (Portland) [lg.cera-ncp.pdx.50network.com]
+title = [US/OR] 50KVM @ CeraNetworks - Portland, Oregon [lg.cera-ncp.pdx.50network.com]
 host = lg.cera-ncp.pdx.50network.com
 
 ++ gcp-pdx
 menu = [US/OR] Google Cloud (Oregon)
-title = [US/OR] Google Cloud Platform (Oregon us-west-1) via CloudHarmony [us-west1-gce.cloudharmony.net]
+title = [US/OR] Google Cloud Platform - Oregon (us-west-1) via CloudHarmony [us-west1-gce.cloudharmony.net]
 host = us-west1-gce.cloudharmony.net
 
 ++ ovh-pdx
-menu = [US/OR] OVH (Portland)
-title = [US/OR] OVH (Portland Hillsboro) [pdx1-hil.smokeping.ovh.net]
+menu = [US/OR] OVH (Oregon)
+title = [US/OR] OVH - Hillsboro, Oregon [pdx1-hil.smokeping.ovh.net]
 host = pdx1-hil.smokeping.ovh.net
 
 ++ securedragon-portland
 menu = [US/OR] SecureDragon (PDX)
-title = [US/OR] SecureDragon / CNServers - Portland, OR, United States [198.57.47.4]
+title = [US/OR] SecureDragon / CNServers - Portland, Oregon [198.57.47.4]
 host = 198.57.47.4
 
 ++ shaw-okbc
 menu = [CA/BC] Shaw (Kelowna)
-title = [CA/BC] Shaw (Kelowna) [speedtest.ok.shawcable.net]
+title = [CA/BC] Shaw - Kelowna, British Columbia [speedtest.ok.shawcable.net]
 host = speedtest.ok.shawcable.net
 
 #++ rogers-cgab
@@ -234,37 +234,37 @@ host = speedtest.ok.shawcable.net
 
 ++ shaw-cgab
 menu = [CA/AB] Shaw (Calgary)
-title = [CA/AB] Shaw (Calgary) [speedtest.cg.shawcable.net]
+title = [CA/AB] Shaw - Calgary, Alberta [speedtest.cg.shawcable.net]
 host = speedtest.cg.shawcable.net
 
 ++ telus-cgab
 menu = [CA/AB] TELUS (Calgary)
-title = [CA/AB] TELUS (Calgary) [calgary.speedtest.telus.com]
+title = [CA/AB] TELUS - Calgary, Alberta [calgary.speedtest.telus.com]
 host = calgary.speedtest.telus.com
 
 ++ rogers-edab
 menu = [CA/AB] Rogers (Edmonton)
-title = [CA/AB] Rogers (Edmonton) [speedtestedmonton.rogers.com]
+title = [CA/AB] Rogers - Edmonton, Alberta [speedtestedmonton.rogers.com]
 host = speedtestedmonton.rogers.com
 
 ++ shaw-edab
 menu = [CA/AB] Shaw (Edmonton)
-title = [CA/AB] Shaw (Edmonton) [speedtest.ed.shawcable.net]
+title = [CA/AB] Shaw - Edmonton, Alberta [speedtest.ed.shawcable.net]
 host = speedtest.ed.shawcable.net
 
 #++ telus-edab
 #menu = [CA/AB] TELUS (Edmonton)
-#title = [CA/AB] TELUS (Edmonton) [edmonton.speedtest.telus.com]
+#title = [CA/AB] TELUS - Edmonton, Alberta [edmonton.speedtest.telus.com]
 #host = edmonton.speedtest.telus.com
 
 ++ hurricane-electric-yxe1
-menu = [CA] he.net (Saskatoon)
-title = [CA] Hurricane Electric - University of Saskatchewan Saskatoon, SK, CA [core1.yxe1.he.net]
+menu = [CA/SK] he.net (Saskatoon)
+title = [CA/SK] Hurricane Electric - Saskatoon, Saskatchewan [core1.yxe1.he.net]
 host = core1.yxe1.he.net
 
 ++ northwestel-whyt
 menu = [CA/YT] Northwestel (WH)
-title = [CA/YT] Northwestel (Whitehorse) [wh-netspeed.nwtel.ca]
+title = [CA/YT] Northwestel - Whitehorse, Yukon [wh-netspeed.nwtel.ca]
 host = wh-netspeed.nwtel.ca
 
 ++ alaska
@@ -274,12 +274,12 @@ host = speedtest.anc.acsalaska.net
 
 ++ atnt-sea
 menu = [US/WA] AT&T (Seattle)
-title = [US/WA] AT&T (Seattle) [sea.speedtest.sbcglobal.net]
+title = [US/WA] AT&T - Seattle, Washington [sea.speedtest.sbcglobal.net]
 host = sea.speedtest.sbcglobal.net
 
 ++ centurylink-sea
 menu = [US/WA] CenturyLink (Seattle)
-title = [US/WA] CenturyLink (Seattle) [seattle.speedtest.centurylink.net]
+title = [US/WA] CenturyLink - Seattle, Washington [seattle.speedtest.centurylink.net]
 host = seattle.speedtest.centurylink.net
 
 
@@ -294,7 +294,7 @@ host = 47.88.20.1
 
 ++ amazon-ncal
 menu = [US/CA] Amazon AWS (N. Calif.)
-title = [US/CA] Amazon Web Services (North California us-west-1) [54.151.0.2]
+title = [US/CA] Amazon Web Services - North California (us-west-1) [54.151.0.2]
 host = 54.151.0.2
 
 ++ bandwagonhost-uscafmt
@@ -304,42 +304,42 @@ host = 184.105.138.67
 
 ++ digitalocean-sfo
 menu = [US/CA] Digital Ocean (SFO1)
-title = [US/CA] Digital Ocean (San Francisco SFO1) [speedtest-sfo1.digitalocean.com]
+title = [US/CA] Digital Ocean - San Francisco, California [speedtest-sfo1.digitalocean.com]
 host = speedtest-sfo1.digitalocean.com
 
 ++ freerangecloud-fmt
 menu = [US/CA] Free Range (Fremont)
-title = [US/CA] Free Range Cloud (Fremont) [fmt.lg.freerangecloud.com]
+title = [US/CA] Free Range Cloud - Fremont, California [fmt.lg.freerangecloud.com]
 host = fmt.lg.freerangecloud.com
 
 ++ linode-ca
 menu = [US/CA] Linode (Fremont)
-title = [US/CA] Linode (Fremont) [speedtest.fremont.linode.com]
+title = [US/CA] Linode - Fremont, California [speedtest.fremont.linode.com]
 host = speedtest.fremont.linode.com
 
 ++ leaseweb-sfo
 menu = [US/CA] LeaseWeb (sfo12)
-title = [US/CA] LeaseWeb (San Francisco sfo12) [mirror.sfo12.us.leaseweb.net]
+title = [US/CA] LeaseWeb - San Francisco, California [mirror.sfo12.us.leaseweb.net]
 host = mirror.sfo12.us.leaseweb.net
 
 ++ rivencloud-fremont
 menu = [US/CA] Riven Cloud (Fremont)
-title = [US/CA] Riven Cloud - Fremont, CA [speedtest-fm1.sa.net]
+title = [US/CA] Riven Cloud - Fremont, California [speedtest-fm1.sa.net]
 host = speedtest-fm1.sa.net
 
 ++ nfoservers-sjc
 menu = [US/CA] NFOservers (San Jose)
-title = [US/CA] NFOservers @ InterNAP (San Jose) [66.151.138.9]
+title = [US/CA] NFOservers @ InterNAP - San Jose, California [66.151.138.9]
 host = 66.151.138.9
 
 ++ softlayer-sjc
 menu = [US/CA] Softlayer (San Jose)
-title = [US/CA] Softlayer (San Jose sjc01) [speedtest.sjc01.softlayer.com]
+title = [US/CA] Softlayer - San Jose, California [speedtest.sjc01.softlayer.com]
 host = speedtest.sjc01.softlayer.com
 
 ++ vultr-sjo
 menu = [US/CA] Vultr (Silicon Valley)
-title = [US/CA] Vultr / Choopa (Silicon Valley) [sjo-ca-us-ping.vultr.com]
+title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
 
 ++ bandwagonhost-usca3
@@ -364,22 +364,22 @@ host = 65.49.131.102
 
 ++ budgetnode-la
 menu = [US/CA] BudgetNode (LA)
-title = [US/CA] BudgetNode (Los Angeles) [172.82.152.3]
+title = [US/CA] BudgetNode - Los Angeles, California [172.82.152.3]
 host = 172.82.152.3
 
 ++ voxility-la-buyvm
 menu = [US/CA] BuyVM/Voxility (LA)
-title = [US/CA] BuyVM / Voxility Asia-Optimized - Los Angeles [198.251.80.221]
+title = [US/CA] BuyVM / Voxility Asia-Optimized - Los Angeles, California [198.251.80.221]
 host = 198.251.80.221
 
 ++ ceranetworks-lax
 menu = [US/CA] CeraNetworks (LA)
-title = [US/CA] 50KVM @ CeraNetworks (Los Angeles) [lg.cera-163.lax.50network.com]
+title = [US/CA] 50KVM @ CeraNetworks - Los Angeles, California [lg.cera-163.lax.50network.com]
 host = lg.cera-163.lax.50network.com
 
 ++ chinatelecomglobal-us
 menu = [US/CA] CTG (LA)
-title = [US/CA] China Telecom Global (Los Angeles) [104.192.111.1]
+title = [US/CA] China Telecom Global - Los Angeles, California [104.192.111.1]
 host = 104.192.111.1
 
 ++ cloudcone
@@ -389,57 +389,57 @@ host = la.lg.cloudc.one
 
 ++ colocrossing-la
 menu = [US/CA] ColoCrossing (LA)
-title = [US/CA] ColoCrossing (Los Angeles) [lg.la.colocrossing.com]
+title = [US/CA] ColoCrossing - Los Angeles, California [lg.la.colocrossing.com]
 host = lg.la.colocrossing.com
 
 ++ dediserve-lax1
 menu = [US/CA] Dediserve (LA)
-title = [US/CA] Dediserve - Los Angeles, California, USA [speedtest.c1.lax1.dediserve.com]
+title = [US/CA] Dediserve - Los Angeles, California [speedtest.c1.lax1.dediserve.com]
 host = speedtest.c1.lax1.dediserve.com
 
 ++ gigsgigs-lax-cn2gia
 menu = [US/CA] GigsGigs (LA CN2 GIA)
-title = [US/CA] GigsGigsCloud / TechAvenue - Los Angeles (CN2 GIA) [lg.lax.cn2.gigsgigscloud.com]
+title = [US/CA] GigsGigsCloud / TechAvenue (CN2 GIA) - Los Angeles, California [lg.lax.cn2.gigsgigscloud.com]
 host = lg.lax.cn2.gigsgigscloud.com
 
 ++ hosthatch-lax
 menu = [US/CA] HostHatch (LA)
-title = [US/CA] HostHatch - Los Angeles [lg.lax.hosthatch.com]
+title = [US/CA] HostHatch - Los Angeles, California [lg.lax.hosthatch.com]
 host = lg.lax.hosthatch.com
 
 ++ klayer-lax2
 menu = [US/CA] KLayer (Los Angeles)
-title = [US/CA] KLayer @ Zenlayer (Los Angeles) [lax2.lg.klayer.com]
+title = [US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
 
 ++ nfoservers-lax
 menu = [US/CA] NFOservers (LA)
-title = [US/CA] NFOservers (Los Angeles) [66.150.188.101]
+title = [US/CA] NFOservers - Los Angeles, California [66.150.188.101]
 host = 66.150.188.101
 
 ++ psychz-la
 menu = [US/CA] Psychz (Los Angeles)
-title = [US/CA] Psychz (Los Angeles) [104.149.18.203]
+title = [US/CA] Psychz - Los Angeles, California [104.149.18.203]
 host = 104.149.18.203
 
 ++ psychz-la-cn2
 menu = [US/CA] Psychz (LA CN2)
-title = [US/CA] Psychz (Los Angeles CN2) [172.106.4.54]
+title = [US/CA] Psychz CN2 - Los Angeles, California  [172.106.4.54]
 host = 172.106.4.54
 
 ++ quadranet-la
 menu = [US/CA] QuadraNet (LA)
-title = [US/CA] QuadraNet (Los Angeles) [198.55.111.5]
+title = [US/CA] QuadraNet - Los Angeles, California [198.55.111.5]
 host = 198.55.111.5
 
 ++ quadranet-la-ao
 menu = [US/CA] QuadraNet (LA, AO)
-title = [US/CA] QuadraNet (Los Angeles - Asia Optimized) [204.152.218.25]
+title = [US/CA] QuadraNet Asia Optimized - Los Angeles, California [204.152.218.25]
 host = 204.152.218.25
 
 ++ ramnode-la
 menu = [US/CA] Ramnode (LA)
-title = [US/CA] Ramnode (Los Angeles) [lg.la.ramnode.com]
+title = [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
 host = lg.la.ramnode.com
 
 ++ rfchost-la
@@ -449,7 +449,7 @@ host = 103.86.70.1
 
 ++ vmhaus-lax
 menu = [US/CA] VMHaus (Los Angeles)
-title = [US/CA] VMHaus (Los Angeles) [103.105.49.34]
+title = [US/CA] VMHaus - Los Angeles, California [103.105.49.34]
 host = 103.105.49.34
 
 ++ voxility-la
@@ -459,12 +459,12 @@ host = filtered-la.lg.virmach.com
 
 ++ vultr-lax
 menu = [US/CA] Vultr (Los Angeles)
-title = [US/CA] Vultr / Choopa (Los Angeles) [lax-ca-us-ping.vultr.com]
+title = [US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
 
 ++ buyvm-lv
 menu = [US/NV] BuyVM (Las Vegas)
-title = [US/NV] BuyVM (Las Vegas) [lv-test.buyvm.net]
+title = [US/NV] BuyVM - Las Vegas, Nevada [lv-test.buyvm.net]
 host = lv-test.buyvm.net
 
 ++ bandwagonhost-usaz2
@@ -474,7 +474,7 @@ host = 198.35.46.28
 
 ++ securedragon-phoenix
 menu = [US/AZ] SecureDragon (PHX)
-title = [US/AZ] SecureDragon / PhoenixNAP - Phoenix, AZ, United States [162.253.177.4]
+title = [US/AZ] SecureDragon / PhoenixNAP - Phoenix, Arizona [162.253.177.4]
 host = 162.253.177.4
 
 ++ serverhub-phx
@@ -484,12 +484,12 @@ host = phx.lg.virmach.com
 
 ++ budgetnode-ogd
 menu = [US/UT] BudgetNode (Utah)
-title = [US/UT] BudgetNode (Ogden, Utah) [ogd.lg.budgetnode.net]
+title = [US/UT] BudgetNode - Ogden, Utah [ogd.lg.budgetnode.net]
 host = ogd.lg.budgetnode.net
 
 ++ hurricane-electric-hnl1
 menu = [US] he.net (Honolulu)
-title = [US] Hurricane Electric - DRFortress Honolulu Honolulu, HI, US [core1.hnl1.he.net]
+title = [US] Hurricane Electric @ DRFortress - Honolulu, Hawaii [core1.hnl1.he.net]
 host = core1.hnl1.he.net
 
 
