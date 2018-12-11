@@ -288,7 +288,7 @@ menu = North America - Southwest
 title = netmeter.club Global Ping Monitoring - North America (Southwest)
 
 ++ alibabacloud-sv
-menu = [US/CA] Alibaba Cloud (US West)
+menu = [US/CA] Alibaba Cloud (US-W)
 title = [US/CA] Alibaba Cloud - Silicon Valley / US West [47.88.20.1]
 host = 47.88.20.1
 
@@ -296,6 +296,11 @@ host = 47.88.20.1
 menu = [US/CA] Amazon AWS (N. Calif.)
 title = [US/CA] Amazon Web Services (North California us-west-1) [54.151.0.2]
 host = 54.151.0.2
+
+++ bandwagonhost-uscafmt
+menu = [US/AZ] BandwagonHost (Fremont)
+title = [US/AZ] BandwagonHost (IT7 Networks) - Fremont, California [184.105.138.67]
+host = 184.105.138.67
 
 ++ digitalocean-sfo
 menu = [US/CA] Digital Ocean (SFO1)
@@ -337,10 +342,25 @@ menu = [US/CA] Vultr (Silicon Valley)
 title = [US/CA] Vultr / Choopa (Silicon Valley) [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
 
-++ hurricane-electric-lax1
-menu = [US] he.net (Los Angeles)
-title = [US] Hurricane Electric - Equinix Los Angeles (LA1) Los Angeles, CA, US [core1.lax1.he.net]
-host = core1.lax1.he.net
+++ bandwagonhost-usca3
+menu = [US/CA] BWH (DC3 CN2 GIA)
+title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC3 CN2 @ QuadraNet) [23.252.103.101]
+host = 23.252.103.101
+
+++ bandwagonhost-usca4
+menu = [US/CA] BWH (DC4 @ MCOM)
+title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC4 @ MULTACOM) [98.142.136.11]
+host = 98.142.136.11
+
+++ bandwagonhost-usca8
+menu = [US/CA] BWH (DC8 CN2 @ C3)
+title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC8 CN2 @ C3 Networks) [23.252.99.102]
+host = 23.252.99.102
+
+++ bandwagonhost-usca9
+menu = [US/CA] BWH (DC9 CN2 GIA)
+title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC9 CN2 GIA) [65.49.131.102]
+host = 65.49.131.102
 
 ++ budgetnode-la
 menu = [US/CA] BudgetNode (LA)
@@ -357,6 +377,16 @@ menu = [US/CA] CeraNetworks (LA)
 title = [US/CA] 50KVM @ CeraNetworks (Los Angeles) [lg.cera-163.lax.50network.com]
 host = lg.cera-163.lax.50network.com
 
+++ chinatelecomglobal-us
+menu = [US/CA] CTG (LA)
+title = [US/CA] China Telecom Global (Los Angeles) [104.192.111.1]
+host = 104.192.111.1
+
+++ cloudcone
+menu = [US/CA] CloudCone (LA)
+title = [US/CA] CloudCone @ MULTACOM - Los Angeles, California [la.lg.cloudc.one]
+host = la.lg.cloudc.one
+
 ++ colocrossing-la
 menu = [US/CA] ColoCrossing (LA)
 title = [US/CA] ColoCrossing (Los Angeles) [lg.la.colocrossing.com]
@@ -368,7 +398,7 @@ title = [US/CA] Dediserve - Los Angeles, California, USA [speedtest.c1.lax1.dedi
 host = speedtest.c1.lax1.dediserve.com
 
 ++ gigsgigs-lax-cn2gia
-menu = [US/CA] GigsGigsCloud (LA CN2 GIA)
+menu = [US/CA] GigsGigs (LA CN2 GIA)
 title = [US/CA] GigsGigsCloud / TechAvenue - Los Angeles (CN2 GIA) [lg.lax.cn2.gigsgigscloud.com]
 host = lg.lax.cn2.gigsgigscloud.com
 
@@ -379,7 +409,7 @@ host = lg.lax.hosthatch.com
 
 ++ klayer-lax2
 menu = [US/CA] KLayer (Los Angeles)
-title = [US/CA] KLayer / Zenlayer (Los Angeles) [lax2.lg.klayer.com]
+title = [US/CA] KLayer @ Zenlayer (Los Angeles) [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
 
 ++ nfoservers-lax
@@ -432,25 +462,15 @@ menu = [US/CA] Vultr (Los Angeles)
 title = [US/CA] Vultr / Choopa (Los Angeles) [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
 
-++ chinatelecomglobal-us
-menu = [US/CA] CTG (LA)
-title = [US] China Telecom Global (Los Angeles) [104.192.111.1]
-host = 104.192.111.1
-
-++ hurricane-electric-las1
-menu = [US/LV] he.net (Las Vegas)
-title = [US/LV] Hurricane Electric - Fiberhub Las Vegas Las Vegas, NV, US [core2.las1.he.net]
-host = core2.las1.he.net
-
 ++ buyvm-lv
 menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM (Las Vegas) [lv-test.buyvm.net]
 host = lv-test.buyvm.net
 
-++ hurricane-electric-phx2
-menu = [US/AZ] he.net (Phoenix)
-title = [US/AZ] Hurricane Electric - PhoenixNAP Phoenix, AZ, US [core1.phx2.he.net]
-host = core1.phx2.he.net
+++ bandwagonhost-usaz2
+menu = [US/AZ] BandwagonHost (Phoenix)
+title = [US/AZ] BandwagonHost (IT7 Networks) - Phoenix, Arizona [198.35.46.28]
+host = 198.35.46.28
 
 ++ securedragon-phoenix
 menu = [US/AZ] SecureDragon (PHX)
@@ -766,6 +786,11 @@ host = northamerica-northeast1-gce.cloudharmony.net
 menu = [CA/QC] OVH (Beauharnois)
 title = [CA/QC] OVH (Beauharnois) [ymq1-bhs.smokeping.ovh.net]
 host = ymq1-bhs.smokeping.ovh.net
+
+++ bandwagonhost-usnj
+menu = [US/AZ] BandwagonHost (NJ)
+title = [US/AZ] BandwagonHost (IT7 Networks) - New Jersey [23.29.138.3]
+host = 23.29.138.3
 
 ++ linode-nj
 menu = [US/NJ] Linode (Newark)
@@ -1091,6 +1116,11 @@ host = lg-fr-rhe.mrvm.net
 menu = [FR] he.net (Marseille)
 title = [FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]
 host = core1.mrs1.he.net
+
+++ bandwagonhost-nl
+menu = [NL] BandwagonHost
+title = [NL] BandwagonHost (IT7 Networks) - The Netherlands [45.62.120.202]
+host = 45.62.120.202
 
 ++ budgetnode-nl
 menu = [NL] BudgetNode (Lelystad)
@@ -1467,11 +1497,6 @@ menu = [RO] Virtono (Bucharest)
 title = [RO] Virtono (Bucharest) [85.204.49.17]
 host = 85.204.49.17
 
-++ mivocloud-md
-menu = [MD] MivoCloud (Bucharest)
-title = [MD] MivoCloud (Bucharest) [mirrors.mivocloud.com]
-host = mirrors.mivocloud.com
-
 ++ ultravps-md
 menu = [MD] UltraVPS (Moldova)
 title = [MD] UltraVPS (Chisinau, Moldova) [lg.kiv.md.ultravps.eu]
@@ -1589,7 +1614,7 @@ host = 52.82.0.253
 
 ++ cloudiplc-qzcm
 menu = [CN] CloudIPLC (Fujian CM)
-title = [CN] CloudIPLC @ China Mobile - Quanzhou, Fujian泉州移动 (China Southeast) [ping.qzcm.cloudiplc.com]
+title = [CN] CloudIPLC @ China Mobile - Quanzhou, Fujian 泉州移动 (China Southeast) [ping.qzcm.cloudiplc.com]
 host = ping.qzcm.cloudiplc.com
 
 ++ cloudiplc-qzcn2
@@ -1631,6 +1656,11 @@ host = lg.shatin.hkg.50network.com
 menu = [HK] Alibaba Cloud
 title = [HK] Alibaba Cloud - Hong Kong, China [47.90.14.253]
 host = 47.90.14.253
+
+++ bandwagonhost-hk
+menu = [HK] BandwagonHost
+title = [HK] BandwagonHost (IT7 Networks) @ PCCW [23.252.97.148]
+host = 23.252.97.148
 
 ++ chinatelecomglobal-hk
 menu = [HK] China Telecom Global
@@ -2024,7 +2054,7 @@ title = [SG] StarryDNS (Singapore) [sg1.lg.starrydns.com]
 host = sg1.lg.starrydns.com
 
 ++ vultr-sg
-menu = [SG] Vultr (Singapore)
+menu = [SG] Vultr
 title = [SG] Vultr / Choopa (Singapore) [sgp-ping.vultr.com]
 host = sgp-ping.vultr.com
 
