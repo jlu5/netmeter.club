@@ -297,11 +297,6 @@ menu = [US/CA] Amazon AWS (N. Calif.)
 title = [US/CA] Amazon Web Services - North California (us-west-1) [54.151.0.2]
 host = 54.151.0.2
 
-++ bandwagonhost-uscafmt
-menu = [US/AZ] BandwagonHost (Fremont)
-title = [US/AZ] BandwagonHost (IT7 Networks) - Fremont, California [184.105.138.67]
-host = 184.105.138.67
-
 ++ digitalocean-sfo
 menu = [US/CA] Digital Ocean (SFO1)
 title = [US/CA] Digital Ocean - San Francisco, California [speedtest-sfo1.digitalocean.com]
@@ -343,7 +338,7 @@ title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
 
 ++ bandwagonhost-usca3
-menu = [US/CA] BWH (DC3 CN2 GIA)
+menu = [US/CA] BWH (DC3 CN2 @ QN)
 title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC3 CN2 @ QuadraNet) [23.252.103.101]
 host = 23.252.103.101
 
@@ -468,7 +463,7 @@ title = [US/NV] BuyVM - Las Vegas, Nevada [lv-test.buyvm.net]
 host = lv-test.buyvm.net
 
 ++ bandwagonhost-usaz2
-menu = [US/AZ] BandwagonHost (Phoenix)
+menu = [US/AZ] BandwagonHost (PHX)
 title = [US/AZ] BandwagonHost (IT7 Networks) - Phoenix, Arizona [198.35.46.28]
 host = 198.35.46.28
 
