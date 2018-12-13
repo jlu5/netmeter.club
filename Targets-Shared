@@ -287,11 +287,6 @@ host = seattle.speedtest.centurylink.net
 menu = North America - Southwest
 title = netmeter.club Global Ping Monitoring - North America (Southwest)
 
-++ alibabacloud-sv
-menu = [US/CA] Alibaba Cloud (US-W)
-title = [US/CA] Alibaba Cloud - Silicon Valley / US West [47.88.20.1]
-host = 47.88.20.1
-
 ++ amazon-ncal
 menu = [US/CA] Amazon AWS (N. Calif.)
 title = [US/CA] Amazon Web Services - North California (us-west-1) [54.151.0.2]
