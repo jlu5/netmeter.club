@@ -387,11 +387,6 @@ menu = [US/CA] Dediserve (LA)
 title = [US/CA] Dediserve - Los Angeles, California [speedtest.c1.lax1.dediserve.com]
 host = speedtest.c1.lax1.dediserve.com
 
-++ gigsgigs-lax-cn2gia
-menu = [US/CA] GigsGigs (LA CN2 GIA)
-title = [US/CA] GigsGigsCloud / TechAvenue (CN2 GIA) - Los Angeles, California [lg.lax.cn2.gigsgigscloud.com]
-host = lg.lax.cn2.gigsgigscloud.com
-
 ++ hosthatch-lax
 menu = [US/CA] HostHatch (LA)
 title = [US/CA] HostHatch - Los Angeles, California [lg.lax.hosthatch.com]
@@ -513,14 +508,19 @@ title = [CA/ON] Dediserve - Toronto, Ontario, Canada [speedtest.c1.tor1.dediserv
 host = speedtest.c1.tor1.dediserve.com
 
 ++ digitalocean-tor1
-menu = [CA/ON] DigitalOcean (TOR1)
-title = [CA/ON] DigitalOcean (Toronto TOR1) [speedtest-tor1.digitalocean.com]
+menu = [CA/ON] DigitalOcean (Toronto)
+title = [CA/ON] DigitalOcean (TOR1) - Toronto, Canada [speedtest-tor1.digitalocean.com]
 host = speedtest-tor1.digitalocean.com
 
 ++ fullhost-tor
 menu = [CA/ON] FullHost (Toronto)
 title = [CA/ON] FullHost (Toronto) [lg.toronto.fullhost.com]
 host = lg.toronto.fullhost.com
+
+++ lunanode-tor
+menu = [CA/ON] LunaNode (Toronto)
+title = [CA/ON] LunaNode - Toronto, Canada [toronto-test.lunanode.com]
+host = toronto-test.lunanode.com
 
 ++ softlayer-tor
 menu = [CA/ON] Softlayer (Toronto)
@@ -667,6 +667,11 @@ menu = [US/TX] Linode (Dallas)
 title = [US/TX] Linode (Dallas) [speedtest.dallas.linode.com]
 host = speedtest.dallas.linode.com
 
+++ nexril
+menu = [US/TX] Nexril (Dallas)
+title = [US/TX] Nexril - Dallas, Texas [lg.nexril.net]
+host = lg.nexril.net
+
 ++ nfoservers-dal
 menu = [US/TX] NFOservers (Dallas)
 title = [US/TX] NFOservers (Dallas) [66.150.214.8]
@@ -757,15 +762,25 @@ host = speedtest.mex01.softlayer.com
 menu = North America - East
 title = netmeter.club Global Ping Monitoring - North America (East)
 
-#++ bell-moqc
-#menu = [CA/QC] Bell (Montreal)
-#title = [CA/QC] Bell (Montreal) [mtl01spd01.srvr.bell.ca]
-#host = mtl01spd01.srvr.bell.ca
+++ bell-moqc
+menu = [CA/QC] Bell (Montreal)
+title = [CA/QC] Bell (Montreal) [mtl01spd01.srvr.bell.ca]
+host = mtl01spd01.srvr.bell.ca
 
 ++ gcp-yul
 menu = [CA/QC] GCP (Montreal)
 title = [CA/QC] Google Cloud Platform (Montreal northamerica-northeast1) [northamerica-northeast1-gce.cloudharmony.net]
 host = northamerica-northeast1-gce.cloudharmony.net
+
+++ softlayer-mon
+menu = [CA/QC] Softlayer (Montreal)
+title = [CA/QC] Softlayer (Montreal mon01) [speedtest.mon01.softlayer.com]
+host = speedtest.mon01.softlayer.com
+
+++ telus-moqc
+menu = [CA/QC] TELUS (Montreal)
+title = [CA/QC] TELUS (Montreal) [montreal.speedtest.telus.com]
+host = montreal.speedtest.telus.com
 
 #++ mcgill
 #menu = [CA/QC] McGill University
@@ -774,12 +789,57 @@ host = northamerica-northeast1-gce.cloudharmony.net
 
 ++ ovh-bhs
 menu = [CA/QC] OVH (Beauharnois)
-title = [CA/QC] OVH (Beauharnois) [ymq1-bhs.smokeping.ovh.net]
+title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
 host = ymq1-bhs.smokeping.ovh.net
+
+++ colocrossing-buf
+menu = [US/NY] ColoCrossing (Buffalo)
+title = [US/NY] ColoCrossing (Buffalo, New York) [192.3.180.103]
+host = 192.3.180.103
+
+++ colocrossing-nyc
+menu = [US/NY] ColoCrossing (NYC)
+title = [US/NY] ColoCrossing (New York City) [lg.nyc.colocrossing.com]
+host = lg.nyc.colocrossing.com
+
+++ dediserve-nyc1
+menu = [US/NY] Dediserve (Buffalo)
+title = [US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]
+host = speedtest.c1.nyc1.dediserve.com
+
+++ digitalocean-nyc3
+menu = [US/NY] DigitalOcean (NYC3)
+title = [US/NY] DigitalOcean (New York City NYC3) [speedtest-nyc3.digitalocean.com]
+host = speedtest-nyc3.digitalocean.com
+
+++ ftpit-ny
+menu = [US/NY] FTPit (NYC)
+title = [US/NY] FTPit (Komputer King LLC) - New York City, New York [newyork.lg.ftpit.com]
+host = newyork.lg.ftpit.com
+
+++ hosthatch-nyc
+menu = [US/NY] HostHatch (NYC)
+title = [US/NY] HostHatch - New York City [lg.ny.hosthatch.com]
+host = lg.ny.hosthatch.com
+
+++ impactvps-nyk
+menu = [US/NY] ImpactVPS (NYC)
+title = [US/NY] ImpactVPS @ Incero (New York City) [172.110.20.1]
+host = 172.110.20.1
+
+++ nfoservers-nyc
+menu = [US/NY] NFOservers (New York)
+title = [US/NY] NFOservers @ InterNAP (New York) [63.251.20.100]
+host = 63.251.20.100
+
+++ ramnode-nyc
+menu = [US/NY] Ramnode (New York)
+title = [US/NY] Ramnode (New York City) [lg.nyc.ramnode.com]
+host = lg.nyc.ramnode.com
 
 ++ bandwagonhost-usnj
 menu = [US/AZ] BandwagonHost (NJ)
-title = [US/AZ] BandwagonHost (IT7 Networks) - New Jersey [23.29.138.3]
+title = [US/AZ] BandwagonHost (IT7 Networks) @ Steadfast - New Jersey [23.29.138.3]
 host = 23.29.138.3
 
 ++ linode-nj
@@ -797,56 +857,6 @@ menu = [US/NJ] Vultr (New Jersey)
 title = [US/NJ] Vultr (New Jersey) [nj-us-ping.vultr.com]
 host = nj-us-ping.vultr.com
 
-++ colocrossing-buf
-menu = [US/NY] ColoCrossing (Buffalo)
-title = [US/NY] ColoCrossing (Buffalo, New York) [192.3.180.103]
-host = 192.3.180.103
-
-++ dediserve-nyc1
-menu = [US/NY] Dediserve (Buffalo)
-title = [US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]
-host = speedtest.c1.nyc1.dediserve.com
-
-++ hosthatch-nyc
-menu = [US/NY] HostHatch (NY)
-title = [US/NY] HostHatch - New York City [lg.ny.hosthatch.com]
-host = lg.ny.hosthatch.com
-
-++ hurricane-electric-nyc4
-menu = [US] he.net (New York)
-title = [US] Hurricane Electric - Equinix New York (NY9) New York, NY, US [core1.nyc4.he.net]
-host = core1.nyc4.he.net
-
-++ colocrossing-nyc
-menu = [US/NY] ColoCrossing (NYC)
-title = [US/NY] ColoCrossing (New York City) [lg.nyc.colocrossing.com]
-host = lg.nyc.colocrossing.com
-
-++ impactvps-nyk
-menu = [US/NY] ImpactVPS (NYC)
-title = [US/NY] ImpactVPS @ Incero (New York City) [172.110.20.1]
-host = 172.110.20.1
-
-++ nfoservers-nyc
-menu = [US/NY] NFOservers (New York)
-title = [US/NY] NFOservers @ InterNAP (New York) [63.251.20.100]
-host = 63.251.20.100
-
-++ digitalocean-nyc3
-menu = [US/NY] DigitalOcean (NYC3)
-title = [US/NY] DigitalOcean (New York City NYC3) [speedtest-nyc3.digitalocean.com]
-host = speedtest-nyc3.digitalocean.com
-
-++ ramnode-nyc
-menu = [US/NY] Ramnode (New York)
-title = [US/NY] Ramnode (New York City) [lg.nyc.ramnode.com]
-host = lg.nyc.ramnode.com
-
-++ leaseweb-wdc1
-menu = [US/DC] LeaseWeb (WDC)
-title = [US/DC] LeaseWeb (Washington D.C.) [mirror.wdc1.us.leaseweb.net]
-host = mirror.wdc1.us.leaseweb.net
-
 ++ colocrossing-pnj
 menu = [US/NJ] Virmach (NJ)
 title = [US/NJ] Virmach @ ColoCrossing (Piscataway, New Jersey) [107.174.64.68]
@@ -856,6 +866,11 @@ host = 107.174.64.68
 menu = [US/NJ] SecureDragon (NJ)
 title = [US/NJ] SecureDragon @ DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
 host = 162.253.176.4
+
+++ leaseweb-wdc1
+menu = [US/DC] LeaseWeb (WDC)
+title = [US/DC] LeaseWeb (Washington D.C.) [mirror.wdc1.us.leaseweb.net]
+host = mirror.wdc1.us.leaseweb.net
 
 ++ amazon-nva
 menu = [US/VA] Amazon (N. Virginia)
@@ -926,21 +941,6 @@ host = core1.mia1.he.net
 menu = [US/FL] Vultr (Miami)
 title = [US/FL] Vultr (Miami) [fl-us-ping.vultr.com]
 host = fl-us-ping.vultr.com
-
-++ softlayer-mon
-menu = [CA/QC] Softlayer (Montreal)
-title = [CA/QC] Softlayer (Montreal mon01) [speedtest.mon01.softlayer.com]
-host = speedtest.mon01.softlayer.com
-
-++ telus-moqc
-menu = [CA/QC] TELUS (Montreal)
-title = [CA/QC] TELUS (Montreal) [montreal.speedtest.telus.com]
-host = montreal.speedtest.telus.com
-
-++ hurricane-electric-yqm1
-menu = [CA] he.net (Moncton)
-title = [CA] Hurricane Electric - Fibre Centre Moncton Moncton, NB, CA [core1.yqm1.he.net]
-host = core1.yqm1.he.net
 
 ++ bellaliant-hfns
 menu = [CA/NS] Bell Aliant (Halifax)
@@ -1036,6 +1036,11 @@ host = lg.loveservers.com
 menu = [UK] Virtono (Manchester)
 title = [UK] Virtono (Manchester) [77.81.107.11]
 host = 77.81.107.11
+
+++ serverviking
+menu = [UK] ServerViking (Coventry)
+title = [UK] ServerViking - Coventry, United Kingdom [lg.sviking.uk]
+host = lg.sviking.uk
 
 ++ amazon-ir
 menu = [IE] Amazon AWS (Ireland)
@@ -1202,6 +1207,16 @@ host = core1.lis1.he.net
 menu = Europe - Central
 title = netmeter.club Global Ping Monitoring - Europe (Central)
 
+++ first-root
+menu = [DE] First Root (Dusseldorf)
+title = [DE] First Root - Dusseldorf, Germany [lg.first-root.com]
+host = lg.first-root.com
+
+++ ultravps-de
+menu = [DE] UltraVPS (Dusseldorf)
+title = [DE] UltraVPS (Dusseldorf, Germany) [lg.dus.de.ultravps.eu]
+host = lg.dus.de.ultravps.eu
+
 ++ acceleratedit-fra
 menu = [DE] AcceleratedIT (Frankfurt)
 title = [DE] AcceleratedIT / CrownCloud (Frankfurt) [lg.ip-projects.de]
@@ -1232,11 +1247,6 @@ menu = [DE] DigitalOcean (Frankfurt)
 title = [DE] DigitalOcean (Frankfurt FRA1) [speedtest-fra1.digitalocean.com]
 host = speedtest-fra1.digitalocean.com
 
-++ hetzner
-menu = [DE] Hetzner (Falkenstein)
-title = [DE] Hetzner (Falkenstein) [speed.hetzner.de]
-host = speed.hetzner.de
-
 ++ leaseweb-de
 menu = [DE] LeaseWeb
 title = [DE] LeaseWeb (Germany) [mirror.de.leaseweb.net]
@@ -1257,30 +1267,30 @@ menu = [DE] Virmach (Frankfurt)
 title = [DE] Virmach @ ServerHub - Frankfurt, Germany [ffm.lg.virmach.com]
 host = ffm.lg.virmach.com
 
-++ ultravps-de
-menu = [DE] UltraVPS (Duesseldorf)
-title = [DE] UltraVPS (Duesseldorf, Germany) [lg.dus.de.ultravps.eu]
-host = lg.dus.de.ultravps.eu
-
 ++ vultr-fra
 menu = [DE] Vultr (Frankfurt)
 title = [DE] Vultr (Frankfurt) [fra-de-ping.vultr.com]
 host = fra-de-ping.vultr.com
 
-++ netcup-nbg
-menu = [DE] Netcup (Nuremberg)
-title = [DE] Netcup (Nuremberg, Germany) [lg.netcup.net]
-host = lg.netcup.net
+++ hetzner
+menu = [DE] Hetzner (Falkenstein)
+title = [DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]
+host = speed.hetzner.de
+
+++ hurricane-electric-ham1
+menu = [DE] he.net (Hamburg)
+title = [DE] Hurricane Electric - GlobalConnect, Hamburg Hamburg, DE [core1.ham1.he.net]
+host = core1.ham1.he.net
 
 ++ hurricane-electric-ber1
 menu = [DE] he.net (Berlin)
 title = [DE] Hurricane Electric - IPB CarrierColo Berlin Berlin, DE [core1.ber1.he.net]
 host = core1.ber1.he.net
 
-++ hurricane-electric-ham1
-menu = [DE] he.net (Hamburg)
-title = [DE] Hurricane Electric - GlobalConnect, Hamburg Hamburg, DE [core1.ham1.he.net]
-host = core1.ham1.he.net
+++ netcup-nbg
+menu = [DE] Netcup (Nuremberg)
+title = [DE] Netcup (Nuremberg, Germany) [lg.netcup.net]
+host = lg.netcup.net
 
 ++ arubacloud-it1
 menu = [IT] ArubaCloud (Arezzo)
@@ -1476,6 +1486,11 @@ host = lg-voxility.hostclean.net
 menu = [RO] HostClean @ M247
 title = [RO] HostClean @ M247 DC (Bucharest) [lg-m247.hostclean.net]
 host = lg-m247.hostclean.net
+
+++ hostsolutions
+menu = [RO] HostSolutions
+title = [RO] HostSolutions (SC Parfumuri Femei.com SRL) - Romania [secure.hostsolutions.ro]
+host = secure.hostsolutions.ro
 
 ++ prometeus-rom
 menu = [RO] Prometeus (Bucharest)
@@ -2365,8 +2380,8 @@ host = auckland-lg.ransomit.com.au
 
 ++ zappiehost-nz
 menu = [NZ] ZappieHost (Auckland)
-title = [NZ] ZappieHost (Auckland) [lg-nz.zappiehost.com]
-host = lg-nz.zappiehost.com
+title = [NZ] ZappieHost (Auckland) [185.99.132.2]
+host = 185.99.132.2
 
 ++ dediserve-mel1
 menu = [AU] Dediserve (Melbourne)
