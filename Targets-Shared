@@ -762,11 +762,6 @@ host = speedtest.mex01.softlayer.com
 menu = North America - East
 title = netmeter.club Global Ping Monitoring - North America (East)
 
-++ bell-moqc
-menu = [CA/QC] Bell (Montreal)
-title = [CA/QC] Bell (Montreal) [mtl01spd01.srvr.bell.ca]
-host = mtl01spd01.srvr.bell.ca
-
 ++ gcp-yul
 menu = [CA/QC] GCP (Montreal)
 title = [CA/QC] Google Cloud Platform (Montreal northamerica-northeast1) [northamerica-northeast1-gce.cloudharmony.net]
@@ -838,8 +833,8 @@ title = [US/NY] Ramnode (New York City) [lg.nyc.ramnode.com]
 host = lg.nyc.ramnode.com
 
 ++ bandwagonhost-usnj
-menu = [US/AZ] BandwagonHost (NJ)
-title = [US/AZ] BandwagonHost (IT7 Networks) @ Steadfast - New Jersey [23.29.138.3]
+menu = [US/NJ] BandwagonHost (NJ)
+title = [US/NJ] BandwagonHost (IT7 Networks) @ Steadfast - New Jersey [23.29.138.3]
 host = 23.29.138.3
 
 ++ linode-nj
@@ -933,8 +928,8 @@ title = [US/FL] QuadraNet (Miami) [173.44.32.10]
 host = 173.44.32.10
 
 ++ hurricane-electric-mia1
-menu = [US] he.net (Miami)
-title = [US] Hurricane Electric - Equinix MI1 Miami Miami, FL, US [core1.mia1.he.net]
+menu = [US/FL] he.net (Miami)
+title = [US/FL] Hurricane Electric - Equinix MI1 Miami Miami, FL, US [core1.mia1.he.net]
 host = core1.mia1.he.net
 
 ++ vultr-mia
@@ -1536,21 +1531,6 @@ host = core1.kbp1.he.net
 + PointsInterestCN
 menu = China - Mainland
 title = netmeter.club Global Ping Monitoring - Mainland China
-
-++ cn-chinanet
-menu = [CN] China Telecom Backbone
-title = [CN] China Telecom Backbone AS4134 [202.97.0.6]
-host = 202.97.0.6
-
-++ cn-unicom
-menu = [CN] China Unicom Backbone
-title = [CN] China Unicom Backbone AS4837 [202.102.128.69]
-host = 202.102.128.69
-
-++ cn-mobile0
-menu = [CN] China Mobile
-title = [CN] China Mobile Backbone AS9808 [112.30.130.2]
-host = 112.30.130.2
 
 ++ amazon-cn-north1
 menu = [CN] Amazon AWS (Beijing)
