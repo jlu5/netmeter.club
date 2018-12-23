@@ -92,6 +92,11 @@ menu = [CDN] Microsoft Azure
 title = [CDN] Microsoft Azure [azure.microsoft.com]
 host = azure.microsoft.com
 
+++ quantil1
+menu = [CDN] QUANTIL / Wangsu
+title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
+host = en.wangsu.com
+
 ++ stackpath
 menu = [CDN] StackPath
 title = [CDN] StackPath [www.stackpath.com]
@@ -219,7 +224,7 @@ host = pdx1-hil.smokeping.ovh.net
 
 ++ securedragon-portland
 menu = [US/OR] SecureDragon (PDX)
-title = [US/OR] SecureDragon / CNServers - Portland, Oregon [198.57.47.4]
+title = [US/OR] SecureDragon @ CNServers - Portland, Oregon [198.57.47.4]
 host = 198.57.47.4
 
 ++ shaw-okbc
@@ -459,7 +464,7 @@ host = 198.35.46.28
 
 ++ securedragon-phoenix
 menu = [US/AZ] SecureDragon (PHX)
-title = [US/AZ] SecureDragon / PhoenixNAP - Phoenix, Arizona [162.253.177.4]
+title = [US/AZ] SecureDragon @ PhoenixNAP - Phoenix, Arizona [162.253.177.4]
 host = 162.253.177.4
 
 ++ serverhub-phx
@@ -473,8 +478,8 @@ title = [US/UT] BudgetNode - Ogden, Utah [ogd.lg.budgetnode.net]
 host = ogd.lg.budgetnode.net
 
 ++ hurricane-electric-hnl1
-menu = [US] he.net (Honolulu)
-title = [US] Hurricane Electric @ DRFortress - Honolulu, Hawaii [core1.hnl1.he.net]
+menu = [US/HI] he.net (Honolulu)
+title = [US/HI] Hurricane Electric @ DRFortress - Honolulu, Hawaii [core1.hnl1.he.net]
 host = core1.hnl1.he.net
 
 
@@ -488,8 +493,8 @@ title = [CA/MB] Free Range Cloud (Winnipeg) [lg.freerangecloud.com]
 host = lg.freerangecloud.com
 
 ++ hurricane-electric-ywg1
-menu = [CA] he.net (Winnipeg)
-title = [CA] Hurricane Electric - Global Server Center, Winnipeg Winnipeg, MB, CA [core1.ywg1.he.net]
+menu = [CA/MB] he.net (Winnipeg)
+title = [CA/MB] Hurricane Electric - Global Server Center, Winnipeg Winnipeg, MB, CA [core1.ywg1.he.net]
 host = core1.ywg1.he.net
 
 ++ amazon-ca
@@ -568,18 +573,18 @@ title = [US/IL] Vultr (Chicago) [il-us-ping.vultr.com]
 host = il-us-ping.vultr.com
 
 ++ hurricane-electric-den1
-menu = [US] he.net (Denver)
-title = [US] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.net]
+menu = [US/CO] he.net (Denver)
+title = [US/CO] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.net]
 host = core1.den1.he.net
 
 ++ securedragon-denver
 menu = [US/CO] SecureDragon (DEN)
-title = [US/CO] SecureDragon / Handy Networks - Denver, CO, United States [198.57.46.4]
+title = [US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]
 host = 198.57.46.4
 
 ++ hurricane-electric-mci3
-menu = [US] he.net (Kansas City)
-title = [US] Hurricane Electric - 1102 Grand Kansas City Kansas City, MO, US [core1.mci3.he.net]
+menu = [US/MO] he.net (Kansas City)
+title = [US/MO] Hurricane Electric - 1102 Grand Kansas City Kansas City, MO, US [core1.mci3.he.net]
 host = core1.mci3.he.net
 
 ++ rfchost-mci
@@ -593,8 +598,8 @@ title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [lg-us-kck.mrvm.net]
 host = lg-us-kck.mrvm.net
 
 ++ hurricane-electric-msp1
-menu = [US] he.net (Minneapolis)
-title = [US] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
+menu = [US/MN] he.net (Minneapolis)
+title = [US/MN] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
 host = core1.msp1.he.net
 
 ++ gcp-iowa
@@ -711,11 +716,6 @@ host = tx-us-ping.vultr.com
 menu = [US/TX] Softlayer (Houston)
 title = [US/TX] Softlayer (Houston hou02) [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
-
-++ hurricane-electric-atl1
-menu = [US] he.net (Atlanta)
-title = [US] Hurricane Electric - Digital Realty / Telx Atlanta (ATL1), 56 Marietta Atlanta, GA, US [core1.atl1.he.net]
-host = core1.atl1.he.net
 
 ++ budgetnode-atl
 menu = [US/GA] BudgetNode (Atlanta)
@@ -1348,12 +1348,12 @@ host = lg.terrahost.no
 #host = 62.73.193.2
 
 ++ telia-se
-menu = [SE] Telia (Sweden)
+menu = [SE] Telia
 title = [SE] Telia Company (Sweden) [lg.telia.net]
 host = lg.telia.net
 
 ++ vikinglayer-swe
-menu = [SE] VikingLayer (Sweden)
+menu = [SE] VikingLayer
 title = [SE] VikingLayer / drServer / Portlane (Sweden) [sweden.drserver.net]
 host = sweden.drserver.net
 
@@ -1398,7 +1398,7 @@ title = [PL] OVH (Warsaw) [waw1-oza.smokeping.ovh.net]
 host = waw1-oza.smokeping.ovh.net
 
 ++ webh
-menu = [PL] webh
+menu = [PL] webh (Warsaw)
 title = [PL] webh @ IWACOM - Warsaw, Poland [91.205.74.1]
 host = 91.205.74.1
 
@@ -1448,12 +1448,12 @@ title = [FI] XHostFire - Espoo, Finland (FNE-Finland, DNA Oy) [81.22.243.1]
 host = 81.22.243.1
 
 ++ bacloud-lt
-menu = [LT] BaCloud (Lithuania)
+menu = [LT] BaCloud (Siauliai)
 title = [LT] BaCloud (Siauliai, Lithuania) [185.25.48.2]
 host = 185.25.48.2
 
 ++ ultravps-lt
-menu = [LT] UltraVPS (Lithuania)
+menu = [LT] UltraVPS (Siauliai)
 title = [LT] UltraVPS (Siauliai, Lithuania) [lg.sqq.lt.ultravps.eu]
 host = lg.sqq.lt.ultravps.eu
 
@@ -1766,11 +1766,6 @@ host = mirrors.tuna.tsinghua.edu.cn
 menu = [CN] USTC
 title = [CN] USTC Open Source Software Mirror [mirrors.ustc.edu.cn]
 host = mirrors.ustc.edu.cn
-
-++ 163-netease
-menu = [CN] 163 Netease
-title = [CN] 163 Netease [163.com]
-host = 163.com
 
 ++ baidu
 menu = [CN] Baidu
