@@ -292,6 +292,11 @@ host = seattle.speedtest.centurylink.net
 menu = North America - Southwest
 title = netmeter.club Global Ping Monitoring - North America (Southwest)
 
+++ aliyun-us-west-1
+menu = [US/CA] Aliyun (US West)
+title = [US/CA] Aliyun / Alibaba Cloud - Silicon Valley (us-west-1) [oss-us-west-1.aliyuncs.com]
+host = oss-us-west-1.aliyuncs.com
+
 ++ amazon-ncal
 menu = [US/CA] Amazon AWS (N. Calif.)
 title = [US/CA] Amazon Web Services - North California (us-west-1) [54.151.0.2]
@@ -867,6 +872,11 @@ menu = [US/DC] LeaseWeb (WDC)
 title = [US/DC] LeaseWeb (Washington D.C.) [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
+++ aliyun-us-east-1
+menu = [US/VA] Aliyun (Virginia)
+title = [US/VA] Aliyun / Alibaba Cloud - Virginia (us-east-1) [oss-us-east-1.aliyuncs.com]
+host = oss-us-east-1.aliyuncs.com
+
 ++ amazon-nva
 menu = [US/VA] Amazon (N. Virginia)
 title = [US/VA] Amazon Web Services (North Virginia us-east-1) [52.1.255.254]
@@ -922,6 +932,11 @@ menu = [US/FL] SecureDragon (Tampa)
 title = [US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]
 host = 199.167.30.105
 
+++ vapornode-tampa
+menu = [US/FL] VaporNode (Tampa)
+title = [US/FL] VaporNode - Tampa, Florida [v4.tpa.vapornode.com]
+host = v4.tpa.vapornode.com
+
 ++ quadranet-mia
 menu = [US/FL] QuadraNet (Miami)
 title = [US/FL] QuadraNet (Miami) [173.44.32.10]
@@ -957,10 +972,10 @@ title = netmeter.club Global Ping Monitoring - Europe (West)
 #title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
 #host = launchpad.net
 
-++ hurricane-electric-lon2
-menu = [UK] he.net (London)
-title = [UK] Hurricane Electric - Equinix London (LD8) London, UK [core1.lon2.he.net]
-host = core1.lon2.he.net
+++ alphavps-lon
+menu = [UK] AlphaVPS (London)
+title = [UK] AlphaVPS - London, United Kingdom @ Enfield 1, Telehouse 2
+host = lguk.alphavps.bg
 
 ++ amazon-lon
 menu = [UK] Amazon AWS (London)
@@ -991,6 +1006,11 @@ host = speedtest.c1.lon2.dediserve.com
 menu = [UK] DigitalOcean (London)
 title = [UK] DigitalOcean (London LON1) [speedtest-lon1.digitalocean.com]
 host = speedtest-lon1.digitalocean.com
+
+++ gcp-lon
+menu = [UK] Google Cloud
+title = [UK] Google Cloud Platform (europe-west2) - London, United Kingdom [europe-west2-gce.cloudharmony.net]
+host = europe-west2-gce.cloudharmony.net
 
 ++ linode-lon
 menu = [UK] Linode (London)
@@ -1072,6 +1092,11 @@ menu = [FR] OVH (Strasbourg)
 title = [FR] OVH (Strasbourg) [sbg.smokeping.ovh.net]
 host = sbg.smokeping.ovh.net
 
+++ 1fichier
+menu = [FR] 1fichier
+title = [FR] 1fichier.com (DStorage SASU) [1fichier.com]
+host = 1fichier.com
+
 ++ amazon-par
 menu = [FR] Amazon AWS (Paris)
 title = [FR] Amazon Web Services (Paris) [52.47.32.127]
@@ -1129,47 +1154,52 @@ host = speedtest.c1.ams1.dediserve.com
 
 ++ digitalocean-ams
 menu = [NL] DigitalOcean (Amsterdam)
-title = [NL] DigitalOcean (Amsterdam AMS2) [speedtest-ams2.digitalocean.com]
+title = [NL] DigitalOcean (AMS2) - Amsterdam, Netherlands [speedtest-ams2.digitalocean.com]
 host = speedtest-ams2.digitalocean.com
 
 ++ leaseweb-nl
 menu = [NL] LeaseWeb
-title = [NL] LeaseWeb (The Netherlands) [mirror.nl.leaseweb.net]
+title = [NL] LeaseWeb - The Netherlands [mirror.nl.leaseweb.net]
 host = mirror.nl.leaseweb.net
 
 ++ liteserver-dro
 menu = [NL] LiteServer (Dronten)
-title = [NL] LiteServer (Dronten, Netherlands) [lg-dro.liteserver.nl]
+title = [NL] LiteServer - Dronten, Netherlands [lg-dro.liteserver.nl]
 host = lg-dro.liteserver.nl
 
 ++ lunarvps-nl
 menu = [NL] LunarVPS
-title = [NL] LunarVPS (Netherlands) [lg.nl.lunarvps.com]
+title = [NL] LunarVPS - The Netherlands [lg.nl.lunarvps.com]
 host = lg.nl.lunarvps.com
 
 ++ online-net-ams
 menu = [NL] Online.net (Amsterdam)
-title = [NL] Online.net (Amsterdam) [ping-ams1.online.net]
+title = [NL] Online.net - Amsterdam, Netherlands [ping-ams1.online.net]
 host = ping-ams1.online.net
 
 ++ ramnode-ams
 menu = [NL] Ramnode (Amsterdam)
-title = [NL] Ramnode (Amsterdam) [lg.nl.ramnode.com]
+title = [NL] Ramnode - Amsterdam, Netherlands [lg.nl.ramnode.com]
 host = lg.nl.ramnode.com
 
 ++ vultr-ams
 menu = [NL] Vultr (Amsterdam)
-title = [NL] Vultr (Amsterdam) [ams-nl-ping.vultr.com]
+title = [NL] Vultr - Amsterdam, Netherlands [ams-nl-ping.vultr.com]
 host = ams-nl-ping.vultr.com
 
 ++ ultravps-ams
 menu = [NL] UltraVPS (Amsterdam)
-title = [NL] UltraVPS (Amsterdam) [lg.ams.nl.ultravps.eu]
+title = [NL] UltraVPS - Amsterdam, Netherlands [lg.ams.nl.ultravps.eu]
 host = lg.ams.nl.ultravps.eu
 
+++ gcp-nl
+menu = [NL] Google Cloud
+title = [NL] Google Cloud Platform (europe-west4) - Eemshaven, Netherlands [europe-west4-gce.cloudharmony.net]
+host = europe-west4-gce.cloudharmony.net
+
 ++ gcp-bel
-menu = [BE] Google Cloud (Belgium)
-title = [BE] Google Cloud Platform (Belgium europe-west1) [europe-west1-gce.cloudharmony.net]
+menu = [BE] Google Cloud
+title = [BE] Google Cloud Platform (europe-west1) - St. Ghislain, Belgium [europe-west1-gce.cloudharmony.net]
 host = europe-west1-gce.cloudharmony.net
 
 ++ hurricane-electric-bru1
@@ -1179,11 +1209,11 @@ host = core1.bru1.he.net
 
 ++ buyvm-lux
 menu = [LU] BuyVM (Luxembourg)
-title = [LU] BuyVM (Roost, Luxembourg) [lu-test.buyvm.net]
+title = [LU] BuyVM - Roost, Luxembourg [lu-test.buyvm.net]
 host = lu-test.buyvm.net
 
 ++ ginernet-mad
-menu = [ES] GinerNet (Madrid)
+menu = [ES] GinerNet - Madrid, Spain
 title = [ES] GinerNet (Madrid Interxion) [5.134.117.74]
 host = 5.134.117.74
 
@@ -1209,22 +1239,22 @@ host = lg.first-root.com
 
 ++ ultravps-de
 menu = [DE] UltraVPS (Dusseldorf)
-title = [DE] UltraVPS (Dusseldorf, Germany) [lg.dus.de.ultravps.eu]
+title = [DE] UltraVPS - Dusseldorf, Germany [lg.dus.de.ultravps.eu]
 host = lg.dus.de.ultravps.eu
 
 ++ acceleratedit-fra
 menu = [DE] AcceleratedIT (Frankfurt)
-title = [DE] AcceleratedIT / CrownCloud (Frankfurt) [lg.ip-projects.de]
+title = [DE] AcceleratedIT / CrownCloud - Frankfurt, Germany [lg.ip-projects.de]
 host = lg.ip-projects.de
 
 ++ amazon-fra
 menu = [DE] Amazon AWS (Frankfurt)
-title = [DE] Amazon Web Services (Frankfurt) [18.196.0.253]
+title = [DE] Amazon Web Services - Frankfurt, Germany [18.196.0.253]
 host = 18.196.0.253
 
 ++ combahton
 menu = [DE] combahton (Frankfurt)
-title = [DE] combahton IT Services (Frankfurt FFM2) [lg.combahton.net]
+title = [DE] combahton IT Services (FFM2) - Frankfurt, Germany [lg.combahton.net]
 host = lg.combahton.net
 
 ++ chinatelecomglobal-de
@@ -1239,22 +1269,27 @@ host = speedtest.c1.fra1.dediserve.com
 
 ++ digitalocean-fra
 menu = [DE] DigitalOcean (Frankfurt)
-title = [DE] DigitalOcean (Frankfurt FRA1) [speedtest-fra1.digitalocean.com]
+title = [DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]
 host = speedtest-fra1.digitalocean.com
+
+++ gcp-fra
+menu = [DE] Google Cloud
+title = [DE] Google Cloud Platform (europe-west3) - Frankfurt, Germany [europe-west3-gce.cloudharmony.net]
+host = europe-west3-gce.cloudharmony.net
 
 ++ leaseweb-de
 menu = [DE] LeaseWeb
-title = [DE] LeaseWeb (Germany) [mirror.de.leaseweb.net]
+title = [DE] LeaseWeb - Germany [mirror.de.leaseweb.net]
 host = mirror.de.leaseweb.net
 
 ++ linode-fra
 menu = [DE] Linode (Frankfurt)
-title = [DE] Linode (Frankfurt) [speedtest.frankfurt.linode.com]
+title = [DE] Linode - Frankfurt, Germany [speedtest.frankfurt.linode.com]
 host = speedtest.frankfurt.linode.com
 
 ++ ovh-fra
 menu = [DE] OVH (Frankfurt)
-title = [DE] OVH (Frankfurt/Limburg) [fra1-lim.smokeping.ovh.net]
+title = [DE] OVH - Frankfurt, Germany [fra1-lim.smokeping.ovh.net]
 host = fra1-lim.smokeping.ovh.net
 
 ++ serverhub-ffm
@@ -1264,7 +1299,7 @@ host = ffm.lg.virmach.com
 
 ++ vultr-fra
 menu = [DE] Vultr (Frankfurt)
-title = [DE] Vultr (Frankfurt) [fra-de-ping.vultr.com]
+title = [DE] Vultr - Frankfurt, Germany [fra-de-ping.vultr.com]
 host = fra-de-ping.vultr.com
 
 ++ hetzner
@@ -1284,12 +1319,12 @@ host = core1.ber1.he.net
 
 ++ netcup-nbg
 menu = [DE] Netcup (Nuremberg)
-title = [DE] Netcup (Nuremberg, Germany) [lg.netcup.net]
+title = [DE] Netcup - Nuremberg, Germany [lg.netcup.net]
 host = lg.netcup.net
 
 ++ arubacloud-it1
 menu = [IT] ArubaCloud (Arezzo)
-title = [IT] ArubaCloud (Arezzo, Italy) [212.237.43.103]
+title = [IT] ArubaCloud - Arezzo, Italy [212.237.43.103]
 host = 212.237.43.103
 
 ++ netsons-mil
@@ -1299,12 +1334,12 @@ host = 46.252.149.1
 
 ++ prometeus-mlo
 menu = [IT] Prometeus (Milan)
-title = [IT] Prometeus (Milan) [37.247.53.10]
+title = [IT] Prometeus - Milan, Italy [37.247.53.10]
 host = 37.247.53.10
 
 ++ softlayer-mil
 menu = [IT] Softlayer (Milan)
-title = [IT] Softlayer (Milan mil01) [speedtest.mil01.softlayer.com]
+title = [IT] Softlayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
 host = speedtest.mil01.softlayer.com
 
 ++ hurricane-electric-rom1
@@ -1319,7 +1354,7 @@ host = core1.gva1.he.net
 
 ++ lunarvps-ch
 menu = [CH] LunarVPS
-title = [CH] LunarVPS (Switzerland) [lg.sw.lunarvps.com]
+title = [CH] LunarVPS - Switzerland [lg.sw.lunarvps.com]
 host = lg.sw.lunarvps.com
 
 ++ hurricane-electric-cph1
@@ -1334,7 +1369,7 @@ host = lg.osl.hosthatch.com
 
 ++ softlayer-osl
 menu = [NO] Softlayer (Oslo)
-title = [NO] Softlayer (Oslo osl01) [speedtest.osl01.softlayer.com]
+title = [NO] Softlayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
 host = speedtest.osl01.softlayer.com
 
 ++ terrahost-no
@@ -1349,12 +1384,12 @@ host = lg.terrahost.no
 
 ++ telia-se
 menu = [SE] Telia
-title = [SE] Telia Company (Sweden) [lg.telia.net]
+title = [SE] Telia Company - Sweden [lg.telia.net]
 host = lg.telia.net
 
 ++ vikinglayer-swe
 menu = [SE] VikingLayer
-title = [SE] VikingLayer / drServer / Portlane (Sweden) [sweden.drserver.net]
+title = [SE] VikingLayer / drServer / Portlane - Sweden [sweden.drserver.net]
 host = sweden.drserver.net
 
 ++ hurricane-electric-sto1
@@ -1419,102 +1454,87 @@ host = lg.veesp.com
 
 ++ zeptovm-stp
 menu = [RU] ZeptoVM (St. Petersburg)
-title = [RU] ZeptoVM / Misaka Networks (St. Petersburg) [ru-led01.lg.zeptovm.com]
+title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
 host = ru-led01.lg.zeptovm.com
 
 ++ justhost-dataline
 menu = [RU] JustHost (Moscow DataL.)
-title = [RU] JustHost.ru (Moscow DataLine) [lg.justhost.ru]
+title = [RU] JustHost.ru @ DataLine - Moscow, Russia [lg.justhost.ru]
 host = lg.justhost.ru
 
 ++ justhost-rtcom
 menu = [RU] JustHost (Moscow RTCom)
-title = [RU] JustHost.ru (Moscow RosTelecom) [lg-rtcom.justhost.ru]
+title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
 host = lg-rtcom.justhost.ru
 
 ++ gcp-fin
-menu = [FI] Google Cloud (Finland)
-title = [FI] Google Cloud Platform (Hamina, Finland europe-north1) [europe-north1-gce.cloudharmony.net]
+menu = [FI] Google Cloud
+title = [FI] Google Cloud Platform (europe-north1) - Hamina, Finland [europe-north1-gce.cloudharmony.net]
 host = europe-north1-gce.cloudharmony.net
 
 ++ hetzner-fi
 menu = [FI] Hetzner (Helsinki)
-title = [FI] Hetzner (Helsinki) [95.216.24.40]
+title = [FI] Hetzner - Helsinki, Finland [95.216.24.40]
 host = 95.216.24.40
 
 ++ xhostfire-esp
 menu = [FI] XHostFire (Espoo)
-title = [FI] XHostFire - Espoo, Finland (FNE-Finland, DNA Oy) [81.22.243.1]
+title = [FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]
 host = 81.22.243.1
 
 ++ bacloud-lt
 menu = [LT] BaCloud (Siauliai)
-title = [LT] BaCloud (Siauliai, Lithuania) [185.25.48.2]
+title = [LT] BaCloud - Siauliai, Lithuania [185.25.48.2]
 host = 185.25.48.2
 
 ++ ultravps-lt
 menu = [LT] UltraVPS (Siauliai)
-title = [LT] UltraVPS (Siauliai, Lithuania) [lg.sqq.lt.ultravps.eu]
+title = [LT] UltraVPS - Siauliai, Lithuania [lg.sqq.lt.ultravps.eu]
 host = lg.sqq.lt.ultravps.eu
 
-++ hurricane-electric-rix1
-menu = [LV] he.net (Riga)
-title = [LV] Hurricane Electric - LVRTC TV Tower Riga, LV [core1.rix1.he.net]
-host = core1.rix1.he.net
-
-++ hurricane-electric-beg1
-menu = [RS] he.net (Belgrade)
-title = [RS] Hurricane Electric - Telenor, Belgrade Belgrade, RS [core1.beg1.he.net]
-host = core1.beg1.he.net
-
-++ hurricane-electric-sof1
-menu = [BG] he.net (Sofia)
-title = [BG] Hurricane Electric - Telepoint Colocation, Sofia Sofia, BG [core1.sof1.he.net]
-host = core1.sof1.he.net
+++ alphavps-bg
+menu = [BG] AlphaVPS (Sofia)
+title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC
+host = lguk.alphavps.bg
 
 ++ voxility-ro
 menu = [RO] HostClean @ Voxility
-title = [RO] HostClean @ Voxility (Bucharest) [lg-voxility.hostclean.net]
+title = [RO] HostClean @ Voxility - Bucharest, Romania [lg-voxility.hostclean.net]
 host = lg-voxility.hostclean.net
 
 ++ hostclean-ro-m247
 menu = [RO] HostClean @ M247
-title = [RO] HostClean @ M247 DC (Bucharest) [lg-m247.hostclean.net]
+title = [RO] HostClean @ M247 DC - Bucharest, Romania [lg-m247.hostclean.net]
 host = lg-m247.hostclean.net
-
-++ hostsolutions
-menu = [RO] HostSolutions
-title = [RO] HostSolutions (SC Parfumuri Femei.com SRL) - Romania [secure.hostsolutions.ro]
-host = secure.hostsolutions.ro
 
 ++ prometeus-rom
 menu = [RO] Prometeus (Bucharest)
-title = [RO] Prometeus (Bucharest) [lg-romania.prometeus.net]
+title = [RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]
 host = lg-romania.prometeus.net
 
 ++ virtono-ro
 menu = [RO] Virtono (Bucharest)
-title = [RO] Virtono (Bucharest) [85.204.49.17]
+title = [RO] Virtono - Bucharest, Romania [85.204.49.17]
 host = 85.204.49.17
 
 ++ ultravps-md
 menu = [MD] UltraVPS (Moldova)
-title = [MD] UltraVPS (Chisinau, Moldova) [lg.kiv.md.ultravps.eu]
+title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
 host = lg.kiv.md.ultravps.eu
 
 ++ 80host-tur
-menu = [TR] 80host (Turkey)
+menu = [TR] 80host
 title = [TR] 80host (Turkey) @ Sadecehosting [185.17.138.1]
 host = 185.17.138.1
 
 ++ hostigger-ist
 menu = [TR] Hostigger (Istanbul)
-title = [TR] Hostigger (Istanbul) [185.219.132.125]
+title = [TR] Hostigger - Istanbul, Turkey [185.219.132.125]
 host = 185.219.132.125
 
 ++ hurricane-electric-kbp1
 menu = [UA] he.net (Kiev)
-title = [UA] Hurricane Electric - NewTelco Ukraine Kiev, UA [core1.kbp1.he.net]
+title = [UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]
 host = core1.kbp1.he.net
 
 #++ eenet0
@@ -1532,10 +1552,45 @@ host = core1.kbp1.he.net
 menu = China - Mainland
 title = netmeter.club Global Ping Monitoring - Mainland China
 
+++ aliyun-beijing
+menu = [CN] Aliyun (Beijing)
+title = [CN] Aliyun / Alibaba Cloud - Beijing 中国北京 [oss-cn-beijing.aliyuncs.com]
+host = oss-cn-beijing.aliyuncs.com
+
 ++ amazon-cn-north1
 menu = [CN] Amazon AWS (Beijing)
 title = [CN] Amazon Web Services (Beijing cn-north1) [52.81.0.253]
 host = 52.81.0.253
+
+++ aliyun-qingdao
+menu = [CN] Aliyun (Shandong)
+title = [CN] Aliyun / Alibaba Cloud - Qingdao, Shandong 中国青岛 [oss-cn-qingdao.aliyuncs.com]
+host = oss-cn-qingdao.aliyuncs.com
+
+++ aliyun-zhangjiakou
+menu = [CN] Aliyun (Hebei)
+title = [CN] Aliyun / Alibaba Cloud - Zhangjiakou, Hebei 中国张家口 [oss-cn-zhangjiakou.aliyuncs.com]
+host = oss-cn-zhangjiakou.aliyuncs.com
+
+++ cloudiplc-dlbgp
+menu = [CN] CloudIPLC (Liaoning)
+title = [CN] CloudIPLC - Dalian, Liaoning 大连BGP (China Northeast) [ping.dlbgp.cloudiplc.com]
+host = ping.dlbgp.cloudiplc.com
+
+++ aliyun-hohhot
+menu = [CN] Aliyun (Hohhot)
+title = [CN] Aliyun / Alibaba Cloud - Hohhot, Inner Mongolia 中国呼和浩特 [oss-cn-huhehaote.aliyuncs.com]
+host = oss-cn-huhehaote.aliyuncs.com
+
+++ amazon-cn-northwest1
+menu = [CN] Amazon AWS (Ningxia)
+title = [CN] Amazon Web Services (Ningxia cn-northwest1) [52.82.0.253]
+host = 52.82.0.253
+
+++ aliyun-shanghai
+menu = [CN] Aliyun (Shanghai)
+title = [CN] Aliyun / Alibaba Cloud - Shanghai 中国上海 [oss-cn-shanghai.aliyuncs.com]
+host = oss-cn-shanghai.aliyuncs.com
 
 ++ cloudiplc-xzct
 menu = [CN] CloudIPLC (Jiangsu CT)
@@ -1567,13 +1622,18 @@ menu = [CN] UOvZ (Jiangsu CT+DP)
 title = [CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州電信 DDoS Protected (China East) [58.218.201.1]
 host = 58.218.201.1
 
+++ aliyun-hangzhou
+menu = [CN] Aliyun (Zhejiang)
+title = [CN] Aliyun / Alibaba Cloud - Hangzhou, Zhejiang 中国杭州 [oss-cn-hangzhou.aliyuncs.com]
+host = oss-cn-hangzhou.aliyuncs.com
+
 ++ uovz-xuzhou-cu
 menu = [CN] UOvZ (Jiangsu CU)
 title = [CN] UOvZ @ China Unicom - Xuzhou, Jiangsu 徐州联通 (China East) [112.85.239.1]
 host = 112.85.239.1
 
 ++ tcloud-ningbo
-menu = [CN] TCloud (Zhejiang BGP)
+menu = [CN] TCloud (Zhejiang)
 title = [CN] TCloud - Ningbo, Zhejiang 宁波BGP (China East) [103.88.33.1]
 host = 103.88.33.1
 
@@ -1586,16 +1646,6 @@ host = 115.231.235.254
 menu = [CN] TCloud (Guangzhou CT)
 title = [CN] TCloud @ China Telecom - Guangzhou 广州电信 (China South) [14.215.171.1]
 host = 14.215.171.1
-
-++ cloudiplc-dlbgp
-menu = [CN] CloudIPLC (Liaoning BGP)
-title = [CN] CloudIPLC - Dalian, Liaoning 大连BGP (China Northeast) [ping.dlbgp.cloudiplc.com]
-host = ping.dlbgp.cloudiplc.com
-
-++ amazon-cn-northwest1
-menu = [CN] Amazon AWS (Ningxia)
-title = [CN] Amazon Web Services (Ningxia cn-northwest1) [52.82.0.253]
-host = 52.82.0.253
 
 ++ cloudiplc-qzcm
 menu = [CN] CloudIPLC (Fujian CM)
@@ -1619,13 +1669,18 @@ host = 111.6.79.1
 
 ++ uovz-henan-cm
 menu = [CN] UOvZ (Henan CM)
-title = [CN] UOvZ @ China Mobile - Henan 河南移动VDS (China Central) [117.159.147.1]
+title = [CN] UOvZ @ China Mobile - Henan 河南移动 (China Central) [117.159.147.1]
 host = 117.159.147.1
 
 ++ uovz-guizhou
 menu = [CN] UOvZ (Guizhou CT)
 title = [CN] UOvZ @ China Telecom - Guizhou 贵州電信 (China Southwest) [123.249.0.1]
 host = 123.249.0.1
+
+++ aliyun-shenzhen
+menu = [CN] Aliyun (Shenzhen)
+title = [CN] Aliyun / Alibaba Cloud - Shenzhen, Guangdong 中国深圳 [oss-cn-shenzhen.aliyuncs.com]
+host = oss-cn-shenzhen.aliyuncs.com
 
 
 + PointsInterestCN3
@@ -1638,9 +1693,9 @@ title = [HK] 50KVM (Hong Kong) [lg.shatin.hkg.50network.com]
 host = lg.shatin.hkg.50network.com
 
 ++ alibabacloud-hk
-menu = [HK] Alibaba Cloud
-title = [HK] Alibaba Cloud - Hong Kong, China [47.90.14.253]
-host = 47.90.14.253
+menu = [HK] Aliyun
+title = [HK] Aliyun / Alibaba Cloud - Hong Kong, China [oss-cn-hongkong.aliyuncs.com]
+host = oss-cn-hongkong.aliyuncs.com
 
 ++ bandwagonhost-hk
 menu = [HK] BandwagonHost
@@ -1651,6 +1706,11 @@ host = 23.252.97.148
 menu = [HK] China Telecom Global
 title = [HK] China Telecom Global (Hong Kong) [203.14.188.1]
 host = 203.14.188.1
+
+++ cubecloud
+menu = [HK] CubeCloud
+title = [HK] CubeCloud - Hong Kong, China [103.107.8.3]
+host = 103.107.8.3
 
 ++ dediserve-hkg1
 menu = [HK] Dediserve
