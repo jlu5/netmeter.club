@@ -12,6 +12,11 @@ menu = [CDN] Amazon CloudFront
 title = [CDN] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
 host = dq1dnt4af4eyy.cloudfront.net
 
+++ buyvm-anycast
+menu = [ANY] BuyVM Anycast
+title = [ANY] BuyVM Anycast [198.251.86.22]
+host = 198.251.86.22
+
 ++ cdn77
 menu = [CDN] CDN77.com
 title = [CDN] CDN77.com [www.cdn77.com]
@@ -303,7 +308,7 @@ title = [US/CA] Amazon Web Services - North California (us-west-1) [54.151.0.2]
 host = 54.151.0.2
 
 ++ digitalocean-sfo
-menu = [US/CA] Digital Ocean (SFO1)
+menu = [US/CA] Digital Ocean (SFO)
 title = [US/CA] Digital Ocean - San Francisco, California [speedtest-sfo1.digitalocean.com]
 host = speedtest-sfo1.digitalocean.com
 
@@ -318,7 +323,7 @@ title = [US/CA] Linode - Fremont, California [speedtest.fremont.linode.com]
 host = speedtest.fremont.linode.com
 
 ++ leaseweb-sfo
-menu = [US/CA] LeaseWeb (sfo12)
+menu = [US/CA] LeaseWeb (SFO)
 title = [US/CA] LeaseWeb - San Francisco, California [mirror.sfo12.us.leaseweb.net]
 host = mirror.sfo12.us.leaseweb.net
 
@@ -457,10 +462,10 @@ menu = [US/CA] Vultr (Los Angeles)
 title = [US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
 
-++ buyvm-lv
+++ buyvm-lv0
 menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM - Las Vegas, Nevada [lv-test.buyvm.net]
-host = lv-test.buyvm.net
+host = speedtest.lv.buyvm.net
 
 ++ bandwagonhost-usaz2
 menu = [US/AZ] BandwagonHost (PHX)
@@ -792,6 +797,11 @@ menu = [CA/QC] OVH (Beauharnois)
 title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
 host = ymq1-bhs.smokeping.ovh.net
 
+++ buyvm-ny
+menu = [US/NY] BuyVM (New York)
+title = [US/NY] BuyVM - New York, USA
+host = speedtest.ny.buyvm.net
+
 ++ colocrossing-buf
 menu = [US/NY] ColoCrossing (Buffalo)
 title = [US/NY] ColoCrossing (Buffalo, New York) [192.3.180.103]
@@ -846,11 +856,6 @@ host = 23.29.138.3
 menu = [US/NJ] Linode (Newark)
 title = [US/NJ] Linode (Newark, New Jersey) [speedtest.newark.linode.com]
 host = speedtest.newark.linode.com
-
-#++ buyvm-nj
-#menu = [US/NJ] BuyVM (New Jersey)
-#title = [US/NJ] BuyVM (New Jersey) [nj-test.buyvm.net]
-#host = nj-test.buyvm.net
 
 ++ vultr-nj
 menu = [US/NJ] Vultr (New Jersey)
@@ -1207,10 +1212,10 @@ menu = [BE] he.net (Zaventem)
 title = [BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he.net]
 host = core1.bru1.he.net
 
-++ buyvm-lux
+++ buyvm-lu
 menu = [LU] BuyVM (Luxembourg)
 title = [LU] BuyVM - Roost, Luxembourg [lu-test.buyvm.net]
-host = lu-test.buyvm.net
+host = speedtest.lu.buyvm.net
 
 ++ ginernet-mad
 menu = [ES] GinerNet - Madrid, Spain
@@ -1591,11 +1596,6 @@ host = 52.82.0.253
 menu = [CN] Aliyun (Shanghai)
 title = [CN] Aliyun / Alibaba Cloud - Shanghai 中国上海 [oss-cn-shanghai.aliyuncs.com]
 host = oss-cn-shanghai.aliyuncs.com
-
-++ cloudiplc-xzct
-menu = [CN] CloudIPLC (Jiangsu CT)
-title = [CN] CloudIPLC @ China Telecom - Xuzhou, Jiangsu 徐州电信 [ping.xzct.cloudiplc.com]
-host = ping.xzct.cloudiplc.com
 
 ++ cloudiplc-xzcu
 menu = [CN] CloudIPLC (Jiangsu CU)
@@ -2045,12 +2045,12 @@ host = speedtest.c1.sin1.dediserve.com
 
 ++ digitalocean-sgp
 menu = [SG] Digital Ocean
-title = [SG] Digital Ocean (Singapore SGP1) [speedtest-sgp1.digitalocean.com]
+title = [SG] Digital Ocean (SGP1) - Singapore [speedtest-sgp1.digitalocean.com]
 host = speedtest-sgp1.digitalocean.com
 
 ++ gcp-sg
 menu = [SG] Google Cloud
-title = [SG] Google Cloud Platform (Singapore asia-southeast1) via CloudHarmony [asia-southeast1-gce.cloudharmony.net]
+title = [SG] Google Cloud Platform (asia-southeast1) - Singapore [asia-southeast1-gce.cloudharmony.net]
 host = asia-southeast1-gce.cloudharmony.net
 
 ++ gigsgigscloud-sg
@@ -2120,27 +2120,27 @@ host = 103.81.86.64
 
 ++ amazon-mumbai
 menu = [IN] Amazon AWS (Mumbai)
-title = [IN] Amazon Web Services (Mumbai ap-southeast-2) [13.232.0.253]
+title = [IN] Amazon Web Services (ap-southeast-2) - Mumbai, India [13.232.0.253]
 host = 13.232.0.253
 
 ++ digitalocean-blr
-menu = [IN] Digital Ocean (BLR1)
-title = [IN] Digital Ocean (Bangladore BLR1) [speedtest-blr1.digitalocean.com]
+menu = [IN] Digital Ocean
+title = [IN] Digital Ocean (BLR1) - Bangladore, India [speedtest-blr1.digitalocean.com]
 host = speedtest-blr1.digitalocean.com
 
 ++ hostnamaste-mumbai
 menu = [IN] HostNamaste (Mumbai)
-title = [IN] HostNamaste (Mumbai, India) [150.242.14.193]
+title = [IN] HostNamaste - Mumbai, India [150.242.14.193]
 host = 150.242.14.193
 
 ++ softlayer-che
 menu = [IN] Softlayer (Chennai)
-title = [IN] Softlayer (Chennai che01) [speedtest.che01.softlayer.com]
+title = [IN] Softlayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
 host = speedtest.che01.softlayer.com
 
 ++ psychz-in
 menu = [IN] Psychz (Mumbai)
-title = [IN] Psychz (Mumbai) [lg.in.psychz.net]
+title = [IN] Psychz - Mumbai, India [lg.in.psychz.net]
 host = lg.in.psychz.net
 
 ++ bharti-airtel
@@ -2412,11 +2412,6 @@ host = brisbane-lg.ransomit.com.au
 menu = [NZ] Ransom IT (Auckland)
 title = [NZ] Ransom IT (Auckland) [auckland-lg.ransomit.com.au]
 host = auckland-lg.ransomit.com.au
-
-++ zappiehost-nz
-menu = [NZ] ZappieHost (Auckland)
-title = [NZ] ZappieHost (Auckland) [185.99.132.2]
-host = 185.99.132.2
 
 ++ dediserve-mel1
 menu = [AU] Dediserve (Melbourne)
