@@ -17,6 +17,11 @@ menu = [ANY] BuyVM Anycast
 title = [ANY] BuyVM Anycast [198.251.86.22]
 host = 198.251.86.22
 
+++ cachefly
+menu = [CDN] CacheFly
+title = [CDN] CacheFly [cachefly.cachefly.net]
+host = cachefly.cachefly.net
+
 ++ cdn77
 menu = [CDN] CDN77.com
 title = [CDN] CDN77.com [www.cdn77.com]
@@ -32,10 +37,10 @@ host = www.cdn77.com
 #title = [CDN] CDN.net CDN-EXEC (Northern Hemisphere) [31560279.r.worldcdn.net]
 #host = 31560279.r.worldcdn.net
 
-++ cdn-net-lux
-menu = [CDN] CDN.net LUX
-title = [CDN] CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]
-host = 993660212.r.worldcdn.net
+#++ cdn-net-lux
+#menu = [CDN] CDN.net LUX
+#title = [CDN] CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]
+#host = 993660212.r.worldcdn.net
 
 ++ cloudflare-dns
 menu = [CDN] Cloudflare
@@ -467,11 +472,6 @@ menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM - Las Vegas, Nevada [lv-test.buyvm.net]
 host = speedtest.lv.buyvm.net
 
-++ bandwagonhost-usaz2
-menu = [US/AZ] BandwagonHost (PHX)
-title = [US/AZ] BandwagonHost (IT7 Networks) - Phoenix, Arizona [198.35.46.28]
-host = 198.35.46.28
-
 ++ securedragon-phoenix
 menu = [US/AZ] SecureDragon (PHX)
 title = [US/AZ] SecureDragon @ PhoenixNAP - Phoenix, Arizona [162.253.177.4]
@@ -551,6 +551,11 @@ host = 66.225.198.198
 menu = [US/IL] Dediserve (Chicago)
 title = [US/IL] Dediserve - Chicago, Illinois, USA [speedtest.c1.chg1.dediserve.com]
 host = speedtest.c1.chg1.dediserve.com
+
+++ edis-us
+menu = [US/IL] EDIS (Chicago)
+title = [US/IL] EDIS - Chicago, USA [us.edis.at]
+host = us.edis.at
 
 ++ host1plus-chi
 menu = [US/IL] Host1Plus (Chicago)
@@ -701,6 +706,11 @@ host = lg.texas.psychz.net
 menu = [US/TX] Rackspace (Dallas)
 title = [US/TX] Rackspace (Dallas) [dfw.speedtest.rackspace.com]
 host = dfw.speedtest.rackspace.com
+
+++ ssdblaze-dal
+menu = [US/TX] SSDBlaze (Dallas)
+title = [US/TX] SSDBlaze - Dallas, Texas [lg-dal.ssdblaze.com]
+host = lg-dal.ssdblaze.com
 
 ++ softlayer-dal
 menu = [US/TX] Softlayer (Dallas)
@@ -1012,6 +1022,11 @@ menu = [UK] DigitalOcean (London)
 title = [UK] DigitalOcean (London LON1) [speedtest-lon1.digitalocean.com]
 host = speedtest-lon1.digitalocean.com
 
+++ edis-uk
+menu = [UK] EDIS (London)
+title = [UK] EDIS - London, United Kingdom [uk.edis.at]
+host = uk.edis.at
+
 ++ gcp-lon
 menu = [UK] Google Cloud
 title = [UK] Google Cloud Platform (europe-west2) - London, United Kingdom [europe-west2-gce.cloudharmony.net]
@@ -1107,6 +1122,11 @@ menu = [FR] Amazon AWS (Paris)
 title = [FR] Amazon Web Services (Paris) [52.47.32.127]
 host = 52.47.32.127
 
+++ edis-fr
+menu = [FR] EDIS (Paris)
+title = [FR] EDIS - Paris, France [fr.edis.at]
+host = fr.edis.at
+
 ++ hurricane-electric-par2
 menu = [FR] he.net (Paris)
 title = [FR] Hurricane Electric - Telehouse Paris Voltaire Paris, FR [core1.par2.he.net]
@@ -1162,6 +1182,11 @@ menu = [NL] DigitalOcean (Amsterdam)
 title = [NL] DigitalOcean (AMS2) - Amsterdam, Netherlands [speedtest-ams2.digitalocean.com]
 host = speedtest-ams2.digitalocean.com
 
+++ edis-nl
+menu = [NL] EDIS (Amsterdam)
+title = [NL] EDIS - Schiphol Rijk, Amsterdam, Netherlands [nl.edis.at]
+host = nl.edis.at
+
 ++ leaseweb-nl
 menu = [NL] LeaseWeb
 title = [NL] LeaseWeb - The Netherlands [mirror.nl.leaseweb.net]
@@ -1202,6 +1227,11 @@ menu = [NL] Google Cloud
 title = [NL] Google Cloud Platform (europe-west4) - Eemshaven, Netherlands [europe-west4-gce.cloudharmony.net]
 host = europe-west4-gce.cloudharmony.net
 
+++ edis-be
+menu = [BE] EDIS (Oostkamp)
+title = [BE] EDIS - Oostkamp, Belgium [be.edis.at]
+host = be.edis.at
+
 ++ gcp-bel
 menu = [BE] Google Cloud
 title = [BE] Google Cloud Platform (europe-west1) - St. Ghislain, Belgium [europe-west1-gce.cloudharmony.net]
@@ -1222,6 +1252,11 @@ menu = [ES] GinerNet - Madrid, Spain
 title = [ES] GinerNet (Madrid Interxion) [5.134.117.74]
 host = 5.134.117.74
 
+++ edis-es
+menu = [ES] EDIS (Seville)
+title = [ES] EDIS - Seville, Spain [es.edis.at]
+host = es.edis.at
+
 ++ hurricane-electric-bcn1
 menu = [ES] he.net (Barcelona)
 title = [ES] Hurricane Electric - Equinix BA1, Barcelona Barcelona, ES [core1.bcn1.he.net]
@@ -1231,6 +1266,16 @@ host = core1.bcn1.he.net
 menu = [PT] he.net (Lisbon)
 title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
 host = core1.lis1.he.net
+
+++ edis-is
+menu = [IS] EDIS (Hafnarfjordur)
+title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
+host = is.edis.at
+
+++ edis-im
+menu = [IM] EDIS (Isle of Man)
+title = [IM] EDIS - Douglas, Isle of Man [im.edis.at]
+host = im.edis.at
 
 
 + PointsInterestEU2
@@ -1276,6 +1321,11 @@ host = speedtest.c1.fra1.dediserve.com
 menu = [DE] DigitalOcean (Frankfurt)
 title = [DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]
 host = speedtest-fra1.digitalocean.com
+
+++ edis-de
+menu = [DE] EDIS (Frankfurt)
+title = [DE] EDIS - Frankfurt, Germany [de.edis.at]
+host = de.edis.at
 
 ++ gcp-fra
 menu = [DE] Google Cloud
@@ -1327,10 +1377,10 @@ menu = [DE] Netcup (Nuremberg)
 title = [DE] Netcup - Nuremberg, Germany [lg.netcup.net]
 host = lg.netcup.net
 
-++ arubacloud-it1
-menu = [IT] ArubaCloud (Arezzo)
-title = [IT] ArubaCloud - Arezzo, Italy [212.237.43.103]
-host = 212.237.43.103
+++ edis-it
+menu = [IT] EDIS (Milan)
+title = [IT] EDIS - Milan, Italy [it.edis.at]
+host = it.edis.at
 
 ++ netsons-mil
 menu = [IT] Netsons (Milan)
@@ -1347,15 +1397,30 @@ menu = [IT] Softlayer (Milan)
 title = [IT] Softlayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
 host = speedtest.mil01.softlayer.com
 
+++ arubacloud-it1
+menu = [IT] ArubaCloud (Arezzo)
+title = [IT] ArubaCloud - Arezzo, Italy [212.237.43.103]
+host = 212.237.43.103
+
 ++ hurricane-electric-rom1
 menu = [IT] he.net (Roma)
 title = [IT] Hurricane Electric - NaMeX Roma, IT [core1.rom1.he.net]
 host = core1.rom1.he.net
 
+++ edis-itpa
+menu = [IT] EDIS (Palermo)
+title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
+host = itpa.edis.at
+
 ++ hurricane-electric-gva1
 menu = [CH] he.net (Geneva)
 title = [CH] Hurricane Electric - Equinix Geneva (GV1) Geneva, CH [core1.gva1.he.net]
 host = core1.gva1.he.net
+
+++ edis-ch
+menu = [CH] EDIS (Zurich)
+title = [CH] EDIS - Zurich, Switzerland [ch.edis.at]
+host = ch.edis.at
 
 ++ lunarvps-ch
 menu = [CH] LunarVPS
@@ -1387,6 +1452,11 @@ host = lg.terrahost.no
 #title = [NO] XHostFire - Oslo, Norway (TDC) [62.73.193.2]
 #host = 62.73.193.2
 
+++ edis-se
+menu = [SE] EDIS (Stockholm)
+title = [SE] EDIS - Stockholm, Sweden [se.edis.at]
+host = se.edis.at
+
 ++ telia-se
 menu = [SE] Telia
 title = [SE] Telia Company - Sweden [lg.telia.net]
@@ -1412,6 +1482,11 @@ menu = [AT] Dediserve (Vienna)
 title = [AT] Dediserve - Vienna, Austria [speedtest.c1.vie1.dediserve.com]
 host = speedtest.c1.vie1.dediserve.com
 
+++ edis-at
+menu = [AT] EDIS (Vienna)
+title = [AT] EDIS - Vienna, Austria [at.edis.at]
+host = at.edis.at
+
 ++ hosthatch-vie
 menu = [AT] HostHatch (Vienna)
 title = [AT] HostHatch - Vienna, Austria [lg.vie.hosthatch.com]
@@ -1422,10 +1497,20 @@ menu = [AT] he.net (Vienna)
 title = [AT] Hurricane Electric - Interxion Vienna Vienna, AT [core1.vie1.he.net]
 host = core1.vie1.he.net
 
+++ edis-atgrz
+menu = [AT] EDIS (Graz)
+title = [AT] EDIS - Graz, Austria [atgrz.edis.at]
+host = atgrz.edis.at
+
 ++ dediserve-pol1
 menu = [PL] Dediserve (Warsaw)
 title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
 host = speedtest.c1.pol1.dediserve.com
+
+++ edis-pl
+menu = [PL] EDIS (Warsaw)
+title = [PL] EDIS - Warsaw, Poland [pl.edis.at]
+host = pl.edis.at
 
 ++ serwerydedykowane
 menu = [PL] SerweryDedykowane
@@ -1447,10 +1532,24 @@ menu = [HU] he.net (Budapest)
 title = [HU] Hurricane Electric - CE Colo Victor Hugo 1 Budapest, HU [core1.bud1.he.net]
 host = core1.bud1.he.net
 
+++ edis-hu
+menu = [HU] EDIS (Budapest)
+title = [HU] EDIS - Budapest, Hungary [hu.edis.at]
+host = hu.edis.at
+
+++ edis-si
+menu = [SI] EDIS (Ljubljana)
+title = [SI] EDIS - Ljubljana, Slovenia [si.edis.at]
+host = si.edis.at
 
 + PointsInterestEU3
 menu = Europe - East
 title = netmeter.club Global Ping Monitoring - Europe (East)
+
+++ edis-rusp
+menu = [RU] EDIS (St. Petersburg)
+title = [RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]
+host = rusp.edis.at
 
 ++ veesp-stp
 menu = [RU] Veesp (St. Petersburg)
@@ -1461,6 +1560,11 @@ host = lg.veesp.com
 menu = [RU] ZeptoVM (St. Petersburg)
 title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
 host = ru-led01.lg.zeptovm.com
+
+++ edis-ru
+menu = [RU] EDIS (Moscow)
+title = [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
+host = ru.edis.at
 
 ++ justhost-dataline
 menu = [RU] JustHost (Moscow DataL.)
@@ -1501,6 +1605,16 @@ host = lg.sqq.lt.ultravps.eu
 menu = [BG] AlphaVPS (Sofia)
 title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC
 host = lguk.alphavps.bg
+
+++ edis-bg
+menu = [BG] EDIS (Sofia)
+title = [BG] EDIS - Sofia, Bulgaria [bg.edis.at]
+host = bg.edis.at
+
+++ edis-ro
+menu = [RO] EDIS (Bucharest)
+title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
+host = ro.edis.at
 
 ++ voxility-ro
 menu = [RO] HostClean @ Voxility
@@ -1726,6 +1840,11 @@ host = 193.110.200.233
 menu = [HK] DMIT (PVM.n3)
 title = [HK] DMIT (Hong Kong PVM.n3) [hka-n3.lg.dmit.io]
 host = hka-n3.lg.dmit.io
+
+++ edis-hk
+menu = [HK] EDIS
+title = [HK] EDIS - New Territories, Hong Kong [hk.edis.at]
+host = hk.edis.at
 
 ++ gigsgigscloud-hk
 menu = [HK] GigsGigsCloud
@@ -2173,6 +2292,11 @@ menu = [AE] Etisalat (EmIX)
 title = [AE] Etisalat AS8966 @ EmIX [lg.emix.net.ae]
 host = lg.emix.net.ae
 
+++ edis-il
+menu = [IL] EDIS (Tel Aviv)
+title = [IL] EDIS - Tel Aviv, Israel [il.edis.at]
+host = il.edis.at
+
 ++ zain-kw
 menu = [KW] Zain Kuwait
 title = [KW] Zain Kuwait [kw.zain.com]
@@ -2315,28 +2439,23 @@ title = netmeter.club Global Ping Monitoring - South America
 
 ++ amazon-br
 menu = [BR] Amazon AWS (Sao Paulo)
-title = [BR] Amazon Web Services (Sao Paulo sa-east-1) [54.94.0.66]
+title = [BR] Amazon Web Services (sa-east-1) - Sao Paulo, Brazil [54.94.0.66]
 host = 54.94.0.66
 
 ++ host1plus-sao
 menu = [BR] Host1Plus (Sao Paulo)
-title = [BR] Host1Plus (Sao Paulo) [191.96.4.248]
+title = [BR] Host1Plus - Sao Paulo, Brazil [191.96.4.248]
 host = 191.96.4.248
 
 ++ softlayer-sao
 menu = [BR] Softlayer (Sao Paulo)
-title = [BR] Softlayer (Sao Paulo sao01) [speedtest.sao01.softlayer.com]
+title = [BR] Softlayer (sao01) - Sao Paulo, Brazil [speedtest.sao01.softlayer.com]
 host = speedtest.sao01.softlayer.com
 
-#++ c3sl-ufpr
-#menu = [BR] C3SL/UFPR
-#title = [BR] C3SL/UFPR [ubuntu.c3sl.ufpr.br]
-#host = ubuntu.c3sl.ufpr.br
-
-#++ globo
-#menu = [BR] Globo.com
-#title = [BR] Globo.com [globo.com]
-#host = globo.com
+++ edis-cl
+menu = [CL] EDIS (Chile)
+title = [CL] EDIS - Viña del Mar, Chile [cl.edis.at]
+host = cl.edis.at
 
 ++ hurricane-electric-bog1
 menu = [CO] he.net (Bogota)
@@ -2345,7 +2464,7 @@ host = core1.bog1.he.net
 
 ++ telecom-argentina
 menu = [AR] Tel. Argentina (Buenos Aires)
-title = [AR] Telecom Argentina (Buenos Aires) [st1.telecom.com.ar]
+title = [AR] Telecom Argentina - Buenos Aires, Argentina [st1.telecom.com.ar]
 host = st1.telecom.com.ar
 
 
