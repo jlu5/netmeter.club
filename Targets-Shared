@@ -812,23 +812,13 @@ menu = [US/NY] BuyVM (New York)
 title = [US/NY] BuyVM - New York, USA
 host = speedtest.ny.buyvm.net
 
-++ colocrossing-buf
-menu = [US/NY] ColoCrossing (Buffalo)
-title = [US/NY] ColoCrossing (Buffalo, New York) [192.3.180.103]
-host = 192.3.180.103
-
 ++ colocrossing-nyc
 menu = [US/NY] ColoCrossing (NYC)
 title = [US/NY] ColoCrossing (New York City) [lg.nyc.colocrossing.com]
 host = lg.nyc.colocrossing.com
 
-++ dediserve-nyc1
-menu = [US/NY] Dediserve (Buffalo)
-title = [US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]
-host = speedtest.c1.nyc1.dediserve.com
-
 ++ digitalocean-nyc3
-menu = [US/NY] DigitalOcean (NYC3)
+menu = [US/NY] DigitalOcean (NYC)
 title = [US/NY] DigitalOcean (New York City NYC3) [speedtest-nyc3.digitalocean.com]
 host = speedtest-nyc3.digitalocean.com
 
@@ -848,14 +838,24 @@ title = [US/NY] ImpactVPS @ Incero (New York City) [172.110.20.1]
 host = 172.110.20.1
 
 ++ nfoservers-nyc
-menu = [US/NY] NFOservers (New York)
+menu = [US/NY] NFOservers (NYC)
 title = [US/NY] NFOservers @ InterNAP (New York) [63.251.20.100]
 host = 63.251.20.100
 
 ++ ramnode-nyc
-menu = [US/NY] Ramnode (New York)
+menu = [US/NY] Ramnode (NYC)
 title = [US/NY] Ramnode (New York City) [lg.nyc.ramnode.com]
 host = lg.nyc.ramnode.com
+
+++ colocrossing-buf
+menu = [US/NY] ColoCrossing (Buffalo)
+title = [US/NY] ColoCrossing (Buffalo, New York) [192.3.180.103]
+host = 192.3.180.103
+
+++ dediserve-nyc1
+menu = [US/NY] Dediserve (Buffalo)
+title = [US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]
+host = speedtest.c1.nyc1.dediserve.com
 
 ++ bandwagonhost-usnj
 menu = [US/NJ] BandwagonHost (NJ)
@@ -1248,8 +1248,8 @@ title = [LU] BuyVM - Roost, Luxembourg [lu-test.buyvm.net]
 host = speedtest.lu.buyvm.net
 
 ++ ginernet-mad
-menu = [ES] GinerNet - Madrid, Spain
-title = [ES] GinerNet (Madrid Interxion) [5.134.117.74]
+menu = [ES] GinerNet (Madrid)
+title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
 host = 5.134.117.74
 
 ++ edis-es
