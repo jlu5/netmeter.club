@@ -102,6 +102,11 @@ menu = [CDN] Microsoft Azure
 title = [CDN] Microsoft Azure [azure.microsoft.com]
 host = azure.microsoft.com
 
+++ opendns
+menu = [CDN] OpenDNS
+title = [CDN] OpenDNS [208.67.222.222]
+host = 208.67.222.222
+
 ++ quantil1
 menu = [CDN] QUANTIL / Wangsu
 title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
@@ -206,6 +211,11 @@ host = lg.sea.spartanhost.net
 menu = [US/WA] Virmach (Seattle)
 title = [US/WA] Virmach @ ServerHub - Seattle, Washington [sea.lg.virmach.com]
 host = sea.lg.virmach.com
+
+++ usdedicated-sea
+menu = [US/WA] US Dedicated (Seattle)
+title = [US/WA] US Dedicated @ InterNAP SEF - Seattle, Washington [lg.seadedicated.com]
+host = lg.seadedicated.com
 
 ++ vultr-sea
 menu = [US/WA] Vultr (Seattle)
@@ -452,6 +462,11 @@ menu = [US/CA] RFChost (LA)
 title = [US/CA] RFChost - Los Angeles, California [103.86.70.1]
 host = 103.86.70.1
 
+++ usdedicated-la
+menu = [US/CA] US Dedicated (Los Angeles)
+title = [US/CA] US Dedicated @ CoreSite LA2 - Los Angeles, California [lg.ladedicated.com]
+host = lg.ladedicated.com
+
 ++ vmhaus-lax
 menu = [US/CA] VMHaus (Los Angeles)
 title = [US/CA] VMHaus - Los Angeles, California [103.105.49.34]
@@ -469,7 +484,7 @@ host = lax-ca-us-ping.vultr.com
 
 ++ buyvm-lv0
 menu = [US/NV] BuyVM (Las Vegas)
-title = [US/NV] BuyVM - Las Vegas, Nevada [lv-test.buyvm.net]
+title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
 host = speedtest.lv.buyvm.net
 
 ++ securedragon-phoenix
@@ -581,6 +596,11 @@ host = 104.129.31.245
 menu = [US/IL] Rackspace (Chicago)
 title = [US/IL] Rackspace (Chicago) [ord.speedtest.rackspace.com]
 host = ord.speedtest.rackspace.com
+
+++ usdedicated-chi
+menu = [US/IL] US Dedicated (Chicago)
+title = [US/IL] US Dedicated @ CoreSite CH1 - Chicago, Illinois [lg.chidedicated.com]
+host = lg.chidedicated.com
 
 ++ vultr-chi
 menu = [US/IL] Vultr (Chicago)
@@ -727,6 +747,11 @@ menu = [US/TX] SpartanHost (Dallas)
 title = [US/TX] SpartanHost (Dallas) [lg.dal.spartanhost.net]
 host = lg.dal.spartanhost.net
 
+++ usdedicated-dal
+menu = [US/TX] US Dedicated (Dallas)
+title = [US/TX] US Dedicated @ InterNap DAL006 - Dallas, Texas [lg.daldedicated.com]
+host = lg.daldedicated.com
+
 ++ vultr-dal
 menu = [US/TX] Vultr (Dallas)
 title = [US/TX] Vultr (Dallas) [tx-us-ping.vultr.com]
@@ -766,6 +791,11 @@ host = lg.atl.ramnode.com
 menu = [US/GA] SecureDragon (Atlanta)
 title = [US/GA] SecureDragon @ QuadraNet - Atlanta, GA, United States [162.211.67.4]
 host = 162.211.67.4
+
+++ usdedicated-atl
+menu = [US/GA] US Dedicated (Atlanta)
+title = [US/GA] US Dedicated @ InterNAP ACS - Atlanta, Georgia [lg.atldedicated.net]
+host = lg.atldedicated.net
 
 ++ vultr-atl
 menu = [US/GA] Vultr (Atlanta)
@@ -809,7 +839,7 @@ host = ymq1-bhs.smokeping.ovh.net
 
 ++ buyvm-ny
 menu = [US/NY] BuyVM (New York)
-title = [US/NY] BuyVM - New York, USA
+title = [US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]
 host = speedtest.ny.buyvm.net
 
 ++ colocrossing-nyc
@@ -846,6 +876,11 @@ host = 63.251.20.100
 menu = [US/NY] Ramnode (NYC)
 title = [US/NY] Ramnode (New York City) [lg.nyc.ramnode.com]
 host = lg.nyc.ramnode.com
+
+++ usdedicated-ny
+menu = [US/NY] US Dedicated (NYC)
+title = [US/NY] US Dedicated @ CoreSite NY2 - New York City, New York [lg.nycdedicated.com]
+host = lg.nycdedicated.com
 
 ++ colocrossing-buf
 menu = [US/NY] ColoCrossing (Buffalo)
@@ -1244,7 +1279,7 @@ host = core1.bru1.he.net
 
 ++ buyvm-lu
 menu = [LU] BuyVM (Luxembourg)
-title = [LU] BuyVM - Roost, Luxembourg [lu-test.buyvm.net]
+title = [LU] BuyVM - Roost, Luxembourg [speedtest.lu.buyvm.net]
 host = speedtest.lu.buyvm.net
 
 ++ ginernet-mad
