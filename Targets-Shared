@@ -12,6 +12,11 @@ menu = [CDN] Amazon CloudFront
 title = [CDN] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
 host = dq1dnt4af4eyy.cloudfront.net
 
+++ automattic
+menu = [CDN] Automattic
+title = [CDN] Automattic, Inc. (WordPress.com et al.) [automattic.com]
+host = automattic.com
+
 ++ buyvm-anycast
 menu = [ANY] BuyVM Anycast
 title = [ANY] BuyVM Anycast [198.251.86.22]
@@ -133,7 +138,7 @@ menu = North America - Northwest
 title = netmeter.club Global Ping Monitoring - North America (Northwest)
 
 ++ ubc
-menu = [CA/BC] UBC IT
+menu = [CA/BC] UBC (Vancouver)
 title = [CA/BC] The University of British Columbia [mirror.it.ubc.ca]
 host = mirror.it.ubc.ca
 
@@ -143,7 +148,7 @@ title = [CA/BC] Bell - Vancouver, British Columbia [vancnspd01.srvr.bell.ca]
 host = vancnspd01.srvr.bell.ca
 
 ++ bandwagonhost-yvr
-menu = [CA/BC] Bandwagonhost (YVR)
+menu = [CA/BC] Bandwagonhost
 title = [CA/BC] Bandwagonhost (IT7 Networks) - Vancouver, British Columbia [172.93.32.16]
 host = 172.93.32.16
 
@@ -153,7 +158,7 @@ title = [CA/BC] Canadianwebhosting - Vancouver, British Columbia [23.111.64.1]
 host = 23.111.64.1
 
 ++ freerangecloud-yvr
-menu = [CA/BC] Free Range (YVR)
+menu = [CA/BC] Free Range Cloud
 title = [CA/BC] Free Range Cloud - Vancouver, British Columbia [van.lg.freerangecloud.com]
 host = van.lg.freerangecloud.com
 
@@ -223,27 +228,27 @@ title = [US/WA] Vultr / Choopa - Seattle, Washington [wa-us-ping.vultr.com]
 host = wa-us-ping.vultr.com
 
 ++ amazon-pdx
-menu = [US/OR] Amazon AWS (Oregon)
+menu = [US/OR] Amazon AWS
 title = [US/OR] Amazon Web Services - Oregon (us-west-2) [54.188.0.0]
 host = 54.188.0.0
 
 ++ ceranetworks-pdx
-menu = [US/OR] CeraNetworks (PDX)
+menu = [US/OR] CeraNetworks
 title = [US/OR] 50KVM @ CeraNetworks - Portland, Oregon [lg.cera-ncp.pdx.50network.com]
 host = lg.cera-ncp.pdx.50network.com
 
 ++ gcp-pdx
-menu = [US/OR] Google Cloud (Oregon)
+menu = [US/OR] Google Cloud
 title = [US/OR] Google Cloud Platform - Oregon (us-west-1) via CloudHarmony [us-west1-gce.cloudharmony.net]
 host = us-west1-gce.cloudharmony.net
 
 ++ ovh-pdx
-menu = [US/OR] OVH (Oregon)
+menu = [US/OR] OVH (Hillsboro)
 title = [US/OR] OVH - Hillsboro, Oregon [pdx1-hil.smokeping.ovh.net]
 host = pdx1-hil.smokeping.ovh.net
 
 ++ securedragon-portland
-menu = [US/OR] SecureDragon (PDX)
+menu = [US/OR] SecureDragon
 title = [US/OR] SecureDragon @ CNServers - Portland, Oregon [198.57.47.4]
 host = 198.57.47.4
 
@@ -488,7 +493,7 @@ title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
 host = speedtest.lv.buyvm.net
 
 ++ securedragon-phoenix
-menu = [US/AZ] SecureDragon (PHX)
+menu = [US/AZ] SecureDragon
 title = [US/AZ] SecureDragon @ PhoenixNAP - Phoenix, Arizona [162.253.177.4]
 host = 162.253.177.4
 
@@ -613,7 +618,7 @@ title = [US/CO] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.
 host = core1.den1.he.net
 
 ++ securedragon-denver
-menu = [US/CO] SecureDragon (DEN)
+menu = [US/CO] SecureDragon
 title = [US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]
 host = 198.57.46.4
 
@@ -643,8 +648,8 @@ title = [US/IA] Google Cloud Platform (Council Bluffs, Iowa us-central1) [us-cen
 host = us-central1-gce.cloudharmony.net
 
 ++ amazon-ohi
-menu = [US/OH] Amazon AWS (Ohio)
-title = [US/OH] Amazon Web Services (Ohio) [18.188.0.0]
+menu = [US/OH] Amazon AWS
+title = [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.0]
 host = 18.188.0.0
 
 ++ rogers-wpmb
@@ -812,31 +817,6 @@ host = speedtest.mex01.softlayer.com
 menu = North America - East
 title = netmeter.club Global Ping Monitoring - North America (East)
 
-++ gcp-yul
-menu = [CA/QC] GCP (Montreal)
-title = [CA/QC] Google Cloud Platform (Montreal northamerica-northeast1) [northamerica-northeast1-gce.cloudharmony.net]
-host = northamerica-northeast1-gce.cloudharmony.net
-
-++ softlayer-mon
-menu = [CA/QC] Softlayer (Montreal)
-title = [CA/QC] Softlayer (Montreal mon01) [speedtest.mon01.softlayer.com]
-host = speedtest.mon01.softlayer.com
-
-++ telus-moqc
-menu = [CA/QC] TELUS (Montreal)
-title = [CA/QC] TELUS (Montreal) [montreal.speedtest.telus.com]
-host = montreal.speedtest.telus.com
-
-#++ mcgill
-#menu = [CA/QC] McGill University
-#title = [CA/QC] McGill University [mcgill.ca]
-#host = mcgill.ca
-
-++ ovh-bhs
-menu = [CA/QC] OVH (Beauharnois)
-title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
-host = ymq1-bhs.smokeping.ovh.net
-
 ++ buyvm-ny
 menu = [US/NY] BuyVM (New York)
 title = [US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]
@@ -917,9 +897,34 @@ menu = [US/NJ] SecureDragon (NJ)
 title = [US/NJ] SecureDragon @ DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
 host = 162.253.176.4
 
+++ gcp-yul
+menu = [CA/QC] GCP (Montreal)
+title = [CA/QC] Google Cloud Platform (northamerica-northeast1) - Montreal, Canada [northamerica-northeast1-gce.cloudharmony.net]
+host = northamerica-northeast1-gce.cloudharmony.net
+
+++ softlayer-mon
+menu = [CA/QC] Softlayer (Montreal)
+title = [CA/QC] Softlayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
+host = speedtest.mon01.softlayer.com
+
+++ telus-moqc
+menu = [CA/QC] TELUS (Montreal)
+title = [CA/QC] TELUS - Montreal, Canada [montreal.speedtest.telus.com]
+host = montreal.speedtest.telus.com
+
+#++ mcgill
+#menu = [CA/QC] McGill University
+#title = [CA/QC] McGill University [mcgill.ca]
+#host = mcgill.ca
+
+++ ovh-bhs
+menu = [CA/QC] OVH (Beauharnois)
+title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
+host = ymq1-bhs.smokeping.ovh.net
+
 ++ leaseweb-wdc1
 menu = [US/DC] LeaseWeb (WDC)
-title = [US/DC] LeaseWeb (Washington D.C.) [mirror.wdc1.us.leaseweb.net]
+title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
 ++ aliyun-us-east-1
@@ -929,31 +934,31 @@ host = oss-us-east-1.aliyuncs.com
 
 ++ amazon-nva
 menu = [US/VA] Amazon (N. Virginia)
-title = [US/VA] Amazon Web Services (North Virginia us-east-1) [52.1.255.254]
+title = [US/VA] Amazon Web Services (us-east-1) - North Virginia [52.1.255.254]
 host = 52.1.255.254
 
 ++ budgetnode-ash
 menu = [US/VA] BudgetNode (Ashburn)
-title = [US/VA] BudgetNode (Ashburn, Virginia) [172.106.200.10]
+title = [US/VA] BudgetNode - Ashburn, Virginia [172.106.200.10]
 host = 172.106.200.10
 
 ++ freerangecloud-ash
 menu = [US/VA] Free Range (Ashburn)
-title = [US/VA] Free Range Cloud (Ashburn) [ash.lg.freerangecloud.com]
+title = [US/VA] Free Range Cloud - Ashburn, Virginia  [ash.lg.freerangecloud.com]
 host = ash.lg.freerangecloud.com
 
 ++ psychz-va
 menu = [US/VA] Psychz (Ashburn)
-title = [US/VA] Psychz (Ashburn) [lg.va.psychz.net]
+title = [US/VA] Psychz - Ashburn, Virginia  [lg.va.psychz.net]
 host = lg.va.psychz.net
 
 ++ rackspace-iad
-menu = [US/VA] Rackspace (Virginia)
-title = [US/VA] Rackspace (Reston, Virginia) [iad.speedtest.rackspace.com]
+menu = [US/VA] Rackspace (Reston)
+title = [US/VA] Rackspace - Reston, Virginia [iad.speedtest.rackspace.com]
 host = iad.speedtest.rackspace.com
 
 ++ mrvm-bei
-menu = [US/WV] mrvm.net (W. Virginia)
+menu = [US/WV] mrvm.net
 title = [US/WV] mrvm.net - Berkeley Springs, West Virginia [lg-us-bei.mrvm.net]
 host = lg-us-bei.mrvm.net
 
@@ -964,18 +969,13 @@ host = lg-us-ler.mrvm.net
 
 ++ hostus-clt
 menu = [US/NC] HostUS (Charlotte)
-title = [US/NC] HostUS (Charlotte) [clt-lg.hostus.us]
+title = [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
 host = clt-lg.hostus.us
 
 ++ gcp-sou
-menu = [US/SC] Google Cloud (SCar)
-title = [US/SC] Google Cloud Platform (South Carolina us-east1) [us-east1-gce.cloudharmony.net]
+menu = [US/SC] Google Cloud
+title = [US/SC] Google Cloud Platform (us-east1) - South Carolina [us-east1-gce.cloudharmony.net]
 host = us-east1-gce.cloudharmony.net
-
-++ hostnamaste-fl
-menu = [US/FL] HostNamaste (FL)
-title = [US/FL] HostNamaste @ ServerComplete (Jacksonville, Florida) [184.175.242.2]
-host = 184.175.242.2
 
 ++ securedragon-tampa
 menu = [US/FL] SecureDragon (Tampa)
@@ -989,7 +989,7 @@ host = v4.tpa.vapornode.com
 
 ++ quadranet-mia
 menu = [US/FL] QuadraNet (Miami)
-title = [US/FL] QuadraNet (Miami) [173.44.32.10]
+title = [US/FL] QuadraNet - Miami, Florida [173.44.32.10]
 host = 173.44.32.10
 
 ++ hurricane-electric-mia1
@@ -999,17 +999,22 @@ host = core1.mia1.he.net
 
 ++ vultr-mia
 menu = [US/FL] Vultr (Miami)
-title = [US/FL] Vultr (Miami) [fl-us-ping.vultr.com]
+title = [US/FL] Vultr - Miami, Florida [fl-us-ping.vultr.com]
 host = fl-us-ping.vultr.com
+
+++ hostnamaste-fl
+menu = [US/FL] HostNamaste
+title = [US/FL] HostNamaste @ ServerComplete - Jacksonville, Florida [184.175.242.2]
+host = 184.175.242.2
 
 ++ bellaliant-hfns
 menu = [CA/NS] Bell Aliant (Halifax)
-title = [CA/NS] Bell Aliant (Halifax) [speedtest-ns.bellaliant.net]
+title = [CA/NS] Bell Aliant - Halifax, Canada [speedtest-ns.bellaliant.net]
 host = speedtest-ns.bellaliant.net
 
 ++ telus-hfns
 menu = [CA/NS] TELUS (Halifax)
-title = [CA/NS] TELUS (Halifax) [halifax.speedtest.telus.com]
+title = [CA/NS] TELUS - Halifax, Canada [halifax.speedtest.telus.com]
 host = halifax.speedtest.telus.com
 
 
@@ -1029,32 +1034,32 @@ host = lguk.alphavps.bg
 
 ++ amazon-lon
 menu = [UK] Amazon AWS (London)
-title = [UK] Amazon Web Services (London) [3.8.0.0]
+title = [UK] Amazon Web Services - London, United Kingdom [3.8.0.0]
 host = 3.8.0.0
 
 ++ arubacloud-lon
 menu = [UK] ArubaCloud (London)
-title = [UK] ArubaCloud (London) [89.36.222.238]
+title = [UK] ArubaCloud - London, United Kingdom [89.36.222.238]
 host = 89.36.222.238
 
 ++ budgetnode-lon
 menu = [UK] BudgetNode (London)
-title = [UK] BudgetNode (London Docklands 1) [185.187.242.2]
+title = [UK] BudgetNode - London, United Kingdom [185.187.242.2]
 host = 185.187.242.2
 
 ++ clouvider-lon
 menu = [UK] Clouvider (London)
-title = [UK] Clouvider (London) [lg.clouvider.net]
+title = [UK] Clouvider - London, United Kingdom [lg.clouvider.net]
 host = lg.clouvider.net
 
 ++ dediserve-lon2
 menu = [UK] Dediserve (London)
-title = [UK] Dediserve - London, UK [speedtest.c1.lon2.dediserve.com]
+title = [UK] Dediserve - London, United Kingdom [speedtest.c1.lon2.dediserve.com]
 host = speedtest.c1.lon2.dediserve.com
 
 ++ digitalocean-lon
 menu = [UK] DigitalOcean (London)
-title = [UK] DigitalOcean (London LON1) [speedtest-lon1.digitalocean.com]
+title = [UK] DigitalOcean (LON1) - London, United Kingdom [speedtest-lon1.digitalocean.com]
 host = speedtest-lon1.digitalocean.com
 
 ++ edis-uk
@@ -1074,12 +1079,12 @@ host = speedtest.london.linode.com
 
 ++ ovh-lon
 menu = [UK] OVH (London)
-title = [UK] OVH (London Erith) [lon1-eri.smokeping.ovh.net]
+title = [UK] OVH - Erith, London, United Kingdom [lon1-eri.smokeping.ovh.net]
 host = lon1-eri.smokeping.ovh.net
 
 ++ psychz-lon
 menu = [UK] Psychz (London)
-title = [UK] Psychz (London) [lg.lon.psychz.net]
+title = [UK] Psychz - London, United Kingdom [lg.lon.psychz.net]
 host = lg.lon.psychz.net
 
 ++ rivencloud-london
@@ -1089,22 +1094,22 @@ host = speedtest-ld1.sa.net
 
 ++ vmhaus-lon
 menu = [UK] VMHaus (London)
-title = [UK] VMHaus (London) [lg.thn2.vmhaus.com]
+title = [UK] VMHaus - London, United Kingdom [lg.thn2.vmhaus.com]
 host = lg.thn2.vmhaus.com
 
 ++ vultr-lon
 menu = [UK] Vultr (London)
-title = [UK] Vultr (London) [lon-gb-ping.vultr.com]
+title = [UK] Vultr - London, United Kingdom [lon-gb-ping.vultr.com]
 host = lon-gb-ping.vultr.com
 
 ++ loveservers-man
 menu = [UK] LoveServers (Manchester)
-title = [UK] LoveServers @ iomart (Manchester) [lg.loveservers.com]
+title = [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]
 host = lg.loveservers.com
 
 ++ virtono-man
 menu = [UK] Virtono (Manchester)
-title = [UK] Virtono (Manchester) [77.81.107.11]
+title = [UK] Virtono - Manchester, United Kingdom [77.81.107.11]
 host = 77.81.107.11
 
 ++ serverviking
@@ -1114,7 +1119,7 @@ host = lg.sviking.uk
 
 ++ amazon-ir
 menu = [IE] Amazon AWS (Ireland)
-title = [IE] Amazon Web Services (Ireland eu-west-1) [54.216.0.1]
+title = [IE] Amazon Web Services (eu-west-1) - Ireland [54.216.0.1]
 host = 54.216.0.1
 
 ++ dediserve-dub2
@@ -1134,17 +1139,17 @@ host = speedtest.c1.dub2.dediserve.com
 
 ++ ovh-gra
 menu = [FR] OVH (Gravelines)
-title = [FR] OVH (Gravelines) [lil2-gra.smokeping.ovh.net]
+title = [FR] OVH - Gravelines, France [lil2-gra.smokeping.ovh.net]
 host = lil2-gra.smokeping.ovh.net
 
 ++ ovh-rbx
 menu = [FR] OVH (Roubaix)
-title = [FR] OVH (Roubaix) [lil1-rbx.smokeping.ovh.net]
+title = [FR] OVH - Roubaix, France [lil1-rbx.smokeping.ovh.net]
 host = lil1-rbx.smokeping.ovh.net
 
 ++ ovh-sbg
 menu = [FR] OVH (Strasbourg)
-title = [FR] OVH (Strasbourg) [sbg.smokeping.ovh.net]
+title = [FR] OVH - Strasbourg, France [sbg.smokeping.ovh.net]
 host = sbg.smokeping.ovh.net
 
 ++ 1fichier
@@ -1154,7 +1159,7 @@ host = 1fichier.com
 
 ++ amazon-par
 menu = [FR] Amazon AWS (Paris)
-title = [FR] Amazon Web Services (Paris) [52.47.32.127]
+title = [FR] Amazon Web Services - Paris, France [52.47.32.127]
 host = 52.47.32.127
 
 ++ edis-fr
@@ -1169,17 +1174,17 @@ host = core1.par2.he.net
 
 ++ online-net-par
 menu = [FR] Online.net (Paris)
-title = [FR] Online.net (Paris) [ping.online.net]
+title = [FR] Online.net - Paris, France [ping.online.net]
 host = ping.online.net
 
 #++ softlayer-par
 #menu = [FR] Softlayer (Paris)
-#title = [FR] Softlayer (Paris par01) [speedtest.par01.softlayer.com]
+#title = [FR] Softlayer (par01) - Paris, France [speedtest.par01.softlayer.com]
 #host = speedtest.par01.softlayer.com
 
 ++ vultr-par
 menu = [FR] Vultr (Paris)
-title = [FR] Vultr (Paris) [par-fr-ping.vultr.com]
+title = [FR] Vultr - Paris, France [par-fr-ping.vultr.com]
 host = par-fr-ping.vultr.com
 
 ++ mrvm-rhe
@@ -1588,7 +1593,7 @@ host = rusp.edis.at
 
 ++ veesp-stp
 menu = [RU] Veesp (St. Petersburg)
-title = [RU] Veesp / Fishnet Сommunications (St. Petersburg) [lg.veesp.com]
+title = [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [lg.veesp.com]
 host = lg.veesp.com
 
 ++ zeptovm-stp
@@ -1636,6 +1641,11 @@ menu = [LT] UltraVPS (Siauliai)
 title = [LT] UltraVPS - Siauliai, Lithuania [lg.sqq.lt.ultravps.eu]
 host = lg.sqq.lt.ultravps.eu
 
+++ vpsnet-lt
+menu = [LT] VPSnet (Vilnius)
+title = [LT] VPSnet - Vilnius, Lithuania [91.211.244.3]
+host = 91.211.244.3
+
 ++ alphavps-bg
 menu = [BG] AlphaVPS (Sofia)
 title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC
@@ -1676,11 +1686,6 @@ menu = [MD] UltraVPS (Moldova)
 title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
 host = lg.kiv.md.ultravps.eu
 
-++ 80host-tur
-menu = [TR] 80host
-title = [TR] 80host (Turkey) @ Sadecehosting [185.17.138.1]
-host = 185.17.138.1
-
 ++ hostigger-ist
 menu = [TR] Hostigger (Istanbul)
 title = [TR] Hostigger - Istanbul, Turkey [185.219.132.125]
@@ -1690,16 +1695,6 @@ host = 185.219.132.125
 menu = [UA] he.net (Kiev)
 title = [UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]
 host = core1.kbp1.he.net
-
-#++ eenet0
-#menu = [EE] EENet
-#title = [EE] EENet [ftp.eenet.ee]
-#host = ftp.eenet.ee
-
-#++ wavecom
-#menu = [EE] WaveCom
-#title = [EE] WaveCom [www.wavecom.ee]
-#host = www.wavecom.ee
 
 
 + PointsInterestCN
@@ -1838,7 +1833,7 @@ title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 
 ++ 50kvm-hk-shatin
 menu = [HK] 50KVM
-title = [HK] 50KVM (Hong Kong) [lg.shatin.hkg.50network.com]
+title = [HK] 50KVM - Hong Kong, China [lg.shatin.hkg.50network.com]
 host = lg.shatin.hkg.50network.com
 
 ++ alibabacloud-hk
@@ -1848,12 +1843,12 @@ host = oss-cn-hongkong.aliyuncs.com
 
 ++ bandwagonhost-hk
 menu = [HK] BandwagonHost
-title = [HK] BandwagonHost (IT7 Networks) @ PCCW [23.252.97.148]
+title = [HK] BandwagonHost (IT7 Networks) @ PCCW - Hong Kong, China [23.252.97.148]
 host = 23.252.97.148
 
 ++ chinatelecomglobal-hk
 menu = [HK] China Telecom Global
-title = [HK] China Telecom Global (Hong Kong) [203.14.188.1]
+title = [HK] China Telecom Global - Hong Kong, China [203.14.188.1]
 host = 203.14.188.1
 
 ++ cubecloud
@@ -1868,12 +1863,12 @@ host = speedtest.c1.hkg1.dediserve.com
 
 ++ dmit-io-hk
 menu = [HK] DMIT (PVM.n2)
-title = [HK] DMIT (Hong Kong PVM.n2) [193.110.200.233]
+title = [HK] DMIT (PVM.n2) - Hong Kong, China [193.110.200.233]
 host = 193.110.200.233
 
 ++ dmit-io-hkn3
 menu = [HK] DMIT (PVM.n3)
-title = [HK] DMIT (Hong Kong PVM.n3) [hka-n3.lg.dmit.io]
+title = [HK] DMIT (PVM.n3) - Hong Kong, China [hka-n3.lg.dmit.io]
 host = hka-n3.lg.dmit.io
 
 ++ edis-hk
@@ -1893,12 +1888,12 @@ host = 210.3.96.1
 
 #++ hostus-hk
 #menu = [HK] HostUS
-#title = [HK] HostUS (Hong Kong) [hk-lg.hostus.us]
+#title = [HK] HostUS - Hong Kong, China [hk-lg.hostus.us]
 #host = hk-lg.hostus.us
 
 ++ klayer-hk
 menu = [HK] KLayer
-title = [HK] KLayer (Hong Kong) [hk.lg.klayer.com]
+title = [HK] KLayer - Hong Kong, China [hk.lg.klayer.com]
 host = hk.lg.klayer.com
 
 ++ lightcloud-hk
@@ -1918,32 +1913,32 @@ host = 103.122.119.1
 
 ++ rackspace-hk
 menu = [HK] Rackspace
-title = [HK] Rackspace (Hong Kong) [hkg.speedtest.rackspace.com]
+title = [HK] Rackspace - Hong Kong, China [hkg.speedtest.rackspace.com]
 host = hkg.speedtest.rackspace.com
 
 ++ starrydns-hk
 menu = [HK] StarryDNS
-title = [HK] StarryDNS (Hong Kong) [hk4.lg.starrydns.com]
+title = [HK] StarryDNS - Hong Kong, China [hk4.lg.starrydns.com]
 host = hk4.lg.starrydns.com
 
 ++ ransomit-hk
 menu = [HK] Ransom IT
-title = [HK] Ransom IT (Hong Kong) [hongkong-lg.ransomit.com.au]
+title = [HK] Ransom IT - Hong Kong, China [hongkong-lg.ransomit.com.au]
 host = hongkong-lg.ransomit.com.au
 
 ++ softlayer-hk
 menu = [HK] SoftLayer
-title = [HK] SoftLayer (Hong Kong) [speedtest.hkg02.softlayer.com]
+title = [HK] SoftLayer - Hong Kong, China [speedtest.hkg02.softlayer.com]
 host = speedtest.hkg02.softlayer.com
 
 ++ uovz-hk-hkbn
 menu = [HK] UOvZ @ HKBN
-title = [HK] UOvZ @ HKBN (Hong Kong) [103.107.8.1]
+title = [HK] UOvZ @ HKBN - Hong Kong, China [103.107.8.1]
 host = 103.107.8.1
 
 ++ uovz-hk-newworldtel
 menu = [HK] UOvZ @ NWT
-title = [HK] UOvZ @ NewWorldTel (Hong Kong) [103.228.130.1]
+title = [HK] UOvZ @ NewWorldTel - Hong Kong, China [103.228.130.1]
 host = 103.228.130.1
 
 ++ dct
@@ -1963,7 +1958,7 @@ host = 168.95.192.15
 
 ++ psychz-tw
 menu = [TW] Psychz
-title = [TW] Psychz (Taiwan) [lg.tw.psychz.net]
+title = [TW] Psychz - Taiwan [lg.tw.psychz.net]
 host = lg.tw.psychz.net
 
 
@@ -2043,38 +2038,33 @@ host = 18.182.0.0
 
 ++ chinatelecomglobal-jp
 menu = [JP] China Telecom Global
-title = [JP] China Telecom Global (Japan) [203.80.137.1]
+title = [JP] China Telecom Global - Japan [203.80.137.1]
 host = 203.80.137.1
 
 ++ dediserve-jap1
-menu = [JP] Dediserve (Tokyo)
+menu = [JP] Dediserve - Tokyo, Japan
 title = [JP] Dediserve - Tokyo, Japan [speedtest.c1.jap1.dediserve.com]
 host = speedtest.c1.jap1.dediserve.com
 
 ++ gcp-jp
 menu = [JP] Google Cloud (Tokyo)
-title = [JP] Google Cloud Platform (Tokyo asia-northeast1) via CloudHarmony [asia-northeast1-gce.cloudharmony.net]
+title = [JP] Google Cloud Platform (asia-northeast1) - Tokyo, Japan [asia-northeast1-gce.cloudharmony.net]
 host = asia-northeast1-gce.cloudharmony.net
 
 ++ linode-jp
 menu = [JP] Linode (Tokyo 2)
-title = [JP] Linode (Tokyo 2) [speedtest.tokyo2.linode.com]
+title = [JP] Linode (Tokyo 2) - Tokyo, Japan [speedtest.tokyo2.linode.com]
 host = speedtest.tokyo2.linode.com
 
 ++ psychz-jp
 menu = [JP] Psychz (Tokyo)
-title = [JP] Psychz (Tokyo) [lg.jp.psychz.net]
+title = [JP] Psychz - Tokyo, Japan [lg.jp.psychz.net]
 host = lg.jp.psychz.net
 
 ++ ransomit-jp
 menu = [JP] Ransom IT (Tokyo)
-title = [JP] Ransom IT (Tokyo) [tokyo-lg.ransomit.com.au]
+title = [JP] Ransom IT - Tokyo, Japan [tokyo-lg.ransomit.com.au]
 host = tokyo-lg.ransomit.com.au
-
-++ softbank-osaka
-menu = [JP] Softbank (Osaka)
-title = [JP] Softbank / xTom (Osaka) [202.5.222.1]
-host = 202.5.222.1
 
 ++ rivencloud-osaka
 menu = [JP] Riven Cloud (Osaka)
@@ -2088,17 +2078,17 @@ host = speedtest-ty1.sa.net
 
 ++ softlayer-tok
 menu = [JP] Softlayer (Tokyo)
-title = [JP] Softlayer (Tokyo tok02) [speedtest.tok02.softlayer.com]
+title = [JP] Softlayer (tok02) - Tokyo, Japan [speedtest.tok02.softlayer.com]
 host = speedtest.tok02.softlayer.com
 
 ++ starrydns-tok
 menu = [JP] StarryDNS (Tokyo)
-title = [JP] StarryDNS (Tokyo) [jp4.lg.starrydns.com]
+title = [JP] StarryDNS  - Tokyo, Japan [jp4.lg.starrydns.com]
 host = jp4.lg.starrydns.com
 
 ++ vultr-jp
 menu = [JP] Vultr (Tokyo)
-title = [JP] Vultr / Choopa (Tokyo) [hnd-jp-ping.vultr.com]
+title = [JP] Vultr / Choopa - Tokyo, Japan [hnd-jp-ping.vultr.com]
 host = hnd-jp-ping.vultr.com
 
 ++ kddi
@@ -2113,7 +2103,7 @@ host = 203.105.73.119
 
 ++ amazon-kr
 menu = [KR] Amazon AWS (Seoul)
-title = [KR] Amazon Web Services (Seoul ap-northeast-1) [54.180.0.0]
+title = [KR] Amazon Web Services (ap-northeast-1) - Seoul, South Korea [54.180.0.0]
 host = 54.180.0.0
 
 ++ kdatacenter
@@ -2128,17 +2118,17 @@ host = 211.216.50.170
 
 ++ softlayer-seo
 menu = [KR] Softlayer (Seoul)
-title = [KR] Softlayer (Seoul seo01) [speedtest.seo01.softlayer.com]
+title = [KR] Softlayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
 host = speedtest.seo01.softlayer.com
 
 #++ xhostfire-seo
 #menu = [KR] XHostFire (Seoul)
-#title = [KR] XHostFire - Seoul, Korea (Korea Telecom) [14.63.245.93]
+#title = [KR] XHostFire - Seoul, South Korea @ Korea Telecom [14.63.245.93]
 #host = 14.63.245.93
 
 ++ 50kvm-ru-khv
 menu = [RU] 50KVM (Khabarovsk)
-title = [RU] 50KVM (Khabarovsk, Russia) [lg.russia.khv.50network.com]
+title = [RU] 50KVM - Khabarovsk, Russia [lg.russia.khv.50network.com]
 host = lg.russia.khv.50network.com
 
 ++ cloudiplc-khv
@@ -2158,12 +2148,12 @@ host = 87.225.45.1
 
 ++ zeptovm-khv
 menu = [RU] ZeptoVM (Khabarovsk)
-title = [RU] ZeptoVM / Misaka Networks (Khabarovsk) [ru-khv01.lg.zeptovm.com]
+title = [RU] ZeptoVM / Misaka Networks - Khabarovsk, Russia [ru-khv01.lg.zeptovm.com]
 host = ru-khv01.lg.zeptovm.com
 
 ++ xhostfire-nvo0
 menu = [RU] XHostFire (Novosibirsk)
-title = [RU] XHostFire - Novosibirsk, Russia (PJSC Rostelecom) [95.167.6.12]
+title = [RU] XHostFire - Novosibirsk, Russia @ PJSC Rostelecom [95.167.6.12]
 #host = 95.167.6.12
 host = hd.ncc.snt.ru
 
@@ -2184,12 +2174,12 @@ host = 47.88.193.1
 
 ++ amazon-sg
 menu = [SG] Amazon AWS
-title = [SG] Amazon Web Services (Singapore ap-southeast-1) [54.255.0.2]
+title = [SG] Amazon Web Services (ap-southeast-1) - Singapore [54.255.0.2]
 host = 54.255.0.2
 
 ++ chinatelecomglobal-sg
 menu = [SG] China Telecom Global
-title = [SG] China Telecom Global (Singapore) [203.33.10.1]
+title = [SG] China Telecom Global - Singapore [203.33.10.1]
 host = 203.33.10.1
 
 ++ dediserve-sin1
@@ -2214,17 +2204,17 @@ host = 27.122.59.1
 
 ++ leaseweb-sg
 menu = [SG] LeaseWeb
-title = [SG] LeaseWeb (Singapore) [mirror.sg.leaseweb.net]
+title = [SG] LeaseWeb - Singapore [mirror.sg.leaseweb.net]
 host = mirror.sg.leaseweb.net
 
 ++ klayer-sg
 menu = [SG] KLayer
-title = [SG] KLayer (Singapore) [sg.lg.klayer.com]
+title = [SG] KLayer - Singapore [sg.lg.klayer.com]
 host = sg.lg.klayer.com
 
 ++ linode-sg
 menu = [SG] Linode
-title = [SG] Linode (Singapore) [speedtest.singapore.linode.com]
+title = [SG] Linode - Singapore [speedtest.singapore.linode.com]
 host = speedtest.singapore.linode.com
 
 ++ mrvm-sgp
@@ -2234,22 +2224,22 @@ host = lg-sg-sin.mrvm.net
 
 ++ ovh-sgp
 menu = [SG] OVH
-title = [SG] OVH (Singapore) [sgp.smokeping.ovh.net]
+title = [SG] OVH - Singapore [sgp.smokeping.ovh.net]
 host = sgp.smokeping.ovh.net
 
 ++ sg-gs
 menu = [SG] SG.GS
-title = [SG] SG.GS (Singapore) [www.sg.gs]
+title = [SG] SG.GS - Singapore [www.sg.gs]
 host = www.sg.gs
 
 ++ starrydns-sg
 menu = [SG] StarryDNS
-title = [SG] StarryDNS (Singapore) [sg1.lg.starrydns.com]
+title = [SG] StarryDNS - Singapore [sg1.lg.starrydns.com]
 host = sg1.lg.starrydns.com
 
 ++ vultr-sg
 menu = [SG] Vultr
-title = [SG] Vultr / Choopa (Singapore) [sgp-ping.vultr.com]
+title = [SG] Vultr / Choopa - Singapore [sgp-ping.vultr.com]
 host = sgp-ping.vultr.com
 
 ++ dediserve-jkt1
@@ -2364,7 +2354,7 @@ host = core1.jnb1.he.net
 
 ++ psychz-jnb
 menu = [ZA] Psychz (Johannesburg)
-title = [ZA] Psychz (Johannesburg) [lg.jnb.psychz.net]
+title = [ZA] Psychz - Johannesburg, South Africa [lg.jnb.psychz.net]
 host = lg.jnb.psychz.net
 
 ++ rivencloud-johannesburg
@@ -2524,47 +2514,47 @@ host = speedtest.c1.syd1.dediserve.com
 
 ++ leaseweb-syd
 menu = [AU] LeaseWeb (Sydney)
-title = [AU] LeaseWeb (Sydney) [mirror.syd10.au.leaseweb.net]
+title = [AU] LeaseWeb - Sydney, Australia [mirror.syd10.au.leaseweb.net]
 host = mirror.syd10.au.leaseweb.net
 
 ++ ovh-syd
 menu = [AU] OVH (Sydney)
-title = [AU] OVH (Sydney) [syd.smokeping.ovh.net]
+title = [AU] OVH - Sydney, Australia [syd.smokeping.ovh.net]
 host = syd.smokeping.ovh.net
 
 ++ ransomit-syd
 menu = [AU] Ransom IT (Sydney)
-title = [AU] Ransom IT (Sydney) [sydney-lg.ransomit.com.au]
+title = [AU] Ransom IT - Sydney, Australia [sydney-lg.ransomit.com.au]
 host = sydney-lg.ransomit.com.au
 
 ++ softlayer-syd
 menu = [AU] Softlayer (Sydney)
-title = [AU] Softlayer (Sydney syd01) [speedtest.syd01.softlayer.com]
+title = [AU] Softlayer (syd01) - Sydney, Australia [speedtest.syd01.softlayer.com]
 host = speedtest.syd01.softlayer.com
 
 ++ telstra-syd
 menu = [AU] Telstra (Sydney)
-title = [AU] Telstra (Sydney) [syd1.speedtest.telstra.net]
+title = [AU] Telstra - Sydney, Australia [syd1.speedtest.telstra.net]
 host = syd1.speedtest.telstra.net
 
 ++ vocus-syd
 menu = [AU] Vocus (Sydney)
-title = [AU] Vocus (Sydney) [speedtest.syd.m2core.net.au]
+title = [AU] Vocus - Sydney, Australia [speedtest.syd.m2core.net.au]
 host = speedtest.syd.m2core.net.au
 
 ++ vultr-syd
 menu = [AU] Vultr (Sydney)
-title = [AU] Vultr (Sydney) [syd-au-ping.vultr.com]
+title = [AU] Vultr - Sydney, Australia [syd-au-ping.vultr.com]
 host = syd-au-ping.vultr.com
 
 ++ ransomit-brb
 menu = [AU] Ransom IT (Brisbane)
-title = [AU] Ransom IT (Brisbane) [brisbane-lg.ransomit.com.au]
+title = [AU] Ransom IT - Brisbane, Australia [brisbane-lg.ransomit.com.au]
 host = brisbane-lg.ransomit.com.au
 
 ++ ransomit-nz
 menu = [NZ] Ransom IT (Auckland)
-title = [NZ] Ransom IT (Auckland) [auckland-lg.ransomit.com.au]
+title = [NZ] Ransom IT - Auckland, New Zealand [auckland-lg.ransomit.com.au]
 host = auckland-lg.ransomit.com.au
 
 ++ dediserve-mel1
@@ -2574,31 +2564,31 @@ host = speedtest.c1.mel1.dediserve.com
 
 ++ ransomit-mel
 menu = [AU] Ransom IT (Melbourne)
-title = [AU] Ransom IT (Melbourne) [melbourne-lg.ransomit.com.au]
+title = [AU] Ransom IT - Melbourne, Australia [melbourne-lg.ransomit.com.au]
 host = melbourne-lg.ransomit.com.au
 
 ++ softlayer-mel
 menu = [AU] Softlayer (Melbourne)
-title = [AU] Softlayer (Melbourne mel01) [speedtest.mel01.softlayer.com]
+title = [AU] Softlayer (mel01) - Melbourne, Australia [speedtest.mel01.softlayer.com]
 host = speedtest.mel01.softlayer.com
 
 ++ ransomit-ade
 menu = [AU] Ransom IT (Adelaide)
-title = [AU] Ransom IT (Adelaide) [adelaide-lg.ransomit.com.au]
+title = [AU] Ransom IT - Adelaide, Australia [adelaide-lg.ransomit.com.au]
 host = adelaide-lg.ransomit.com.au
 
 ++ telstra-ade
 menu = [AU] Telstra (Adelaide)
-title = [AU] Telstra (Adelaide) [ade1.speedtest.telstra.net]
+title = [AU] Telstra - Adelaide, Australia [ade1.speedtest.telstra.net]
 host = ade1.speedtest.telstra.net
 
 ++ ransomit-per
 menu = [AU] Ransom IT (Perth)
-title = [AU] Ransom IT (Perth) [perth-lg.ransomit.com.au]
+title = [AU] Ransom IT - Perth, Australia [perth-lg.ransomit.com.au]
 host = perth-lg.ransomit.com.au
 
 ++ vocus-pth
 menu = [AU] Vocus (Perth)
-title = [AU] Vocus (Perth) [speedtest.pth.m2core.net.au]
+title = [AU] Vocus - Perth, Australia [speedtest.pth.m2core.net.au]
 host = speedtest.pth.m2core.net.au
 
