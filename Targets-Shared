@@ -392,11 +392,6 @@ menu = [US/CA] BudgetNode (LA)
 title = [US/CA] BudgetNode - Los Angeles, California [172.82.152.3]
 host = 172.82.152.3
 
-++ voxility-la-buyvm
-menu = [US/CA] BuyVM/Voxility (LA)
-title = [US/CA] BuyVM / Voxility Asia-Optimized - Los Angeles, California [198.251.80.221]
-host = 198.251.80.221
-
 ++ ceranetworks-lax
 menu = [US/CA] CeraNetworks (LA)
 title = [US/CA] 50KVM @ CeraNetworks - Los Angeles, California [lg.cera-163.lax.50network.com]
@@ -468,7 +463,7 @@ title = [US/CA] RFChost - Los Angeles, California [103.86.70.1]
 host = 103.86.70.1
 
 ++ usdedicated-la
-menu = [US/CA] US Dedicated (Los Angeles)
+menu = [US/CA] US Dedicated (LA)
 title = [US/CA] US Dedicated @ CoreSite LA2 - Los Angeles, California [lg.ladedicated.com]
 host = lg.ladedicated.com
 
