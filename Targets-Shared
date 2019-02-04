@@ -367,6 +367,11 @@ menu = [US/CA] Vultr (Silicon Valley)
 title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
 
+++ anchnet-la
+menu = [US/CA] Anchnet
+title = [US/CA] Anchnet - Los Angeles, California (CN2) [118.184.73.35]
+host = 118.184.73.35
+
 ++ bandwagonhost-usca3
 menu = [US/CA] BWH (DC3 CN2 @ QN)
 title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC3 CN2 @ QuadraNet) [23.252.103.101]
@@ -514,7 +519,7 @@ title = netmeter.club Global Ping Monitoring - North America (Central)
 
 ++ freerangecloud-ywg
 menu = [CA/MB] Free Range (Winnipeg)
-title = [CA/MB] Free Range Cloud (Winnipeg) [lg.freerangecloud.com]
+title = [CA/MB] Free Range Cloud - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]
 host = lg.freerangecloud.com
 
 ++ hurricane-electric-ywg1
@@ -524,7 +529,7 @@ host = core1.ywg1.he.net
 
 ++ amazon-ca
 menu = [CA/ON] Amazon (C. Canada)
-title = [CA/ON] Amazon Web Services (Central Canada ca-central-1) [35.182.0.251]
+title = [CA/ON] Amazon Web Services (ca-central-1) - Central Canada [35.182.0.251]
 host = 35.182.0.251
 
 ++ canadianwebhost-tor
@@ -544,7 +549,7 @@ host = speedtest-tor1.digitalocean.com
 
 ++ fullhost-tor
 menu = [CA/ON] FullHost (Toronto)
-title = [CA/ON] FullHost (Toronto) [lg.toronto.fullhost.com]
+title = [CA/ON] FullHost - Toronto, Canada [lg.toronto.fullhost.com]
 host = lg.toronto.fullhost.com
 
 ++ lunanode-tor
@@ -554,12 +559,12 @@ host = toronto-test.lunanode.com
 
 ++ softlayer-tor
 menu = [CA/ON] Softlayer (Toronto)
-title = [CA/ON] Softlayer (Toronto tor01) [speedtest.tor01.softlayer.com]
+title = [CA/ON] Softlayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
 host = speedtest.tor01.softlayer.com
 
 ++ colocrossing-chi
 menu = [US/IL] ColoCrossing (Chicago)
-title = [US/IL] ColoCrossing (Chicago) [66.225.198.198]
+title = [US/IL] ColoCrossing - Chicago, Illinois [66.225.198.198]
 host = 66.225.198.198
 
 ++ dediserve-chg1
@@ -574,27 +579,27 @@ host = us.edis.at
 
 ++ host1plus-chi
 menu = [US/IL] Host1Plus (Chicago)
-title = [US/IL] Host1Plus (Chicago) [181.214.61.207]
+title = [US/IL] Host1Plus - Chicago, Illinois [181.214.61.207]
 host = 181.214.61.207
 
 ++ nfoservers-chi
 menu = [US/IL] NFOservers (Chicago)
-title = [US/IL] NFOservers (Chicago) [216.52.148.4]
+title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
 host = 216.52.148.4
 
 ++ psychz-chi
 menu = [US/IL] Psychz (Chicago)
-title = [US/IL] Psychz (Chicago) [lg.chi.psychz.net]
+title = [US/IL] Psychz - Chicago, Illinois [lg.chi.psychz.net]
 host = lg.chi.psychz.net
 
 ++ quadranet-chi
 menu = [US/IL] QuadraNet (Chicago)
-title = [US/IL] QuadraNet (Chicago) [104.129.31.245]
+title = [US/IL] QuadraNet - Chicago, Illinois [104.129.31.245]
 host = 104.129.31.245
 
 ++ rackspace-ord
 menu = [US/IL] Rackspace (Chicago)
-title = [US/IL] Rackspace (Chicago) [ord.speedtest.rackspace.com]
+title = [US/IL] Rackspace - Chicago, Illinois [ord.speedtest.rackspace.com]
 host = ord.speedtest.rackspace.com
 
 ++ usdedicated-chi
@@ -604,7 +609,7 @@ host = lg.chidedicated.com
 
 ++ vultr-chi
 menu = [US/IL] Vultr (Chicago)
-title = [US/IL] Vultr (Chicago) [il-us-ping.vultr.com]
+title = [US/IL] Vultr - Chicago, Illinois [il-us-ping.vultr.com]
 host = il-us-ping.vultr.com
 
 ++ hurricane-electric-den1
@@ -639,7 +644,7 @@ host = core1.msp1.he.net
 
 ++ gcp-iowa
 menu = [US/IA] Google Cloud (Iowa)
-title = [US/IA] Google Cloud Platform (Council Bluffs, Iowa us-central1) [us-central1-gce.cloudharmony.net]
+title = [US/IA] Google Cloud Platform (us-central1) - Council Bluffs, Iowa, United States [us-central1-gce.cloudharmony.net]
 host = us-central1-gce.cloudharmony.net
 
 ++ amazon-ohi
@@ -649,37 +654,37 @@ host = 18.188.0.0
 
 ++ rogers-wpmb
 menu = [CA/MB] Rogers (Winnipeg)
-title = [CA/MB] Rogers (Winnipeg) [speedtestwinnipeg.rogers.com]
+title = [CA/MB] Rogers - Winnipeg, Canada [speedtestwinnipeg.rogers.com]
 host = speedtestwinnipeg.rogers.com
 
 ++ shaw-wpmb
 menu = [CA/MB] Shaw (Winnipeg)
-title = [CA/MB] Shaw (Winnipeg) [speedtest.wp.shawcable.net]
+title = [CA/MB] Shaw - Winnipeg, Canada [speedtest.wp.shawcable.net]
 host = speedtest.wp.shawcable.net
 
 ++ telus-wpmb
 menu = [CA/MB] TELUS (Winnipeg)
-title = [CA/MB] TELUS (Winnipeg) [winnipeg.speedtest.telus.com]
+title = [CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]
 host = winnipeg.speedtest.telus.com
 
 ++ uoft0
 menu = [CA/ON] UofT
-title = [CA/ON] University of Toronto [utoronto.ca]
+title = [CA/ON] University of Toronto, Ontario, Canada [utoronto.ca]
 host = utoronto.ca
 
 ++ uwaterloo0
 menu = [CA/ON] UWaterloo
-title = [CA/ON] University of Waterloo [mirror.csclub.uwaterloo.ca]
+title = [CA/ON] University of Waterloo, Ontario, Canada [mirror.csclub.uwaterloo.ca]
 host = mirror.csclub.uwaterloo.ca
 
 ++ rogers-oton
 menu = [CA/ON] Rogers (Ottawa)
-title = [CA/ON] Rogers (Ottawa) [speedtestslnt.rogers.com]
+title = [CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.com]
 host = speedtestslnt.rogers.com
 
 ++ northwestel-yknt
 menu = [CA/NT] Northwestel (YK)
-title = [CA/NT] Northwestel (Yellowknife) [yk-netspeed.nwtel.ca]
+title = [CA/NT] Northwestel - Yellowknife, Northwest Territories, Canada [yk-netspeed.nwtel.ca]
 host = yk-netspeed.nwtel.ca
 
 
@@ -689,7 +694,7 @@ title = netmeter.club Global Ping Monitoring - North America (South)
 
 ++ colocrossing-dal-0
 menu = [US/TX] ColoCrossing (Dallas)
-title = [US/TX] ColoCrossing (Dallas) [lg.dal.colocrossing.com]
+title = [US/TX] ColoCrossing - Dallas, Texas [lg.dal.colocrossing.com]
 host = lg.dal.colocrossing.com
 
 ++ dediserve-dal1
@@ -699,12 +704,12 @@ host = speedtest.c1.dal1.dediserve.com
 
 ++ impactvps-dal
 menu = [US/TX] ImpactVPS (Dallas)
-title = [US/TX] ImpactVPS @ Incero (Dallas, Texas) [172.110.8.1]
+title = [US/TX] ImpactVPS @ Incero - Dallas, Texas [172.110.8.1]
 host = 172.110.8.1
 
 ++ linode-dal
 menu = [US/TX] Linode (Dallas)
-title = [US/TX] Linode (Dallas) [speedtest.dallas.linode.com]
+title = [US/TX] Linode - Dallas, Texas [speedtest.dallas.linode.com]
 host = speedtest.dallas.linode.com
 
 ++ nexril
@@ -714,17 +719,17 @@ host = lg.nexril.net
 
 ++ nfoservers-dal
 menu = [US/TX] NFOservers (Dallas)
-title = [US/TX] NFOservers (Dallas) [66.150.214.8]
+title = [US/TX] NFOservers - Dallas, Texas [66.150.214.8]
 host = 66.150.214.8
 
 ++ psychz-texas
 menu = [US/TX] Psychz (Dallas)
-title = [US/TX] Psychz (Dallas) [lg.texas.psychz.net]
+title = [US/TX] Psychz - Dallas, Texas [lg.texas.psychz.net]
 host = lg.texas.psychz.net
 
 ++ rackspace-dfw
 menu = [US/TX] Rackspace (Dallas)
-title = [US/TX] Rackspace (Dallas) [dfw.speedtest.rackspace.com]
+title = [US/TX] Rackspace - Dallas, Texas [dfw.speedtest.rackspace.com]
 host = dfw.speedtest.rackspace.com
 
 ++ ssdblaze-dal
@@ -734,17 +739,17 @@ host = lg-dal.ssdblaze.com
 
 ++ softlayer-dal
 menu = [US/TX] Softlayer (Dallas)
-title = [US/TX] Softlayer (Dallas dal06) [speedtest.dal06.softlayer.com]
+title = [US/TX] Softlayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]
 host = speedtest.dal06.softlayer.com
 
 ++ quadranet-dal
 menu = [US/TX] QuadraNet (Dallas)
-title = [US/TX] QuadraNet (Dallas) [lg.dal.colocrossing.com]
+title = [US/TX] QuadraNet - Dallas, Texas [lg.dal.colocrossing.com]
 host = lg.dal.colocrossing.com
 
 ++ spartanhost-dal
 menu = [US/TX] SpartanHost (Dallas)
-title = [US/TX] SpartanHost (Dallas) [lg.dal.spartanhost.net]
+title = [US/TX] SpartanHost - Dallas, Texas [lg.dal.spartanhost.net]
 host = lg.dal.spartanhost.net
 
 ++ usdedicated-dal
@@ -754,37 +759,37 @@ host = lg.daldedicated.com
 
 ++ vultr-dal
 menu = [US/TX] Vultr (Dallas)
-title = [US/TX] Vultr (Dallas) [tx-us-ping.vultr.com]
+title = [US/TX] Vultr - Dallas, Texas [tx-us-ping.vultr.com]
 host = tx-us-ping.vultr.com
 
 ++ softlayer-hou
 menu = [US/TX] Softlayer (Houston)
-title = [US/TX] Softlayer (Houston hou02) [speedtest.hou02.softlayer.com]
+title = [US/TX] Softlayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
 
 ++ budgetnode-atl
 menu = [US/GA] BudgetNode (Atlanta)
-title = [US/GA] BudgetNode (Atlanta) [104.129.25.90]
+title = [US/GA] BudgetNode - Atlanta, Georgia [104.129.25.90]
 host = 104.129.25.90
 
 ++ colocrossing-atl
 menu = [US/GA] ColoCrossing (Atlanta)
-title = [US/GA] ColoCrossing (Atlanta) [lg.atl.colocrossing.com]
+title = [US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]
 host = lg.atl.colocrossing.com
 
 ++ hostus-atl
 menu = [US/GA] HostUS (Atlanta)
-title = [US/GA] HostUS (Atlanta) [atl-lg.hostus.us]
+title = [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
 host = atl-lg.hostus.us
 
 ++ linode-atl
 menu = [US/GA] Linode (Atlanta)
-title = [US/GA] Linode (Atlanta) [speedtest.atlanta.linode.com]
+title = [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
 host = speedtest.atlanta.linode.com
 
 ++ ramnode-atl
 menu = [US/GA] Ramnode (Atlanta)
-title = [US/GA] Ramnode (Atlanta) [lg.atl.ramnode.com]
+title = [US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]
 host = lg.atl.ramnode.com
 
 ++ securedragon-atlanta
@@ -799,12 +804,12 @@ host = lg.atldedicated.net
 
 ++ vultr-atl
 menu = [US/GA] Vultr (Atlanta)
-title = [US/GA] Vultr (Atlanta) [ga-us-ping.vultr.com]
+title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
 host = ga-us-ping.vultr.com
 
 ++ softlayer-mex
 menu = [MX] Softlayer (Queretaro)
-title = [MX] Softlayer (Queretaro mex01) [speedtest.mex01.softlayer.com]
+title = [MX] Softlayer (mex01) - Queretaro, Mexico [speedtest.mex01.softlayer.com]
 host = speedtest.mex01.softlayer.com
 
 
@@ -1663,8 +1668,13 @@ host = lg-voxility.hostclean.net
 
 ++ hostclean-ro-m247
 menu = [RO] HostClean @ M247
-title = [RO] HostClean @ M247 DC - Bucharest, Romania [lg-m247.hostclean.net]
+title = [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
 host = lg-m247.hostclean.net
+
+++ hostsailor-ro
+menu = [RO] HostSailor (Bucharest)
+title = [RO] HostSailor @ M247 - Bucharest, Romania [185.183.99.8]
+host = 185.183.99.8
 
 ++ prometeus-rom
 menu = [RO] Prometeus (Bucharest)
@@ -1698,13 +1708,19 @@ title = netmeter.club Global Ping Monitoring - Mainland China
 
 ++ aliyun-beijing
 menu = [CN] Aliyun (Beijing)
-title = [CN] Aliyun / Alibaba Cloud - Beijing 中国北京 [oss-cn-beijing.aliyuncs.com]
+title = [CN] Aliyun / Alibaba Cloud - Beijing, China 中国北京 [oss-cn-beijing.aliyuncs.com]
 host = oss-cn-beijing.aliyuncs.com
 
 ++ amazon-cn-north1
 menu = [CN] Amazon AWS (Beijing)
-title = [CN] Amazon Web Services (Beijing cn-north1) [52.81.0.253]
+title = [CN] Amazon Web Services (cn-north1 @ Sinnet) - Beijing, China [52.81.0.253]
 host = 52.81.0.253
+
+++ anchnet-bj-yizhuang
+menu = [CN] Anchnet (Beijing)
+title = [CN] Anchnet - Beijing, China (Yizhuang BGP) [43.240.244.14]
+host = 43.240.244.14
+#https://www.anchnet.com/datacenter/yizhuang
 
 ++ aliyun-qingdao
 menu = [CN] Aliyun (Shandong)
@@ -1728,13 +1744,40 @@ host = oss-cn-huhehaote.aliyuncs.com
 
 ++ amazon-cn-northwest1
 menu = [CN] Amazon AWS (Ningxia)
-title = [CN] Amazon Web Services (Ningxia cn-northwest1) [52.82.0.253]
+title = [CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [52.82.0.253]
 host = 52.82.0.253
 
 ++ aliyun-shanghai
 menu = [CN] Aliyun (Shanghai)
 title = [CN] Aliyun / Alibaba Cloud - Shanghai 中国上海 [oss-cn-shanghai.aliyuncs.com]
 host = oss-cn-shanghai.aliyuncs.com
+
+++ anchnet-sh-tl
+menu = [CN] Anchnet (Shanghai TL)
+title = [CN] Anchnet - Shanghai (TL BGP) [43.254.150.12]
+host = 43.254.150.12
+#https://www.anchnet.com/datacenter/hulan
+
+++ anchnet-sh-tl
+menu = [CN] Anchnet (Shanghai CT)
+title = [CN] Anchnet @ China Telecom - Shanghai (Hulan CT) [101.227.69.37]
+host = 101.227.69.37
+
+++ anchnet-sh-tl
+menu = [CN] Anchnet (Shanghai BGP)
+title = [CN] Anchnet - Shanghai (Hulan Premium BGP) [103.20.251.7]
+host = 103.20.251.7
+
+++ anchnet-sh-beiai
+menu = [CN] Anchnet (Shanghai CU)
+title = [CN] Anchnet @ China Unicom - Shanghai, China (Beiai CU) [112.65.240.161]
+host = 112.65.240.161
+
+++ anchnet-js-wuxi
+menu = [CN] Anchnet (Jiangsu Wuxi)
+title = [CN] Anchnet - Wuxi, Jiangsu (BGP) [103.21.119.48]
+host = 103.21.119.48
+#221.228.82.70（电信）122.192.69.117（联通）
 
 ++ cloudiplc-xzcu
 menu = [CN] CloudIPLC (Jiangsu CU)
@@ -1747,8 +1790,8 @@ title = [CN] CloudIPLC @ China Mobile - Jiangsu 江苏移动 (China East) [ping.
 host = ping.jscm.cloudiplc.com
 
 ++ stardo-xuzhou
-menu = [CN] StarDo (Jiangsu)
-title = [CN] StarDo - Xuzhou, Jiangsu (DDoS Protected) [58.218.210.1]
+menu = [CN] Star.do (Jiangsu)
+title = [CN] Star.do @ China Telecom - Xuzhou, Jiangsu (DDoS Protected) [58.218.210.1]
 host = 58.218.210.1
 
 ++ tcloud-zhenjiang-ct
@@ -1758,18 +1801,18 @@ host = 222.186.52.1
 
 ++ uovz-xuzhou
 menu = [CN] UOvZ (Jiangsu CT+DP)
-title = [CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州電信 DDoS Protected (China East) [58.218.201.1]
+title = [CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州电信 DDoS Protected (China East) [58.218.201.1]
 host = 58.218.201.1
-
-++ aliyun-hangzhou
-menu = [CN] Aliyun (Zhejiang)
-title = [CN] Aliyun / Alibaba Cloud - Hangzhou, Zhejiang 中国杭州 [oss-cn-hangzhou.aliyuncs.com]
-host = oss-cn-hangzhou.aliyuncs.com
 
 ++ uovz-xuzhou-cu
 menu = [CN] UOvZ (Jiangsu CU)
 title = [CN] UOvZ @ China Unicom - Xuzhou, Jiangsu 徐州联通 (China East) [112.85.239.1]
 host = 112.85.239.1
+
+++ aliyun-hangzhou
+menu = [CN] Aliyun (Zhejiang)
+title = [CN] Aliyun / Alibaba Cloud - Hangzhou, Zhejiang 中国杭州 [oss-cn-hangzhou.aliyuncs.com]
+host = oss-cn-hangzhou.aliyuncs.com
 
 ++ tcloud-ningbo
 menu = [CN] TCloud (Zhejiang)
@@ -1813,13 +1856,18 @@ host = 117.159.147.1
 
 ++ uovz-guizhou
 menu = [CN] UOvZ (Guizhou CT)
-title = [CN] UOvZ @ China Telecom - Guizhou 贵州電信 (China Southwest) [123.249.0.1]
+title = [CN] UOvZ @ China Telecom - Guizhou 贵州电信 (China Southwest) [123.249.0.1]
 host = 123.249.0.1
 
 ++ aliyun-shenzhen
 menu = [CN] Aliyun (Shenzhen)
 title = [CN] Aliyun / Alibaba Cloud - Shenzhen, Guangdong 中国深圳 [oss-cn-shenzhen.aliyuncs.com]
 host = oss-cn-shenzhen.aliyuncs.com
+
+++ anchnet-sz-gds
+menu = [CN] Anchnet (Shenzhen)
+title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
+host = 43.240.244.14
 
 
 + PointsInterestCN3
@@ -1835,6 +1883,11 @@ host = lg.shatin.hkg.50network.com
 menu = [HK] Aliyun
 title = [HK] Aliyun / Alibaba Cloud - Hong Kong, China [oss-cn-hongkong.aliyuncs.com]
 host = oss-cn-hongkong.aliyuncs.com
+
+++ anchnet-hk
+menu = [HK] Anchnet
+title = [HK] Anchnet - Hong Kong, China (BGP) [118.193.193.24]
+host = 118.193.193.24
 
 ++ bandwagonhost-hk
 menu = [HK] BandwagonHost
@@ -2126,11 +2179,6 @@ menu = [RU] 50KVM (Khabarovsk)
 title = [RU] 50KVM - Khabarovsk, Russia [lg.russia.khv.50network.com]
 host = lg.russia.khv.50network.com
 
-++ cloudiplc-khv
-menu = [RU] CloudIPLC (Khabarovsk)
-title = [RU] CloudIPLC - Khabarovsk, Russia [ping.ru1.cloudiplc.com]
-host = ping.ru1.cloudiplc.com
-
 ++ rfchost-khv
 menu = [RU] RFChost (Khabarovsk)
 title = [RU] RFChost - Khabarovsk, Russia [103.102.4.4]
@@ -2153,8 +2201,8 @@ title = [RU] XHostFire - Novosibirsk, Russia @ PJSC Rostelecom [95.167.6.12]
 host = hd.ncc.snt.ru
 
 ++ teleguam
-menu = [GU] GTA Teleguam
-title = [GU] GTA Teleguam - Guam, United States [speedtest.teleguam.net]
+menu = [US/GU] GTA Teleguam
+title = [US/GU] GTA Teleguam - Guam, United States [speedtest.teleguam.net]
 host = speedtest.teleguam.net
 
 
@@ -2556,6 +2604,11 @@ host = auckland-lg.ransomit.com.au
 menu = [AU] Dediserve (Melbourne)
 title = [AU] Dediserve - Melbourne, Australia [speedtest.c1.mel1.dediserve.com]
 host = speedtest.c1.mel1.dediserve.com
+
+++ flowvps
+menu = [AU] FlowVPS (Melbourne)
+title = [AU] FlowVPS @ Equinix ME1 - Melbourne, Australia [lg.flowvps.com]
+host = lg.flowvps.com
 
 ++ ransomit-mel
 menu = [AU] Ransom IT (Melbourne)
