@@ -1758,12 +1758,12 @@ title = [CN] Anchnet - Shanghai (TL BGP) [43.254.150.12]
 host = 43.254.150.12
 #https://www.anchnet.com/datacenter/hulan
 
-++ anchnet-sh-tl
+++ anchnet-sh-hl-ct
 menu = [CN] Anchnet (Shanghai CT)
 title = [CN] Anchnet @ China Telecom - Shanghai (Hulan CT) [101.227.69.37]
 host = 101.227.69.37
 
-++ anchnet-sh-tl
+++ anchnet-sh-hl-bgp2
 menu = [CN] Anchnet (Shanghai BGP)
 title = [CN] Anchnet - Shanghai (Hulan Premium BGP) [103.20.251.7]
 host = 103.20.251.7
