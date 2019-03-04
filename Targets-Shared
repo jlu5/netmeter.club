@@ -67,6 +67,11 @@ menu = [CDN] Fastly
 title = [CDN] Fastly [cdn-fastly.deb.debian.org]
 host = cdn-fastly.deb.debian.org
 
+++ github
+menu = [CDN] GitHub
+title = [CDN] GitHub [github.com]
+host = github.com
+
 ++ gcorelabs-cdn
 menu = [CDN] G-Core Labs
 title = [CDN] G-Core Labs CDN [d.gcdn.co]
@@ -131,6 +136,11 @@ host = twitter.com
 menu = [CDN] Verizon Edgecast
 title = [CDN] Verizon Edgecast [www.verizondigitalmedia.com]
 host = www.verizondigitalmedia.com
+
+++ wikimedia
+menu = [ANY] Wikimedia Foundation
+title = [ANY] Wikimedia Foundation [wikimedia.org]
+host = wikimedia.org
 
 
 + PointsInterestNAW
@@ -561,6 +571,11 @@ host = toronto-test.lunanode.com
 menu = [CA/ON] Softlayer (Toronto)
 title = [CA/ON] Softlayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
 host = speedtest.tor01.softlayer.com
+
+++ vultr-tor
+menu = [CA/ON] Vultr (Toronto)
+title = [CA/ON] Vultr - Toronto, Ontario, Canada [tor-ca-ping.vultr.com]
+host = tor-ca-ping.vultr.com
 
 ++ colocrossing-chi
 menu = [US/IL] ColoCrossing (Chicago)
@@ -2124,6 +2139,11 @@ menu = [JP] Riven Cloud (Tokyo)
 title = [JP] Riven Cloud - Tokyo, Japan [speedtest-ty1.sa.net]
 host = speedtest-ty1.sa.net
 
+++ sakura-internet
+menu = [JP] Sakura Internet
+title = [JP] Sakura Internet [sakura.ne.jp]
+host = sakura.ne.jp
+
 ++ softlayer-tok
 menu = [JP] Softlayer (Tokyo)
 title = [JP] Softlayer (tok02) - Tokyo, Japan [speedtest.tok02.softlayer.com]
@@ -2169,16 +2189,6 @@ menu = [KR] Softlayer (Seoul)
 title = [KR] Softlayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
 host = speedtest.seo01.softlayer.com
 
-#++ xhostfire-seo
-#menu = [KR] XHostFire (Seoul)
-#title = [KR] XHostFire - Seoul, South Korea @ Korea Telecom [14.63.245.93]
-#host = 14.63.245.93
-
-++ 50kvm-ru-khv
-menu = [RU] 50KVM (Khabarovsk)
-title = [RU] 50KVM - Khabarovsk, Russia [lg.russia.khv.50network.com]
-host = lg.russia.khv.50network.com
-
 ++ rfchost-khv
 menu = [RU] RFChost (Khabarovsk)
 title = [RU] RFChost - Khabarovsk, Russia [103.102.4.4]
@@ -2193,6 +2203,11 @@ host = 87.225.45.1
 menu = [RU] ZeptoVM (Khabarovsk)
 title = [RU] ZeptoVM / Misaka Networks - Khabarovsk, Russia [ru-khv01.lg.zeptovm.com]
 host = ru-khv01.lg.zeptovm.com
+
+++ justhost-adman
+menu = [RU] JustHost (Novosibirsk)
+title = [RU] JustHost.ru @ Adman - Novosibirsk, Russia [lg-adman.justhost.ru]
+host = lg-adman.justhost.ru
 
 ++ xhostfire-nvo0
 menu = [RU] XHostFire (Novosibirsk)
