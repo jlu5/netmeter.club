@@ -827,6 +827,30 @@ menu = [MX] Softlayer (Queretaro)
 title = [MX] Softlayer (mex01) - Queretaro, Mexico [speedtest.mex01.softlayer.com]
 host = speedtest.mex01.softlayer.com
 
+++ maxcom
+menu = [MX] Maxcom (Mexico City)
+title = [MX] Maxcom - Mexico City, Mexico [speedmax.maxcom.net.mx]
+host = speedmax.maxcom.net.mx
+
+++ alestra
+menu = [MX] Alestra (Mexico City)
+title = [MX] Alestra - Mexico City, Mexico [speedtest-mex-01.alestra.net.mx]
+host = speedtest-mex-01.alestra.net.mx
+
+++ izzi-tij
+menu = [MX] IZZI (Tijuana)
+title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
+host = speedtest.tijuana.izzi.mx
+
+++ telefonica-mx6
+menu = [MX] Telefonica (Guadalajara)
+title = [MX] Telefonica/Movistar Mexico - Guadalajara, Mexico [internet6.movistar.com.mx]
+host = internet6.movistar.com.mx
+
+++ telefonica-mx5
+menu = [MX] Telefonica (Cancun)
+title = [MX] Telefonica/Movistar Mexico - Cancun, Mexico [internet5.movistar.com.mx]
+host = internet5.movistar.com.mx
 
 + PointsInterestNAE
 menu = North America - East
@@ -1107,6 +1131,11 @@ menu = [UK] Riven Cloud (London)
 title = [UK] Riven Cloud - London, United Kingdom [speedtest-ld1.sa.net]
 host = speedtest-ld1.sa.net
 
+++ vodafone-lon
+menu = [UK] Vodafone (London)
+title = [UK] Vodafone - London, United Kingdom [195.2.27.162]
+host = 195.2.27.162
+
 ++ vmhaus-lon
 menu = [UK] VMHaus (London)
 title = [UK] VMHaus - London, United Kingdom [lg.thn2.vmhaus.com]
@@ -1307,6 +1336,11 @@ menu = [ES] GinerNet (Madrid)
 title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
 host = 5.134.117.74
 
+++ telefonica
+menu = [ES] Telefonica
+title = [ES] Telefonica [www.telefonicaglobalsolutions.com]
+host = www.telefonicaglobalsolutions.com
+
 ++ edis-es
 menu = [ES] EDIS (Seville)
 title = [ES] EDIS - Seville, Spain [es.edis.at]
@@ -1482,6 +1516,11 @@ menu = [CH] LunarVPS
 title = [CH] LunarVPS - Switzerland [lg.sw.lunarvps.com]
 host = lg.sw.lunarvps.com
 
+++ privatelayer
+menu = [CH] PrivateLayer
+title = [CH] PrivateLayer - Switzerland [www.privatelayer.com]
+host = www.privatelayer.com
+
 ++ hurricane-electric-cph1
 menu = [DK] he.net (Copenhagen)
 title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
@@ -1557,6 +1596,16 @@ menu = [AT] EDIS (Graz)
 title = [AT] EDIS - Graz, Austria [atgrz.edis.at]
 host = atgrz.edis.at
 
+++ t-mobile-cz
+menu = [CZ] T-Mobile (Prague)
+title = [CZ] T-Mobile - Prague, Czech Republic [speedtest3.t-mobile.cz]
+host = speedtest3.t-mobile.cz
+
+++ vodafone-cz
+menu = [CZ] Vodafone (Prague)
+title = [CZ] Vodafone - Prague, Czech Republic [speedtest.vodafone.cz]
+host = speedtest.vodafone.cz
+
 ++ dediserve-pol1
 menu = [PL] Dediserve (Warsaw)
 title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
@@ -1566,11 +1615,6 @@ host = speedtest.c1.pol1.dediserve.com
 menu = [PL] EDIS (Warsaw)
 title = [PL] EDIS - Warsaw, Poland [pl.edis.at]
 host = pl.edis.at
-
-++ serwerydedykowane
-menu = [PL] SerweryDedykowane
-title = [PL] SerweryDedykowane - Poznan, Poland [185.140.120.11]
-host = 185.140.120.11
 
 ++ ovh-waw
 menu = [PL] OVH (Warsaw)
@@ -1582,6 +1626,11 @@ menu = [PL] webh (Warsaw)
 title = [PL] webh @ IWACOM - Warsaw, Poland [91.205.74.1]
 host = 91.205.74.1
 
+++ orange-pl-gdo
+menu = [PL] Orange (Gdansk)
+title = [PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]
+host = gda-o1.speedtest.orange.pl
+
 ++ hurricane-electric-bud1
 menu = [HU] he.net (Budapest)
 title = [HU] Hurricane Electric - CE Colo Victor Hugo 1 Budapest, HU [core1.bud1.he.net]
@@ -1591,6 +1640,16 @@ host = core1.bud1.he.net
 menu = [HU] EDIS (Budapest)
 title = [HU] EDIS - Budapest, Hungary [hu.edis.at]
 host = hu.edis.at
+
+++ magyar-telecom
+menu = [HU] Magyar Telecom
+title = [HU] Magyar Telecom - Budapest, Hungary [speedtest.telekom.hu]
+host = speedtest.telekom.hu
+
+++ slovak-telecom
+menu = [SK] Slovak Telekom (Bratislava)
+title = [SK] Slovak Telekom - Bratislava, Slovakia [sp1.telekom.sk]
+host = sp1.telekom.sk
 
 ++ edis-si
 menu = [SI] EDIS (Ljubljana)
@@ -1701,21 +1760,65 @@ menu = [RO] Virtono (Bucharest)
 title = [RO] Virtono - Bucharest, Romania [85.204.49.17]
 host = 85.204.49.17
 
+++ edis-md
+menu = [MD] EDIS
+title = [MD] EDIS - Chisinau, Moldova [md.edis.at]
+host = md.edis.at
+
 ++ ultravps-md
 menu = [MD] UltraVPS (Moldova)
 title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
 host = lg.kiv.md.ultravps.eu
+
+++ cosmote-2
+menu = [GR] Cosmote (Athens)
+title = [GR] Cosmote (OTE) - Athens, Greece [speedtest2.cosmote.net]
+host = speedtest2.cosmote.net
+
+++ gr-ix
+menu = [GR] GRNET GR-IX (Athens)
+title = [GR] GR-IX Greek Internet Exchange - Athens, Greece [speedtest.gr-ix.gr]
+host = speedtest.gr-ix.gr
+
+++ cosmote-1
+menu = [GR] Cosmote (Thessaloniki)
+title = [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
+host = speedtest.cosmote.net
 
 ++ hostigger-ist
 menu = [TR] Hostigger (Istanbul)
 title = [TR] Hostigger - Istanbul, Turkey [185.219.132.125]
 host = 185.219.132.125
 
+++ turkcell-ist
+menu = [TR] Turkcell (Istanbul)
+title = [TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]
+host = medn01.hizinitestet.com
+
+++ turktelecom-ist
+menu = [TR] Turk Telecom (Istanbul)
+title = [TR] Turk Telecom - Istanbul, Turkey [gun1speedtest.turktelekom.com.tr]
+host = gun1speedtest.turktelekom.com.tr
+
+++ vodafone-tr-ank
+menu = [TR] Vodafone (Ankara)
+title = [TR] Vodafone - Ankara, Turkey [speedtest.vodafone.com.tr]
+host = speedtest.vodafone.com.tr
+
 ++ hurricane-electric-kbp1
 menu = [UA] he.net (Kiev)
 title = [UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]
 host = core1.kbp1.he.net
 
+++ kyivstar
+menu = [UA] Kyivstar (Kiev)
+title = [UA] Kyivstar - Kiev, Ukraine [www.speedtest.kyivstar.ua]
+host = www.speedtest.kyivstar.ua
+
+++ vodafone-ua
+menu = [UA] Vodafone (Kharkiv)
+title = [UA] Vodafone - Kharkiv, Ukraine [kharkovspeedtest.vodafone.ua]
+host = kharkovspeedtest.vodafone.ua
 
 + PointsInterestCN
 menu = China - Mainland
@@ -1928,11 +2031,6 @@ host = speedtest.c1.hkg1.dediserve.com
 menu = [HK] DMIT (PVM.n2)
 title = [HK] DMIT (PVM.n2) - Hong Kong, China [193.110.200.233]
 host = 193.110.200.233
-
-++ dmit-io-hkn3
-menu = [HK] DMIT (PVM.n3)
-title = [HK] DMIT (PVM.n3) - Hong Kong, China [hka-n3.lg.dmit.io]
-host = hka-n3.lg.dmit.io
 
 ++ edis-hk
 menu = [HK] EDIS
@@ -2420,6 +2518,11 @@ menu = [ZA] Riven Cloud (JNB)
 title = [ZA] Riven Cloud - Johannesburg, South Africa [speedtest-jb1.sa.net]
 host = speedtest-jb1.sa.net
 
+++ zappiehost-za
+menu = [ZA] ZappieHost
+title = [ZA] ZappieHost [lg-za.zappiehost.com]
+host = lg-za.zappiehost.com
+
 ++ seacom-za-cpt
 menu = [ZA] SEACOM (Cape Town)
 title = [ZA] SEACOM - Cape Town, South Africa [lg-01-cpt.za.seacomnet.com]
@@ -2430,30 +2533,60 @@ menu = [ZA] SEACOM (Durban)
 title = [ZA] SEACOM - Durban, South Africa [lg-01-dur.za.seacomnet.com]
 host = lg-01-dur.za.seacomnet.com
 
-++ seacom-za-jnb
-menu = [ZA] SEACOM (Johannesburg)
-title = [ZA] SEACOM - Johannesburg, South Africa [lg-01-jnb.za.seacomnet.com]
-host = lg-01-jnb.za.seacomnet.com
+++ mtn-ng
+menu = [NG] MTN (Lagos)
+title = [NG] MTN - Lagos, Nigeria [mtnspeedtest1.mtnonline.com]
+host = mtnspeedtest1.mtnonline.com
 
-++ seacom-za-emg
-menu = [ZA] SEACOM (Mtunzini)
-title = [ZA] SEACOM - Mtunzini, South Africa [lg-01-emg.za.seacomnet.com]
-host = lg-01-emg.za.seacomnet.com
+++ airtel-ng
+menu = [NG] Airtel (Lagos)
+title = [NG] Airtel Nigeria - Lagos, Nigeria [speedtest1.ng.airtel.com]
+host = speedtest1.ng.airtel.com
 
-++ mirror-ac-za
-menu = [ZA] TENET
-title = [ZA] TENET The Tertiary Education and Research Network of South Africa [mirror.ac.za]
-host = mirror.ac.za
+++ etisalat-ng
+menu = [NG] Etisalat (Lagos)
+title = [NG] Etisalat Nigeria (EMTS) - Lagos, Nigeria [lgsp1.etisalat.com.ng]
+host = lgsp1.etisalat.com.ng
 
-++ zappiehost-za
-menu = [ZA] ZappieHost
-title = [ZA] ZappieHost [lg-za.zappiehost.com]
-host = lg-za.zappiehost.com
+++ web4africa-ng
+menu = [NG] Web4Africa (Lagos)
+title = [NG] Web4Africa - Lagos, Nigeria [speedtest.web4africa.net.ng]
+host = speedtest.web4africa.net.ng
 
-++ hurricane-electric-jib1
-menu = [DJ] he.net (Djibouti City)
-title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
-host = core1.jib1.he.net
+++ etisalat-misr
+menu = [EG] Etisalat Misr (Alexandria)
+title = [EG] Etisalat Misr - Alexandria, Egypt [sp30.etisalatdata.net]
+host = sp30.etisalatdata.net
+
+++ vodafone-eg
+menu = [EG] Vodafone (Cairo)
+title = [EG] Vodafone - Cairo, Egypt [speedtest3.vodafone.com.eg]
+host = speedtest3.vodafone.com.eg
+
+++ maroc-telecom
+menu = [MA] Maroc Telecom (Fez)
+title = [MA] Maroc Telecom - Fez, Morocco [fesst.iam.ma]
+host = fesst.iam.ma
+
+++ orange-ma
+menu = [MA] Orange (Casablanca)
+title = [MA] Orange - Fez, Morocco [speedtestcasa1.meditel.net.ma]
+host = speedtestcasa1.meditel.net.ma
+
+++ algerie-telecom
+menu = [DZ] Algerie Telecom
+title = [DZ] Algerie Telecom - Algiers, Algeria [speedtest.djaweb.dz]
+host = speedtest.djaweb.dz
+
+++ ooredoo-tn
+menu = [TN] Ooredoo (Tunis)
+title = [TN] Ooredoo - Tunis, Tunisia [speedtest2.ooredoo.tn]
+host = speedtest2.ooredoo.tn
+
+++ tunisie-telecom
+menu = [TN] Tunisie Telecom
+title = [TN] Tunisie Telecom - Tunis, Tunisia [speedtest.tunisietelecom.tn]
+host = speedtest.tunisietelecom.tn
 
 ++ angani
 menu = [KE] Angani
@@ -2474,6 +2607,11 @@ host = lg-01-mba.ke.seacomnet.com
 menu = [KE] SEACOM (Nairobi)
 title = [KE] SEACOM - Nairobi, Kenya [lg-01-nbo.ke.seacomnet.com]
 host = lg-01-nbo.ke.seacomnet.com
+
+++ hurricane-electric-jib1
+menu = [DJ] he.net (Djibouti City)
+title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
+host = core1.jib1.he.net
 
 ++ seacom-ug-ebb
 menu = [UG] SEACOM (Kampala)
@@ -2507,13 +2645,13 @@ host = 197.149.150.178
 
 ++ orange-sn
 menu = [SN] Orange Senegal
-title = [SN] Orange Senegal / SonaTel [orange.sn]
+title = [SN] Orange Senegal SonaTel [orange.sn]
 host = orange.sn
 
-++ orange-ne
-menu = [NE] Orange Niger
-title = [NE] Orange Niger [orange.ne]
-host = orange.ne
+++ orange-bf
+menu = [BF] Orange Burkina
+title = [BF] Orange Burkina Faso [speedtest.orange.bf]
+host = speedtest.orange.bf
 
 
 + PointsInterestSA
@@ -2535,21 +2673,85 @@ menu = [BR] Softlayer (Sao Paulo)
 title = [BR] Softlayer (sao01) - Sao Paulo, Brazil [speedtest.sao01.softlayer.com]
 host = speedtest.sao01.softlayer.com
 
-++ edis-cl
-menu = [CL] EDIS (Chile)
-title = [CL] EDIS - Viña del Mar, Chile [cl.edis.at]
-host = cl.edis.at
+++ claro-sao
+menu = [BR] Claro (Sao Paulo)
+title = [BR] Claro - Sao Paulo, Brazil [spd5.claro.com.br]
+host = spd5.claro.com.br
 
-++ hurricane-electric-bog1
-menu = [CO] he.net (Bogota)
-title = [CO] Hurricane Electric - Equinix BG1, Bogota Bogota, CO [core1.bog1.he.net]
-host = core1.bog1.he.net
+++ timbrasil-sao
+menu = [BR] TIM Brasil (Sao Paulo)
+title = [BR] TIM Brasil - Sao Paulo, Brazil [svstsne0101.timbrasil.com.br]
+host = svstsne0101.timbrasil.com.br
+
+++ claro-rjo
+menu = [BR] Claro (Rio De Janeiro)
+title = [BR] Claro - Rio De Janeiro, Brazil [spd2.claro.com.br]
+host = spd2.claro.com.br
+
+++ telefonica-vivo-rjo
+menu = [BR] Telefonica Vivo (RJO)
+title = [BR] Telefonica Vivo - Rio De Janeiro, Brazil [rjo.testepower.com.br]
+host = rjo.testepower.com.br
+
+++ timbrasil-sal
+menu = [BR] TIM Brasil (Salvador)
+title = [BR] TIM Brasil - Salvador, Brazil [spetstsdr01.timbrasil.com.br]
+host = spetstsdr01.timbrasil.com.br
+
+++ fibertel-ar
+menu = [AR] FiberTel (Buenos Aires)
+title = [AR] FiberTel - Buenos Aires, Argentina [speed.fibertel.com.ar]
+host = speed.fibertel.com.ar
 
 ++ telecom-argentina
 menu = [AR] Tel. Argentina (Buenos Aires)
 title = [AR] Telecom Argentina - Buenos Aires, Argentina [st1.telecom.com.ar]
 host = st1.telecom.com.ar
 
+++ telecom-argentina-cor1
+menu = [AR] Tel. Argentina (Cordoba)
+title = [AR] Telecom Argentina - Cordoba, Argentina [stcor1.telecom.com.ar]
+host = stcor1.telecom.com.ar
+
+++ fibertel-ar-ros
+menu = [AR] FiberTel (Rosario)
+title = [AR] FiberTel - Rosario, Argentina [st-rosario.cablevisionfibertel.com.ar]
+host = st-rosario.cablevisionfibertel.com.ar
+
+++ wnpower-ar
+menu = [AR] WNPOWER (Federal)
+title = [AR] WNPOWER (via NodePing.com) - Federal, Argentina [pinghostar.nodeping.com]
+host = pinghostar.nodeping.com
+
+++ edis-cl
+menu = [CL] EDIS (Vina del Mar)
+title = [CL] EDIS - Viña del Mar, Chile [cl.edis.at]
+host = cl.edis.at
+
+++ claro-cl
+menu = [CL] Claro (Santiago)
+title = [CL] Claro Chile - Santiago, Chile [speedtest.clarochile.cl]
+host = speedtest.clarochile.cl
+
+++ telefonica-cl
+menu = [CL] Telefonica (Santiago)
+title = [CL] Telefonica/Movistar Chile - Santiago, Chile [speedtest-netgauge.movistar.cl]
+host = speedtest-netgauge.movistar.cl
+
+++ offshoreracks-pa
+menu = [PA] OffshoreRacks (Panama)
+title = [PA] OffshoreRacks - Panama [offshoreracks.com]
+host = offshoreracks.com
+
+++ crservers
+menu = [CR] CR Servers (Costa Rica)
+title = [CR] CR Servers [www.crservers.cr]
+host = www.crservers.cr
+
+++ hurricane-electric-bog1
+menu = [CO] he.net (Bogota)
+title = [CO] Hurricane Electric - Equinix BG1, Bogota Bogota, CO [core1.bog1.he.net]
+host = core1.bog1.he.net
 
 + PointsInterestOc
 menu = Oceania
