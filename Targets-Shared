@@ -1356,11 +1356,6 @@ menu = [PT] he.net (Lisbon)
 title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
 host = core1.lis1.he.net
 
-++ edis-is
-menu = [IS] EDIS (Hafnarfjordur)
-title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
-host = is.edis.at
-
 ++ edis-im
 menu = [IM] EDIS (Isle of Man)
 title = [IM] EDIS - Douglas, Isle of Man [im.edis.at]
@@ -1521,55 +1516,30 @@ menu = [CH] PrivateLayer
 title = [CH] PrivateLayer - Switzerland [www.privatelayer.com]
 host = www.privatelayer.com
 
-++ hurricane-electric-cph1
-menu = [DK] he.net (Copenhagen)
-title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
-host = core1.cph1.he.net
+++ dediserve-pol1
+menu = [PL] Dediserve (Warsaw)
+title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
+host = speedtest.c1.pol1.dediserve.com
 
-++ hosthatch-osl
-menu = [NO] HostHatch (Oslo)
-title = [NO] HostHatch - Oslo, Norway [lg.osl.hosthatch.com]
-host = lg.osl.hosthatch.com
+++ edis-pl
+menu = [PL] EDIS (Warsaw)
+title = [PL] EDIS - Warsaw, Poland [pl.edis.at]
+host = pl.edis.at
 
-++ softlayer-osl
-menu = [NO] Softlayer (Oslo)
-title = [NO] Softlayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
-host = speedtest.osl01.softlayer.com
+++ ovh-waw
+menu = [PL] OVH (Warsaw)
+title = [PL] OVH (Warsaw) [waw1-oza.smokeping.ovh.net]
+host = waw1-oza.smokeping.ovh.net
 
-++ terrahost-no
-menu = [NO] Terrahost (Sandefjord)
-title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
-host = lg.terrahost.no
+++ webh
+menu = [PL] webh (Warsaw)
+title = [PL] webh @ IWACOM - Warsaw, Poland [91.205.74.1]
+host = 91.205.74.1
 
-#++ xhostfire-osl
-#menu = [NO] XHostFire (Oslo)
-#title = [NO] XHostFire - Oslo, Norway (TDC) [62.73.193.2]
-#host = 62.73.193.2
-
-++ edis-se
-menu = [SE] EDIS (Stockholm)
-title = [SE] EDIS - Stockholm, Sweden [se.edis.at]
-host = se.edis.at
-
-++ telia-se
-menu = [SE] Telia
-title = [SE] Telia Company - Sweden [lg.telia.net]
-host = lg.telia.net
-
-++ vikinglayer-swe
-menu = [SE] VikingLayer
-title = [SE] VikingLayer / drServer / Portlane - Sweden [sweden.drserver.net]
-host = sweden.drserver.net
-
-++ hurricane-electric-sto1
-menu = [SE] he.net (Stockholm)
-title = [SE] Hurricane Electric - Equinix Stockholm (SK1) Stockholm, SE [core1.sto1.he.net]
-host = core1.sto1.he.net
-
-++ hurricane-electric-tll1
-menu = [EE] he.net (Tallinn)
-title = [EE] Hurricane Electric - Elion Tallinn Tallinn, EE [core1.tll1.he.net]
-host = core1.tll1.he.net
+++ orange-pl-gdo
+menu = [PL] Orange (Gdansk)
+title = [PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]
+host = gda-o1.speedtest.orange.pl
 
 ++ dediserve-vie1
 menu = [AT] Dediserve (Vienna)
@@ -1606,36 +1576,6 @@ menu = [CZ] Vodafone (Prague)
 title = [CZ] Vodafone - Prague, Czech Republic [speedtest.vodafone.cz]
 host = speedtest.vodafone.cz
 
-++ dediserve-pol1
-menu = [PL] Dediserve (Warsaw)
-title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
-host = speedtest.c1.pol1.dediserve.com
-
-++ edis-pl
-menu = [PL] EDIS (Warsaw)
-title = [PL] EDIS - Warsaw, Poland [pl.edis.at]
-host = pl.edis.at
-
-++ ovh-waw
-menu = [PL] OVH (Warsaw)
-title = [PL] OVH (Warsaw) [waw1-oza.smokeping.ovh.net]
-host = waw1-oza.smokeping.ovh.net
-
-++ webh
-menu = [PL] webh (Warsaw)
-title = [PL] webh @ IWACOM - Warsaw, Poland [91.205.74.1]
-host = 91.205.74.1
-
-++ orange-pl-gdo
-menu = [PL] Orange (Gdansk)
-title = [PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]
-host = gda-o1.speedtest.orange.pl
-
-++ hurricane-electric-bud1
-menu = [HU] he.net (Budapest)
-title = [HU] Hurricane Electric - CE Colo Victor Hugo 1 Budapest, HU [core1.bud1.he.net]
-host = core1.bud1.he.net
-
 ++ edis-hu
 menu = [HU] EDIS (Budapest)
 title = [HU] EDIS - Budapest, Hungary [hu.edis.at]
@@ -1655,6 +1595,7 @@ host = sp1.telekom.sk
 menu = [SI] EDIS (Ljubljana)
 title = [SI] EDIS - Ljubljana, Slovenia [si.edis.at]
 host = si.edis.at
+
 
 + PointsInterestEU3
 menu = Europe - East
@@ -1689,36 +1630,6 @@ host = lg.justhost.ru
 menu = [RU] JustHost (Moscow RTCom)
 title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
 host = lg-rtcom.justhost.ru
-
-++ gcp-fin
-menu = [FI] Google Cloud
-title = [FI] Google Cloud Platform (europe-north1) - Hamina, Finland [europe-north1-gce.cloudharmony.net]
-host = europe-north1-gce.cloudharmony.net
-
-++ hetzner-fi
-menu = [FI] Hetzner (Helsinki)
-title = [FI] Hetzner - Helsinki, Finland [95.216.24.40]
-host = 95.216.24.40
-
-++ xhostfire-esp
-menu = [FI] XHostFire (Espoo)
-title = [FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]
-host = 81.22.243.1
-
-++ bacloud-lt
-menu = [LT] BaCloud (Siauliai)
-title = [LT] BaCloud - Siauliai, Lithuania [185.25.48.2]
-host = 185.25.48.2
-
-++ ultravps-lt
-menu = [LT] UltraVPS (Siauliai)
-title = [LT] UltraVPS - Siauliai, Lithuania [lg.sqq.lt.ultravps.eu]
-host = lg.sqq.lt.ultravps.eu
-
-++ vpsnet-lt
-menu = [LT] VPSnet (Vilnius)
-title = [LT] VPSnet - Vilnius, Lithuania [91.211.244.3]
-host = 91.211.244.3
 
 ++ alphavps-bg
 menu = [BG] AlphaVPS (Sofia)
@@ -1819,6 +1730,92 @@ host = www.speedtest.kyivstar.ua
 menu = [UA] Vodafone (Kharkiv)
 title = [UA] Vodafone - Kharkiv, Ukraine [kharkovspeedtest.vodafone.ua]
 host = kharkovspeedtest.vodafone.ua
+
+
++ PointsInterestEU4
+menu = Europe - North
+title = netmeter.club Global Ping Monitoring - Europe (North)
+
+++ hurricane-electric-cph1
+menu = [DK] he.net (Copenhagen)
+title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
+host = core1.cph1.he.net
+
+++ hosthatch-osl
+menu = [NO] HostHatch (Oslo)
+title = [NO] HostHatch - Oslo, Norway [lg.osl.hosthatch.com]
+host = lg.osl.hosthatch.com
+
+++ softlayer-osl
+menu = [NO] Softlayer (Oslo)
+title = [NO] Softlayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
+host = speedtest.osl01.softlayer.com
+
+++ terrahost-no
+menu = [NO] Terrahost (Sandefjord)
+title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
+host = lg.terrahost.no
+
+++ edis-se
+menu = [SE] EDIS (Stockholm)
+title = [SE] EDIS - Stockholm, Sweden [se.edis.at]
+host = se.edis.at
+
+++ telia-se
+menu = [SE] Telia
+title = [SE] Telia Company - Sweden [lg.telia.net]
+host = lg.telia.net
+
+++ vikinglayer-swe
+menu = [SE] VikingLayer
+title = [SE] VikingLayer / drServer / Portlane - Sweden [sweden.drserver.net]
+host = sweden.drserver.net
+
+++ hurricane-electric-sto1
+menu = [SE] he.net (Stockholm)
+title = [SE] Hurricane Electric - Equinix Stockholm (SK1) Stockholm, SE [core1.sto1.he.net]
+host = core1.sto1.he.net
+
+++ edis-is
+menu = [IS] EDIS (Hafnarfjordur)
+title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
+host = is.edis.at
+
+++ gcp-fin
+menu = [FI] Google Cloud
+title = [FI] Google Cloud Platform (europe-north1) - Hamina, Finland [europe-north1-gce.cloudharmony.net]
+host = europe-north1-gce.cloudharmony.net
+
+++ hetzner-fi
+menu = [FI] Hetzner (Helsinki)
+title = [FI] Hetzner - Helsinki, Finland [95.216.24.40]
+host = 95.216.24.40
+
+++ xhostfire-esp
+menu = [FI] XHostFire (Espoo)
+title = [FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]
+host = 81.22.243.1
+
+++ bacloud-lt
+menu = [LT] BaCloud (Siauliai)
+title = [LT] BaCloud - Siauliai, Lithuania [185.25.48.2]
+host = 185.25.48.2
+
+++ ultravps-lt
+menu = [LT] UltraVPS (Siauliai)
+title = [LT] UltraVPS - Siauliai, Lithuania [lg.sqq.lt.ultravps.eu]
+host = lg.sqq.lt.ultravps.eu
+
+++ vpsnet-lt
+menu = [LT] VPSnet (Vilnius)
+title = [LT] VPSnet - Vilnius, Lithuania [91.211.244.3]
+host = 91.211.244.3
+
+++ hurricane-electric-tll1
+menu = [EE] he.net (Tallinn)
+title = [EE] Hurricane Electric - Elion Tallinn Tallinn, EE [core1.tll1.he.net]
+host = core1.tll1.he.net
+
 
 + PointsInterestCN
 menu = China - Mainland
@@ -2399,8 +2396,8 @@ title = [SG] Vultr / Choopa - Singapore [sgp-ping.vultr.com]
 host = sgp-ping.vultr.com
 
 ++ dediserve-jkt1
-menu = [IN] Dediserve (Jakarta)
-title = [IN] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
+menu = [ID] Dediserve (Jakarta)
+title = [ID] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
 host = speedtest.c1.jkt1.dediserve.com
 
 ++ cloudsigma-ph
@@ -2548,11 +2545,6 @@ menu = [NG] Etisalat (Lagos)
 title = [NG] Etisalat Nigeria (EMTS) - Lagos, Nigeria [lgsp1.etisalat.com.ng]
 host = lgsp1.etisalat.com.ng
 
-++ web4africa-ng
-menu = [NG] Web4Africa (Lagos)
-title = [NG] Web4Africa - Lagos, Nigeria [speedtest.web4africa.net.ng]
-host = speedtest.web4africa.net.ng
-
 ++ etisalat-misr
 menu = [EG] Etisalat Misr (Alexandria)
 title = [EG] Etisalat Misr - Alexandria, Egypt [sp30.etisalatdata.net]
@@ -2655,8 +2647,8 @@ host = speedtest.orange.bf
 
 
 + PointsInterestSA
-menu = South America
-title = netmeter.club Global Ping Monitoring - South America
+menu = South, Central America
+title = netmeter.club Global Ping Monitoring - South, Central America
 
 ++ amazon-br
 menu = [BR] Amazon AWS (Sao Paulo)
@@ -2688,11 +2680,6 @@ menu = [BR] Claro (Rio De Janeiro)
 title = [BR] Claro - Rio De Janeiro, Brazil [spd2.claro.com.br]
 host = spd2.claro.com.br
 
-++ telefonica-vivo-rjo
-menu = [BR] Telefonica Vivo (RJO)
-title = [BR] Telefonica Vivo - Rio De Janeiro, Brazil [rjo.testepower.com.br]
-host = rjo.testepower.com.br
-
 ++ timbrasil-sal
 menu = [BR] TIM Brasil (Salvador)
 title = [BR] TIM Brasil - Salvador, Brazil [spetstsdr01.timbrasil.com.br]
@@ -2712,11 +2699,6 @@ host = st1.telecom.com.ar
 menu = [AR] Tel. Argentina (Cordoba)
 title = [AR] Telecom Argentina - Cordoba, Argentina [stcor1.telecom.com.ar]
 host = stcor1.telecom.com.ar
-
-++ fibertel-ar-ros
-menu = [AR] FiberTel (Rosario)
-title = [AR] FiberTel - Rosario, Argentina [st-rosario.cablevisionfibertel.com.ar]
-host = st-rosario.cablevisionfibertel.com.ar
 
 ++ wnpower-ar
 menu = [AR] WNPOWER (Federal)
