@@ -322,6 +322,10 @@ menu = [US/WA] CenturyLink (Seattle)
 title = [US/WA] CenturyLink - Seattle, Washington [seattle.speedtest.centurylink.net]
 host = seattle.speedtest.centurylink.net
 
+++ comcast-sea
+menu = [US/WA] Comcast (Seattle)
+title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
+host = stosat-rvlt-01.sys.comcast.net
 
 + PointsInterestNAW2
 menu = North America - Southwest
@@ -1586,6 +1590,11 @@ menu = [HU] Magyar Telecom
 title = [HU] Magyar Telecom - Budapest, Hungary [speedtest.telekom.hu]
 host = speedtest.telekom.hu
 
+++ mikrovps
+menu = [HU] MikroVPS
+title = [HU] MikroVPS - Budapest, Hungary [185.112.156.25]
+host = 185.112.156.25
+
 ++ slovak-telecom
 menu = [SK] Slovak Telekom (Bratislava)
 title = [SK] Slovak Telekom - Bratislava, Slovakia [sp1.telekom.sk]
@@ -2014,6 +2023,11 @@ menu = [HK] China Telecom Global
 title = [HK] China Telecom Global - Hong Kong, China [203.14.188.1]
 host = 203.14.188.1
 
+++ cera-hk
+menu = [HK] CeraNetworks
+title = [HK] CeraNetworks - Hong Kong, China [103.135.33.68]
+host = 103.135.33.68
+
 ++ cubecloud
 menu = [HK] CubeCloud
 title = [HK] CubeCloud - Hong Kong, China [103.107.8.3]
@@ -2043,11 +2057,6 @@ host = 43.251.159.10
 menu = [HK] HKServerSolution @ HGC
 title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
-
-#++ hostus-hk
-#menu = [HK] HostUS
-#title = [HK] HostUS - Hong Kong, China [hk-lg.hostus.us]
-#host = hk-lg.hostus.us
 
 ++ klayer-hk
 menu = [HK] KLayer
@@ -2540,11 +2549,6 @@ menu = [NG] Airtel (Lagos)
 title = [NG] Airtel Nigeria - Lagos, Nigeria [speedtest1.ng.airtel.com]
 host = speedtest1.ng.airtel.com
 
-++ etisalat-ng
-menu = [NG] Etisalat (Lagos)
-title = [NG] Etisalat Nigeria (EMTS) - Lagos, Nigeria [lgsp1.etisalat.com.ng]
-host = lgsp1.etisalat.com.ng
-
 ++ etisalat-misr
 menu = [EG] Etisalat Misr (Alexandria)
 title = [EG] Etisalat Misr - Alexandria, Egypt [sp30.etisalatdata.net]
@@ -2639,11 +2643,6 @@ host = 197.149.150.178
 menu = [SN] Orange Senegal
 title = [SN] Orange Senegal SonaTel [orange.sn]
 host = orange.sn
-
-++ orange-bf
-menu = [BF] Orange Burkina
-title = [BF] Orange Burkina Faso [speedtest.orange.bf]
-host = speedtest.orange.bf
 
 
 + PointsInterestSA
