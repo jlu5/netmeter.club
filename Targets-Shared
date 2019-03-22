@@ -262,7 +262,7 @@ menu = [US/OR] SecureDragon
 title = [US/OR] SecureDragon @ CNServers - Portland, Oregon [198.57.47.4]
 host = 198.57.47.4
 
-+++ charter-or-spt01mdfdor
+++ charter-or-spt01mdfdor
 menu = [US/OR] Charter (Medford)
 title = [US/OR] Charter - Medford, OR, US [spt01mdfdor.mdfd.or.charter.com]
 host = spt01mdfdor.mdfd.or.charter.com
@@ -507,12 +507,12 @@ menu = [US/CA] Vultr (Los Angeles)
 title = [US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
 
-+++ att-ca-lax
+++ att-ca-lax
 menu = [US/CA] AT&T (Los Angeles)
 title = [US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]
 host = lax.speedtest.sbcglobal.net
 
-+++ comcast-ca-scrm
+++ comcast-ca-scrm
 menu = [US/CA] Comcast (Sacramento)
 title = [US/CA] Comcast - Sacramento, CA, US [stosat-scrm-01.sys.comcast.net]
 host = stosat-scrm-01.sys.comcast.net
@@ -522,7 +522,7 @@ menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
 host = speedtest.lv.buyvm.net
 
-+++ charter-nv-spt01renonv
+++ charter-nv-spt01renonv
 menu = [US/NV] Charter (Reno)
 title = [US/NV] Charter - Reno, NV, US [spt01renonv.reno.nv.charter.com]
 host = spt01renonv.reno.nv.charter.com
@@ -652,7 +652,7 @@ menu = [US/IL] Vultr (Chicago)
 title = [US/IL] Vultr - Chicago, Illinois [il-us-ping.vultr.com]
 host = il-us-ping.vultr.com
 
-+++ comcast-co-dvre
+++ comcast-co-dvre
 menu = [US/CO] Comcast (Denver)
 title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
 host = stosat-dvre-01.sys.comcast.net
@@ -682,12 +682,12 @@ menu = [US/MO] mrvm.net (Kansas City)
 title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [lg-us-kck.mrvm.net]
 host = lg-us-kck.mrvm.net
 
-+++ comcast-mo-indp
+++ comcast-mo-indp
 menu = [US/MO] Comcast (Independence)
 title = [US/MO] Comcast - Independence, MO, US [stosat-indp-01.sys.comcast.net]
 host = stosat-indp-01.sys.comcast.net
 
-+++ att-in-ind
+++ att-in-ind
 menu = [US/IN] AT&T (Indianapolis)
 title = [US/IN] AT&T - Indianapolis, IN, US [ind.speedtest.sbcglobal.net]
 host = ind.speedtest.sbcglobal.net
@@ -697,12 +697,12 @@ menu = [US/MN] he.net (Minneapolis)
 title = [US/MN] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
 host = core1.msp1.he.net
 
-+++ charter-mi-spt01aldlmi
+++ charter-mi-spt01aldlmi
 menu = [US/MI] Charter (Allendale)
 title = [US/MI] Charter - Allendale, MI, US [spt01aldlmi.aldl.mi.charter.com]
 host = spt01aldlmi.aldl.mi.charter.com
 
-+++ comcast-mi-taylr
+++ comcast-mi-taylr
 menu = [US/MI] Comcast (Detroit)
 title = [US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]
 host = stosat-taylr-01.sys.comcast.net
@@ -717,12 +717,12 @@ menu = [US/OH] Amazon AWS
 title = [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.0]
 host = 18.188.0.0
 
-+++ att-oh-cle
+++ att-oh-cle
 menu = [US/OH] AT&T (Cleveland)
 title = [US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]
 host = cle.speedtest.sbcglobal.net
 
-+++ charter-mt-spt01blngmt
+++ charter-mt-spt01blngmt
 menu = [US/MT] Charter (Billings)
 title = [US/MT] Charter - Billings, MT, US [spt01blngmt.blng.mt.charter.com]
 host = spt01blngmt.blng.mt.charter.com
@@ -837,7 +837,7 @@ menu = [US/TX] Vultr (Dallas)
 title = [US/TX] Vultr - Dallas, Texas [tx-us-ping.vultr.com]
 host = tx-us-ping.vultr.com
 
-+++ charter-tx-spt01ftwotx
+++ charter-tx-spt01ftwotx
 menu = [US/TX] Charter (Fort Worth)
 title = [US/TX] Charter - Fort Worth, TX, US [spt01ftwotx.ftwo.tx.charter.com]
 host = spt01ftwotx.ftwo.tx.charter.com
@@ -847,7 +847,7 @@ menu = [US/TX] Softlayer (Houston)
 title = [US/TX] Softlayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
 
-+++ att-tx-sat
+++ att-tx-sat
 menu = [US/TX] AT&T (San Antonio)
 title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
 host = sat.speedtest.sbcglobal.net
@@ -892,27 +892,27 @@ menu = [US/GA] Vultr (Atlanta)
 title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
 host = ga-us-ping.vultr.com
 
-+++ comcast-ga-smtn
+++ comcast-ga-smtn
 menu = [US/GA] Comcast (Atlanta)
 title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
 host = stosat-smtn-01.sys.comcast.net
 
-+++ comcast-nm-albq
+++ comcast-nm-albq
 menu = [US/NM] Comcast (Albuquerque)
 title = [US/NM] Comcast - Albuquerque, NM, US [stosat-albq-01.sys.comcast.net]
 host = stosat-albq-01.sys.comcast.net
 
-+++ comcast-ar-malt
+++ comcast-ar-malt
 menu = [US/AR] Comcast (Little Rock)
 title = [US/AR] Comcast - Little Rock, AR, US [stosat-malt-01.sys.comcast.net]
 host = stosat-malt-01.sys.comcast.net
 
-+++ att-la-msy
+++ att-la-msy
 menu = [US/LA] AT&T (New Orleans)
 title = [US/LA] AT&T - New Orleans, LA, US [msy.speedtest.sbcglobal.net]
 host = msy.speedtest.sbcglobal.net
 
-+++ charter-la-spt01slidla
+++ charter-la-spt01slidla
 menu = [US/LA] Charter (Slidell)
 title = [US/LA] Charter - Slidell, LA, US [spt01slidla.slid.la.charter.com]
 host = spt01slidla.slid.la.charter.com
@@ -937,7 +937,7 @@ menu = [MX] IZZI (Tijuana)
 title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
 host = speedtest.tijuana.izzi.mx
 
-+++ att-mx-gdl
+++ att-mx-gdl
 menu = [MX] AT&T (Guadalajara)
 title = [MX] AT&T - Guadalajara, Mexico [speed1.gdl.attmex.mx]
 host = speed1.gdl.attmex.mx
@@ -947,7 +947,7 @@ menu = [MX] Telefonica (Guadalajara)
 title = [MX] Telefonica/Movistar Mexico - Guadalajara, Mexico [internet6.movistar.com.mx]
 host = internet6.movistar.com.mx
 
-+++ att-mx-mty
+++ att-mx-mty
 menu = [MX] AT&T (Monterrey)
 title = [MX] AT&T - Monterrey, Mexico [speed1.mty.attmex.mx]
 host = speed1.mty.attmex.mx
@@ -962,7 +962,7 @@ host = internet5.movistar.com.mx
 menu = North America - Northeast
 title = netmeter.club Global Ping Monitoring - North America (Northeast)
 
-+++ att-ny-nyc
+++ att-ny-nyc
 menu = [US/NY] AT&T (New York City)
 title = [US/NY] AT&T - New York City, NY, US [nyc.speedtest.sbcglobal.net]
 host = nyc.speedtest.sbcglobal.net
@@ -1072,22 +1072,22 @@ menu = [CA/QC] OVH (Beauharnois)
 title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
 host = ymq1-bhs.smokeping.ovh.net
 
-+++ comcast-pa-crls
+++ comcast-pa-crls
 menu = [US/PA] Comcast (Pittsburgh)
 title = [US/PA] Comcast - Pittsburgh, PA, US [stosat-crls-01.sys.comcast.net]
 host = stosat-crls-01.sys.comcast.net
 
-+++ comcast-ma-ndhm
+++ comcast-ma-ndhm
 menu = [US/MA] Comcast (Boston)
 title = [US/MA] Comcast - Boston, MA, US [stosat-ndhm-01.sys.comcast.net]
 host = stosat-ndhm-01.sys.comcast.net
 
-+++ charter-ma-spt01oxfrma
+++ charter-ma-spt01oxfrma
 menu = [US/MA] Charter (Oxford)
 title = [US/MA] Charter - Oxford, MA, US [spt01oxfrma.oxfr.ma.charter.com]
 host = spt01oxfrma.oxfr.ma.charter.com
 
-+++ comcast-md-balt
+++ comcast-md-balt
 menu = [US/MD] Comcast (Baltimore)
 title = [US/MD] Comcast - Baltimore, MD, US [stosat-balt-01.sys.comcast.net]
 host = stosat-balt-01.sys.comcast.net
@@ -1157,7 +1157,7 @@ menu = [US/NC] HostUS (Charlotte)
 title = [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
 host = clt-lg.hostus.us
 
-+++ att-nc-clt
+++ att-nc-clt
 menu = [US/NC] AT&T (Charlotte)
 title = [US/NC] AT&T - Charlotte, NC, US [clt.speedtest.sbcglobal.net]
 host = clt.speedtest.sbcglobal.net
@@ -1197,22 +1197,22 @@ menu = [US/FL] HostNamaste
 title = [US/FL] HostNamaste @ ServerComplete - Jacksonville, Florida [184.175.242.2]
 host = 184.175.242.2
 
-+++ att-fl-mco
+++ att-fl-mco
 menu = [US/FL] AT&T (Orlando)
 title = [US/FL] AT&T - Orlando, FL, US [mco.speedtest.sbcglobal.net]
 host = mco.speedtest.sbcglobal.net
 
-+++ comcast-fl-tall
+++ comcast-fl-tall
 menu = [US/FL] Comcast (Tallahassee)
 title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
 host = stosat-tall-01.sys.comcast.net
 
-+++ att-tn-bna
+++ att-tn-bna
 menu = [US/TN] AT&T (Nashville)
 title = [US/TN] AT&T - Nashville, TN, US [bna.speedtest.sbcglobal.net]
 host = bna.speedtest.sbcglobal.net
 
-+++ charter-tn-spt01kgpttn
+++ charter-tn-spt01kgpttn
 menu = [US/TN] Charter (Kingsport)
 title = [US/TN] Charter - Kingsport, TN, US [spt01kgpttn.kgpt.tn.charter.com]
 host = spt01kgpttn.kgpt.tn.charter.com
