@@ -937,7 +937,7 @@ menu = [MX] IZZI (Tijuana)
 title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
 host = speedtest.tijuana.izzi.mx
 
-+++ att-mx-gdl.attmex.mx
++++ att-mx-gdl
 menu = [MX] AT&T (Guadalajara)
 title = [MX] AT&T - Guadalajara, Mexico [speed1.gdl.attmex.mx]
 host = speed1.gdl.attmex.mx
@@ -947,7 +947,7 @@ menu = [MX] Telefonica (Guadalajara)
 title = [MX] Telefonica/Movistar Mexico - Guadalajara, Mexico [internet6.movistar.com.mx]
 host = internet6.movistar.com.mx
 
-+++ att-mx-mty.attmex.mx
++++ att-mx-mty
 menu = [MX] AT&T (Monterrey)
 title = [MX] AT&T - Monterrey, Mexico [speed1.mty.attmex.mx]
 host = speed1.mty.attmex.mx
