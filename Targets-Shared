@@ -332,6 +332,7 @@ menu = [US/WA] Comcast (Seattle)
 title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
 host = stosat-rvlt-01.sys.comcast.net
 
+
 + PointsInterestNAW2
 menu = North America - Southwest
 title = netmeter.club Global Ping Monitoring - North America (Southwest)
@@ -505,6 +506,11 @@ host = filtered-la.lg.virmach.com
 menu = [US/CA] Vultr (Los Angeles)
 title = [US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
+
++++ att-ca-lax
+menu = [US/CA] AT&T (Los Angeles)
+title = [US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]
+host = lax.speedtest.sbcglobal.net
 
 +++ comcast-ca-scrm
 menu = [US/CA] Comcast (Sacramento)
@@ -681,6 +687,11 @@ menu = [US/MO] Comcast (Independence)
 title = [US/MO] Comcast - Independence, MO, US [stosat-indp-01.sys.comcast.net]
 host = stosat-indp-01.sys.comcast.net
 
++++ att-in-ind
+menu = [US/IN] AT&T (Indianapolis)
+title = [US/IN] AT&T - Indianapolis, IN, US [ind.speedtest.sbcglobal.net]
+host = ind.speedtest.sbcglobal.net
+
 ++ hurricane-electric-msp1
 menu = [US/MN] he.net (Minneapolis)
 title = [US/MN] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
@@ -705,6 +716,11 @@ host = us-central1-gce.cloudharmony.net
 menu = [US/OH] Amazon AWS
 title = [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.0]
 host = 18.188.0.0
+
++++ att-oh-cle
+menu = [US/OH] AT&T (Cleveland)
+title = [US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]
+host = cle.speedtest.sbcglobal.net
 
 +++ charter-mt-spt01blngmt
 menu = [US/MT] Charter (Billings)
@@ -831,6 +847,11 @@ menu = [US/TX] Softlayer (Houston)
 title = [US/TX] Softlayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
 
++++ att-tx-sat
+menu = [US/TX] AT&T (San Antonio)
+title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
+host = sat.speedtest.sbcglobal.net
+
 ++ budgetnode-atl
 menu = [US/GA] BudgetNode (Atlanta)
 title = [US/GA] BudgetNode - Atlanta, Georgia [104.129.25.90]
@@ -886,6 +907,11 @@ menu = [US/AR] Comcast (Little Rock)
 title = [US/AR] Comcast - Little Rock, AR, US [stosat-malt-01.sys.comcast.net]
 host = stosat-malt-01.sys.comcast.net
 
++++ att-la-msy
+menu = [US/LA] AT&T (New Orleans)
+title = [US/LA] AT&T - New Orleans, LA, US [msy.speedtest.sbcglobal.net]
+host = msy.speedtest.sbcglobal.net
+
 +++ charter-la-spt01slidla
 menu = [US/LA] Charter (Slidell)
 title = [US/LA] Charter - Slidell, LA, US [spt01slidla.slid.la.charter.com]
@@ -911,10 +937,20 @@ menu = [MX] IZZI (Tijuana)
 title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
 host = speedtest.tijuana.izzi.mx
 
++++ att-mx-gdl.attmex.mx
+menu = [MX] AT&T (Guadalajara)
+title = [MX] AT&T - Guadalajara, Mexico [speed1.gdl.attmex.mx]
+host = speed1.gdl.attmex.mx
+
 ++ telefonica-mx6
 menu = [MX] Telefonica (Guadalajara)
 title = [MX] Telefonica/Movistar Mexico - Guadalajara, Mexico [internet6.movistar.com.mx]
 host = internet6.movistar.com.mx
+
++++ att-mx-mty.attmex.mx
+menu = [MX] AT&T (Monterrey)
+title = [MX] AT&T - Monterrey, Mexico [speed1.mty.attmex.mx]
+host = speed1.mty.attmex.mx
 
 ++ telefonica-mx5
 menu = [MX] Telefonica (Cancun)
@@ -925,6 +961,11 @@ host = internet5.movistar.com.mx
 + PointsInterestNAE
 menu = North America - Northeast
 title = netmeter.club Global Ping Monitoring - North America (Northeast)
+
++++ att-ny-nyc
+menu = [US/NY] AT&T (New York City)
+title = [US/NY] AT&T - New York City, NY, US [nyc.speedtest.sbcglobal.net]
+host = nyc.speedtest.sbcglobal.net
 
 ++ buyvm-ny
 menu = [US/NY] BuyVM (New York)
@@ -1116,6 +1157,11 @@ menu = [US/NC] HostUS (Charlotte)
 title = [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
 host = clt-lg.hostus.us
 
++++ att-nc-clt
+menu = [US/NC] AT&T (Charlotte)
+title = [US/NC] AT&T - Charlotte, NC, US [clt.speedtest.sbcglobal.net]
+host = clt.speedtest.sbcglobal.net
+
 ++ gcp-sou
 menu = [US/SC] Google Cloud
 title = [US/SC] Google Cloud Platform (us-east1) - South Carolina [us-east1-gce.cloudharmony.net]
@@ -1151,10 +1197,20 @@ menu = [US/FL] HostNamaste
 title = [US/FL] HostNamaste @ ServerComplete - Jacksonville, Florida [184.175.242.2]
 host = 184.175.242.2
 
++++ att-fl-mco
+menu = [US/FL] AT&T (Orlando)
+title = [US/FL] AT&T - Orlando, FL, US [mco.speedtest.sbcglobal.net]
+host = mco.speedtest.sbcglobal.net
+
 +++ comcast-fl-tall
 menu = [US/FL] Comcast (Tallahassee)
 title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
 host = stosat-tall-01.sys.comcast.net
+
++++ att-tn-bna
+menu = [US/TN] AT&T (Nashville)
+title = [US/TN] AT&T - Nashville, TN, US [bna.speedtest.sbcglobal.net]
+host = bna.speedtest.sbcglobal.net
 
 +++ charter-tn-spt01kgpttn
 menu = [US/TN] Charter (Kingsport)
