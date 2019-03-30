@@ -142,6 +142,11 @@ menu = [ANY] Wikimedia Foundation
 title = [ANY] Wikimedia Foundation [wikimedia.org]
 host = wikimedia.org
 
+++ yahoo
+menu = [CDN] Yahoo
+title = [CDN] Yahoo [www.yahoo.com]
+host = www.yahoo.com
+
 
 + PointsInterestNAW
 menu = North America - Northwest
@@ -561,6 +566,11 @@ host = stosat-utah-01.sys.comcast.net
 menu = [US/UT] BudgetNode (Ogden)
 title = [US/UT] BudgetNode - Ogden, Utah [ogd.lg.budgetnode.net]
 host = ogd.lg.budgetnode.net
+
+++ xmission
+menu = [US/UT] XMission
+title = [US/UT] XMission - Salt Lake City, Utah, US [xmission.com]
+host = xmission.com
 
 ++ hurricane-electric-hnl1
 menu = [US/HI] he.net (Honolulu)
@@ -1312,15 +1322,20 @@ host = spt01kgpttn.kgpt.tn.charter.com
 menu = Europe - West
 title = netmeter.club Global Ping Monitoring - Europe (West)
 
-#++ launchpad
-#menu = [UK] Launchpad / Canonical Ltd.
-#title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
-#host = launchpad.net
+++ launchpad
+menu = [UK] Launchpad / Canonical Ltd.
+title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
+host = launchpad.net
 
 ++ alphavps-lon
 menu = [UK] AlphaVPS (London)
 title = [UK] AlphaVPS - London, United Kingdom @ Enfield 1, Telehouse 2
 host = lguk.alphavps.bg
+
+++ aliyun-eu-west-1
+menu = [UK] Aliyun (London)
+title = [UK] Aliyun - London, United Kingdom [oss-eu-west-1.aliyuncs.com]
+host = oss-eu-west-1.aliyuncs.com
 
 ++ amazon-lon
 menu = [UK] Amazon AWS (London)
@@ -1631,6 +1646,11 @@ host = lg.dus.de.ultravps.eu
 menu = [DE] AcceleratedIT (Frankfurt)
 title = [DE] AcceleratedIT / CrownCloud - Frankfurt, Germany [lg.ip-projects.de]
 host = lg.ip-projects.de
+
+++ aliyun-eu-central-1
+menu = [DE] Aliyun (Frankfurt)
+title = [DE] Aliyun - Frankfurt, Germany [oss-eu-central-1.aliyuncs.com]
+host = oss-eu-central-1.aliyuncs.com
 
 ++ amazon-fra
 menu = [DE] Amazon AWS (Frankfurt)
@@ -2440,10 +2460,10 @@ host = qq.com
 menu = Asia - North, East
 title = netmeter.club Global Ping Monitoring - North, East Asia
 
-++ hurricane-electric-tyo1
-menu = [JP] he.net (Tokyo)
-title = [JP] Hurricane Electric - Equinix Tokyo (TY2) Tokyo, JP [core1.tyo1.he.net]
-host = core1.tyo1.he.net
+++ aliyun-ap-northeast-1
+menu = [JP] Aliyun (Tokyo)
+title = [JP] Aliyun - Tokyo, Japan [oss-ap-northeast-1.aliyuncs.com]
+host = oss-ap-northeast-1.aliyuncs.com
 
 ++ amazon-jp
 menu = [JP] Amazon AWS (Tokyo)
@@ -2464,6 +2484,11 @@ host = speedtest.c1.jap1.dediserve.com
 menu = [JP] Google Cloud (Tokyo)
 title = [JP] Google Cloud Platform (asia-northeast1) - Tokyo, Japan [asia-northeast1-gce.cloudharmony.net]
 host = asia-northeast1-gce.cloudharmony.net
+
+++ hurricane-electric-tyo1
+menu = [JP] he.net (Tokyo)
+title = [JP] Hurricane Electric - Equinix Tokyo (TY2) Tokyo, JP [core1.tyo1.he.net]
+host = core1.tyo1.he.net
 
 ++ linode-jp
 menu = [JP] Linode (Tokyo 2)
@@ -2577,14 +2602,19 @@ menu = Asia - South, Southeast
 title = netmeter.club Global Ping Monitoring - South, Southeast Asia
 
 ++ alibabacloud-sg
-menu = [SG] Alibaba Cloud
-title = [SG] Alibaba Cloud - Singapore [47.88.193.1]
-host = 47.88.193.1
+menu = [SG] Aliyun
+title = [SG] Aliyun / Alibaba Cloud - Singapore [oss-ap-southeast-1.aliyuncs.com]
+host = oss-ap-southeast-1.aliyuncs.com
 
 ++ amazon-sg
 menu = [SG] Amazon AWS
 title = [SG] Amazon Web Services (ap-southeast-1) - Singapore [54.255.0.2]
 host = 54.255.0.2
+
+++ beyotta
+menu = [SG] Beyotta
+title = [SG] Beyotta - Singapore [103.19.9.9]
+host = 103.19.9.9
 
 ++ chinatelecomglobal-sg
 menu = [SG] China Telecom Global
@@ -2651,10 +2681,20 @@ menu = [SG] Vultr
 title = [SG] Vultr / Choopa - Singapore [sgp-ping.vultr.com]
 host = sgp-ping.vultr.com
 
+++ aliyun-ap-southeast-5
+menu = [ID] Aliyun (Jakarta)
+title = [ID] Aliyun - Jakarta, Indonesia [oss-ap-southeast-5.aliyuncs.com]
+host = oss-ap-southeast-5.aliyuncs.com
+
 ++ dediserve-jkt1
 menu = [ID] Dediserve (Jakarta)
 title = [ID] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
 host = speedtest.c1.jkt1.dediserve.com
+
+++ aliyun-ap-southeast-3
+menu = [MY] Aliyun (Kuala Lumpur)
+title = [MY] Aliyun - Kuala Lumpur, Malaysia [oss-ap-southeast-3.aliyuncs.com]
+host = oss-ap-southeast-3.aliyuncs.com
 
 ++ cloudsigma-ph
 menu = [PH] CloudSigma (Manila)
@@ -2670,6 +2710,11 @@ host = cambo.host
 menu = [VN] HostingViet
 title = [VN] HostingViet @ FPT Telecom [103.81.86.64]
 host = 103.81.86.64
+
+++ aliyun-ap-south-1
+menu = [IN] Aliyun (Mumbai)
+title = [IN] Aliyun - Mumbai, India [oss-ap-south-1.aliyuncs.com]
+host = oss-ap-south-1.aliyuncs.com
 
 ++ amazon-mumbai
 menu = [IN] Amazon AWS (Mumbai)
@@ -2716,6 +2761,11 @@ host = www.vnpt.vn
 menu = Asia - West, Central
 title = netmeter.club Global Ping Monitoring - West, Central Asia
 
+++ aliyun-me-east-1
+menu = [AE] Aliyun (Dubai)
+title = [AE] Aliyun - Dubai, United Arab Emirates [oss-me-east-1.aliyuncs.com]
+host = oss-me-east-1.aliyuncs.com
+
 ++ hurricane-electric-dxb1
 menu = [AE] he.net (Dubai)
 title = [AE] Hurricane Electric - Equinix Dubai (DX1) Dubai, AE [core1.dxb1.he.net]
@@ -2731,6 +2781,81 @@ menu = [IL] EDIS (Tel Aviv)
 title = [IL] EDIS - Tel Aviv, Israel [il.edis.at]
 host = il.edis.at
 
+++ partner-communications-il
+menu = [IL] Partner
+title = [IL] Partner Communications - Tel Aviv, Israel [speedtest2.partner.co.il]
+host = speedtest2.partner.co.il
+
+++ partner-communications-il
+menu = [IL] Pelephone
+title = [IL] Pelephone - Tel Aviv, Israel [speedtest3.pelephone.net.il]
+host = speedtest3.pelephone.net.il
+
+++ paltel-group-ps
+menu = [PS] PALTEL Group
+title = [PS] PALTEL Group - Gaza, Palestine [213.244.72.22]
+host = 213.244.72.22
+
+++ moscanet-wise-lb
+menu = [LB] Moscanet Wise
+title = [LB] Moscanet Wise - Beirut, Lebanon [speedtest.wise.net.lb]
+host = speedtest.wise.net.lb
+
+++ terranet-lb
+menu = [LB] TerraNet
+title = [LB] TerraNet - Beirut, Lebanon [sp1.terra.net.lb]
+host = sp1.terra.net.lb
+
+++ orange-jordan
+menu = [JO] Orange Jordan
+title = [JO] Orange Jordan - Amman, Jordan [speedtest.orange.jo]
+host = speedtest.orange.jo
+
+++ zain-jo
+menu = [JO] ZAIN JO
+title = [JO] ZAIN JO - Amman, Jordan [speedtest.zaindata.com.jo]
+host = speedtest.zaindata.com.jo
+
+++ saudi-telecom-company-sa
+menu = [SA] Saudi Telecom
+title = [SA] Saudi Telecom Company - Riyadh, Saudi Arabia [speedtest.saudi.net.sa]
+host = speedtest.saudi.net.sa
+
+++ mobily-sa
+menu = [SA] Mobily
+title = [SA] Mobily - Jeddah, Saudi Arabia [jed.myspeed.net.sa]
+host = jed.myspeed.net.sa
+
+++ vodafone-qa
+menu = [QA] Vodafone QA
+title = [QA] Vodafone QA - Doha, Qatar [speedtest.vodafone.com.qa]
+host = speedtest.vodafone.com.qa
+
+++ tci-ir
+menu = [IR] TCI
+title = [IR] TCI - Tehran, Iran [tci-tehran.tct.ir]
+host = tci-tehran.tct.ir
+
+++ shatel-ir
+menu = [IR] SHATEL
+title = [IR] SHATEL - Tehran, Iran [speedtest1.shatel.ir]
+host = speedtest1.shatel.ir
+
+++ masarat-telecom-iq
+menu = [IQ] MASARAT Telecom
+title = [IQ] MASARAT Telecom - Baghdad, Iraq [86.111.144.210]
+host = 86.111.144.210
+
+++ earthlink-telecom-iq
+menu = [IQ] Earthlink Telecom
+title = [IQ] Earthlink Telecom - Baghdad, Iraq [speedtest1.earthlinktele.com]
+host = speedtest1.earthlinktele.com
+
+++ fastiraq-llc-iq
+menu = [IQ] Fastiraq
+title = [IQ] Fastiraq LLC - Al Basrah, Iraq [sp5.fastiraq.com]
+host = sp5.fastiraq.com
+
 ++ zain-kw
 menu = [KW] Zain Kuwait
 title = [KW] Zain Kuwait [kw.zain.com]
@@ -2741,10 +2866,20 @@ menu = [OM] OmanTel
 title = [OM] OmanTel [212.72.10.134]
 host = 212.72.10.134
 
-++ 80host-kaz
-menu = [KZ] 80host (Kazakhstan)
-title = [KZ] 80host (Kazakhstan) @ JSC Kaztranscom [185.20.125.162]
-host = 185.20.125.162
+++ teleyemen-ye
+menu = [YE] TeleYemen
+title = [YE] TeleYemen [www.teleyemen.com.ye]
+host = www.teleyemen.com.ye
+
+++ cytanet-cy
+menu = [CY] CYTANET
+title = [CY] CYTANET - Nicosia, Cyprus [speedtest.cytanet.com.cy]
+host = speedtest.cytanet.com.cy
+
+#++ 80host-kaz
+#menu = [KZ] 80host (Kazakhstan)
+#title = [KZ] 80host (Kazakhstan) @ JSC Kaztranscom [185.20.125.162]
+#host = 185.20.125.162
 
 ++ azertelecom
 menu = [AZ] Azertelecom
@@ -2866,6 +3001,11 @@ menu = [UG] Uganda Hosting
 title = [UG] Uganda Hosting [45.221.72.222]
 host = 45.221.72.222
 
+++ liquidtelecom-rw
+menu = [RW] liquidtelecom
+title = [RW] liquidtelecom - Kigali, Rwanda [ltrbandwidth.liquidtelecom.rw]
+host = ltrbandwidth.liquidtelecom.rw
+
 ++ seacom-tz-dar
 menu = [TZ] SEACOM (Dar Es Salaam)
 title = [TZ] SEACOM - Dar Es Salaam, Tanzania [lg-01-dar.tz.seacomnet.com]
@@ -2985,6 +3125,11 @@ host = core1.bog1.he.net
 + PointsInterestOc
 menu = Oceania
 title = netmeter.club Global Ping Monitoring - Oceania
+
+++ aliyun-ap-southeast-2
+menu = [AU] Aliyun (Sydney)
+title = [AU] Aliyun - Sydney, Australia [oss-ap-southeast-2.aliyuncs.com]
+host = oss-ap-southeast-2.aliyuncs.com
 
 ++ amazon-syd
 menu = [AU] Amazon AWS
