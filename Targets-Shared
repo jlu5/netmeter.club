@@ -493,8 +493,8 @@ title = [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
 host = lg.la.ramnode.com
 
 ++ rfchost-la
-menu = [US/CA] RFChost (LA)
-title = [US/CA] RFChost - Los Angeles, California [103.86.70.1]
+menu = [US/CA] RFCHost (LA)
+title = [US/CA] RFCHost / Huajuan / BetaIDC - Los Angeles, California [103.86.70.1]
 host = 103.86.70.1
 
 ++ vmhaus-lax
@@ -1907,6 +1907,41 @@ menu = [RU] JustHost (Moscow RTCom)
 title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
 host = lg-rtcom.justhost.ru
 
+++ megafon-moscow
+menu = [RU] Megafon (Moscow)
+title = [RU] Megafon - Moscow, Russian Federation [speedtest-stf.megafon.ru]
+host = speedtest-stf.megafon.ru
+
+++ retn-moscow
+menu = [RU] ReTN (Moscow)
+title = [RU] ReTN - Moscow, Russian Federation [speedtest.retn.net]
+host = speedtest.retn.net
+
+++ tele2-moscow
+menu = [RU] Tele2 (Moscow)
+title = [RU] Tele2 Russia - Moscow, Russian Federation [msk1.companion.tele2.ru]
+host = msk1.companion.tele2.ru
+
+++ mts-spb
+menu = [RU] MTS (St. Petersburg)
+title = [RU] MTS - Saint Petersburg, Russian Federation [speedtest1.spb.dom.mts.ru]
+host = speedtest1.spb.dom.mts.ru
+
+++ vimpelcom-spb
+menu = [RU] Vimpelcom (St. Petersburg)
+title = [RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]
+host = speedtest.spb.gldn.net
+
+++ transtelecom-nizhny
+menu = [RU] TransTelecom (Nizhny)
+title = [RU] TransTelecom TTK - Nizhny Novgorod, Russian Federation [speed.ttknn.net]
+host = speed.ttknn.net
+
+++ er-telecom-rostov
+menu = [RU] ER-Telecom (Rostov)
+title = [RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.ertelecom.ru]
+host = speedtest.rostov.ertelecom.ru
+
 ++ alphavps-bg
 menu = [BG] AlphaVPS (Sofia)
 title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC
@@ -2565,9 +2600,14 @@ menu = [KR] Softlayer (Seoul)
 title = [KR] Softlayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
 host = speedtest.seo01.softlayer.com
 
+++ megafon-khabarovsk
+menu = [RU] MegaFon (Khabarovsk)
+title = [RU] MegaFon - Khabarovsk, Russian Federation [khb.speedtest-dvf.megafon.ru]
+host = khb.speedtest-dvf.megafon.ru
+
 ++ rfchost-khv
 menu = [RU] RFChost (Khabarovsk)
-title = [RU] RFChost - Khabarovsk, Russia [103.102.4.4]
+title = [RU] RFChost / Huajuan / BetaIDC - Khabarovsk, Russia [103.102.4.4]
 host = 103.102.4.4
 
 ++ xhostfire-khv
@@ -2586,10 +2626,39 @@ title = [RU] JustHost.ru @ Adman - Novosibirsk, Russia [lg-adman.justhost.ru]
 host = lg-adman.justhost.ru
 
 ++ xhostfire-nvo0
-menu = [RU] XHostFire (Novosibirsk)
-title = [RU] XHostFire - Novosibirsk, Russia @ PJSC Rostelecom [95.167.6.12]
-#host = 95.167.6.12
+menu = [RU] Rostelecom (Novosibirsk)
+title = [RU] Rostelecom - Novosibirsk, Russia [95.167.6.12]
 host = hd.ncc.snt.ru
+
+++ rostelecom-ekaterinburg
+menu = [RU] Rostelecom (Ekaterinburg)
+title = [RU] Rostelecom - Ekaterinburg, Russian Federation [ekaterinburg2.speedtest.rt.ru]
+host = ekaterinburg2.speedtest.rt.ru
+
+++ mts-vdv
+menu = [RU] MTS (Vladivostok)
+title = [RU] MTS - Vladivostok, Russian Federation [speedtest.mtsdv.ru]
+host = speedtest.mtsdv.ru
+
+++ vimpelcom-vdv
+menu = [RU] VimpelCom (Vladivostok)
+title = [RU] VimpelCom Beeline - Vladivostok, Russian Federation [speedcheck1.vdv.vimpelcom.ru]
+host = speedcheck1.vdv.vimpelcom.ru
+
+++ rostelecom-amur
+menu = [RU] RT (Blagoveshchensk)
+title = [RU] Rostelecom - Blagoveshchensk, Russian Federation [speedtest.amur.ru]
+host = speedtest.amur.ru
+
+++ vimpelcom-krasnoyarsk
+menu = [RU] VimpelCom (Krasnoyarsk)
+title = [RU] VimpelCom Beeline - Krasnoyarsk, Russian Federation [krasnoyarsk1.speedtest.corbina.net]
+host = krasnoyarsk1.speedtest.corbina.net
+
+++ er-telecom-irkutsk
+menu = [RU] ER-Telecom (Irkutsk)
+title = [RU] ER-Telecom - Irkutsk, Russian Federation [speedtest.irkutsk.ertelecom.ru]
+host = speedtest.irkutsk.ertelecom.ru
 
 ++ teleguam
 menu = [US/GU] GTA Teleguam
@@ -2741,15 +2810,40 @@ menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz - Mumbai, India [lg.in.psychz.net]
 host = lg.in.psychz.net
 
-++ bharti-airtel
-menu = [IN] Bharti Airtel
-title = [IN] Bharti Airtel [125.18.8.109]
-host = 125.18.8.109
+++ tatasky-mumbai
+menu = [IN] Tata (Mumbai)
+title = [IN] Tatasky Broadband Pvt Ltd. - Mumbai, India [speedtestmum.tataskybroadband.com]
+host = speedtestmum.tataskybroadband.com
 
-++ tata-in
-menu = [IN] Tata Communications
-title = [IN] Tata Communications [203.196.202.225]
-host = 203.196.202.225
+++ bharti-delhi
+menu = [IN] Airtel (Delhi)
+title = [IN] Bharti Airtel Ltd - Delhi, India [speedtestdel.airtelbroadband.in]
+host = speedtestdel.airtelbroadband.in
+
+++ vodafone-delhi
+menu = [IN] Vodafone India (Delhi)
+title = [IN] Vodafone India - Delhi, India [speedtestdel.vodafone.ind.in]
+host = speedtestdel.vodafone.ind.in
+
+++ jio-bangalore
+menu = [IN] Jio (Bangalore)
+title = [IN] Jio - Bangalore, India [speedbgl1.jioconnect.com]
+host = speedbgl1.jioconnect.com
+
+++ bsnl-pune
+menu = [IN] BSNL (Pune)
+title = [IN] BSNL - Pune, India [pn1.bsnl.co.in]
+host = pn1.bsnl.co.in
+
+++ telenor-islamabad
+menu = [PK] Telenor (Islamabad)
+title = [PK] Telenor - Islamabad, Pakistan [speedtest1.telenor.com.pk]
+host = speedtest1.telenor.com.pk
+
+++ teletalk-dhaka
+menu = [BD] Teletalk Bangladesh
+title = [BD] Teletalk Bangladesh - Dhaka, Bangladesh [testspeed1.teletalk.com.bd]
+host = testspeed1.teletalk.com.bd
 
 ++ vnpt
 menu = [VN] VNPT
@@ -2876,15 +2970,35 @@ menu = [CY] CYTANET
 title = [CY] CYTANET - Nicosia, Cyprus [speedtest.cytanet.com.cy]
 host = speedtest.cytanet.com.cy
 
-#++ 80host-kaz
-#menu = [KZ] 80host (Kazakhstan)
-#title = [KZ] 80host (Kazakhstan) @ JSC Kaztranscom [185.20.125.162]
-#host = 185.20.125.162
+++ magticom-tbilisi
+menu = [GE] Magticom Ltd.
+title = [GE] Magticom Ltd. - Tbilisi, Georgia [speedtest1.magticom.ge]
+host = speedtest1.magticom.ge
 
-++ azertelecom
-menu = [AZ] Azertelecom
-title = [AZ] Azertelecom [109.235.192.22]
-host = 109.235.192.22
+++ vivacell-mts-yerevan
+menu = [AM] VivaCell-MTS
+title = [AM] VivaCell-MTS - Yerevan, Armenia [speedtest.mts.am]
+host = speedtest.mts.am
+
+++ azercell-baku
+menu = [AZ] Azercell
+title = [AZ] Azercell Telecom LLC - Baku, Azerbaijan [speedtest01.azercell.com]
+host = speedtest01.azercell.com
+
+++ kaztranscom-almaty
+menu = [KZ] KazTransCom
+title = [KZ] KazTransCom - Almaty, Kazakhstan [188.0.133.159]
+host = 188.0.133.159
+
+++ kazakhtelecom-astana
+menu = [KZ] Kazakhtelecom
+title = [KZ] Kazakhtelecom - Astana, Kazakhstan [asta.speedtest.online.kz]
+host = asta.speedtest.online.kz
+
+++ afghan-kabul
+menu = [AF] Afghan Telecom
+title = [AF] Afghan Telecom - Kabul, Afghanistan [sp1.afghantelecom.af]
+host = sp1.afghantelecom.af
 
 
 + PointsInterestAfr
