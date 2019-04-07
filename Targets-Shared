@@ -2129,8 +2129,8 @@ host = core1.tll1.he.net
 
 
 + PointsInterestCN
-menu = China - Mainland
-title = netmeter.club Global Ping Monitoring - Mainland China
+menu = China - Mainland (North)
+title = netmeter.club Global Ping Monitoring - Mainland China (North)
 
 ++ aliyun-beijing
 menu = [CN] Aliyun (Beijing)
@@ -2141,6 +2141,16 @@ host = oss-cn-beijing.aliyuncs.com
 menu = [CN] Amazon AWS (Beijing)
 title = [CN] Amazon Web Services (cn-north1 @ Sinnet) - Beijing, China [52.81.0.253]
 host = 52.81.0.253
+
+++ cn-baidupan
+menu = [CN] BaiduPan
+title = [CN] BaiduPan [pan.baidu.com]
+host = pan.baidu.com
+
+++ cn-tsinghua
+menu = [CN] Tsinghua TUNA
+title = [CN] Tsinghua Open Source Mirror - Beijing, China [mirrors.tuna.tsinghua.edu.cn]
+host = mirrors.tuna.tsinghua.edu.cn
 
 ++ anchnet-bj-yizhuang
 menu = [CN] Anchnet (Beijing)
@@ -2173,6 +2183,21 @@ menu = [CN] Amazon AWS (Ningxia)
 title = [CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [52.82.0.253]
 host = 52.82.0.253
 
+++ tcloud-nanyang-cm
+menu = [CN] TCloud (Henan CM)
+title = [CN] TCloud @ China Mobile - Nanyang, Henan 南阳移动 [111.6.79.1]
+host = 111.6.79.1
+
+++ uovz-henan-cm
+menu = [CN] UOvZ (Henan CM)
+title = [CN] UOvZ @ China Mobile - Henan 河南移动 [117.159.147.1]
+host = 117.159.147.1
+
+
++ PointsInterestCNE
+menu = China - Mainland (East)
+title = netmeter.club Global Ping Monitoring - Mainland China (East)
+
 ++ aliyun-shanghai
 menu = [CN] Aliyun (Shanghai)
 title = [CN] Aliyun / Alibaba Cloud - Shanghai 中国上海 [oss-cn-shanghai.aliyuncs.com]
@@ -2198,6 +2223,11 @@ host = 103.20.251.7
 menu = [CN] Anchnet (Shanghai CU)
 title = [CN] Anchnet @ China Unicom - Shanghai, China (Beiai CU) [112.65.240.161]
 host = 112.65.240.161
+
+++ cn-ustc
+menu = [CN] USTC
+title = [CN] USTC Open Source Software Mirror - Hefei, Anhui, China [mirrors.ustc.edu.cn]
+host = mirrors.ustc.edu.cn
 
 ++ anchnet-js-wuxi
 menu = [CN] Anchnet (Jiangsu Wuxi)
@@ -2250,6 +2280,21 @@ menu = [CN] TCloud (Zhejiang DL)
 title = [CN] TCloud @ Dual-Uplink - Jiaxing, Zhejiang 嘉兴双线 [115.231.235.254]
 host = 115.231.235.254
 
+
++ PointsInterestCNS
+menu = China - Mainland (South)
+title = netmeter.club Global Ping Monitoring - Mainland China (South)
+
+++ aliyun-shenzhen
+menu = [CN] Aliyun (Shenzhen)
+title = [CN] Aliyun / Alibaba Cloud - Shenzhen, Guangdong 中国深圳 [oss-cn-shenzhen.aliyuncs.com]
+host = oss-cn-shenzhen.aliyuncs.com
+
+++ anchnet-sz-gds
+menu = [CN] Anchnet (Shenzhen)
+title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
+host = 43.240.244.14
+
 ++ tcloud-guangzhou-ct
 menu = [CN] TCloud (Guangzhou CT)
 title = [CN] TCloud @ China Telecom - Guangzhou 广州电信 [14.215.171.1]
@@ -2270,30 +2315,10 @@ menu = [CN] UOvZ (Fujian CM)
 title = [CN] UOvZ @ China Mobile - Fujian 福建移动 [112.47.15.1]
 host = 112.47.15.1
 
-++ tcloud-nanyang-cm
-menu = [CN] TCloud (Henan CM)
-title = [CN] TCloud @ China Mobile - Nanyang, Henan 南阳移动 [111.6.79.1]
-host = 111.6.79.1
-
-++ uovz-henan-cm
-menu = [CN] UOvZ (Henan CM)
-title = [CN] UOvZ @ China Mobile - Henan 河南移动 [117.159.147.1]
-host = 117.159.147.1
-
 ++ uovz-guizhou
 menu = [CN] UOvZ (Guizhou CT)
 title = [CN] UOvZ @ China Telecom - Guizhou 贵州电信 [123.249.0.1]
 host = 123.249.0.1
-
-++ aliyun-shenzhen
-menu = [CN] Aliyun (Shenzhen)
-title = [CN] Aliyun / Alibaba Cloud - Shenzhen, Guangdong 中国深圳 [oss-cn-shenzhen.aliyuncs.com]
-host = oss-cn-shenzhen.aliyuncs.com
-
-++ anchnet-sz-gds
-menu = [CN] Anchnet (Shenzhen)
-title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
-host = 43.240.244.14
 
 
 + PointsInterestCN3
@@ -2429,66 +2454,6 @@ host = 168.95.192.15
 menu = [TW] Psychz
 title = [TW] Psychz - Taiwan [lg.tw.psychz.net]
 host = lg.tw.psychz.net
-
-
-+ PointsInterestCN2
-menu = China - Sites
-title = netmeter.club Global Ping Monitoring - China Sites
-
-++ cn-tsinghua
-menu = [CN] Tsinghua TUNA
-title = [CN] Tsinghua Open Source Mirror [mirrors.tuna.tsinghua.edu.cn]
-host = mirrors.tuna.tsinghua.edu.cn
-
-++ cn-ustc
-menu = [CN] USTC
-title = [CN] USTC Open Source Software Mirror [mirrors.ustc.edu.cn]
-host = mirrors.ustc.edu.cn
-
-++ baidu
-menu = [CN] Baidu
-title = [CN] Baidu [baidu.com]
-host = baidu.com
-
-++ cn-baidupan
-menu = [CN] BaiduPan
-title = [CN] BaiduPan [pan.baidu.com]
-host = pan.baidu.com
-
-#++ bilibili
-#menu = [CN] bilibili
-#title = [CN] bilibili [bilibili.com]
-#host = bilibili.com
-
-++ huawei
-menu = [CN] Huawei DevCloud
-title = [CN] Huawei DevCloud [mirrors.huaweicloud.com]
-host = mirrors.huaweicloud.com
-
-++ sina
-menu = [CN] Sina
-title = [CN] Sina [sports.sina.com.cn]
-host = sports.sina.com.cn
-
-++ sogou
-menu = [CN] Sogou
-title = [CN] Sogou [www.sogou.com]
-host = www.sogou.com
-
-++ sohu
-menu = [CN] Sohu
-title = [CN] Sohu [sohu.com]
-host = sohu.com
-
-++ taobao0
-menu = [CN] Taobao.com
-title = [CN] Taobao.com [taobao.com]
-host = taobao.com
-
-++ cn-tencent2
-menu = [CN] Tencent
-title = [CN] Tencent [qq.com]
-host = qq.com
 
 
 + PointsInterestAS
