@@ -117,6 +117,11 @@ menu = [CDN] OpenDNS
 title = [CDN] OpenDNS [208.67.222.222]
 host = 208.67.222.222
 
+++ psychz-cdn
+menu = [CDN] Psychz
+title = [CDN] Psychz [psychz.net]
+host = psychz.net
+
 ++ quantil1
 menu = [CDN] QUANTIL / Wangsu
 title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
@@ -402,18 +407,8 @@ menu = [US/CA] AT&T (Los Angeles)
 title = [US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]
 host = lax.speedtest.sbcglobal.net
 
-++ bandwagonhost-usca3
-menu = [US/CA] BWH (Quadranet CN2)
-title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC3 CN2 @ QuadraNet) [23.252.103.101]
-host = 23.252.103.101
-
-++ bandwagonhost-usca4
-menu = [US/CA] BWH (Multacom)
-title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC4 @ MULTACOM) [98.142.136.11]
-host = 98.142.136.11
-
 ++ bandwagonhost-usca8
-menu = [US/CA] BWH (C3 Networks CN2)
+menu = [US/CA] BWH (C3 CN2)
 title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC8 CN2 @ C3 Networks) [23.252.99.102]
 host = 23.252.99.102
 
@@ -533,7 +528,7 @@ title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
 host = speedtest.lv.buyvm.net
 
 ++ centurylink-nv-lasvegas
-menu = [US/NV] CenturyLink (Las Vegas)
+menu = [US/NV] CenturyLink
 title = [US/NV] CenturyLink - Las Vegas, NV, US [lasvegas.speedtest.centurylink.net]
 host = lasvegas.speedtest.centurylink.net
 
@@ -752,13 +747,8 @@ menu = [US/IN] AT&T (Indianapolis)
 title = [US/IN] AT&T - Indianapolis, IN, US [ind.speedtest.sbcglobal.net]
 host = ind.speedtest.sbcglobal.net
 
-++ hurricane-electric-msp1
-menu = [US/MN] he.net (Minneapolis)
-title = [US/MN] Hurricane Electric - Cologix Minneapolis Minneapolis, MN, US [core1.msp1.he.net]
-host = core1.msp1.he.net
-
 ++ centurylink-mn-minneapolis
-menu = [US/MN] CenturyLink (Minneapolis)
+menu = [US/MN] CenturyLink
 title = [US/MN] CenturyLink - Minneapolis, MN, US [minneapolis.speedtest.centurylink.net]
 host = minneapolis.speedtest.centurylink.net
 
@@ -958,7 +948,7 @@ title = [US/OK] Cox Communications - Oklahoma City, OK, US [speedtest.rd.ok.cox.
 host = speedtest.rd.ok.cox.net
 
 ++ centurylink-nm-albuquerque
-menu = [US/NM] CenturyLink (Albuquerque)
+menu = [US/NM] CenturyLink
 title = [US/NM] CenturyLink - Albuquerque, NM, US [albuquerque.speedtest.centurylink.net]
 host = albuquerque.speedtest.centurylink.net
 
@@ -968,7 +958,7 @@ title = [US/NM] Comcast - Albuquerque, NM, US [stosat-albq-01.sys.comcast.net]
 host = stosat-albq-01.sys.comcast.net
 
 ++ centurylink-ar-little-rock
-menu = [US/AR] CenturyLink (Little Rock)
+menu = [US/AR] CenturyLink
 title = [US/AR] CenturyLink - Little Rock, AR, US [little-rock.speedtest.centurylink.net]
 host = little-rock.speedtest.centurylink.net
 
@@ -1001,11 +991,6 @@ host = speedmax.maxcom.net.mx
 menu = [MX] Alestra (Mexico City)
 title = [MX] Alestra - Mexico City, Mexico [speedtest-mex-01.alestra.net.mx]
 host = speedtest-mex-01.alestra.net.mx
-
-++ att-mx-gdl
-menu = [MX] AT&T (Guadalajara)
-title = [MX] AT&T - Guadalajara, Mexico [speed1.gdl.attmex.mx]
-host = speed1.gdl.attmex.mx
 
 ++ telefonica-mx6
 menu = [MX] Telefonica (Guadalajara)
@@ -1298,7 +1283,7 @@ title = [US/FL] AT&T - Orlando, FL, US [mco.speedtest.sbcglobal.net]
 host = mco.speedtest.sbcglobal.net
 
 ++ centurylink-fl-fort-myers
-menu = [US/FL] CenturyLink (Fort Myers)
+menu = [US/FL] CenturyLink
 title = [US/FL] CenturyLink - Fort Myers, FL, US [fort-myers.speedtest.centurylink.net]
 host = fort-myers.speedtest.centurylink.net
 
@@ -1327,10 +1312,10 @@ menu = [UK] Launchpad / Canonical Ltd.
 title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
 host = launchpad.net
 
-++ alphavps-lon
-menu = [UK] AlphaVPS (London)
-title = [UK] AlphaVPS - London, United Kingdom @ Enfield 1, Telehouse 2
-host = lguk.alphavps.bg
+#++ alphavps-lon
+#menu = [UK] AlphaVPS (London)
+#title = [UK] AlphaVPS - London, United Kingdom @ Enfield 1, Telehouse 2 [lguk.alphavps.bg]
+#host = lguk.alphavps.bg
 
 ++ aliyun-eu-west-1
 menu = [UK] Aliyun (London)
@@ -2355,6 +2340,11 @@ menu = [HK] CeraNetworks
 title = [HK] CeraNetworks - Hong Kong, China [103.135.33.68]
 host = 103.135.33.68
 
+++ unicom-hk
+menu = [HK] China Unicom Global
+title = [HK] China Unicom Global - Hong Kong, China [www.chinaunicomglobal.com]
+host = www.chinaunicomglobal.com
+
 ++ cubecloud
 menu = [HK] CubeCloud
 title = [HK] CubeCloud - Hong Kong, China [103.107.8.3]
@@ -2442,13 +2432,18 @@ host = 210.203.22.254
 
 ++ gcp-tw
 menu = [TW] Google Cloud
-title = [TW] Google Cloud Platform (asia-east1) - Changhua County, Taiwan via CloudHarmony [asia-east1-gce.cloudharmony.net]
+title = [TW] Google Cloud Platform (asia-east1) - Changhua County, Taiwan [asia-east1-gce.cloudharmony.net]
 host = asia-east1-gce.cloudharmony.net
 
+++ hurricanecloud-tw
+menu = [TW] Hurricanecloud
+title = [TW] Hurricanecloud @ HiNet Static - Changhua, Taiwan [125.227.212.32]
+host = 125.227.212.32
+
 ++ hinet-tw
-menu = [TW] HiNet
-title = [TW] HiNet Chunghwa Telecom [168.95.192.15]
-host = 168.95.192.15
+menu = [TW] Kuaichedao
+title = [TW] Kuaichedao @ HiNet Dynamic [220.141.70.9]
+host = 220.141.70.9
 
 ++ psychz-tw
 menu = [TW] Psychz
