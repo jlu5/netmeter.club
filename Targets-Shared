@@ -392,6 +392,11 @@ menu = [US/CA] Softlayer (San Jose)
 title = [US/CA] Softlayer - San Jose, California [speedtest.sjc01.softlayer.com]
 host = speedtest.sjc01.softlayer.com
 
+++ tencent-na-siliconvalley
+menu = [US/CA] Tencent Cloud
+title = [US/CA] Tencent Cloud - Silicon Valley, United States [cos.na-siliconvalley.myqcloud.com]
+host = cos.na-siliconvalley.myqcloud.com
+
 ++ vultr-sjo
 menu = [US/CA] Vultr (San Jose)
 title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
@@ -661,6 +666,11 @@ host = toronto-test.lunanode.com
 menu = [CA/ON] Softlayer (Toronto)
 title = [CA/ON] Softlayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
 host = speedtest.tor01.softlayer.com
+
+++ tencent-na-toronto
+menu = [CA/ON] Tencent (Toronto)
+title = [CA/ON] Tencent Cloud - Toronto, Canada [cos.na-toronto.myqcloud.com]
+host = cos.na-toronto.myqcloud.com
 
 ++ vultr-tor
 menu = [CA/ON] Vultr (Toronto)
@@ -1222,6 +1232,11 @@ menu = [US/VA] Rackspace (Reston)
 title = [US/VA] Rackspace - Reston, Virginia [iad.speedtest.rackspace.com]
 host = iad.speedtest.rackspace.com
 
+++ tencent-na-ashburn
+menu = [US/VA] Tencent (Virginia)
+title = [US/VA] Tencent Cloud - Virginia, United States [cos.na-ashburn.myqcloud.com]
+host = cos.na-ashburn.myqcloud.com
+
 ++ mrvm-bei
 menu = [US/WV] mrvm.net
 title = [US/WV] mrvm.net - Berkeley Springs, West Virginia [lg-us-bei.mrvm.net]
@@ -1687,6 +1702,11 @@ menu = [DE] OVH (Frankfurt)
 title = [DE] OVH - Frankfurt, Germany [fra1-lim.smokeping.ovh.net]
 host = fra1-lim.smokeping.ovh.net
 
+++ tencent-eu-frankfurt
+menu = [DE] Tencent (Frankfurt)
+title = [DE] Tencent Cloud - Frankfurt, Germany [cos.eu-frankfurt.myqcloud.com]
+host = cos.eu-frankfurt.myqcloud.com
+
 ++ serverhub-ffm
 menu = [DE] Virmach (Frankfurt)
 title = [DE] Virmach @ ServerHub - Frankfurt, Germany [ffm.lg.virmach.com]
@@ -1906,6 +1926,11 @@ host = speedtest.retn.net
 menu = [RU] Tele2 (Moscow)
 title = [RU] Tele2 Russia - Moscow, Russian Federation [msk1.companion.tele2.ru]
 host = msk1.companion.tele2.ru
+
+++ tencent-eu-moscow
+menu = [RU] Tencent (Moscow)
+title = [RU] Tencent Cloud - Moscow, Russia [cos.eu-moscow.myqcloud.com]
+host = cos.eu-moscow.myqcloud.com
 
 ++ mts-spb
 menu = [RU] MTS (St. Petersburg)
@@ -2127,6 +2152,22 @@ menu = [CN] Amazon AWS (Beijing)
 title = [CN] Amazon Web Services (cn-north1 @ Sinnet) - Beijing, China [52.81.0.253]
 host = 52.81.0.253
 
+++ anchnet-bj-yizhuang
+menu = [CN] Anchnet (Beijing)
+title = [CN] Anchnet - Beijing, China (Yizhuang BGP) [43.240.244.14]
+host = 43.240.244.14
+#https://www.anchnet.com/datacenter/yizhuang
+
+++ huawei-cn-north-1
+menu = [CN] Huawei (Beijing 1)
+title = [CN] Huawei Cloud - Beijing 1, China [ecs.cn-north-1.myhuaweicloud.com]
+host = ecs.cn-north-1.myhuaweicloud.com
+
+++ tencent-ap-beijing
+menu = [CN] Tencent (Beijing)
+title = [CN] Tencent Cloud - Beijing, China [cos.ap-beijing.myqcloud.com]
+host = cos.ap-beijing.myqcloud.com
+
 ++ cn-baidupan
 menu = [CN] BaiduPan
 title = [CN] BaiduPan [pan.baidu.com]
@@ -2137,24 +2178,18 @@ menu = [CN] Tsinghua TUNA
 title = [CN] Tsinghua Open Source Mirror - Beijing, China [mirrors.tuna.tsinghua.edu.cn]
 host = mirrors.tuna.tsinghua.edu.cn
 
-++ anchnet-bj-yizhuang
-menu = [CN] Anchnet (Beijing)
-title = [CN] Anchnet - Beijing, China (Yizhuang BGP) [43.240.244.14]
-host = 43.240.244.14
-#https://www.anchnet.com/datacenter/yizhuang
-
 ++ aliyun-qingdao
-menu = [CN] Aliyun (Shandong)
+menu = [CN] Aliyun (Qingdao)
 title = [CN] Aliyun / Alibaba Cloud - Qingdao, Shandong 中国青岛 [oss-cn-qingdao.aliyuncs.com]
 host = oss-cn-qingdao.aliyuncs.com
 
 ++ aliyun-zhangjiakou
-menu = [CN] Aliyun (Hebei)
+menu = [CN] Aliyun (Zhangjiakou)
 title = [CN] Aliyun / Alibaba Cloud - Zhangjiakou, Hebei 中国张家口 [oss-cn-zhangjiakou.aliyuncs.com]
 host = oss-cn-zhangjiakou.aliyuncs.com
 
 ++ cloudiplc-dlbgp
-menu = [CN] CloudIPLC (Liaoning)
+menu = [CN] CloudIPLC (Dalian)
 title = [CN] CloudIPLC - Dalian, Liaoning 大连BGP [ping.dlbgp.cloudiplc.com]
 host = ping.dlbgp.cloudiplc.com
 
@@ -2169,7 +2204,7 @@ title = [CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [52.82.
 host = 52.82.0.253
 
 ++ tcloud-nanyang-cm
-menu = [CN] TCloud (Henan CM)
+menu = [CN] TCloud (Nanyang CM)
 title = [CN] TCloud @ China Mobile - Nanyang, Henan 南阳移动 [111.6.79.1]
 host = 111.6.79.1
 
@@ -2209,19 +2244,29 @@ menu = [CN] Anchnet (Shanghai CU)
 title = [CN] Anchnet @ China Unicom - Shanghai, China (Beiai CU) [112.65.240.161]
 host = 112.65.240.161
 
+++ huawei-cn-east-2
+menu = [CN] Huawei (Shanghai)
+title = [CN] Huawei Cloud - Shanghai, China [ecs.cn-east-2.myhuaweicloud.com]
+host = ecs.cn-east-2.myhuaweicloud.com
+
+++ tencent-ap-shanghai
+menu = [CN] Tencent (Shanghai)
+title = [CN] Tencent Cloud - Shanghai, China [cos.ap-shanghai.myqcloud.com]
+host = cos.ap-shanghai.myqcloud.com
+
 ++ cn-ustc
 menu = [CN] USTC
 title = [CN] USTC Open Source Software Mirror - Hefei, Anhui, China [mirrors.ustc.edu.cn]
 host = mirrors.ustc.edu.cn
 
 ++ anchnet-js-wuxi
-menu = [CN] Anchnet (Jiangsu Wuxi)
+menu = [CN] Anchnet (Wuxi)
 title = [CN] Anchnet - Wuxi, Jiangsu (BGP) [103.21.119.48]
 host = 103.21.119.48
 #221.228.82.70（电信）122.192.69.117（联通）
 
 ++ cloudiplc-xzcu
-menu = [CN] CloudIPLC (Jiangsu CU)
+menu = [CN] CloudIPLC (Xuzhou CU)
 title = [CN] CloudIPLC @ China Unicom - Xuzhou, Jiangsu 徐州联通 [ping.xzcu.cloudiplc.com]
 host = ping.xzcu.cloudiplc.com
 
@@ -2231,37 +2276,37 @@ title = [CN] CloudIPLC @ China Mobile - Jiangsu 江苏移动 [ping.jscm.cloudipl
 host = ping.jscm.cloudiplc.com
 
 ++ stardo-xuzhou
-menu = [CN] Star.do (Jiangsu)
+menu = [CN] Star.do (Xuzhou)
 title = [CN] Star.do @ China Telecom - Xuzhou, Jiangsu (DDoS Protected) [58.218.210.1]
 host = 58.218.210.1
 
 ++ tcloud-zhenjiang-ct
-menu = [CN] TCloud (Jiangsu CT)
+menu = [CN] TCloud (Zhenjiang CT)
 title = [CN] TCloud @ China Telecom - Zhenjiang, Jiangsu 镇江电信 [222.186.52.1]
 host = 222.186.52.1
 
 ++ uovz-xuzhou
-menu = [CN] UOvZ (Jiangsu CT+DP)
+menu = [CN] UOvZ (Xuzhou CT+DP)
 title = [CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州电信 DDoS Protected [58.218.201.1]
 host = 58.218.201.1
 
 ++ uovz-xuzhou-cu
-menu = [CN] UOvZ (Jiangsu CU)
+menu = [CN] UOvZ (Xuzhou CU)
 title = [CN] UOvZ @ China Unicom - Xuzhou, Jiangsu 徐州联通 [112.85.239.1]
 host = 112.85.239.1
 
 ++ aliyun-hangzhou
-menu = [CN] Aliyun (Zhejiang)
+menu = [CN] Aliyun (Hangzhou)
 title = [CN] Aliyun / Alibaba Cloud - Hangzhou, Zhejiang 中国杭州 [oss-cn-hangzhou.aliyuncs.com]
 host = oss-cn-hangzhou.aliyuncs.com
 
 ++ tcloud-ningbo
-menu = [CN] TCloud (Zhejiang)
+menu = [CN] TCloud (Ningbo)
 title = [CN] TCloud - Ningbo, Zhejiang 宁波BGP [103.88.33.1]
 host = 103.88.33.1
 
 ++ tcloud-jiaxing-dl
-menu = [CN] TCloud (Zhejiang DL)
+menu = [CN] TCloud (Jiaxing DL)
 title = [CN] TCloud @ Dual-Uplink - Jiaxing, Zhejiang 嘉兴双线 [115.231.235.254]
 host = 115.231.235.254
 
@@ -2280,18 +2325,38 @@ menu = [CN] Anchnet (Shenzhen)
 title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
 host = 43.240.244.14
 
+++ huawei-cn-south-1
+menu = [CN] Huawei (Guangzhou)
+title = [CN] Huawei Cloud - Guangzhou, China [ecs.cn-south-1.myhuaweicloud.com]
+host = ecs.cn-south-1.myhuaweicloud.com
+
 ++ tcloud-guangzhou-ct
 menu = [CN] TCloud (Guangzhou CT)
 title = [CN] TCloud @ China Telecom - Guangzhou 广州电信 [14.215.171.1]
 host = 14.215.171.1
 
+++ tencent-ap-guangzhou
+menu = [CN] Tencent (Guangzhou)
+title = [CN] Tencent Cloud - Guangzhou, China [cos.ap-guangzhou.myqcloud.com]
+host = cos.ap-guangzhou.myqcloud.com
+
+++ tencent-ap-chengdu
+menu = [CN] Tencent (Chengdu)
+title = [CN] Tencent Cloud - Chengdu, China [cos.ap-chengdu.myqcloud.com]
+host = cos.ap-chengdu.myqcloud.com
+
+++ huawei-cn-southwest-2
+menu = [CN] Huawei (Guiyang)
+title = [CN] Huawei Cloud - Guiyang, China [as.cn-southwest-2.myhuaweicloud.com]
+host = as.cn-southwest-2.myhuaweicloud.com
+
 ++ cloudiplc-qzcm
-menu = [CN] CloudIPLC (Fujian CM)
+menu = [CN] CloudIPLC (Quanzhou CM)
 title = [CN] CloudIPLC @ China Mobile - Quanzhou, Fujian 泉州移动 [ping.qzcm.cloudiplc.com]
 host = ping.qzcm.cloudiplc.com
 
 ++ cloudiplc-qzcn2
-menu = [CN] CloudIPLC (Fujian CN2)
+menu = [CN] CloudIPLC (Quanzhou CN2)
 title = [CN] CloudIPLC @ CN2 - Quanzhou, Fujian 泉州CN2 [ping.qzcn2.cloudiplc.com]
 host = ping.qzcn2.cloudiplc.com
 
@@ -2375,6 +2440,11 @@ menu = [HK] HKServerSolution @ HGC
 title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
 
+++ huawei-ap-southeast-1
+menu = [HK] Huawei (Hong Kong)
+title = [HK] Huawei Cloud - Hong Kong, China [ecs.ap-southeast-1.myhwclouds.com]
+host = ecs.ap-southeast-1.myhwclouds.com
+
 ++ klayer-hk
 menu = [HK] KLayer
 title = [HK] KLayer - Hong Kong, China [hk.lg.klayer.com]
@@ -2414,6 +2484,11 @@ host = hongkong-lg.ransomit.com.au
 menu = [HK] SoftLayer
 title = [HK] SoftLayer - Hong Kong, China [speedtest.hkg02.softlayer.com]
 host = speedtest.hkg02.softlayer.com
+
+++ tencent-ap-hongkong
+menu = [HK] Tencent (Hong Kong)
+title = [HK] Tencent Cloud - Hong Kong, China [cos.ap-hongkong.myqcloud.com]
+host = cos.ap-hongkong.myqcloud.com
 
 ++ uovz-hk-hkbn
 menu = [HK] UOvZ @ HKBN
@@ -2480,11 +2555,6 @@ menu = [JP] Google Cloud (Tokyo)
 title = [JP] Google Cloud Platform (asia-northeast1) - Tokyo, Japan [asia-northeast1-gce.cloudharmony.net]
 host = asia-northeast1-gce.cloudharmony.net
 
-++ hurricane-electric-tyo1
-menu = [JP] he.net (Tokyo)
-title = [JP] Hurricane Electric - Equinix Tokyo (TY2) Tokyo, JP [core1.tyo1.he.net]
-host = core1.tyo1.he.net
-
 ++ linode-jp
 menu = [JP] Linode (Tokyo 2)
 title = [JP] Linode (Tokyo 2) - Tokyo, Japan [speedtest.tokyo2.linode.com]
@@ -2525,6 +2595,11 @@ menu = [JP] StarryDNS (Tokyo)
 title = [JP] StarryDNS  - Tokyo, Japan [jp4.lg.starrydns.com]
 host = jp4.lg.starrydns.com
 
+++ tencent-ap-tokyo
+menu = [JP] Tencent (Tokyo)
+title = [JP] Tencent Cloud - Tokyo, Japan [cos.ap-tokyo.myqcloud.com]
+host = cos.ap-tokyo.myqcloud.com
+
 ++ vultr-jp
 menu = [JP] Vultr (Tokyo)
 title = [JP] Vultr / Choopa - Tokyo, Japan [hnd-jp-ping.vultr.com]
@@ -2559,6 +2634,11 @@ host = 211.216.50.170
 menu = [KR] Softlayer (Seoul)
 title = [KR] Softlayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
 host = speedtest.seo01.softlayer.com
+
+++ tencent-ap-seoul
+menu = [KR] Tencent (Seoul)
+title = [KR] Tencent Cloud - Seoul, Korea [cos.ap-seoul.myqcloud.com]
+host = cos.ap-seoul.myqcloud.com
 
 ++ megafon-khabarovsk
 menu = [RU] MegaFon (Khabarovsk)
@@ -2705,6 +2785,11 @@ menu = [SG] StarryDNS
 title = [SG] StarryDNS - Singapore [sg1.lg.starrydns.com]
 host = sg1.lg.starrydns.com
 
+++ tencent-ap-singapore
+menu = [SG] Tencent (Singapore)
+title = [SG] Tencent Cloud - Singapore [cos.ap-singapore.myqcloud.com]
+host = cos.ap-singapore.myqcloud.com
+
 ++ vultr-sg
 menu = [SG] Vultr
 title = [SG] Vultr / Choopa - Singapore [sgp-ping.vultr.com]
@@ -2729,6 +2814,16 @@ host = oss-ap-southeast-3.aliyuncs.com
 menu = [PH] CloudSigma (Manila)
 title = [PH] CloudSigma - Manila, Philippines [116.93.97.1]
 host = 116.93.97.1
+
+++ huawei-ap-southeast-2
+menu = [TH] Huawei (Bangkok)
+title = [TH] Huawei Cloud - Bangkok, Thailand [ecs.ap-southeast-2.myhuaweicloud.com]
+host = ecs.ap-southeast-2.myhuaweicloud.com
+
+++ tencent-ap-bangkok
+menu = [TH] Tencent (Bangkok)
+title = [TH] Tencent Cloud - Bangkok, Thailand [cos.ap-bangkok.myqcloud.com]
+host = cos.ap-bangkok.myqcloud.com
 
 ++ cambohost
 menu = [KH] Cambo.Host
@@ -2774,6 +2869,11 @@ host = lg.in.psychz.net
 menu = [IN] Tata (Mumbai)
 title = [IN] Tatasky Broadband Pvt Ltd. - Mumbai, India [speedtestmum.tataskybroadband.com]
 host = speedtestmum.tataskybroadband.com
+
+++ tencent-ap-mumbai
+menu = [IN] Tencent (Mumbai)
+title = [IN] Tencent Cloud - Mumbai, India [cos.ap-mumbai.myqcloud.com]
+host = cos.ap-mumbai.myqcloud.com
 
 ++ bharti-delhi
 menu = [IN] Airtel (Delhi)
