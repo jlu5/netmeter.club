@@ -1882,21 +1882,6 @@ host = si.edis.at
 menu = Europe - East
 title = netmeter.club Global Ping Monitoring - Europe (East)
 
-++ edis-rusp
-menu = [RU] EDIS (St. Petersburg)
-title = [RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]
-host = rusp.edis.at
-
-++ veesp-stp
-menu = [RU] Veesp (St. Petersburg)
-title = [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [lg.veesp.com]
-host = lg.veesp.com
-
-++ zeptovm-stp
-menu = [RU] ZeptoVM (St. Petersburg)
-title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
-host = ru-led01.lg.zeptovm.com
-
 ++ edis-ru
 menu = [RU] EDIS (Moscow)
 title = [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
@@ -1932,15 +1917,25 @@ menu = [RU] Tencent (Moscow)
 title = [RU] Tencent Cloud - Moscow, Russia [cos.eu-moscow.myqcloud.com]
 host = cos.eu-moscow.myqcloud.com
 
-++ mts-spb
-menu = [RU] MTS (St. Petersburg)
-title = [RU] MTS - Saint Petersburg, Russian Federation [speedtest1.spb.dom.mts.ru]
-host = speedtest1.spb.dom.mts.ru
+++ edis-rusp
+menu = [RU] EDIS (St. Petersburg)
+title = [RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]
+host = rusp.edis.at
+
+++ veesp-stp
+menu = [RU] Veesp (St. Petersburg)
+title = [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [lg.veesp.com]
+host = lg.veesp.com
 
 ++ vimpelcom-spb
 menu = [RU] Vimpelcom (St. Petersburg)
 title = [RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]
 host = speedtest.spb.gldn.net
+
+++ zeptovm-stp
+menu = [RU] ZeptoVM (St. Petersburg)
+title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
+host = ru-led01.lg.zeptovm.com
 
 ++ transtelecom-nizhny
 menu = [RU] TransTelecom (Nizhny)
@@ -1952,10 +1947,10 @@ menu = [RU] ER-Telecom (Rostov)
 title = [RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.ertelecom.ru]
 host = speedtest.rostov.ertelecom.ru
 
-++ alphavps-bg
+++ alphavps-bg-0
 menu = [BG] AlphaVPS (Sofia)
-title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC
-host = lguk.alphavps.bg
+title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC [lgbg.alphavps.bg]
+host = lgbg.alphavps.bg
 
 ++ edis-bg
 menu = [BG] EDIS (Sofia)
@@ -2537,7 +2532,7 @@ host = oss-ap-northeast-1.aliyuncs.com
 
 ++ amazon-jp
 menu = [JP] Amazon AWS (Tokyo)
-title = [JP] Amazon Web Services (Tokyo ap-northeast-2) [18.182.0.0]
+title = [JP] Amazon Web Services (ap-northeast-2) - Tokyo, Japan [18.182.0.0]
 host = 18.182.0.0
 
 ++ chinatelecomglobal-jp
@@ -2546,7 +2541,7 @@ title = [JP] China Telecom Global - Japan [203.80.137.1]
 host = 203.80.137.1
 
 ++ dediserve-jap1
-menu = [JP] Dediserve - Tokyo, Japan
+menu = [JP] Dediserve (Tokyo)
 title = [JP] Dediserve - Tokyo, Japan [speedtest.c1.jap1.dediserve.com]
 host = speedtest.c1.jap1.dediserve.com
 
@@ -2689,11 +2684,6 @@ host = speedcheck1.vdv.vimpelcom.ru
 menu = [RU] RT (Blagoveshchensk)
 title = [RU] Rostelecom - Blagoveshchensk, Russian Federation [speedtest.amur.ru]
 host = speedtest.amur.ru
-
-++ vimpelcom-krasnoyarsk
-menu = [RU] VimpelCom (Krasnoyarsk)
-title = [RU] VimpelCom Beeline - Krasnoyarsk, Russian Federation [krasnoyarsk1.speedtest.corbina.net]
-host = krasnoyarsk1.speedtest.corbina.net
 
 ++ er-telecom-irkutsk
 menu = [RU] ER-Telecom (Irkutsk)
@@ -3189,11 +3179,6 @@ host = lg-01-dar.tz.seacomnet.com
 menu = [MZ] SEACOM (Maputo)
 title = [MZ] SEACOM - Maputo, Mozambique [lg-01-mpm.mz.seacomnet.com]
 host = lg-01-mpm.mz.seacomnet.com
-
-++ orange-mg
-menu = [MG] Orange Madagascar
-title = [MG] Orange Madagascar [orange.mg]
-host = orange.mg
 
 ++ angolacables-ao
 menu = [AO] Angola Cables
