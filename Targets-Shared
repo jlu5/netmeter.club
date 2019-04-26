@@ -542,6 +542,11 @@ menu = [US/NV] Charter (Reno)
 title = [US/NV] Charter - Reno, NV, US [spt01renonv.reno.nv.charter.com]
 host = spt01renonv.reno.nv.charter.com
 
+++ ioflood
+menu = [US/AZ] IOFlood
+title = [US/AZ] IOFlood [ioflood.com]
+host = ioflood.com
+
 ++ securedragon-phoenix
 menu = [US/AZ] SecureDragon
 title = [US/AZ] SecureDragon @ PhoenixNAP - Phoenix, Arizona [162.253.177.4]
@@ -2084,7 +2089,7 @@ host = lg.telia.net
 
 ++ vikinglayer-swe
 menu = [SE] VikingLayer
-title = [SE] VikingLayer / drServer / Portlane - Sweden [sweden.drserver.net]
+title = [SE] VikingLayer / drServer @ Portlane - Sweden [sweden.drserver.net]
 host = sweden.drserver.net
 
 ++ hurricane-electric-sto1
@@ -2855,15 +2860,15 @@ menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz - Mumbai, India [lg.in.psychz.net]
 host = lg.in.psychz.net
 
-++ tatasky-mumbai
-menu = [IN] Tata (Mumbai)
-title = [IN] Tatasky Broadband Pvt Ltd. - Mumbai, India [speedtestmum.tataskybroadband.com]
-host = speedtestmum.tataskybroadband.com
-
 ++ tencent-ap-mumbai
 menu = [IN] Tencent (Mumbai)
 title = [IN] Tencent Cloud - Mumbai, India [cos.ap-mumbai.myqcloud.com]
 host = cos.ap-mumbai.myqcloud.com
+
+++ tatasky-mumbai
+menu = [IN] Tata (Mumbai)
+title = [IN] Tatasky Broadband Pvt Ltd. - Mumbai, India [speedtestmum.tataskybroadband.com]
+host = speedtestmum.tataskybroadband.com
 
 ++ bharti-delhi
 menu = [IN] Airtel (Delhi)
@@ -2879,11 +2884,6 @@ host = speedtestdel.vodafone.ind.in
 menu = [IN] Jio (Bangalore)
 title = [IN] Jio - Bangalore, India [speedbgl1.jioconnect.com]
 host = speedbgl1.jioconnect.com
-
-++ bsnl-pune
-menu = [IN] BSNL (Pune)
-title = [IN] BSNL - Pune, India [pn1.bsnl.co.in]
-host = pn1.bsnl.co.in
 
 ++ telenor-islamabad
 menu = [PK] Telenor (Islamabad)
