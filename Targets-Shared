@@ -202,25 +202,10 @@ menu = [CA/BC] TELUS (Vancouver)
 title = [CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]
 host = vancouver.speedtest.telus.com
 
-++ atnt-sea
-menu = [US/WA] AT&T (Seattle)
-title = [US/WA] AT&T - Seattle, Washington [sea.speedtest.sbcglobal.net]
-host = sea.speedtest.sbcglobal.net
-
-++ centurylink-sea
-menu = [US/WA] CenturyLink (Seattle)
-title = [US/WA] CenturyLink - Seattle, Washington [seattle.speedtest.centurylink.net]
-host = seattle.speedtest.centurylink.net
-
-++ colocrossing-sea
-menu = [US/WA] ColoCrossing (Seattle)
-title = [US/WA] ColoCrossing - Seattle, Washington [lg.sea.colocrossing.com]
-host = lg.sea.colocrossing.com
-
-++ comcast-sea
-menu = [US/WA] Comcast (Seattle)
-title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
-host = stosat-rvlt-01.sys.comcast.net
+#++ comcast-sea
+#menu = [US/WA] Comcast (Seattle)
+#title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
+#host = stosat-rvlt-01.sys.comcast.net
 
 ++ impactvps-sea
 menu = [US/WA] ImpactVPS (Seattle)
@@ -232,10 +217,10 @@ menu = [US/WA] IonSwitch (Seattle)
 title = [US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]
 host = lg.ionswitch.com
 
-++ nfoservers-sea
-menu = [US/WA] NFOservers (Seattle)
-title = [US/WA] NFOservers - Seattle, Washington [192.223.25.100]
-host = 192.223.25.100
+#++ nfoservers-sea
+#menu = [US/WA] NFOservers (Seattle)
+#title = [US/WA] NFOservers - Seattle, Washington [192.223.25.100]
+#host = 192.223.25.100
 
 ++ ramnode-sea
 menu = [US/WA] RamNode (Seattle)
@@ -261,6 +246,21 @@ host = lg.seadedicated.com
 menu = [US/WA] Vultr (Seattle)
 title = [US/WA] Vultr / Choopa - Seattle, Washington [wa-us-ping.vultr.com]
 host = wa-us-ping.vultr.com
+
+++ atnt-sea
+menu = [US/WA] AT&T (Seattle)
+title = [US/WA] AT&T - Seattle, Washington [sea.speedtest.sbcglobal.net]
+host = sea.speedtest.sbcglobal.net
+
+++ centurylink-sea
+menu = [US/WA] CenturyLink (Seattle)
+title = [US/WA] CenturyLink - Seattle, Washington [seattle.speedtest.centurylink.net]
+host = seattle.speedtest.centurylink.net
+
+++ colocrossing-sea
+menu = [US/WA] ColoCrossing (Seattle)
+title = [US/WA] ColoCrossing - Seattle, Washington [lg.sea.colocrossing.com]
+host = lg.sea.colocrossing.com
 
 ++ amazon-pdx
 menu = [US/OR] Amazon AWS
@@ -382,10 +382,10 @@ menu = [US/CA] Riven Cloud (Fremont)
 title = [US/CA] Riven Cloud - Fremont, California [speedtest-fm1.sa.net]
 host = speedtest-fm1.sa.net
 
-++ nfoservers-sjc
-menu = [US/CA] NFOservers (San Jose)
-title = [US/CA] NFOservers @ InterNAP - San Jose, California [66.151.138.9]
-host = 66.151.138.9
+#++ nfoservers-sjc
+#menu = [US/CA] NFOservers (San Jose)
+#title = [US/CA] NFOservers @ InterNAP - San Jose, California [66.151.138.9]
+#host = 66.151.138.9
 
 ++ softlayer-sjc
 menu = [US/CA] Softlayer (San Jose)
@@ -462,10 +462,10 @@ menu = [US/CA] KLayer (Los Angeles)
 title = [US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
 
-++ nfoservers-lax
-menu = [US/CA] NFOservers (LA)
-title = [US/CA] NFOservers - Los Angeles, California [66.150.188.101]
-host = 66.150.188.101
+#++ nfoservers-lax
+#menu = [US/CA] NFOservers (LA)
+#title = [US/CA] NFOservers - Los Angeles, California [66.150.188.101]
+#host = 66.150.188.101
 
 ++ psychz-la
 menu = [US/CA] Psychz (Los Angeles)
@@ -512,10 +512,10 @@ menu = [US/CA] Vultr (Los Angeles)
 title = [US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
 
-++ comcast-ca-scrm
-menu = [US/CA] Comcast (Sacramento)
-title = [US/CA] Comcast - Sacramento, CA, US [stosat-scrm-01.sys.comcast.net]
-host = stosat-scrm-01.sys.comcast.net
+#++ comcast-ca-scrm
+#menu = [US/CA] Comcast (Sacramento)
+#title = [US/CA] Comcast - Sacramento, CA, US [stosat-scrm-01.sys.comcast.net]
+#host = stosat-scrm-01.sys.comcast.net
 
 ++ cox-ca-sd
 menu = [US/CA] Cox (San Diego)
@@ -562,10 +562,10 @@ menu = [US/UT] CenturyLink
 title = [US/UT] CenturyLink - Salt Lake City, UT, US [saltlakecity2.speedtest.centurylink.net]
 host = saltlakecity2.speedtest.centurylink.net
 
-++ comcast-ut-utah
-menu = [US/UT] Comcast
-title = [US/UT] Comcast - Salt Lake City, UT, US [stosat-utah-01.sys.comcast.net]
-host = stosat-utah-01.sys.comcast.net
+#++ comcast-ut-utah
+#menu = [US/UT] Comcast
+#title = [US/UT] Comcast - Salt Lake City, UT, US [stosat-utah-01.sys.comcast.net]
+#host = stosat-utah-01.sys.comcast.net
 
 ++ budgetnode-ogd
 menu = [US/UT] BudgetNode (Ogden)
@@ -587,25 +587,15 @@ host = core1.hnl1.he.net
 menu = North America - Central
 title = netmeter.club Global Ping Monitoring - North America (Central)
 
-++ att-il-chi
-menu = [US/IL] AT&T (Cicero)
-title = [US/IL] AT&T - Cicero, IL, US [chi.speedtest.sbcglobal.net]
-host = chi.speedtest.sbcglobal.net
-
-++ centurylink-il-chicago
-menu = [US/IL] CenturyLink (Chicago)
-title = [US/IL] CenturyLink - Chicago, IL, US [chicago.speedtest.centurylink.net]
-host = chicago.speedtest.centurylink.net
-
 ++ colocrossing-chi
 menu = [US/IL] ColoCrossing (Chicago)
 title = [US/IL] ColoCrossing - Chicago, Illinois [66.225.198.198]
 host = 66.225.198.198
 
-++ comcast-il-chic
-menu = [US/IL] Comcast (Chicago)
-title = [US/IL] Comcast - Chicago, IL, US [stosat-chic-01.sys.comcast.net]
-host = stosat-chic-01.sys.comcast.net
+#++ comcast-il-chic
+#menu = [US/IL] Comcast (Chicago)
+#title = [US/IL] Comcast - Chicago, IL, US [stosat-chic-01.sys.comcast.net]
+#host = stosat-chic-01.sys.comcast.net
 
 ++ dediserve-chg1
 menu = [US/IL] Dediserve (Chicago)
@@ -617,10 +607,10 @@ menu = [US/IL] Host1Plus (Chicago)
 title = [US/IL] Host1Plus - Chicago, Illinois [181.214.61.207]
 host = 181.214.61.207
 
-++ nfoservers-chi
-menu = [US/IL] NFOservers (Chicago)
-title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
-host = 216.52.148.4
+#++ nfoservers-chi
+#menu = [US/IL] NFOservers (Chicago)
+#title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
+#host = 216.52.148.4
 
 ++ psychz-chi
 menu = [US/IL] Psychz (Chicago)
@@ -641,6 +631,16 @@ host = ord.speedtest.rackspace.com
 menu = [US/IL] Vultr (Chicago)
 title = [US/IL] Vultr - Chicago, Illinois [il-us-ping.vultr.com]
 host = il-us-ping.vultr.com
+
+++ att-il-chi
+menu = [US/IL] AT&T (Cicero)
+title = [US/IL] AT&T - Cicero, IL, US [chi.speedtest.sbcglobal.net]
+host = chi.speedtest.sbcglobal.net
+
+++ centurylink-il-chicago
+menu = [US/IL] CenturyLink (Chicago)
+title = [US/IL] CenturyLink - Chicago, IL, US [chicago.speedtest.centurylink.net]
+host = chicago.speedtest.centurylink.net
 
 ++ canadianwebhost-tor
 menu = [CA/ON] Canadianwebhosting
@@ -722,10 +722,10 @@ menu = [CA/MB] TELUS (Winnipeg)
 title = [CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]
 host = winnipeg.speedtest.telus.com
 
-++ comcast-co-dvre
-menu = [US/CO] Comcast (Denver)
-title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
-host = stosat-dvre-01.sys.comcast.net
+#++ comcast-co-dvre
+#menu = [US/CO] Comcast (Denver)
+#title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
+#host = stosat-dvre-01.sys.comcast.net
 
 ++ hurricane-electric-den1
 menu = [US/CO] he.net (Denver)
@@ -772,10 +772,10 @@ menu = [US/MI] Charter (Allendale)
 title = [US/MI] Charter - Allendale, MI, US [spt01aldlmi.aldl.mi.charter.com]
 host = spt01aldlmi.aldl.mi.charter.com
 
-++ comcast-mi-taylr
-menu = [US/MI] Comcast (Detroit)
-title = [US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]
-host = stosat-taylr-01.sys.comcast.net
+#++ comcast-mi-taylr
+#menu = [US/MI] Comcast (Detroit)
+#title = [US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]
+#host = stosat-taylr-01.sys.comcast.net
 
 ++ centurylink-ia-cedar-rapids
 menu = [US/IA] CenturyLink
@@ -842,10 +842,10 @@ menu = [US/TX] Nexril (Dallas)
 title = [US/TX] Nexril - Dallas, Texas [lg.nexril.net]
 host = lg.nexril.net
 
-++ nfoservers-dal
-menu = [US/TX] NFOservers (Dallas)
-title = [US/TX] NFOservers - Dallas, Texas [66.150.214.8]
-host = 66.150.214.8
+#++ nfoservers-dal
+#menu = [US/TX] NFOservers (Dallas)
+#title = [US/TX] NFOservers - Dallas, Texas [66.150.214.8]
+#host = 66.150.214.8
 
 ++ psychz-texas
 menu = [US/TX] Psychz (Dallas)
@@ -917,15 +917,10 @@ menu = [US/GA] ColoCrossing (Atlanta)
 title = [US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]
 host = lg.atl.colocrossing.com
 
-++ cox-ga-at
-menu = [US/GA] Cox (Alpharetta)
-title = [US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]
-host = speedtest.rd.at.cox.net
-
-++ comcast-ga-smtn
-menu = [US/GA] Comcast (Atlanta)
-title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
-host = stosat-smtn-01.sys.comcast.net
+#++ comcast-ga-smtn
+#menu = [US/GA] Comcast (Atlanta)
+#title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
+#host = stosat-smtn-01.sys.comcast.net
 
 ++ hostus-atl
 menu = [US/GA] HostUS (Atlanta)
@@ -957,6 +952,11 @@ menu = [US/GA] Vultr (Atlanta)
 title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
 host = ga-us-ping.vultr.com
 
+++ cox-ga-at
+menu = [US/GA] Cox (Alpharetta)
+title = [US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]
+host = speedtest.rd.at.cox.net
+
 ++ cox-ok-ok
 menu = [US/OK] Cox (Oklahoma City)
 title = [US/OK] Cox Communications - Oklahoma City, OK, US [speedtest.rd.ok.cox.net]
@@ -967,20 +967,20 @@ menu = [US/NM] CenturyLink
 title = [US/NM] CenturyLink - Albuquerque, NM, US [albuquerque.speedtest.centurylink.net]
 host = albuquerque.speedtest.centurylink.net
 
-++ comcast-nm-albq
-menu = [US/NM] Comcast (Albuquerque)
-title = [US/NM] Comcast - Albuquerque, NM, US [stosat-albq-01.sys.comcast.net]
-host = stosat-albq-01.sys.comcast.net
+#++ comcast-nm-albq
+#menu = [US/NM] Comcast (Albuquerque)
+#title = [US/NM] Comcast - Albuquerque, NM, US [stosat-albq-01.sys.comcast.net]
+#host = stosat-albq-01.sys.comcast.net
 
 ++ centurylink-ar-little-rock
 menu = [US/AR] CenturyLink
 title = [US/AR] CenturyLink - Little Rock, AR, US [little-rock.speedtest.centurylink.net]
 host = little-rock.speedtest.centurylink.net
 
-++ comcast-ar-malt
-menu = [US/AR] Comcast (Little Rock)
-title = [US/AR] Comcast - Little Rock, AR, US [stosat-malt-01.sys.comcast.net]
-host = stosat-malt-01.sys.comcast.net
+#++ comcast-ar-malt
+#menu = [US/AR] Comcast (Little Rock)
+#title = [US/AR] Comcast - Little Rock, AR, US [stosat-malt-01.sys.comcast.net]
+#host = stosat-malt-01.sys.comcast.net
 
 ++ att-la-msy
 menu = [US/LA] AT&T (New Orleans)
@@ -1062,10 +1062,10 @@ menu = [US/NY] ImpactVPS
 title = [US/NY] ImpactVPS @ Incero - New York City, NY, US [172.110.20.1]
 host = 172.110.20.1
 
-++ nfoservers-nyc
-menu = [US/NY] NFOservers
-title = [US/NY] NFOservers @ InterNAP - New York, US [63.251.20.100]
-host = 63.251.20.100
+#++ nfoservers-nyc
+#menu = [US/NY] NFOservers
+#title = [US/NY] NFOservers @ InterNAP - New York, US [63.251.20.100]
+#host = 63.251.20.100
 
 ++ ramnode-nyc
 menu = [US/NY] Ramnode
@@ -1152,25 +1152,25 @@ menu = [US/RI] Cox (Providence)
 title = [US/RI] Cox Communications - Providence, RI, US [speedtest.rd.ri.cox.net]
 host = speedtest.rd.ri.cox.net
 
-++ comcast-pa-crls
-menu = [US/PA] Comcast (Pittsburgh)
-title = [US/PA] Comcast - Pittsburgh, PA, US [stosat-crls-01.sys.comcast.net]
-host = stosat-crls-01.sys.comcast.net
+#++ comcast-pa-crls
+#menu = [US/PA] Comcast (Pittsburgh)
+#title = [US/PA] Comcast - Pittsburgh, PA, US [stosat-crls-01.sys.comcast.net]
+#host = stosat-crls-01.sys.comcast.net
 
-++ comcast-ma-ndhm
-menu = [US/MA] Comcast (Boston)
-title = [US/MA] Comcast - Boston, MA, US [stosat-ndhm-01.sys.comcast.net]
-host = stosat-ndhm-01.sys.comcast.net
+#++ comcast-ma-ndhm
+#menu = [US/MA] Comcast (Boston)
+#title = [US/MA] Comcast - Boston, MA, US [stosat-ndhm-01.sys.comcast.net]
+#host = stosat-ndhm-01.sys.comcast.net
 
 ++ charter-ma-spt01oxfrma
 menu = [US/MA] Charter (Oxford)
 title = [US/MA] Charter - Oxford, MA, US [spt01oxfrma.oxfr.ma.charter.com]
 host = spt01oxfrma.oxfr.ma.charter.com
 
-++ comcast-md-balt
-menu = [US/MD] Comcast (Baltimore)
-title = [US/MD] Comcast - Baltimore, MD, US [stosat-balt-01.sys.comcast.net]
-host = stosat-balt-01.sys.comcast.net
+#++ comcast-md-balt
+#menu = [US/MD] Comcast (Baltimore)
+#title = [US/MD] Comcast - Baltimore, MD, US [stosat-balt-01.sys.comcast.net]
+#host = stosat-balt-01.sys.comcast.net
 
 ++ bellaliant-hfns
 menu = [CA/NS] Bell Aliant (Halifax)
@@ -1192,11 +1192,6 @@ menu = [US/DC] LeaseWeb
 title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
-++ cox-va-dc
-menu = [US/VA] Cox (Arlington)
-title = [US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]
-host = speedtest.rd.dc.cox.net
-
 ++ aliyun-us-east-1
 menu = [US/VA] Aliyun (us-east-1)
 title = [US/VA] Aliyun / Alibaba Cloud - Virginia (us-east-1) [oss-us-east-1.aliyuncs.com]
@@ -1211,16 +1206,6 @@ host = 52.1.255.254
 menu = [US/VA] BudgetNode
 title = [US/VA] BudgetNode - Ashburn, Virginia [172.106.200.10]
 host = 172.106.200.10
-
-++ comcast-va-smil
-menu = [US/VA] Comcast (Richmond)
-title = [US/VA] Comcast - Richmond, VA, US [stosat-smil-01.sys.comcast.net]
-host = stosat-smil-01.sys.comcast.net
-
-++ cox-va-hr
-menu = [US/VA] Cox (Hampton)
-title = [US/VA] Cox Communications - Hampton, VA, US [speedtest.rd.hr.cox.net]
-host = speedtest.rd.hr.cox.net
 
 ++ freerangecloud-ash
 menu = [US/VA] Free Range Cloud
@@ -1241,6 +1226,16 @@ host = iad.speedtest.rackspace.com
 menu = [US/VA] Tencent (Virginia)
 title = [US/VA] Tencent Cloud - Virginia, United States [cos.na-ashburn.myqcloud.com]
 host = cos.na-ashburn.myqcloud.com
+
+#++ comcast-va-smil
+#menu = [US/VA] Comcast (Richmond)
+#title = [US/VA] Comcast - Richmond, VA, US [stosat-smil-01.sys.comcast.net]
+#host = stosat-smil-01.sys.comcast.net
+
+++ cox-va-dc
+menu = [US/VA] Cox (Arlington)
+title = [US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]
+host = speedtest.rd.dc.cox.net
 
 ++ mrvm-bei
 menu = [US/WV] mrvm.net
@@ -1307,10 +1302,10 @@ menu = [US/FL] CenturyLink
 title = [US/FL] CenturyLink - Fort Myers, FL, US [fort-myers.speedtest.centurylink.net]
 host = fort-myers.speedtest.centurylink.net
 
-++ comcast-fl-tall
-menu = [US/FL] Comcast (Tallahassee)
-title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
-host = stosat-tall-01.sys.comcast.net
+#++ comcast-fl-tall
+#menu = [US/FL] Comcast (Tallahassee)
+#title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
+#host = stosat-tall-01.sys.comcast.net
 
 ++ att-tn-bna
 menu = [US/TN] AT&T (Nashville)
