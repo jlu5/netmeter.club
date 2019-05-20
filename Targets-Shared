@@ -102,6 +102,11 @@ menu = [CDN] jsDelivr
 title = [CDN] jsDelivr [cdn.jsdelivr.net]
 host = cdn.jsdelivr.net
 
+++ kernel-org
+menu = [CDN] Linux Kernel Archives
+title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
+host = mirrors.edge.kernel.org
+
 ++ microsoft0
 menu = [CDN] Microsoft O365 ACDC
 title = [CDN] Microsoft Office 365 ACDC [www.outlook.com]
@@ -143,8 +148,8 @@ title = [CDN] Verizon Edgecast [www.verizondigitalmedia.com]
 host = www.verizondigitalmedia.com
 
 ++ wikimedia
-menu = [ANY] Wikimedia Foundation
-title = [ANY] Wikimedia Foundation [wikimedia.org]
+menu = [CDN] Wikimedia Foundation
+title = [CDN] Wikimedia Foundation [wikimedia.org]
 host = wikimedia.org
 
 ++ yahoo
@@ -346,6 +351,16 @@ host = speedtest.anc.acsalaska.net
 + PointsInterestNAW2
 menu = North America - Southwest
 title = netmeter.club Global Ping Monitoring - North America (Southwest)
+
+++ internet-archive
+menu = [US/CA] Internet Archive
+title = [US/CA] Internet Archive [www.archive.org]
+host = www.archive.org
+
+++ ucberkeley
+menu = [US/CA] UC Berkeley
+title = [US/CA] University of California, Berkeley - Berkeley, CA, US [mirrors.ocf.berkeley.edu]
+host = mirrors.ocf.berkeley.edu
 
 ++ aliyun-us-west-1
 menu = [US/CA] Aliyun (us-west-1)
@@ -586,6 +601,11 @@ host = core1.hnl1.he.net
 + PointsInterestNAC
 menu = North America - Central
 title = netmeter.club Global Ping Monitoring - North America (Central)
+
+++ uchicago
+menu = [US/IL] University of Chicago
+title = [US/IL] University of Chicago - Chicago, IL, US [debian.uchicago.edu]
+host = debian.uchicago.edu
 
 ++ colocrossing-chi
 menu = [US/IL] ColoCrossing (Chicago)
@@ -902,6 +922,11 @@ menu = [US/TX] AT&T (San Antonio)
 title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
 host = sat.speedtest.sbcglobal.net
 
+#++ gatech
+#menu = [US/GA] Georgia Tech
+#title = [US/GA] Georgia Institute of Technology (Georgia Tech) - Atlanta, GA, US [www.gatech.edu]
+#host = www.gatech.edu
+
 ++ att-ga-atl
 menu = [US/GA] AT&T (Tucker)
 title = [US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]
@@ -1027,6 +1052,11 @@ host = internet5.movistar.com.mx
 menu = North America - Northeast
 title = netmeter.club Global Ping Monitoring - North America (Northeast)
 
+++ columbia-u
+menu = [US/NY] Columbia University
+title = [US/NY] Columbia University - New York City, NY, US [mirror.cc.columbia.edu]
+host = mirror.cc.columbia.edu
+
 ++ att-ny-nyc
 menu = [US/NY] AT&T (New York City)
 title = [US/NY] AT&T - New York City, NY, US [nyc.speedtest.sbcglobal.net]
@@ -1092,6 +1122,11 @@ menu = [US/NY] CenturyLink (Rochester)
 title = [US/NY] CenturyLink - Rochester, NY, US [rochester.speedtest.centurylink.net]
 host = rochester.speedtest.centurylink.net
 
+#++ princeton
+#menu = [US/NJ] Princeton Univ.
+#title = [US/NJ] Princeton University - Princeton, NJ, US [mirror.math.princeton.edu]
+#host = mirror.math.princeton.edu
+
 ++ bandwagonhost-usnj
 menu = [US/NJ] BandwagonHost
 title = [US/NJ] BandwagonHost (IT7 Networks) @ Steadfast - New Jersey [23.29.138.3]
@@ -1151,6 +1186,11 @@ host = ymq1-bhs.smokeping.ovh.net
 menu = [US/RI] Cox (Providence)
 title = [US/RI] Cox Communications - Providence, RI, US [speedtest.rd.ri.cox.net]
 host = speedtest.rd.ri.cox.net
+
+++ mit-csail
+menu = [US/MA] MIT
+title = [US/MA] Massachusetts Institute of Technology - Cambridge, MA, US [csail.mit.edu]
+host = csail.mit.edu
 
 #++ comcast-pa-crls
 #menu = [US/PA] Comcast (Pittsburgh)
@@ -1326,6 +1366,16 @@ title = netmeter.club Global Ping Monitoring - Europe (West)
 menu = [UK] Launchpad / Canonical Ltd.
 title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
 host = launchpad.net
+
+++ oxford
+menu = [UK] University of Oxford
+title = [UK] University of Oxford - Oxford, England, UK [mirror.ox.ac.uk]
+host = mirror.ox.ac.uk
+
+++ cambridge
+menu = [UK] University of Cambridge
+title = [UK] University of Cambridge - Cambridge, England, UK [cam.ac.uk]
+host = cam.ac.uk
 
 #++ alphavps-lon
 #menu = [UK] AlphaVPS (London)
@@ -1772,15 +1822,30 @@ menu = [IT] EDIS (Palermo)
 title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
 host = itpa.edis.at
 
+++ cern-ch
+menu = [CH] CERN
+title = [CH] CERN - European Organization for Nuclear Research - Geneva, Switzerland [cern.ch]
+host = cern.ch
+
 ++ hurricane-electric-gva1
 menu = [CH] he.net (Geneva)
 title = [CH] Hurricane Electric - Equinix Geneva (GV1) Geneva, CH [core1.gva1.he.net]
 host = core1.gva1.he.net
 
+++ ethz
+menu = [CH] ETH Zurich
+title = [CH] Swiss Federal Institute of Technology in Zurich - Zurich, Switzerland [ubuntu.ethz.ch]
+host = ubuntu.ethz.ch
+
 ++ edis-ch
 menu = [CH] EDIS (Zurich)
 title = [CH] EDIS - Zurich, Switzerland [ch.edis.at]
 host = ch.edis.at
+
+++ protonmail
+menu = [CH] ProtonMail
+title = [CH] ProtonMail [protonmail.com]
+host = protonmail.com
 
 ++ lunarvps-ch
 menu = [CH] LunarVPS
@@ -2169,8 +2234,8 @@ title = [CN] BaiduPan [pan.baidu.com]
 host = pan.baidu.com
 
 ++ cn-tsinghua
-menu = [CN] Tsinghua TUNA
-title = [CN] Tsinghua Open Source Mirror - Beijing, China [mirrors.tuna.tsinghua.edu.cn]
+menu = [CN] Tsinghua University
+title = [CN] Tsinghua University - Beijing, China [mirrors.tuna.tsinghua.edu.cn]
 host = mirrors.tuna.tsinghua.edu.cn
 
 ++ aliyun-qingdao
@@ -2251,7 +2316,7 @@ host = cos.ap-shanghai.myqcloud.com
 
 ++ cn-ustc
 menu = [CN] USTC
-title = [CN] USTC Open Source Software Mirror - Hefei, Anhui, China [mirrors.ustc.edu.cn]
+title = [CN] University of Science and Technology of China - Hefei, Anhui, China [mirrors.ustc.edu.cn]
 host = mirrors.ustc.edu.cn
 
 ++ anchnet-js-wuxi
@@ -2369,6 +2434,11 @@ host = 123.249.0.1
 + PointsInterestCN3
 menu = China - Hong Kong, Taiwan
 title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
+
+++ hku
+menu = [HK] University of Hong Kong
+title = [HK] University of Hong Kong - Hong Kong, China [hku.hk]
+host = hku.hk
 
 ++ 50kvm-hk-shatin
 menu = [HK] 50KVM
