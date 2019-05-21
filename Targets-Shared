@@ -49,8 +49,8 @@ host = www.cdn77.com
 
 ++ cloudflare-dns
 menu = [CDN] Cloudflare
-title = [CDN] Cloudflare [1.1.1.1]
-host = 1.1.1.1
+title = [CDN] Cloudflare [cloudflare.com]
+host = cloudflare.com
 
 ++ dropbox
 menu = [CDN] Dropbox
@@ -2199,7 +2199,7 @@ host = core1.tll1.he.net
 
 
 + PointsInterestCN
-menu = China - Mainland (North)
+menu = Asia - China Mainland (North)
 title = netmeter.club Global Ping Monitoring - Mainland China (North)
 
 ++ aliyun-beijing
@@ -2275,7 +2275,7 @@ host = 117.159.147.1
 
 
 + PointsInterestCNE
-menu = China - Mainland (East)
+menu = Asia - China Mainland (East)
 title = netmeter.club Global Ping Monitoring - Mainland China (East)
 
 ++ aliyun-shanghai
@@ -2372,7 +2372,7 @@ host = 115.231.235.254
 
 
 + PointsInterestCNS
-menu = China - Mainland (South)
+menu = Asia - China Mainland (South)
 title = netmeter.club Global Ping Monitoring - Mainland China (South)
 
 ++ aliyun-shenzhen
@@ -2432,7 +2432,7 @@ host = 123.249.0.1
 
 
 + PointsInterestCN3
-menu = China - Hong Kong, Taiwan
+menu = Asia - Hong Kong, Taiwan
 title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 
 ++ hku
@@ -2592,7 +2592,7 @@ host = lg.tw.psychz.net
 
 
 + PointsInterestAS
-menu = Asia - North, East
+menu = Asia - Japan, Korea, Russia
 title = netmeter.club Global Ping Monitoring - North, East Asia
 
 ++ aliyun-ap-northeast-1
@@ -2670,16 +2670,6 @@ menu = [JP] Vultr (Tokyo)
 title = [JP] Vultr / Choopa - Tokyo, Japan [hnd-jp-ping.vultr.com]
 host = hnd-jp-ping.vultr.com
 
-++ kddi
-menu = [JP] KDDI
-title = [JP] KDDI [211.5.1.215]
-host = 211.5.1.215
-
-++ ntt
-menu = [JP] NTT
-title = [JP] NTT [203.105.73.119]
-host = 203.105.73.119
-
 ++ amazon-kr
 menu = [KR] Amazon AWS (Seoul)
 title = [KR] Amazon Web Services (ap-northeast-1) - Seoul, South Korea [54.180.0.0]
@@ -2689,11 +2679,6 @@ host = 54.180.0.0
 menu = [KR] Kdatacenter
 title = [KR] Kdatacenter [downloadtest.kdatacenter.com]
 host = downloadtest.kdatacenter.com
-
-++ korea-telecom
-menu = [KR] Korea Telecom
-title = [KR] Korea Telecom (Reference IP) [211.216.50.170]
-host = 211.216.50.170
 
 ++ softlayer-seo
 menu = [KR] Softlayer (Seoul)
@@ -2759,11 +2744,6 @@ host = speedtest.amur.ru
 menu = [RU] ER-Telecom (Irkutsk)
 title = [RU] ER-Telecom - Irkutsk, Russian Federation [speedtest.irkutsk.ertelecom.ru]
 host = speedtest.irkutsk.ertelecom.ru
-
-++ teleguam
-menu = [US/GU] GTA Teleguam
-title = [US/GU] GTA Teleguam - Guam, United States [speedtest.teleguam.net]
-host = speedtest.teleguam.net
 
 
 + PointsInterestAS2
@@ -3454,4 +3434,9 @@ host = speedtest.pth.m2core.net.au
 menu = [NZ] Ransom IT (Auckland)
 title = [NZ] Ransom IT - Auckland, New Zealand [auckland-lg.ransomit.com.au]
 host = auckland-lg.ransomit.com.au
+
+++ teleguam
+menu = [US/GU] GTA Teleguam
+title = [US/GU] GTA Teleguam - Guam, United States [speedtest.teleguam.net]
+host = speedtest.teleguam.net
 
