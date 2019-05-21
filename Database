@@ -1,0 +1,18 @@
+*** Database ***
+
+step     = 300
+pings    = 20
+
+# consfn mrhb steps total
+
+# default: stores 3.5 days
+AVERAGE  0.5   1  1008
+# small: stores 50 days, down from 180d
+AVERAGE  0.5  12  1200
+    MIN  0.5  12  1200
+    MAX  0.5  12  1200
+# small: stores 270 days, down from 360d
+AVERAGE  0.5 144   540
+    MAX  0.5 144   540
+    MIN  0.5 144   540
+
