@@ -11,27 +11,27 @@ menu = Charts
 title = The most interesting destinations
 
 ++ stddev
-sorter = StdDev(entries=>10)
+sorter = StdDev(entries=>20)
 title = Top Standard Deviation
 menu = Std Deviation
 format = Standard Deviation %f
 
 ++ max
-sorter = Max(entries=>15)
+sorter = Max(entries=>20)
 title = Top Max Roundtrip Time
-menu = by Max
+menu = Max RTT
 format = Max Roundtrip Time %f seconds
 
 ++ loss
-sorter = Loss(entries=>15)
+sorter = Loss(entries=>20)
 title = Top Packet Loss
-menu = Loss
+menu = Packet Loss
 format = Packets Lost %f
 
 ++ median
-sorter = Median(entries=>15)
+sorter = Median(entries=>20)
 title = Top Median Roundtrip Time
-menu = by Median
+menu = Median RTT
 format = Median RTT %f seconds
 
 + overview
@@ -46,7 +46,7 @@ width = 800
 height = 150
 unison_tolerance = 2
 
-"Last 6 Hours"    6h
+"Last 4 Hours"    4h
 "Last 3 Days"   3d
 "Last 30 Days"    30d
 "Last 180 Days"   180d
