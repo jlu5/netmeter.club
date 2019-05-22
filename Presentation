@@ -39,6 +39,8 @@ format = Median RTT %f seconds
 width = 800
 height = 100
 range = 12h
+# Sets the color for the master server
+#median_color = f4ba0c
 
 + detail
 

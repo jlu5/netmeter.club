@@ -1,0 +1,18 @@
+*** General ***
+
+owner    = netmeter.club Team
+contact  = admin@netmeter.club
+mailhost =
+# NOTE: do not put the Image Cache below cgi-bin
+# since all files under cgi-bin will be executed ... this is not
+# good for images.
+cgiurl   = https://SITENAME.netmeter.club/smokeping/
+# specify this to get syslog logging
+syslogfacility = local0
+# each probe is now run in its own process
+# disable this to revert to the old behaviour
+# concurrentprobes = no
+
+@include /etc/smokeping/config.d/pathnames
+
+display_name = MASTERNAME

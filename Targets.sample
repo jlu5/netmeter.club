@@ -1,9 +1,11 @@
 *** Targets ***
-
+#slaves = a b c
 probe = FPing
 
 menu = Top
-title = Network Latency Grapher
-remark = SmokePing on my Raspberry Pi!
+title = netmeter.club Global Ping Monitoring [REGION]
+remark = Connected to this server: <ul>\
+    <li>mastername: Someville, Somewhere [XYZ Hosting]</li>\
+</ul>
 
 @include /etc/smokeping/config.d/Targets-Shared
