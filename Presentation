@@ -37,10 +37,10 @@ format = Median RTT %f seconds
 + overview
 
 width = 800
-height = 100
+height = 150
 range = 12h
-# Sets the color for the master server
-#median_color = f4ba0c
+
+@include /etc/smokeping/config.d/master-color
 
 + detail
 
