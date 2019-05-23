@@ -18,8 +18,8 @@ title = [CDN] Automattic, Inc. (WordPress.com et al.) [automattic.com]
 host = automattic.com
 
 ++ buyvm-anycast
-menu = [ANY] BuyVM Anycast
-title = [ANY] BuyVM Anycast [198.251.86.22]
+menu = [CDN] BuyVM Anycast
+title = [CDN] BuyVM Anycast [198.251.86.22]
 host = 198.251.86.22
 
 ++ cachefly
@@ -47,6 +47,11 @@ host = www.cdn77.com
 #title = [CDN] CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]
 #host = 993660212.r.worldcdn.net
 
+++ clearbrowsing
+menu = [CDN] ClearBrowsing
+title = [CDN] ClearBrowsing DNS @ CIDNOC AS205157 [185.228.168.168]
+host = 185.228.168.168
+
 ++ cloudflare-dns
 menu = [CDN] Cloudflare
 title = [CDN] Cloudflare [cloudflare.com]
@@ -73,7 +78,7 @@ title = [CDN] GitHub [github.com]
 host = github.com
 
 ++ gcorelabs-cdn
-menu = [CDN] G-Core Labs
+menu = [CDN] G-Core Labs CDN
 title = [CDN] G-Core Labs CDN [d.gcdn.co]
 host = d.gcdn.co
 
@@ -102,6 +107,11 @@ menu = [CDN] jsDelivr
 title = [CDN] jsDelivr [cdn.jsdelivr.net]
 host = cdn.jsdelivr.net
 
+++ level3-cdn
+menu = [CDN] Level3 DNS
+title = [CDN] Level3 DNS Resolver [4.2.2.1]
+host = 4.2.2.1
+
 ++ kernel-org
 menu = [CDN] Linux Kernel Archives
 title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
@@ -126,6 +136,11 @@ host = 208.67.222.222
 menu = [CDN] Psychz
 title = [CDN] Psychz [psychz.net]
 host = psychz.net
+
+++ quad9
+menu = [CDN] Quad9 DNS
+title = [CDN] Quad9 DNS [9.9.9.9]
+host = 9.9.9.9
 
 ++ quantil1
 menu = [CDN] QUANTIL / Wangsu
@@ -164,7 +179,7 @@ title = netmeter.club Global Ping Monitoring - North America (Northwest)
 
 ++ ubc
 menu = [CA/BC] UBC (Vancouver)
-title = [CA/BC] The University of British Columbia [mirror.it.ubc.ca]
+title = [CA/BC] The University of British Columbia - Vancouver, British Columbia [mirror.it.ubc.ca]
 host = mirror.it.ubc.ca
 
 ++ bell-yvr
@@ -212,10 +227,10 @@ host = vancouver.speedtest.telus.com
 #title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
 #host = stosat-rvlt-01.sys.comcast.net
 
-++ impactvps-sea
-menu = [US/WA] ImpactVPS (Seattle)
-title = [US/WA] ImpactVPS @ Incero - Seattle, Washington [107.155.106.130]
-host = 107.155.106.130
+++ incero-sea
+menu = [US/WA] Incero (Seattle)
+title = [US/WA] Incero - Seattle, Washington [10gseattle.incero.com]
+host = 10gseattle.incero.com
 
 ++ ionswitch-sea
 menu = [US/WA] IonSwitch (Seattle)
@@ -449,7 +464,7 @@ host = lg.cera-163.lax.50network.com
 
 ++ chinatelecomglobal-us
 menu = [US/CA] China Telecom
-title = [US/CA] China Telecom Global - Los Angeles, California [104.192.111.1]
+title = [US/CA] China Telecom Global (ctamericas.com) - Los Angeles, California [104.192.111.1]
 host = 104.192.111.1
 
 ++ cloudcone
@@ -537,11 +552,6 @@ menu = [US/CA] Cox (San Diego)
 title = [US/CA] Cox Communications - San Diego, CA, US [speedtest.rd.sd.cox.net]
 host = speedtest.rd.sd.cox.net
 
-++ izzi-tij
-menu = [MX] IZZI (Tijuana)
-title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
-host = speedtest.tijuana.izzi.mx
-
 ++ buyvm-lv0
 menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
@@ -591,6 +601,11 @@ host = ogd.lg.budgetnode.net
 menu = [US/UT] XMission
 title = [US/UT] XMission - Salt Lake City, Utah, US [xmission.com]
 host = xmission.com
+
+++ izzi-tij
+menu = [MX] IZZI (Tijuana)
+title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
+host = speedtest.tijuana.izzi.mx
 
 ++ hurricane-electric-hnl1
 menu = [US/HI] he.net (Honolulu)
@@ -717,6 +732,51 @@ menu = [CA/ON] Rogers (Ottawa)
 title = [CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.com]
 host = speedtestslnt.rogers.com
 
+#++ comcast-co-dvre
+#menu = [US/CO] Comcast (Denver)
+#title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
+#host = stosat-dvre-01.sys.comcast.net
+
+++ hurricane-electric-den1
+menu = [US/CO] he.net (Denver)
+title = [US/CO] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.net]
+host = core1.den1.he.net
+
+++ securedragon-denver
+menu = [US/CO] SecureDragon
+title = [US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]
+host = 198.57.46.4
+
+++ rfchost-mci
+menu = [US/MO] RFCHost (Kansas City)
+title = [US/MO] RFCHost @ Joe's Datacenter - Kansas City, Missouri [142.147.97.53]
+host = 142.147.97.53
+
+++ mrvm-kck
+menu = [US/MO] mrvm.net (Kansas City)
+title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [lg-us-kck.mrvm.net]
+host = lg-us-kck.mrvm.net
+
+++ centurylink-ia-cedar-rapids
+menu = [US/IA] CenturyLink
+title = [US/IA] CenturyLink - Cedar Rapids, IA, US [cedar-rapids.speedtest.centurylink.net]
+host = cedar-rapids.speedtest.centurylink.net
+
+++ gcp-iowa
+menu = [US/IA] Google Cloud
+title = [US/IA] Google Cloud Platform (us-central1) - Council Bluffs, Iowa, United States [us-central1-gce.cloudharmony.net]
+host = us-central1-gce.cloudharmony.net
+
+++ amazon-ohi
+menu = [US/OH] Amazon AWS
+title = [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.0]
+host = 18.188.0.0
+
+++ att-oh-cle
+menu = [US/OH] AT&T (Cleveland)
+title = [US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]
+host = cle.speedtest.sbcglobal.net
+
 ++ freerangecloud-ywg
 menu = [CA/MB] Free Range Cloud
 title = [CA/MB] Free Range Cloud - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]
@@ -742,50 +802,20 @@ menu = [CA/MB] TELUS (Winnipeg)
 title = [CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]
 host = winnipeg.speedtest.telus.com
 
-#++ comcast-co-dvre
-#menu = [US/CO] Comcast (Denver)
-#title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
-#host = stosat-dvre-01.sys.comcast.net
-
-++ hurricane-electric-den1
-menu = [US/CO] he.net (Denver)
-title = [US/CO] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.net]
-host = core1.den1.he.net
-
-++ securedragon-denver
-menu = [US/CO] SecureDragon
-title = [US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]
-host = 198.57.46.4
+++ charter-mt-spt01blngmt
+menu = [US/MT] Charter (Billings)
+title = [US/MT] Charter - Billings, MT, US [spt01blngmt.blng.mt.charter.com]
+host = spt01blngmt.blng.mt.charter.com
 
 ++ cox-ne-om
 menu = [US/NE] Cox (Omaha)
 title = [US/NE] Cox Communications - Omaha, NE, US [speedtest.rd.om.cox.net]
 host = speedtest.rd.om.cox.net
 
-++ comcast-mo-indp
-menu = [US/MO] Comcast
-title = [US/MO] Comcast - Independence, MO, US [stosat-indp-01.sys.comcast.net]
-host = stosat-indp-01.sys.comcast.net
-
-++ rfchost-mci
-menu = [US/MO] RFCHost (Kansas City)
-title = [US/MO] RFCHost @ Joe's Datacenter - Kansas City, Missouri [142.147.97.53]
-host = 142.147.97.53
-
-++ mrvm-kck
-menu = [US/MO] mrvm.net (Kansas City)
-title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [lg-us-kck.mrvm.net]
-host = lg-us-kck.mrvm.net
-
 ++ att-in-ind
 menu = [US/IN] AT&T (Indianapolis)
 title = [US/IN] AT&T - Indianapolis, IN, US [ind.speedtest.sbcglobal.net]
 host = ind.speedtest.sbcglobal.net
-
-++ centurylink-mn-minneapolis
-menu = [US/MN] CenturyLink
-title = [US/MN] CenturyLink - Minneapolis, MN, US [minneapolis.speedtest.centurylink.net]
-host = minneapolis.speedtest.centurylink.net
 
 ++ charter-mi-spt01aldlmi
 menu = [US/MI] Charter (Allendale)
@@ -796,31 +826,6 @@ host = spt01aldlmi.aldl.mi.charter.com
 #menu = [US/MI] Comcast (Detroit)
 #title = [US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]
 #host = stosat-taylr-01.sys.comcast.net
-
-++ centurylink-ia-cedar-rapids
-menu = [US/IA] CenturyLink
-title = [US/IA] CenturyLink - Cedar Rapids, IA, US [cedar-rapids.speedtest.centurylink.net]
-host = cedar-rapids.speedtest.centurylink.net
-
-++ gcp-iowa
-menu = [US/IA] Google Cloud
-title = [US/IA] Google Cloud Platform (us-central1) - Council Bluffs, Iowa, United States [us-central1-gce.cloudharmony.net]
-host = us-central1-gce.cloudharmony.net
-
-++ amazon-ohi
-menu = [US/OH] Amazon AWS
-title = [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.0]
-host = 18.188.0.0
-
-++ att-oh-cle
-menu = [US/OH] AT&T (Cleveland)
-title = [US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]
-host = cle.speedtest.sbcglobal.net
-
-++ charter-mt-spt01blngmt
-menu = [US/MT] Charter (Billings)
-title = [US/MT] Charter - Billings, MT, US [spt01blngmt.blng.mt.charter.com]
-host = spt01blngmt.blng.mt.charter.com
 
 ++ centurylink-nd-bismarck
 menu = [US/ND] CenturyLink (Bismarck)
@@ -1088,7 +1093,7 @@ title = [US/NY] HostHatch - New York City [lg.ny.hosthatch.com]
 host = lg.ny.hosthatch.com
 
 ++ impactvps-nyk
-menu = [US/NY] ImpactVPS
+menu = [US/NY] ImpactVPS @ Incero
 title = [US/NY] ImpactVPS @ Incero - New York City, NY, US [172.110.20.1]
 host = 172.110.20.1
 
@@ -1233,7 +1238,7 @@ title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
 ++ aliyun-us-east-1
-menu = [US/VA] Aliyun (us-east-1)
+menu = [US/VA] Aliyun
 title = [US/VA] Aliyun / Alibaba Cloud - Virginia (us-east-1) [oss-us-east-1.aliyuncs.com]
 host = oss-us-east-1.aliyuncs.com
 
@@ -1277,36 +1282,6 @@ menu = [US/VA] Cox (Arlington)
 title = [US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]
 host = speedtest.rd.dc.cox.net
 
-++ mrvm-bei
-menu = [US/WV] mrvm.net
-title = [US/WV] mrvm.net - Berkeley Springs, West Virginia [lg-us-bei.mrvm.net]
-host = lg-us-bei.mrvm.net
-
-++ mrvm-ler
-menu = [US/NC] mrvm.net (Lenoir)
-title = [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [lg-us-ler.mrvm.net]
-host = lg-us-ler.mrvm.net
-
-++ hostus-clt
-menu = [US/NC] HostUS (Charlotte)
-title = [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
-host = clt-lg.hostus.us
-
-++ att-nc-clt
-menu = [US/NC] AT&T (Charlotte)
-title = [US/NC] AT&T - Charlotte, NC, US [clt.speedtest.sbcglobal.net]
-host = clt.speedtest.sbcglobal.net
-
-++ centurylink-sc-columbia
-menu = [US/SC] CenturyLink (Columbia)
-title = [US/SC] CenturyLink - Columbia, SC, US [columbia.speedtest.centurylink.net]
-host = columbia.speedtest.centurylink.net
-
-++ gcp-sou
-menu = [US/SC] Google Cloud
-title = [US/SC] Google Cloud Platform (us-east1) - South Carolina [us-east1-gce.cloudharmony.net]
-host = us-east1-gce.cloudharmony.net
-
 ++ securedragon-tampa
 menu = [US/FL] SecureDragon (Tampa)
 title = [US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]
@@ -1346,6 +1321,36 @@ host = fort-myers.speedtest.centurylink.net
 #menu = [US/FL] Comcast (Tallahassee)
 #title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
 #host = stosat-tall-01.sys.comcast.net
+
+++ mrvm-bei
+menu = [US/WV] mrvm.net
+title = [US/WV] mrvm.net - Berkeley Springs, West Virginia [lg-us-bei.mrvm.net]
+host = lg-us-bei.mrvm.net
+
+++ mrvm-ler
+menu = [US/NC] mrvm.net (Lenoir)
+title = [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [lg-us-ler.mrvm.net]
+host = lg-us-ler.mrvm.net
+
+++ hostus-clt
+menu = [US/NC] HostUS (Charlotte)
+title = [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
+host = clt-lg.hostus.us
+
+++ att-nc-clt
+menu = [US/NC] AT&T (Charlotte)
+title = [US/NC] AT&T - Charlotte, NC, US [clt.speedtest.sbcglobal.net]
+host = clt.speedtest.sbcglobal.net
+
+++ centurylink-sc-columbia
+menu = [US/SC] CenturyLink (Columbia)
+title = [US/SC] CenturyLink - Columbia, SC, US [columbia.speedtest.centurylink.net]
+host = columbia.speedtest.centurylink.net
+
+++ gcp-sou
+menu = [US/SC] Google Cloud
+title = [US/SC] Google Cloud Platform (us-east1) - South Carolina [us-east1-gce.cloudharmony.net]
+host = us-east1-gce.cloudharmony.net
 
 ++ att-tn-bna
 menu = [US/TN] AT&T (Nashville)
@@ -1471,11 +1476,6 @@ host = lg.loveservers.com
 menu = [UK] Virtono (Manchester)
 title = [UK] Virtono - Manchester, United Kingdom [77.81.107.11]
 host = 77.81.107.11
-
-++ serverviking
-menu = [UK] ServerViking (Coventry)
-title = [UK] ServerViking - Coventry, United Kingdom [lg.sviking.uk]
-host = lg.sviking.uk
 
 ++ amazon-ir
 menu = [IE] Amazon AWS (Ireland)
@@ -2117,26 +2117,6 @@ host = kharkovspeedtest.vodafone.ua
 menu = Europe - North
 title = netmeter.club Global Ping Monitoring - Europe (North)
 
-++ hurricane-electric-cph1
-menu = [DK] he.net (Copenhagen)
-title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
-host = core1.cph1.he.net
-
-++ hosthatch-osl
-menu = [NO] HostHatch (Oslo)
-title = [NO] HostHatch - Oslo, Norway [lg.osl.hosthatch.com]
-host = lg.osl.hosthatch.com
-
-++ softlayer-osl
-menu = [NO] Softlayer (Oslo)
-title = [NO] Softlayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
-host = speedtest.osl01.softlayer.com
-
-++ terrahost-no
-menu = [NO] Terrahost (Sandefjord)
-title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
-host = lg.terrahost.no
-
 ++ edis-se
 menu = [SE] EDIS (Stockholm)
 title = [SE] EDIS - Stockholm, Sweden [se.edis.at]
@@ -2157,10 +2137,20 @@ menu = [SE] he.net (Stockholm)
 title = [SE] Hurricane Electric - Equinix Stockholm (SK1) Stockholm, SE [core1.sto1.he.net]
 host = core1.sto1.he.net
 
-++ edis-is
-menu = [IS] EDIS (Hafnarfjordur)
-title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
-host = is.edis.at
+++ hosthatch-osl
+menu = [NO] HostHatch (Oslo)
+title = [NO] HostHatch - Oslo, Norway [lg.osl.hosthatch.com]
+host = lg.osl.hosthatch.com
+
+++ softlayer-osl
+menu = [NO] Softlayer (Oslo)
+title = [NO] Softlayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
+host = speedtest.osl01.softlayer.com
+
+++ terrahost-no
+menu = [NO] Terrahost (Sandefjord)
+title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
+host = lg.terrahost.no
 
 ++ gcp-fin
 menu = [FI] Google Cloud
@@ -2176,6 +2166,11 @@ host = 95.216.24.40
 menu = [FI] XHostFire (Espoo)
 title = [FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]
 host = 81.22.243.1
+
+++ hurricane-electric-cph1
+menu = [DK] he.net (Copenhagen)
+title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
+host = core1.cph1.he.net
 
 ++ bacloud-lt
 menu = [LT] BaCloud (Siauliai)
@@ -2196,6 +2191,11 @@ host = 91.211.244.3
 menu = [EE] he.net (Tallinn)
 title = [EE] Hurricane Electric - Elion Tallinn Tallinn, EE [core1.tll1.he.net]
 host = core1.tll1.he.net
+
+++ edis-is
+menu = [IS] EDIS (Hafnarfjordur)
+title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
+host = is.edis.at
 
 
 + PointsInterestCN
@@ -2435,11 +2435,6 @@ host = 123.249.0.1
 menu = Asia - Hong Kong, Taiwan
 title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
 
-++ hku
-menu = [HK] University of Hong Kong
-title = [HK] University of Hong Kong - Hong Kong, China [hku.hk]
-host = hku.hk
-
 ++ 50kvm-hk-shatin
 menu = [HK] 50KVM
 title = [HK] 50KVM - Hong Kong, China [lg.shatin.hkg.50network.com]
@@ -2506,7 +2501,7 @@ title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
 
 ++ huawei-ap-southeast-1
-menu = [HK] Huawei (Hong Kong)
+menu = [HK] Huawei Cloud
 title = [HK] Huawei Cloud - Hong Kong, China [ecs.ap-southeast-1.myhwclouds.com]
 host = ecs.ap-southeast-1.myhwclouds.com
 
@@ -2522,7 +2517,7 @@ host = 42.200.162.254
 
 ++ leaseweb-hk
 menu = [HK] LeaseWeb
-title = [HK] LeaseWeb (Hong Kong) [mirror.hk.leaseweb.net]
+title = [HK] LeaseWeb - Hong Kong, China [mirror.hk.leaseweb.net]
 host = mirror.hk.leaseweb.net
 
 ++ on9host
@@ -2551,7 +2546,7 @@ title = [HK] SoftLayer - Hong Kong, China [speedtest.hkg02.softlayer.com]
 host = speedtest.hkg02.softlayer.com
 
 ++ tencent-ap-hongkong
-menu = [HK] Tencent (Hong Kong)
+menu = [HK] Tencent Cloud
 title = [HK] Tencent Cloud - Hong Kong, China [cos.ap-hongkong.myqcloud.com]
 host = cos.ap-hongkong.myqcloud.com
 
@@ -2579,11 +2574,6 @@ host = asia-east1-gce.cloudharmony.net
 menu = [TW] Hurricanecloud
 title = [TW] Hurricanecloud @ HiNet Static - Changhua, Taiwan [125.227.212.32]
 host = 125.227.212.32
-
-++ hinet-tw
-menu = [TW] Kuaichedao
-title = [TW] Kuaichedao @ HiNet Dynamic [220.141.70.9]
-host = 220.141.70.9
 
 ++ psychz-tw
 menu = [TW] Psychz
@@ -2826,7 +2816,7 @@ title = [SG] StarryDNS - Singapore [sg1.lg.starrydns.com]
 host = sg1.lg.starrydns.com
 
 ++ tencent-ap-singapore
-menu = [SG] Tencent (Singapore)
+menu = [SG] Tencent Cloud
 title = [SG] Tencent Cloud - Singapore [cos.ap-singapore.myqcloud.com]
 host = cos.ap-singapore.myqcloud.com
 
@@ -3010,10 +3000,10 @@ menu = [SA] Saudi Telecom
 title = [SA] Saudi Telecom Company - Riyadh, Saudi Arabia [speedtest.saudi.net.sa]
 host = speedtest.saudi.net.sa
 
-++ mobily-sa
-menu = [SA] Mobily
-title = [SA] Mobily - Jeddah, Saudi Arabia [jed.myspeed.net.sa]
-host = jed.myspeed.net.sa
+#++ mobily-sa
+#menu = [SA] Mobily
+#title = [SA] Mobily - Jeddah, Saudi Arabia [jed.myspeed.net.sa]
+#host = jed.myspeed.net.sa
 
 ++ vodafone-qa
 menu = [QA] Vodafone QA
@@ -3070,10 +3060,10 @@ menu = [GE] Magticom Ltd.
 title = [GE] Magticom Ltd. - Tbilisi, Georgia [speedtest1.magticom.ge]
 host = speedtest1.magticom.ge
 
-++ vivacell-mts-yerevan
-menu = [AM] VivaCell-MTS
-title = [AM] VivaCell-MTS - Yerevan, Armenia [speedtest.mts.am]
-host = speedtest.mts.am
+++ hoster-kg
+menu = [KG] Hoster.KG
+title = [KG] Hoster.KG - Bishkek, Kyrgyzstan [hoster.kg]
+host = hoster.kg
 
 ++ azercell-baku
 menu = [AZ] Azercell
