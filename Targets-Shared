@@ -1364,23 +1364,23 @@ host = spt01kgpttn.kgpt.tn.charter.com
 
 
 + PointsInterestEU
-menu = Europe - West
-title = netmeter.club Global Ping Monitoring - Europe (West)
+menu = Europe - British Isles
+title = netmeter.club Global Ping Monitoring - British Isles
 
 ++ launchpad
 menu = [UK] Launchpad / Canonical Ltd.
 title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
 host = launchpad.net
 
-++ oxford
-menu = [UK] University of Oxford
-title = [UK] University of Oxford - Oxford, England, UK [mirror.ox.ac.uk]
-host = mirror.ox.ac.uk
-
 ++ cambridge
 menu = [UK] University of Cambridge
 title = [UK] University of Cambridge - Cambridge, England, UK [cam.ac.uk]
 host = cam.ac.uk
+
+++ oxford
+menu = [UK] University of Oxford
+title = [UK] University of Oxford - Oxford, England, UK [mirror.ox.ac.uk]
+host = mirror.ox.ac.uk
 
 #++ alphavps-lon
 #menu = [UK] AlphaVPS (London)
@@ -1434,7 +1434,7 @@ host = europe-west2-gce.cloudharmony.net
 
 ++ linode-lon
 menu = [UK] Linode (London)
-title = [UK] Linode (London) [speedtest.london.linode.com]
+title = [UK] Linode - London, United Kingdom [speedtest.london.linode.com]
 host = speedtest.london.linode.com
 
 ++ ovh-lon
@@ -1487,6 +1487,16 @@ menu = [IE] Dediserve (Dublin)
 title = [IE] Dediserve - Dublin, Ireland [speedtest.c1.dub2.dediserve.com]
 host = speedtest.c1.dub2.dediserve.com
 
+++ edis-im
+menu = [IM] EDIS (Isle of Man)
+title = [IM] EDIS - Douglas, Isle of Man [im.edis.at]
+host = im.edis.at
+
+
++ PointsInterestEU1
+menu = Europe - France
+title = netmeter.club Global Ping Monitoring - France
+
 #++ proxad
 #menu = [FR] Proxad
 #title = [FR] Proxad [proxad.net]
@@ -1496,21 +1506,6 @@ host = speedtest.c1.dub2.dediserve.com
 #menu = [FR] RENATER
 #title = [FR] RENATER [www.renater.fr]
 #host = www.renater.fr
-
-++ ovh-gra
-menu = [FR] OVH (Gravelines)
-title = [FR] OVH - Gravelines, France [lil2-gra.smokeping.ovh.net]
-host = lil2-gra.smokeping.ovh.net
-
-++ ovh-rbx
-menu = [FR] OVH (Roubaix)
-title = [FR] OVH - Roubaix, France [lil1-rbx.smokeping.ovh.net]
-host = lil1-rbx.smokeping.ovh.net
-
-++ ovh-sbg
-menu = [FR] OVH (Strasbourg)
-title = [FR] OVH - Strasbourg, France [sbg.smokeping.ovh.net]
-host = sbg.smokeping.ovh.net
 
 ++ 1fichier
 menu = [FR] 1fichier
@@ -1537,25 +1532,45 @@ menu = [FR] Online.net (Paris)
 title = [FR] Online.net - Paris, France [ping.online.net]
 host = ping.online.net
 
-#++ softlayer-par
-#menu = [FR] Softlayer (Paris)
-#title = [FR] Softlayer (par01) - Paris, France [speedtest.par01.softlayer.com]
-#host = speedtest.par01.softlayer.com
+++ softlayer-par
+menu = [FR] Softlayer (Paris)
+title = [FR] Softlayer (par01) - Paris, France [speedtest.par01.softlayer.com]
+host = speedtest.par01.softlayer.com
 
 ++ vultr-par
 menu = [FR] Vultr (Paris)
 title = [FR] Vultr - Paris, France [par-fr-ping.vultr.com]
 host = par-fr-ping.vultr.com
 
-++ mrvm-rhe
-menu = [FR] mrvm.net (Reims)
-title = [FR] mrvm.net @ Ikoula - Reims, France [lg-fr-rhe.mrvm.net]
-host = lg-fr-rhe.mrvm.net
+++ ovh-gra
+menu = [FR] OVH (Gravelines)
+title = [FR] OVH - Gravelines, France [lil2-gra.smokeping.ovh.net]
+host = lil2-gra.smokeping.ovh.net
+
+++ ovh-rbx
+menu = [FR] OVH (Roubaix)
+title = [FR] OVH - Roubaix, France [lil1-rbx.smokeping.ovh.net]
+host = lil1-rbx.smokeping.ovh.net
+
+++ ovh-sbg
+menu = [FR] OVH (Strasbourg)
+title = [FR] OVH - Strasbourg, France [sbg.smokeping.ovh.net]
+host = sbg.smokeping.ovh.net
+
+++ ikoula
+menu = [FR] Ikoula (Reims)
+title = [FR] Ikoula @ Ikoula - Reims, France [lg.ikoula.com]
+host = lg.ikoula.com
 
 ++ hurricane-electric-mrs1
 menu = [FR] he.net (Marseille)
 title = [FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]
 host = core1.mrs1.he.net
+
+
++ PointsInterestEU5
+menu = Europe - Benelux
+title = netmeter.club Global Ping Monitoring - Benelux (Belgium, The Netherlands, Luxembourg)
 
 ++ bandwagonhost-nl
 menu = [NL] BandwagonHost
@@ -1647,40 +1662,10 @@ menu = [LU] BuyVM (Luxembourg)
 title = [LU] BuyVM - Roost, Luxembourg [speedtest.lu.buyvm.net]
 host = speedtest.lu.buyvm.net
 
-++ ginernet-mad
-menu = [ES] GinerNet (Madrid)
-title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
-host = 5.134.117.74
 
-++ telefonica
-menu = [ES] Telefonica
-title = [ES] Telefonica [www.telefonicaglobalsolutions.com]
-host = www.telefonicaglobalsolutions.com
-
-++ edis-es
-menu = [ES] EDIS (Seville)
-title = [ES] EDIS - Seville, Spain [es.edis.at]
-host = es.edis.at
-
-++ hurricane-electric-bcn1
-menu = [ES] he.net (Barcelona)
-title = [ES] Hurricane Electric - Equinix BA1, Barcelona Barcelona, ES [core1.bcn1.he.net]
-host = core1.bcn1.he.net
-
-++ hurricane-electric-lis1
-menu = [PT] he.net (Lisbon)
-title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
-host = core1.lis1.he.net
-
-++ edis-im
-menu = [IM] EDIS (Isle of Man)
-title = [IM] EDIS - Douglas, Isle of Man [im.edis.at]
-host = im.edis.at
-
-
-+ PointsInterestEU2
-menu = Europe - Central
-title = netmeter.club Global Ping Monitoring - Europe (Central)
++ PointsInterestEU6
+menu = Europe - Germany
+title = netmeter.club Global Ping Monitoring - Germany
 
 ++ first-root
 menu = [DE] First Root (Dusseldorf)
@@ -1787,6 +1772,11 @@ menu = [DE] Netcup (Nuremberg)
 title = [DE] Netcup - Nuremberg, Germany [lg.netcup.net]
 host = lg.netcup.net
 
+
++ PointsInterestEU7
+menu = Europe - South
+title = netmeter.club Global Ping Monitoring - Southern Europe
+
 ++ edis-it
 menu = [IT] EDIS (Milan)
 title = [IT] EDIS - Milan, Italy [it.edis.at]
@@ -1821,6 +1811,36 @@ host = core1.rom1.he.net
 menu = [IT] EDIS (Palermo)
 title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
 host = itpa.edis.at
+
+++ ginernet-mad
+menu = [ES] GinerNet (Madrid)
+title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
+host = 5.134.117.74
+
+++ telefonica
+menu = [ES] Telefonica
+title = [ES] Telefonica [www.telefonicaglobalsolutions.com]
+host = www.telefonicaglobalsolutions.com
+
+++ edis-es
+menu = [ES] EDIS (Seville)
+title = [ES] EDIS - Seville, Spain [es.edis.at]
+host = es.edis.at
+
+++ hurricane-electric-bcn1
+menu = [ES] he.net (Barcelona)
+title = [ES] Hurricane Electric - Equinix BA1, Barcelona Barcelona, ES [core1.bcn1.he.net]
+host = core1.bcn1.he.net
+
+++ hurricane-electric-lis1
+menu = [PT] he.net (Lisbon)
+title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
+host = core1.lis1.he.net
+
+
++ PointsInterestEU2
+menu = Europe - Central
+title = netmeter.club Global Ping Monitoring - Central Europe
 
 ++ cern-ch
 menu = [CH] CERN
@@ -1869,7 +1889,7 @@ host = pl.edis.at
 
 ++ ovh-waw
 menu = [PL] OVH (Warsaw)
-title = [PL] OVH (Warsaw) [waw1-oza.smokeping.ovh.net]
+title = [PL] OVH - Warsaw, Poland [waw1-oza.smokeping.ovh.net]
 host = waw1-oza.smokeping.ovh.net
 
 ++ webh
@@ -1936,181 +1956,6 @@ host = 185.112.156.25
 menu = [SK] Slovak Telekom (Bratislava)
 title = [SK] Slovak Telekom - Bratislava, Slovakia [sp1.telekom.sk]
 host = sp1.telekom.sk
-
-++ edis-si
-menu = [SI] EDIS (Ljubljana)
-title = [SI] EDIS - Ljubljana, Slovenia [si.edis.at]
-host = si.edis.at
-
-
-+ PointsInterestEU3
-menu = Europe - East
-title = netmeter.club Global Ping Monitoring - Europe (East)
-
-++ edis-ru
-menu = [RU] EDIS (Moscow)
-title = [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
-host = ru.edis.at
-
-++ justhost-dataline
-menu = [RU] JustHost (Moscow DataL.)
-title = [RU] JustHost.ru @ DataLine - Moscow, Russia [lg.justhost.ru]
-host = lg.justhost.ru
-
-++ justhost-rtcom
-menu = [RU] JustHost (Moscow RTCom)
-title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
-host = lg-rtcom.justhost.ru
-
-++ megafon-moscow
-menu = [RU] Megafon (Moscow)
-title = [RU] Megafon - Moscow, Russian Federation [speedtest-stf.megafon.ru]
-host = speedtest-stf.megafon.ru
-
-++ retn-moscow
-menu = [RU] ReTN (Moscow)
-title = [RU] ReTN - Moscow, Russian Federation [speedtest.retn.net]
-host = speedtest.retn.net
-
-++ tele2-moscow
-menu = [RU] Tele2 (Moscow)
-title = [RU] Tele2 Russia - Moscow, Russian Federation [msk1.companion.tele2.ru]
-host = msk1.companion.tele2.ru
-
-++ tencent-eu-moscow
-menu = [RU] Tencent (Moscow)
-title = [RU] Tencent Cloud - Moscow, Russia [cos.eu-moscow.myqcloud.com]
-host = cos.eu-moscow.myqcloud.com
-
-++ edis-rusp
-menu = [RU] EDIS (St. Petersburg)
-title = [RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]
-host = rusp.edis.at
-
-++ veesp-stp
-menu = [RU] Veesp (St. Petersburg)
-title = [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [lg.veesp.com]
-host = lg.veesp.com
-
-++ vimpelcom-spb
-menu = [RU] Vimpelcom (St. Petersburg)
-title = [RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]
-host = speedtest.spb.gldn.net
-
-++ zeptovm-stp
-menu = [RU] ZeptoVM (St. Petersburg)
-title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
-host = ru-led01.lg.zeptovm.com
-
-++ transtelecom-nizhny
-menu = [RU] TransTelecom (Nizhny)
-title = [RU] TransTelecom TTK - Nizhny Novgorod, Russian Federation [speed.ttknn.net]
-host = speed.ttknn.net
-
-++ er-telecom-rostov
-menu = [RU] ER-Telecom (Rostov)
-title = [RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.ertelecom.ru]
-host = speedtest.rostov.ertelecom.ru
-
-++ alphavps-bg-0
-menu = [BG] AlphaVPS (Sofia)
-title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC [lgbg.alphavps.bg]
-host = lgbg.alphavps.bg
-
-++ edis-bg
-menu = [BG] EDIS (Sofia)
-title = [BG] EDIS - Sofia, Bulgaria [bg.edis.at]
-host = bg.edis.at
-
-++ edis-ro
-menu = [RO] EDIS (Bucharest)
-title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
-host = ro.edis.at
-
-++ voxility-ro
-menu = [RO] HostClean @ Voxility
-title = [RO] HostClean @ Voxility - Bucharest, Romania [lg-voxility.hostclean.net]
-host = lg-voxility.hostclean.net
-
-++ hostclean-ro-m247
-menu = [RO] HostClean @ M247
-title = [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
-host = lg-m247.hostclean.net
-
-++ hostsailor-ro
-menu = [RO] HostSailor (Bucharest)
-title = [RO] HostSailor @ M247 - Bucharest, Romania [185.183.99.8]
-host = 185.183.99.8
-
-++ prometeus-rom
-menu = [RO] Prometeus (Bucharest)
-title = [RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]
-host = lg-romania.prometeus.net
-
-++ virtono-ro
-menu = [RO] Virtono (Bucharest)
-title = [RO] Virtono - Bucharest, Romania [85.204.49.17]
-host = 85.204.49.17
-
-++ edis-md
-menu = [MD] EDIS
-title = [MD] EDIS - Chisinau, Moldova [md.edis.at]
-host = md.edis.at
-
-++ ultravps-md
-menu = [MD] UltraVPS (Moldova)
-title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
-host = lg.kiv.md.ultravps.eu
-
-++ cosmote-2
-menu = [GR] Cosmote (Athens)
-title = [GR] Cosmote (OTE) - Athens, Greece [speedtest2.cosmote.net]
-host = speedtest2.cosmote.net
-
-++ gr-ix
-menu = [GR] GRNET GR-IX (Athens)
-title = [GR] GR-IX Greek Internet Exchange - Athens, Greece [speedtest.gr-ix.gr]
-host = speedtest.gr-ix.gr
-
-++ cosmote-1
-menu = [GR] Cosmote (Thessaloniki)
-title = [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
-host = speedtest.cosmote.net
-
-++ hostigger-ist
-menu = [TR] Hostigger (Istanbul)
-title = [TR] Hostigger - Istanbul, Turkey [185.219.132.125]
-host = 185.219.132.125
-
-++ turkcell-ist
-menu = [TR] Turkcell (Istanbul)
-title = [TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]
-host = medn01.hizinitestet.com
-
-++ turktelecom-ist
-menu = [TR] Turk Telecom (Istanbul)
-title = [TR] Turk Telecom - Istanbul, Turkey [gun1speedtest.turktelekom.com.tr]
-host = gun1speedtest.turktelekom.com.tr
-
-++ vodafone-tr-ank
-menu = [TR] Vodafone (Ankara)
-title = [TR] Vodafone - Ankara, Turkey [speedtest.vodafone.com.tr]
-host = speedtest.vodafone.com.tr
-
-++ hurricane-electric-kbp1
-menu = [UA] he.net (Kiev)
-title = [UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]
-host = core1.kbp1.he.net
-
-++ kyivstar
-menu = [UA] Kyivstar (Kiev)
-title = [UA] Kyivstar - Kiev, Ukraine [www.speedtest.kyivstar.ua]
-host = www.speedtest.kyivstar.ua
-
-++ vodafone-ua
-menu = [UA] Vodafone (Kharkiv)
-title = [UA] Vodafone - Kharkiv, Ukraine [kharkovspeedtest.vodafone.ua]
-host = kharkovspeedtest.vodafone.ua
 
 
 + PointsInterestEU4
@@ -2196,6 +2041,186 @@ host = core1.tll1.he.net
 menu = [IS] EDIS (Hafnarfjordur)
 title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
 host = is.edis.at
+
+
++ PointsInterestEU3
+menu = Europe - East
+title = netmeter.club Global Ping Monitoring - Eastern Europe
+
+++ edis-ru
+menu = [RU] EDIS (Moscow)
+title = [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
+host = ru.edis.at
+
+++ justhost-dataline
+menu = [RU] JustHost (Moscow DataL.)
+title = [RU] JustHost.ru @ DataLine - Moscow, Russia [lg.justhost.ru]
+host = lg.justhost.ru
+
+++ justhost-rtcom
+menu = [RU] JustHost (Moscow RTCom)
+title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
+host = lg-rtcom.justhost.ru
+
+++ megafon-moscow
+menu = [RU] Megafon (Moscow)
+title = [RU] Megafon - Moscow, Russian Federation [speedtest-stf.megafon.ru]
+host = speedtest-stf.megafon.ru
+
+++ retn-moscow
+menu = [RU] ReTN (Moscow)
+title = [RU] ReTN - Moscow, Russian Federation [speedtest.retn.net]
+host = speedtest.retn.net
+
+++ tele2-moscow
+menu = [RU] Tele2 (Moscow)
+title = [RU] Tele2 Russia - Moscow, Russian Federation [msk1.companion.tele2.ru]
+host = msk1.companion.tele2.ru
+
+++ tencent-eu-moscow
+menu = [RU] Tencent (Moscow)
+title = [RU] Tencent Cloud - Moscow, Russia [cos.eu-moscow.myqcloud.com]
+host = cos.eu-moscow.myqcloud.com
+
+++ edis-rusp
+menu = [RU] EDIS (St. Petersburg)
+title = [RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]
+host = rusp.edis.at
+
+++ veesp-stp
+menu = [RU] Veesp (St. Petersburg)
+title = [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [lg.veesp.com]
+host = lg.veesp.com
+
+++ vimpelcom-spb
+menu = [RU] Vimpelcom (St. Petersburg)
+title = [RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]
+host = speedtest.spb.gldn.net
+
+++ zeptovm-stp
+menu = [RU] ZeptoVM (St. Petersburg)
+title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
+host = ru-led01.lg.zeptovm.com
+
+++ transtelecom-nizhny
+menu = [RU] TransTelecom (Nizhny)
+title = [RU] TransTelecom TTK - Nizhny Novgorod, Russian Federation [speed.ttknn.net]
+host = speed.ttknn.net
+
+++ er-telecom-rostov
+menu = [RU] ER-Telecom (Rostov)
+title = [RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.ertelecom.ru]
+host = speedtest.rostov.ertelecom.ru
+
+++ hurricane-electric-kbp1
+menu = [UA] he.net (Kiev)
+title = [UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]
+host = core1.kbp1.he.net
+
+++ kyivstar
+menu = [UA] Kyivstar (Kiev)
+title = [UA] Kyivstar - Kiev, Ukraine [www.speedtest.kyivstar.ua]
+host = www.speedtest.kyivstar.ua
+
+++ vodafone-ua
+menu = [UA] Vodafone (Kharkiv)
+title = [UA] Vodafone - Kharkiv, Ukraine [kharkovspeedtest.vodafone.ua]
+host = kharkovspeedtest.vodafone.ua
+
+
++ PointsInterestEU8
+menu = Europe - Southeast
+title = netmeter.club Global Ping Monitoring - Southeastern Europe
+
+++ alphavps-bg-0
+menu = [BG] AlphaVPS (Sofia)
+title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC [lgbg.alphavps.bg]
+host = lgbg.alphavps.bg
+
+++ edis-bg
+menu = [BG] EDIS (Sofia)
+title = [BG] EDIS - Sofia, Bulgaria [bg.edis.at]
+host = bg.edis.at
+
+++ edis-ro
+menu = [RO] EDIS (Bucharest)
+title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
+host = ro.edis.at
+
+++ voxility-ro
+menu = [RO] HostClean @ Voxility
+title = [RO] HostClean @ Voxility - Bucharest, Romania [lg-voxility.hostclean.net]
+host = lg-voxility.hostclean.net
+
+++ hostclean-ro-m247
+menu = [RO] HostClean @ M247
+title = [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
+host = lg-m247.hostclean.net
+
+++ hostsailor-ro
+menu = [RO] HostSailor (Bucharest)
+title = [RO] HostSailor @ M247 - Bucharest, Romania [185.183.99.8]
+host = 185.183.99.8
+
+++ prometeus-rom
+menu = [RO] Prometeus (Bucharest)
+title = [RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]
+host = lg-romania.prometeus.net
+
+++ virtono-ro
+menu = [RO] Virtono (Bucharest)
+title = [RO] Virtono - Bucharest, Romania [85.204.49.17]
+host = 85.204.49.17
+
+++ edis-md
+menu = [MD] EDIS
+title = [MD] EDIS - Chisinau, Moldova [md.edis.at]
+host = md.edis.at
+
+++ ultravps-md
+menu = [MD] UltraVPS (Moldova)
+title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
+host = lg.kiv.md.ultravps.eu
+
+++ cosmote-2
+menu = [GR] Cosmote (Athens)
+title = [GR] Cosmote (OTE) - Athens, Greece [speedtest2.cosmote.net]
+host = speedtest2.cosmote.net
+
+++ edis-si
+menu = [SI] EDIS (Ljubljana)
+title = [SI] EDIS - Ljubljana, Slovenia [si.edis.at]
+host = si.edis.at
+
+++ gr-ix
+menu = [GR] GRNET GR-IX (Athens)
+title = [GR] GR-IX Greek Internet Exchange - Athens, Greece [speedtest.gr-ix.gr]
+host = speedtest.gr-ix.gr
+
+++ cosmote-1
+menu = [GR] Cosmote (Thessaloniki)
+title = [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
+host = speedtest.cosmote.net
+
+++ hostigger-ist
+menu = [TR] Hostigger (Istanbul)
+title = [TR] Hostigger - Istanbul, Turkey [185.219.132.125]
+host = 185.219.132.125
+
+++ turkcell-ist
+menu = [TR] Turkcell (Istanbul)
+title = [TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]
+host = medn01.hizinitestet.com
+
+++ turktelecom-ist
+menu = [TR] Turk Telecom (Istanbul)
+title = [TR] Turk Telecom - Istanbul, Turkey [gun1speedtest.turktelekom.com.tr]
+host = gun1speedtest.turktelekom.com.tr
+
+++ vodafone-tr-ank
+menu = [TR] Vodafone (Ankara)
+title = [TR] Vodafone - Ankara, Turkey [speedtest.vodafone.com.tr]
+host = speedtest.vodafone.com.tr
 
 
 + PointsInterestCN
