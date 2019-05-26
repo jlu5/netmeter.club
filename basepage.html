@@ -22,7 +22,15 @@ div.logo > a:hover, div.logo > a:focus {
 div.footer a {
     color: #01a;
 }
+.disclaimer {
+    color: #b11;
+}
+.disclaimer, .remark {
+    font-size: large;
+}
+
     </style>
+
 </head>
 <body id="body">
 
@@ -54,7 +62,9 @@ div.footer a {
 
 <div class="main">
     <h1><##title##></h1>
-    <h2><##remark##></h2>
+    <p class="disclaimer"><b>Warning:</b> the material on this site is provided for reference purposes only. Latency and packet loss reports
+    do not account for ICMP throttling by target providers, and may thus be inaccurate. Unreachable destinations are periodically pruned.</p>
+    <div class="remark"><##remark##></div>
 
     <div class="overview">
         <##overview##>
