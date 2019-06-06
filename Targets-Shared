@@ -2569,7 +2569,7 @@ menu = [HK] Pumpcloud @ HGC (Dynamic)
 title = [HK] Pumpcloud @ HGC Global (Dynamic) - Hong Kong, China [221.124.241.23]
 host = 221.124.241.23
 
-++ pumpcloud-hgc-dyn
+++ pumpcloud-hkbn-dyn
 menu = [HK] Pumpcloud @ HKBN
 title = [HK] Pumpcloud @ Hong Kong Broadband Network (HKBN) - Hong Kong, China [61.238.140.253]
 host = 61.238.140.253
@@ -2609,12 +2609,12 @@ menu = [HK] UOvZ @ NWT, VpsQuan
 title = [HK] UOvZ @ NWT, VpsQuan - Hong Kong, China [103.228.130.1]
 host = 103.228.130.1
 
-++ mokvm
+++ mokvm-mtel
 menu = [MO] Mokvm @ MTel
 title = [MO] Mokvm @ MTel - Macau, China [103.237.127.30]
 host = 103.237.127.30
 
-++ mokvm
+++ mokvm-ctm
 menu = [MO] Mokvm @ CTM
 title = [MO] Mokvm @ CTM (Business) - Macau, China [202.175.167.1]
 host = 202.175.167.1
