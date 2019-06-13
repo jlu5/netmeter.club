@@ -17,6 +17,11 @@ menu = [CDN] Automattic
 title = [CDN] Automattic, Inc. (WordPress.com et al.) [automattic.com]
 host = automattic.com
 
+++ bunnycdn
+menu = [CDN] BunnyCDN
+title = [CDN] BunnyCDN [bunnycdn.com]
+host = bunnycdn.com
+
 ++ buyvm-anycast
 menu = [CDN] BuyVM Anycast
 title = [CDN] BuyVM Anycast [198.251.86.22]
@@ -1177,6 +1182,11 @@ menu = [CA/QC] Softlayer (Montreal)
 title = [CA/QC] Softlayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
 host = speedtest.mon01.softlayer.com
 
+++ servarica
+menu = [CA/QC] ServaRICA (Montreal)
+title = [CA/QC] ServaRICA - Montreal, Canada [162.250.190.17]
+host = 162.250.190.17
+
 ++ telus-moqc
 menu = [CA/QC] TELUS (Montreal)
 title = [CA/QC] TELUS - Montreal, Canada [montreal.speedtest.telus.com]
@@ -1628,8 +1638,8 @@ title = [NL] Online.net - Amsterdam, Netherlands [ping-ams1.online.net]
 host = ping-ams1.online.net
 
 ++ ramnode-ams
-menu = [NL] Ramnode (Amsterdam)
-title = [NL] Ramnode - Amsterdam, Netherlands [lg.nl.ramnode.com]
+menu = [NL] Ramnode (Alblasserdam)
+title = [NL] Ramnode - Alblasserdam, Netherlands [lg.nl.ramnode.com]
 host = lg.nl.ramnode.com
 
 ++ vultr-ams
@@ -1951,11 +1961,6 @@ menu = [ES] EDIS (Seville)
 title = [ES] EDIS - Seville, Spain [es.edis.at]
 host = es.edis.at
 
-++ hurricane-electric-bcn1
-menu = [ES] he.net (Barcelona)
-title = [ES] Hurricane Electric - Equinix BA1, Barcelona Barcelona, ES [core1.bcn1.he.net]
-host = core1.bcn1.he.net
-
 ++ hurricane-electric-lis1
 menu = [PT] he.net (Lisbon)
 title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
@@ -2191,6 +2196,11 @@ menu = [MD] UltraVPS (Moldova)
 title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
 host = lg.kiv.md.ultravps.eu
 
+++ he-zag
+menu = [HR] he.net (Zagreb)
+title = [HR] Hurricane Electric @ University of Zagreb, University Computing Centre SRCE - Zagreb, Croatia [core1.zag1.he.net]
+host = core1.zag1.he.net
+
 ++ edis-rs
 menu = [RS] EDIS (Belgrade)
 title = [RS] EDIS - Belgrade, Serbia [rs.edis.at]
@@ -2343,11 +2353,6 @@ menu = [CN] Anchnet (Shanghai CU)
 title = [CN] Anchnet @ China Unicom - Shanghai, China (Beiai CU) [112.65.240.161]
 host = 112.65.240.161
 
-++ huawei-cn-east-2
-menu = [CN] Huawei (Shanghai)
-title = [CN] Huawei Cloud - Shanghai, China [ecs.cn-east-2.myhuaweicloud.com]
-host = ecs.cn-east-2.myhuaweicloud.com
-
 ++ tencent-ap-shanghai
 menu = [CN] Tencent (Shanghai)
 title = [CN] Tencent Cloud - Shanghai, China [cos.ap-shanghai.myqcloud.com]
@@ -2362,7 +2367,6 @@ host = mirrors.ustc.edu.cn
 menu = [CN] Anchnet (Wuxi)
 title = [CN] Anchnet - Wuxi, Jiangsu (BGP) [103.21.119.48]
 host = 103.21.119.48
-#221.228.82.70（电信）122.192.69.117（联通）
 
 ++ cloudiplc-xzcu
 menu = [CN] CloudIPLC (Xuzhou CU)
@@ -2423,11 +2427,6 @@ host = oss-cn-shenzhen.aliyuncs.com
 menu = [CN] Anchnet (Shenzhen)
 title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
 host = 43.240.244.14
-
-++ huawei-cn-south-1
-menu = [CN] Huawei (Guangzhou)
-title = [CN] Huawei Cloud - Guangzhou, China [ecs.cn-south-1.myhuaweicloud.com]
-host = ecs.cn-south-1.myhuaweicloud.com
 
 ++ tcloud-guangzhou-ct
 menu = [CN] TCloud (Guangzhou CT)
@@ -2503,11 +2502,6 @@ host = 23.252.97.148
 menu = [HK] China Telecom Global
 title = [HK] China Telecom Global - Hong Kong, China [203.14.188.1]
 host = 203.14.188.1
-
-++ cera-hk
-menu = [HK] CeraNetworks
-title = [HK] CeraNetworks - Hong Kong, China [103.135.33.68]
-host = 103.135.33.68
 
 ++ unicom-hk
 menu = [HK] China Unicom Global
@@ -2959,11 +2953,6 @@ menu = [IN] Digital Ocean
 title = [IN] Digital Ocean (BLR1) - Bangladore, India [speedtest-blr1.digitalocean.com]
 host = speedtest-blr1.digitalocean.com
 
-++ hostnamaste-mumbai
-menu = [IN] HostNamaste (Mumbai)
-title = [IN] HostNamaste - Mumbai, India [150.242.14.193]
-host = 150.242.14.193
-
 ++ softlayer-che
 menu = [IN] Softlayer (Chennai)
 title = [IN] Softlayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
@@ -3053,11 +3042,6 @@ host = speedtest3.pelephone.net.il
 menu = [PS] PALTEL Group
 title = [PS] PALTEL Group - Gaza, Palestine [213.244.72.22]
 host = 213.244.72.22
-
-++ moscanet-wise-lb
-menu = [LB] Moscanet Wise
-title = [LB] Moscanet Wise - Beirut, Lebanon [speedtest.wise.net.lb]
-host = speedtest.wise.net.lb
 
 ++ terranet-lb
 menu = [LB] TerraNet
@@ -3259,11 +3243,6 @@ menu = [KE] SEACOM (Mombasa)
 title = [KE] SEACOM - Mombasa, Kenya [lg-01-mba.ke.seacomnet.com]
 host = lg-01-mba.ke.seacomnet.com
 
-++ seacom-ke-nbo
-menu = [KE] SEACOM (Nairobi)
-title = [KE] SEACOM - Nairobi, Kenya [lg-01-nbo.ke.seacomnet.com]
-host = lg-01-nbo.ke.seacomnet.com
-
 ++ hurricane-electric-jib1
 menu = [DJ] he.net (Djibouti City)
 title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
@@ -3298,11 +3277,6 @@ host = lg-01-mpm.mz.seacomnet.com
 menu = [AO] Angola Cables
 title = [AO] Angola Cables - Luanda, Angola [197.149.150.178]
 host = 197.149.150.178
-
-++ orange-sn
-menu = [SN] Orange Senegal
-title = [SN] Orange Senegal SonaTel [orange.sn]
-host = orange.sn
 
 
 + PointsInterestSA
