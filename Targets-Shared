@@ -412,11 +412,6 @@ menu = [US/CA] LeaseWeb
 title = [US/CA] LeaseWeb - San Francisco, California [mirror.sfo12.us.leaseweb.net]
 host = mirror.sfo12.us.leaseweb.net
 
-++ rivencloud-fremont
-menu = [US/CA] Riven Cloud (Fremont)
-title = [US/CA] Riven Cloud - Fremont, California [speedtest-fm1.sa.net]
-host = speedtest-fm1.sa.net
-
 #++ nfoservers-sjc
 #menu = [US/CA] NFOservers (San Jose)
 #title = [US/CA] NFOservers @ InterNAP - San Jose, California [66.151.138.9]
@@ -431,6 +426,11 @@ host = speedtest.sjc01.softlayer.com
 menu = [US/CA] Tencent Cloud
 title = [US/CA] Tencent Cloud - Silicon Valley, United States [cos.na-siliconvalley.myqcloud.com]
 host = cos.na-siliconvalley.myqcloud.com
+
+++ xtom-fmt
+menu = [US/CA] xTom (Fremont)
+title = [US/CA] xTom - Fremont, California [mirrors.xtom.com]
+host = mirrors.xtom.com
 
 ++ vultr-sjo
 menu = [US/CA] Vultr (San Jose)
@@ -448,7 +448,7 @@ title = [US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]
 host = lax.speedtest.sbcglobal.net
 
 ++ bandwagonhost-usca8
-menu = [US/CA] BWH (C3 CN2)
+menu = [US/CA] BWH @ C3 (CN2)
 title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC8 CN2 @ C3 Networks) [23.252.99.102]
 host = 23.252.99.102
 
@@ -567,14 +567,19 @@ menu = [US/NV] CenturyLink
 title = [US/NV] CenturyLink - Las Vegas, NV, US [lasvegas.speedtest.centurylink.net]
 host = lasvegas.speedtest.centurylink.net
 
+++ smarthost-nv
+menu = [US/NV] SmartHost (Las Vegas)
+title = [US/NV] SmartHost - Las Vegas, Nevada [199.43.206.3]
+host = 199.43.206.3
+
 ++ charter-nv-spt01renonv
 menu = [US/NV] Charter (Reno)
 title = [US/NV] Charter - Reno, NV, US [spt01renonv.reno.nv.charter.com]
 host = spt01renonv.reno.nv.charter.com
 
 ++ ioflood
-menu = [US/AZ] IOFlood
-title = [US/AZ] IOFlood [ioflood.com]
+menu = [US/AZ] IOFLOOD
+title = [US/AZ] IOFLOOD - Phoenix, Arizona [ioflood.com]
 host = ioflood.com
 
 ++ securedragon-phoenix
@@ -667,6 +672,11 @@ menu = [US/IL] Rackspace (Chicago)
 title = [US/IL] Rackspace - Chicago, Illinois [ord.speedtest.rackspace.com]
 host = ord.speedtest.rackspace.com
 
+++ steadfast-il
+menu = [US/IL] Steadfast (Chicago)
+title = [US/IL] Steadfast - Chicago, Illinois [lookingglass.chi.steadfast.net]
+host = lookingglass.chi.steadfast.net
+
 ++ vultr-chi
 menu = [US/IL] Vultr (Chicago)
 title = [US/IL] Vultr - Chicago, Illinois [il-us-ping.vultr.com]
@@ -747,10 +757,10 @@ host = speedtestslnt.rogers.com
 #title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
 #host = stosat-dvre-01.sys.comcast.net
 
-++ hurricane-electric-den1
-menu = [US/CO] he.net (Denver)
-title = [US/CO] Hurricane Electric - CoreSite Denver Denver, CO, US [core1.den1.he.net]
-host = core1.den1.he.net
+++ smarthost-co
+menu = [US/CO] SmartHost (Denver)
+title = [US/CO] SmartHost - Denver, Colorado [192.199.242.2]
+host = 192.199.242.2
 
 ++ securedragon-denver
 menu = [US/CO] SecureDragon
@@ -1137,20 +1147,20 @@ menu = [US/NY] CenturyLink (Rochester)
 title = [US/NY] CenturyLink - Rochester, NY, US [rochester.speedtest.centurylink.net]
 host = rochester.speedtest.centurylink.net
 
-#++ princeton
-#menu = [US/NJ] Princeton Univ.
-#title = [US/NJ] Princeton University - Princeton, NJ, US [mirror.math.princeton.edu]
-#host = mirror.math.princeton.edu
-
-++ bandwagonhost-usnj
-menu = [US/NJ] BandwagonHost
-title = [US/NJ] BandwagonHost (IT7 Networks) @ Steadfast - New Jersey [23.29.138.3]
-host = 23.29.138.3
-
 ++ linode-nj
 menu = [US/NJ] Linode (Newark)
 title = [US/NJ] Linode (Newark, New Jersey) [speedtest.newark.linode.com]
 host = speedtest.newark.linode.com
+
+++ smarthost-nj
+menu = [US/NJ] SmartHost (Piscataway)
+title = [US/NJ] SmartHost - Piscataway, New Jersey [66.11.120.2]
+host = 66.11.120.2
+
+++ steadfast-nj
+menu = [US/NJ] Steadfast (Edison)
+title = [US/NJ] Steadfast - Edison, New Jersey [lookingglass.edi.steadfast.net]
+host = lookingglass.edi.steadfast.net
 
 ++ vultr-nj
 menu = [US/NJ] Vultr
@@ -1158,8 +1168,8 @@ title = [US/NJ] Vultr (New Jersey) [nj-us-ping.vultr.com]
 host = nj-us-ping.vultr.com
 
 ++ colocrossing-pnj
-menu = [US/NJ] Virmach
-title = [US/NJ] Virmach @ ColoCrossing (Piscataway, New Jersey) [107.174.64.68]
+menu = [US/NJ] Virmach (Piscataway)
+title = [US/NJ] Virmach @ ColoCrossing - Piscataway, New Jersey [107.174.64.68]
 host = 107.174.64.68
 
 ++ securedragon-piscataway
@@ -1202,34 +1212,44 @@ menu = [CA/QC] OVH (Beauharnois)
 title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
 host = ymq1-bhs.smokeping.ovh.net
 
-++ cox-ri-ri
-menu = [US/RI] Cox (Providence)
-title = [US/RI] Cox Communications - Providence, RI, US [speedtest.rd.ri.cox.net]
-host = speedtest.rd.ri.cox.net
-
-++ mit-csail
-menu = [US/MA] MIT
-title = [US/MA] Massachusetts Institute of Technology - Cambridge, MA, US [csail.mit.edu]
-host = csail.mit.edu
+++ quonix
+menu = [US/PA] Quonix
+title = [US/PA] Quonix - Philadelphia, Pennsylvania [www.quonix.net]
+host = www.quonix.net
 
 #++ comcast-pa-crls
 #menu = [US/PA] Comcast (Pittsburgh)
-#title = [US/PA] Comcast - Pittsburgh, PA, US [stosat-crls-01.sys.comcast.net]
+#title = [US/PA] Comcast - Pittsburgh, Pennsylvania [stosat-crls-01.sys.comcast.net]
 #host = stosat-crls-01.sys.comcast.net
 
 #++ comcast-ma-ndhm
 #menu = [US/MA] Comcast (Boston)
-#title = [US/MA] Comcast - Boston, MA, US [stosat-ndhm-01.sys.comcast.net]
+#title = [US/MA] Comcast - Boston, Massachusetts [stosat-ndhm-01.sys.comcast.net]
 #host = stosat-ndhm-01.sys.comcast.net
+
+++ mit-csail
+menu = [US/MA] MIT
+title = [US/MA] Massachusetts Institute of Technology - Cambridge, Massachusetts, US [csail.mit.edu]
+host = csail.mit.edu
+
+++ smarthost-ma
+menu = [US/MA] SmartHost
+title = [US/MA] SmartHost - Somerville, Massachusetts [38.242.7.129]
+host = 38.242.7.129
 
 ++ charter-ma-spt01oxfrma
 menu = [US/MA] Charter (Oxford)
-title = [US/MA] Charter - Oxford, MA, US [spt01oxfrma.oxfr.ma.charter.com]
+title = [US/MA] Charter - Oxford, Massachusetts [spt01oxfrma.oxfr.ma.charter.com]
 host = spt01oxfrma.oxfr.ma.charter.com
+
+++ cox-ri-ri
+menu = [US/RI] Cox (Providence)
+title = [US/RI] Cox Communications - Providence, Rhode Island [speedtest.rd.ri.cox.net]
+host = speedtest.rd.ri.cox.net
 
 #++ comcast-md-balt
 #menu = [US/MD] Comcast (Baltimore)
-#title = [US/MD] Comcast - Baltimore, MD, US [stosat-balt-01.sys.comcast.net]
+#title = [US/MD] Comcast - Baltimore, Maryland, US [stosat-balt-01.sys.comcast.net]
 #host = stosat-balt-01.sys.comcast.net
 
 ++ bellaliant-hfns
@@ -1269,12 +1289,12 @@ host = 172.106.200.10
 
 ++ freerangecloud-ash
 menu = [US/VA] Free Range Cloud
-title = [US/VA] Free Range Cloud - Ashburn, Virginia  [ash.lg.freerangecloud.com]
+title = [US/VA] Free Range Cloud - Ashburn, Virginia [ash.lg.freerangecloud.com]
 host = ash.lg.freerangecloud.com
 
 ++ psychz-va
 menu = [US/VA] Psychz (Ashburn)
-title = [US/VA] Psychz - Ashburn, Virginia  [lg.va.psychz.net]
+title = [US/VA] Psychz - Ashburn, Virginia [lg.va.psychz.net]
 host = lg.va.psychz.net
 
 ++ rackspace-iad
@@ -1296,6 +1316,11 @@ host = cos.na-ashburn.myqcloud.com
 menu = [US/VA] Cox (Arlington)
 title = [US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]
 host = speedtest.rd.dc.cox.net
+
+++ smarthost-fl
+menu = [US/FL] SmartHost (Jacksonville)
+title = [US/FL] SmartHost @ GoRack - Jacksonville, Florida [199.102.65.118]
+host = 199.102.65.118
 
 ++ securedragon-tampa
 menu = [US/FL] SecureDragon (Tampa)
@@ -1397,11 +1422,6 @@ menu = [UK] University of Oxford
 title = [UK] University of Oxford - Oxford, England, UK [mirror.ox.ac.uk]
 host = mirror.ox.ac.uk
 
-#++ alphavps-lon
-#menu = [UK] AlphaVPS (London)
-#title = [UK] AlphaVPS - London, United Kingdom @ Enfield 1, Telehouse 2 [lguk.alphavps.bg]
-#host = lguk.alphavps.bg
-
 ++ aliyun-eu-west-1
 menu = [UK] Aliyun (London)
 title = [UK] Aliyun - London, United Kingdom [oss-eu-west-1.aliyuncs.com]
@@ -1462,9 +1482,14 @@ menu = [UK] Psychz (London)
 title = [UK] Psychz - London, United Kingdom [lg.lon.psychz.net]
 host = lg.lon.psychz.net
 
+++ rackspace-lon
+menu = [UK] Rackspace (London)
+title = [UK] Rackspace - London, United Kingdom [lon.speedtest.rackspace.com]
+host = lon.speedtest.rackspace.com
+
 ++ rivencloud-london
-menu = [UK] Riven Cloud (London)
-title = [UK] Riven Cloud - London, United Kingdom [speedtest-ld1.sa.net]
+menu = [UK] Riven Cloud @ xTom
+title = [UK] Riven Cloud @ xTom - London, United Kingdom [speedtest-ld1.sa.net]
 host = speedtest-ld1.sa.net
 
 ++ vodafone-lon
@@ -1517,11 +1542,6 @@ title = netmeter.club Global Ping Monitoring - France
 #title = [FR] Proxad [proxad.net]
 #host = proxad.net
 
-#++ renater
-#menu = [FR] RENATER
-#title = [FR] RENATER [www.renater.fr]
-#host = www.renater.fr
-
 ++ 1fichier
 menu = [FR] 1fichier
 title = [FR] 1fichier.com (DStorage SASU) [1fichier.com]
@@ -1546,6 +1566,11 @@ host = core1.par2.he.net
 menu = [FR] Online.net (Paris)
 title = [FR] Online.net - Paris, France [ping.online.net]
 host = ping.online.net
+
+++ renater
+menu = [FR] RENATER
+title = [FR] RENATER - Paris, France [www.renater.fr]
+host = www.renater.fr
 
 ++ softlayer-par
 menu = [FR] Softlayer (Paris)
@@ -1767,11 +1792,6 @@ menu = [DE] Vultr (Frankfurt)
 title = [DE] Vultr - Frankfurt, Germany [fra-de-ping.vultr.com]
 host = fra-de-ping.vultr.com
 
-++ hetzner
-menu = [DE] Hetzner (Falkenstein)
-title = [DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]
-host = speed.hetzner.de
-
 ++ hurricane-electric-ham1
 menu = [DE] he.net (Hamburg)
 title = [DE] Hurricane Electric - GlobalConnect, Hamburg Hamburg, DE [core1.ham1.he.net]
@@ -1781,6 +1801,11 @@ host = core1.ham1.he.net
 menu = [DE] he.net (Berlin)
 title = [DE] Hurricane Electric - IPB CarrierColo Berlin Berlin, DE [core1.ber1.he.net]
 host = core1.ber1.he.net
+
+++ hetzner
+menu = [DE] Hetzner (Falkenstein)
+title = [DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]
+host = speed.hetzner.de
 
 ++ netcup-nbg
 menu = [DE] Netcup (Nuremberg)
@@ -2026,6 +2051,11 @@ menu = [DK] he.net (Copenhagen)
 title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
 host = core1.cph1.he.net
 
+++ nordunet-dk
+menu = [DK] NORDUnet (Copenhagen)
+title = [DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]
+host = dk-ore.nordu.net
+
 ++ bacloud-lt
 menu = [LT] BaCloud (Siauliai)
 title = [LT] BaCloud - Siauliai, Lithuania [185.25.48.2]
@@ -2051,6 +2081,11 @@ menu = [IS] EDIS (Hafnarfjordur)
 title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
 host = is.edis.at
 
+#++ nordunet-is
+#menu = [IS] NORDUnet (Reykjavik)
+#title = [IS] NORDUnet (Nordic Gateway for Research & Education) - Reykjavik, Iceland [is-rey.nordu.net]
+#host = is-rey.nordu.net
+
 
 + PointsInterestEU3
 menu = Europe - Eastern Europe
@@ -2062,14 +2097,19 @@ title = [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
 host = ru.edis.at
 
 ++ justhost-dataline
-menu = [RU] JustHost (Moscow DataL.)
+menu = [RU] JustHost @ DataLine
 title = [RU] JustHost.ru @ DataLine - Moscow, Russia [lg.justhost.ru]
 host = lg.justhost.ru
 
 ++ justhost-rtcom
-menu = [RU] JustHost (Moscow RTCom)
+menu = [RU] JustHost @ RosTelecom
 title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
 host = lg-rtcom.justhost.ru
+
+++ justhost-fiord
+menu = [RU] JustHost @ Fiord
+title = [RU] JustHost.ru @ Fiord - Moscow, Russia [lg-prgrs.justhost.ru]
+host = lg-prgrs.justhost.ru
 
 ++ megafon-moscow
 menu = [RU] Megafon (Moscow)
@@ -2187,12 +2227,12 @@ title = [RO] Virtono - Bucharest, Romania [85.204.49.17]
 host = 85.204.49.17
 
 ++ edis-md
-menu = [MD] EDIS
+menu = [MD] EDIS (Chisinau)
 title = [MD] EDIS - Chisinau, Moldova [md.edis.at]
 host = md.edis.at
 
 ++ ultravps-md
-menu = [MD] UltraVPS (Moldova)
+menu = [MD] UltraVPS (Chisinau)
 title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
 host = lg.kiv.md.ultravps.eu
 
@@ -2603,6 +2643,11 @@ menu = [HK] UOvZ @ NWT, VpsQuan
 title = [HK] UOvZ @ NWT, VpsQuan - Hong Kong, China [103.228.130.1]
 host = 103.228.130.1
 
+++ xtom-hk
+menu = [HK] xTom
+title = [HK] xTom - Hong Kong, China [mirrors.xtom.com.hk]
+host = mirrors.xtom.com.hk
+
 ++ mokvm-mtel
 menu = [MO] Mokvm @ MTel
 title = [MO] Mokvm @ MTel - Macau, China [103.237.127.30]
@@ -2627,11 +2672,6 @@ host = asia-east1-gce.cloudharmony.net
 menu = [TW] Hurricanecloud
 title = [TW] Hurricanecloud @ HiNet (Static) - Changhua, Taiwan [125.227.212.32]
 host = 125.227.212.32
-
-++ moonvm
-menu = [TW] MoonVM
-title = [TW] MoonVM @ HiNet (Dynamic) - Taiwan [61.223.94.3]
-host = 61.223.94.3
 
 ++ psychz-tw
 menu = [TW] Psychz
@@ -3164,8 +3204,8 @@ title = [ZA] Psychz - Johannesburg, South Africa [lg.jnb.psychz.net]
 host = lg.jnb.psychz.net
 
 ++ rivencloud-johannesburg
-menu = [ZA] Riven Cloud (JNB)
-title = [ZA] Riven Cloud - Johannesburg, South Africa [speedtest-jb1.sa.net]
+menu = [ZA] Riven Cloud @ xTom
+title = [ZA] Riven Cloud @ xTom - Johannesburg, South Africa [speedtest-jb1.sa.net]
 host = speedtest-jb1.sa.net
 
 ++ zappiehost-za
@@ -3182,11 +3222,6 @@ host = lg-01-cpt.za.seacomnet.com
 menu = [ZA] SEACOM (Durban)
 title = [ZA] SEACOM - Durban, South Africa [lg-01-dur.za.seacomnet.com]
 host = lg-01-dur.za.seacomnet.com
-
-++ mtn-ng
-menu = [NG] MTN (Lagos)
-title = [NG] MTN - Lagos, Nigeria [mtnspeedtest1.mtnonline.com]
-host = mtnspeedtest1.mtnonline.com
 
 ++ airtel-ng
 menu = [NG] Airtel (Lagos)
@@ -3230,7 +3265,7 @@ host = speedtest.tunisietelecom.tn
 
 ++ angani
 menu = [KE] Angani
-title = [KE] Angani [hosting.angani.co]
+title = [KE] Angani - Kenya [hosting.angani.co]
 host = hosting.angani.co
 
 ++ hurricane-electric-nbo1
@@ -3259,7 +3294,7 @@ title = [UG] Uganda Hosting [45.221.72.222]
 host = 45.221.72.222
 
 ++ liquidtelecom-rw
-menu = [RW] liquidtelecom
+menu = [RW] liquidtelecom (Kigali)
 title = [RW] liquidtelecom - Kigali, Rwanda [ltrbandwidth.liquidtelecom.rw]
 host = ltrbandwidth.liquidtelecom.rw
 
@@ -3334,7 +3369,7 @@ title = [AR] FiberTel - Buenos Aires, Argentina [speed.fibertel.com.ar]
 host = speed.fibertel.com.ar
 
 ++ telecom-argentina
-menu = [AR] Tel. Argentina (Buenos Aires)
+menu = [AR] Telecom Argentina
 title = [AR] Telecom Argentina - Buenos Aires, Argentina [st1.telecom.com.ar]
 host = st1.telecom.com.ar
 
