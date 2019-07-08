@@ -113,8 +113,8 @@ title = [CDN] jsDelivr [cdn.jsdelivr.net]
 host = cdn.jsdelivr.net
 
 ++ level3-cdn
-menu = [CDN] Level3 DNS
-title = [CDN] Level3 DNS Resolver [4.2.2.1]
+menu = [CDN] Level 3 DNS
+title = [CDN] Level 3 DNS Resolver [4.2.2.1]
 host = 4.2.2.1
 
 ++ kernel-org
@@ -122,15 +122,15 @@ menu = [CDN] Linux Kernel Archives
 title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
 host = mirrors.edge.kernel.org
 
+++ microsoft1
+menu = [CDN] Microsoft (msedge)
+title = [CDN] Microsoft (*.msedge.net) [bing.com]
+host = bing.com
+
 ++ microsoft0
 menu = [CDN] Microsoft O365 ACDC
 title = [CDN] Microsoft Office 365 ACDC [www.outlook.com]
 host = www.outlook.com
-
-++ microsoft-azure
-menu = [CDN] Microsoft Azure
-title = [CDN] Microsoft Azure [azure.microsoft.com]
-host = azure.microsoft.com
 
 ++ opendns
 menu = [CDN] OpenDNS
@@ -227,6 +227,11 @@ menu = [CA/BC] TELUS (Vancouver)
 title = [CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]
 host = vancouver.speedtest.telus.com
 
+++ colocrossing-sea
+menu = [US/WA] ColoCrossing (Seattle)
+title = [US/WA] ColoCrossing - Seattle, Washington [lg.sea.colocrossing.com]
+host = lg.sea.colocrossing.com
+
 #++ comcast-sea
 #menu = [US/WA] Comcast (Seattle)
 #title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
@@ -281,11 +286,6 @@ host = sea.speedtest.sbcglobal.net
 menu = [US/WA] CenturyLink (Seattle)
 title = [US/WA] CenturyLink - Seattle, Washington [seattle.speedtest.centurylink.net]
 host = seattle.speedtest.centurylink.net
-
-++ colocrossing-sea
-menu = [US/WA] ColoCrossing (Seattle)
-title = [US/WA] ColoCrossing - Seattle, Washington [lg.sea.colocrossing.com]
-host = lg.sea.colocrossing.com
 
 ++ amazon-pdx
 menu = [US/OR] Amazon AWS
@@ -418,8 +418,8 @@ host = mirror.sfo12.us.leaseweb.net
 #host = 66.151.138.9
 
 ++ softlayer-sjc
-menu = [US/CA] Softlayer (San Jose)
-title = [US/CA] Softlayer - San Jose, California [speedtest.sjc01.softlayer.com]
+menu = [US/CA] SoftLayer (San Jose)
+title = [US/CA] SoftLayer - San Jose, California [speedtest.sjc01.softlayer.com]
 host = speedtest.sjc01.softlayer.com
 
 ++ tencent-na-siliconvalley
@@ -441,6 +441,11 @@ host = sjo-ca-us-ping.vultr.com
 menu = [US/CA] Anchnet (LA CN2)
 title = [US/CA] Anchnet - Los Angeles, California (CN2) [118.184.73.35]
 host = 118.184.73.35
+
+++ anynode-la
+menu = [US/CA] anyNode (LA)
+title = [US/CA] anyNode - Los Angeles, California [lg.lax.anynode.net]
+host = lg.lax.anynode.net
 
 ++ att-ca-lax
 menu = [US/CA] AT&T (Los Angeles)
@@ -497,6 +502,11 @@ menu = [US/CA] KLayer (Los Angeles)
 title = [US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
 
+++ letbox
+menu = [US/CA] LetBox (Los Angeles)
+title = [US/CA] LetBox @ Psychz - Los Angeles, California [lg.la.letbox.com]
+host = lg.la.letbox.com
+
 #++ nfoservers-lax
 #menu = [US/CA] NFOservers (LA)
 #title = [US/CA] NFOservers - Los Angeles, California [66.150.188.101]
@@ -504,12 +514,12 @@ host = lax2.lg.klayer.com
 
 ++ psychz-la
 menu = [US/CA] Psychz (Los Angeles)
-title = [US/CA] Psychz - Los Angeles, California [104.149.18.203]
-host = 104.149.18.203
+title = [US/CA] Psychz - Los Angeles, California [lg.lax.psychz.net]
+host = lg.lax.psychz.net
 
 ++ psychz-la-cn2
 menu = [US/CA] Psychz (LA CN2)
-title = [US/CA] Psychz CN2 - Los Angeles, California  [172.106.4.54]
+title = [US/CA] Psychz CN2 - Los Angeles, California [172.106.4.54]
 host = 172.106.4.54
 
 ++ quadranet-la
@@ -723,8 +733,8 @@ title = [CA/ON] LunaNode - Toronto, Canada [toronto-test.lunanode.com]
 host = toronto-test.lunanode.com
 
 ++ softlayer-tor
-menu = [CA/ON] Softlayer (Toronto)
-title = [CA/ON] Softlayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
+menu = [CA/ON] SoftLayer (Toronto)
+title = [CA/ON] SoftLayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
 host = speedtest.tor01.softlayer.com
 
 ++ tencent-na-toronto
@@ -757,6 +767,11 @@ host = speedtestslnt.rogers.com
 #title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
 #host = stosat-dvre-01.sys.comcast.net
 
+++ level3-dvco
+menu = [US/CO] Level 3 (Denver)
+title = [US/CO] Level 3 - Denver, Colorado [4.69.203.238]
+host = 4.69.203.238
+
 ++ smarthost-co
 menu = [US/CO] SmartHost (Denver)
 title = [US/CO] SmartHost - Denver, Colorado [192.199.242.2]
@@ -767,15 +782,15 @@ menu = [US/CO] SecureDragon
 title = [US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]
 host = 198.57.46.4
 
-++ rfchost-mci
-menu = [US/MO] RFCHost (Kansas City)
-title = [US/MO] RFCHost @ Joe's Datacenter - Kansas City, Missouri [142.147.97.53]
-host = 142.147.97.53
+++ joes-dc
+menu = [US/MO] Joe's Datacenter
+title = [US/MO] Joe's Datacenter - Kansas City, Missouri [lg.joesdatacenter.com]
+host = lg.joesdatacenter.com
 
-++ mrvm-kck
-menu = [US/MO] mrvm.net (Kansas City)
-title = [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [lg-us-kck.mrvm.net]
-host = lg-us-kck.mrvm.net
+++ dedispec-mo
+menu = [US/MO] Dedispec (Kansas City)
+title = [US/MO] Dedispec - Kansas City, Missouri [198.204.225.10]
+host = 198.204.225.10
 
 ++ centurylink-ia-cedar-rapids
 menu = [US/IA] CenturyLink
@@ -796,6 +811,11 @@ host = 18.188.0.0
 menu = [US/OH] AT&T (Cleveland)
 title = [US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]
 host = cle.speedtest.sbcglobal.net
+
+++ level3-cloh
+menu = [US/OH] Level 3 (Cleveland)
+title = [US/OH] Level 3 - Cleveland, Ohio [4.69.210.125]
+host = 4.69.210.125
 
 ++ freerangecloud-ywg
 menu = [CA/MB] Free Range Cloud
@@ -908,8 +928,8 @@ title = [US/TX] SSDBlaze - Dallas, Texas [lg-dal.ssdblaze.com]
 host = lg-dal.ssdblaze.com
 
 ++ softlayer-dal
-menu = [US/TX] Softlayer (Dallas)
-title = [US/TX] Softlayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]
+menu = [US/TX] SoftLayer (Dallas)
+title = [US/TX] SoftLayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]
 host = speedtest.dal06.softlayer.com
 
 ++ quadranet-dal
@@ -938,14 +958,19 @@ title = [US/TX] Charter - Fort Worth, TX, US [spt01ftwotx.ftwo.tx.charter.com]
 host = spt01ftwotx.ftwo.tx.charter.com
 
 ++ softlayer-hou
-menu = [US/TX] Softlayer (Houston)
-title = [US/TX] Softlayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
+menu = [US/TX] SoftLayer (Houston)
+title = [US/TX] SoftLayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
 
 ++ att-tx-sat
 menu = [US/TX] AT&T (San Antonio)
 title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
 host = sat.speedtest.sbcglobal.net
+
+++ telia-san-b1
+menu = Telia (San Antonio)
+title = Telia - San Antonio, TX, US [san-b1.telia.net]
+host = san-b1.telia.net
 
 #++ gatech
 #menu = [US/GA] Georgia Tech
@@ -1043,8 +1068,8 @@ title = [US/LA] Charter - Slidell, LA, US [spt01slidla.slid.la.charter.com]
 host = spt01slidla.slid.la.charter.com
 
 ++ softlayer-mex
-menu = [MX] Softlayer (Queretaro)
-title = [MX] Softlayer (mex01) - Queretaro, Mexico [speedtest.mex01.softlayer.com]
+menu = [MX] SoftLayer (Queretaro)
+title = [MX] SoftLayer (mex01) - Queretaro, Mexico [speedtest.mex01.softlayer.com]
 host = speedtest.mex01.softlayer.com
 
 ++ maxcom
@@ -1149,7 +1174,7 @@ host = rochester.speedtest.centurylink.net
 
 ++ linode-nj
 menu = [US/NJ] Linode (Newark)
-title = [US/NJ] Linode (Newark, New Jersey) [speedtest.newark.linode.com]
+title = [US/NJ] Linode - Newark, New Jersey [speedtest.newark.linode.com]
 host = speedtest.newark.linode.com
 
 ++ smarthost-nj
@@ -1188,14 +1213,19 @@ title = [CA/QC] Google Cloud Platform (northamerica-northeast1) - Montreal, Cana
 host = northamerica-northeast1-gce.cloudharmony.net
 
 ++ softlayer-mon
-menu = [CA/QC] Softlayer (Montreal)
-title = [CA/QC] Softlayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
+menu = [CA/QC] SoftLayer (Montreal)
+title = [CA/QC] SoftLayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
 host = speedtest.mon01.softlayer.com
 
 ++ servarica
 menu = [CA/QC] ServaRICA (Montreal)
 title = [CA/QC] ServaRICA - Montreal, Canada [162.250.190.17]
 host = 162.250.190.17
+
+++ telia-motl-b1
+menu = Telia (Montreal)
+title = Telia - Montreal, Canada [motl-b1.telia.net]
+host = motl-b1.telia.net
 
 ++ telus-moqc
 menu = [CA/QC] TELUS (Montreal)
@@ -1213,7 +1243,7 @@ title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
 host = ymq1-bhs.smokeping.ovh.net
 
 ++ quonix
-menu = [US/PA] Quonix
+menu = [US/PA] Quonix (Philadelphia)
 title = [US/PA] Quonix - Philadelphia, Pennsylvania [www.quonix.net]
 host = www.quonix.net
 
@@ -1221,6 +1251,11 @@ host = www.quonix.net
 #menu = [US/PA] Comcast (Pittsburgh)
 #title = [US/PA] Comcast - Pittsburgh, Pennsylvania [stosat-crls-01.sys.comcast.net]
 #host = stosat-crls-01.sys.comcast.net
+
+++ telia-pitt-b2
+menu = Telia (Pittsburgh)
+title = Telia - Pittsburgh, PA, US [pitt-b2.telia.net]
+host = pitt-b2.telia.net
 
 #++ comcast-ma-ndhm
 #menu = [US/MA] Comcast (Boston)
@@ -1332,15 +1367,15 @@ menu = [US/FL] VaporNode (Tampa)
 title = [US/FL] VaporNode - Tampa, Florida [v4.tpa.vapornode.com]
 host = v4.tpa.vapornode.com
 
-++ quadranet-mia
-menu = [US/FL] QuadraNet (Miami)
-title = [US/FL] QuadraNet - Miami, Florida [173.44.32.10]
-host = 173.44.32.10
-
 ++ hurricane-electric-mia1
 menu = [US/FL] he.net (Miami)
 title = [US/FL] Hurricane Electric - Equinix MI1 Miami Miami, FL, US [core1.mia1.he.net]
 host = core1.mia1.he.net
+
+++ quadranet-mia
+menu = [US/FL] QuadraNet (Miami)
+title = [US/FL] QuadraNet - Miami, Florida [173.44.32.10]
+host = 173.44.32.10
 
 ++ vultr-mia
 menu = [US/FL] Vultr (Miami)
@@ -1362,10 +1397,10 @@ host = fort-myers.speedtest.centurylink.net
 #title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
 #host = stosat-tall-01.sys.comcast.net
 
-++ mrvm-bei
-menu = [US/WV] mrvm.net
-title = [US/WV] mrvm.net - Berkeley Springs, West Virginia [lg-us-bei.mrvm.net]
-host = lg-us-bei.mrvm.net
+++ dedispec-wv
+menu = [US/WV] Dedispec
+title = [US/WV] Dedispec - Berkeley Springs, West Virginia [208.73.23.243]
+host = 208.73.23.243
 
 ++ mrvm-ler
 menu = [US/NC] mrvm.net (Lenoir)
@@ -1573,8 +1608,8 @@ title = [FR] RENATER - Paris, France [www.renater.fr]
 host = www.renater.fr
 
 ++ softlayer-par
-menu = [FR] Softlayer (Paris)
-title = [FR] Softlayer (par01) - Paris, France [speedtest.par01.softlayer.com]
+menu = [FR] SoftLayer (Paris)
+title = [FR] SoftLayer (par01) - Paris, France [speedtest.par01.softlayer.com]
 host = speedtest.par01.softlayer.com
 
 ++ vultr-par
@@ -1642,10 +1677,20 @@ menu = [NL] EDIS (Amsterdam)
 title = [NL] EDIS - Schiphol Rijk, Amsterdam, Netherlands [nl.edis.at]
 host = nl.edis.at
 
+++ hosthatch-ams
+menu = [NL] HostHatch (Amsterdam)
+title = [NL] HostHatch @ NFOrce - Amsterdam, Netherlands [lg.ams.hosthatch.com]
+host = lg.ams.hosthatch.com
+
 ++ leaseweb-nl
 menu = [NL] LeaseWeb
 title = [NL] LeaseWeb - The Netherlands [mirror.nl.leaseweb.net]
 host = mirror.nl.leaseweb.net
+
+++ level3-ams
+menu = [NL] Level 3 (Amsterdam)
+title = [NL] Level 3 - Amsterdam, Netherlands [4.69.203.101]
+host = 4.69.203.101
 
 ++ liteserver-dro
 menu = [NL] LiteServer (Dronten)
@@ -1697,6 +1742,11 @@ menu = [BE] he.net (Zaventem)
 title = [BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he.net]
 host = core1.bru1.he.net
 
+++ telia-brx-b2
+menu = Telia (Brussels)
+title = Telia - Brussels, Belgium [brx-b2.telia.net]
+host = brx-b2.telia.net
+
 ++ buyvm-lu
 menu = [LU] BuyVM (Luxembourg)
 title = [LU] BuyVM - Roost, Luxembourg [speedtest.lu.buyvm.net]
@@ -1717,9 +1767,14 @@ menu = [DE] UltraVPS (Dusseldorf)
 title = [DE] UltraVPS - Dusseldorf, Germany [lg.dus.de.ultravps.eu]
 host = lg.dus.de.ultravps.eu
 
+++ telia-koln-b1
+menu = Telia (Cologne)
+title = Telia - Cologne, Germany [koln-b1.telia.net]
+host = koln-b1.telia.net
+
 ++ acceleratedit-fra
 menu = [DE] AcceleratedIT (Frankfurt)
-title = [DE] AcceleratedIT / CrownCloud - Frankfurt, Germany [lg.ip-projects.de]
+title = [DE] AcceleratedIT - Frankfurt, Germany [lg.ip-projects.de]
 host = lg.ip-projects.de
 
 ++ aliyun-eu-central-1
@@ -1746,6 +1801,11 @@ host = 5.154.145.1
 menu = [DE] Dediserve (Frankfurt)
 title = [DE] Dediserve - Frankfurt, Germany [speedtest.c1.fra1.dediserve.com]
 host = speedtest.c1.fra1.dediserve.com
+
+++ dtag
+menu = [DE] Deutsche Telekom
+title = [DE] Deutsche Telekom - Frankfurt, Germany [f-lga1.f.de.net.dtag.de]
+host = f-lga1.f.de.net.dtag.de
 
 ++ digitalocean-fra
 menu = [DE] DigitalOcean (Frankfurt)
@@ -1848,8 +1908,8 @@ title = [CH] LunarVPS - Switzerland [lg.sw.lunarvps.com]
 host = lg.sw.lunarvps.com
 
 ++ privatelayer
-menu = [CH] PrivateLayer
-title = [CH] PrivateLayer - Switzerland [www.privatelayer.com]
+menu = [CH] PrivateLayer (Zurich)
+title = [CH] PrivateLayer - Zurich, Switzerland [www.privatelayer.com]
 host = www.privatelayer.com
 
 ++ dediserve-pol1
@@ -1902,6 +1962,11 @@ menu = [AT] EDIS (Graz)
 title = [AT] EDIS - Graz, Austria [atgrz.edis.at]
 host = atgrz.edis.at
 
+++ telia-prag-b3
+menu = [CZ] Telia (Prague)
+title = [CZ] Telia - Prague, Czech Republic [prag-b3.telia.net]
+host = prag-b3.telia.net
+
 ++ t-mobile-cz
 menu = [CZ] T-Mobile (Prague)
 title = [CZ] T-Mobile - Prague, Czech Republic [speedtest3.t-mobile.cz]
@@ -1917,15 +1982,15 @@ menu = [HU] EDIS (Budapest)
 title = [HU] EDIS - Budapest, Hungary [hu.edis.at]
 host = hu.edis.at
 
+++ mikrovps
+menu = [HU] MikroVPS (Budapest)
+title = [HU] MikroVPS - Budapest, Hungary [185.112.156.25]
+host = 185.112.156.25
+
 ++ magyar-telecom
 menu = [HU] Magyar Telecom
 title = [HU] Magyar Telecom - Budapest, Hungary [speedtest.telekom.hu]
 host = speedtest.telekom.hu
-
-++ mikrovps
-menu = [HU] MikroVPS
-title = [HU] MikroVPS - Budapest, Hungary [185.112.156.25]
-host = 185.112.156.25
 
 ++ slovak-telecom
 menu = [SK] Slovak Telekom (Bratislava)
@@ -1952,8 +2017,8 @@ title = [IT] Prometeus - Milan, Italy [37.247.53.10]
 host = 37.247.53.10
 
 ++ softlayer-mil
-menu = [IT] Softlayer (Milan)
-title = [IT] Softlayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
+menu = [IT] SoftLayer (Milan)
+title = [IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
 host = speedtest.mil01.softlayer.com
 
 ++ arubacloud-it1
@@ -1996,20 +2061,30 @@ host = core1.lis1.he.net
 menu = Europe - Nordic, Baltic Countries
 title = netmeter.club Global Ping Monitoring - Nordic, Baltic Countries
 
+++ amazon-se
+menu = [SE] Amazon AWS
+title = [SE] Amazon Web Services (eu-north-1) - Stockholm, Sweden [13.53.128.254]
+host = 13.53.128.254
+
 ++ edis-se
 menu = [SE] EDIS (Stockholm)
 title = [SE] EDIS - Stockholm, Sweden [se.edis.at]
 host = se.edis.at
 
-++ telia-se
-menu = [SE] Telia
-title = [SE] Telia Company - Sweden [lg.telia.net]
-host = lg.telia.net
+++ hosthatch-sto
+menu = [SE] HostHatch (Stockholm)
+title = [SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [lg.sto.hosthatch.com]
+host = lg.sto.hosthatch.com
 
-++ vikinglayer-swe
-menu = [SE] VikingLayer
-title = [SE] VikingLayer / drServer @ Portlane - Sweden [sweden.drserver.net]
-host = sweden.drserver.net
+++ telia-se
+menu = [SE] Telia (Stockholm)
+title = [SE] Telia - Stockholm Hammarby, Sweden [hy-peer4.se.telia.net]
+host = hy-peer4.se.telia.net
+
+++ telia-gothenburg
+menu = [SE] Telia (Gothenburg)
+title = [SE] Telia - Gothenburg, Sweden [g-br-peer4.se.telia.net]
+host = g-br-peer4.se.telia.net
 
 ++ hurricane-electric-sto1
 menu = [SE] he.net (Stockholm)
@@ -2022,8 +2097,8 @@ title = [NO] HostHatch - Oslo, Norway [lg.osl.hosthatch.com]
 host = lg.osl.hosthatch.com
 
 ++ softlayer-osl
-menu = [NO] Softlayer (Oslo)
-title = [NO] Softlayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
+menu = [NO] SoftLayer (Oslo)
+title = [NO] SoftLayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
 host = speedtest.osl01.softlayer.com
 
 ++ terrahost-no
@@ -2245,6 +2320,11 @@ host = core1.zag1.he.net
 menu = [RS] EDIS (Belgrade)
 title = [RS] EDIS - Belgrade, Serbia [rs.edis.at]
 host = rs.edis.at
+
+++ telia-beg-b1
+menu = [RS] Telia (Belgrade)
+title = [RS] Telia - Belgrade, Serbia [beg-b1.telia.net]
+host = beg-b1.telia.net
 
 ++ edis-si
 menu = [SI] EDIS (Ljubljana)
@@ -2744,14 +2824,19 @@ title = [JP] Sakura Internet [sakura.ne.jp]
 host = sakura.ne.jp
 
 ++ softlayer-tok
-menu = [JP] Softlayer (Tokyo)
-title = [JP] Softlayer (tok02) - Tokyo, Japan [speedtest.tok02.softlayer.com]
+menu = [JP] SoftLayer (Tokyo)
+title = [JP] SoftLayer (tok02) - Tokyo, Japan [speedtest.tok02.softlayer.com]
 host = speedtest.tok02.softlayer.com
 
 ++ starrydns-tok
 menu = [JP] StarryDNS (Tokyo)
 title = [JP] StarryDNS  - Tokyo, Japan [jp4.lg.starrydns.com]
 host = jp4.lg.starrydns.com
+
+++ telia-tky-b1
+menu = [JP] Telia (Tokyo)
+title = [JP] Telia - Tokyo, Japan [tky-b1.telia.net]
+host = tky-b1.telia.net
 
 ++ tencent-ap-tokyo
 menu = [JP] Tencent (Tokyo)
@@ -2774,8 +2859,8 @@ title = [KR] Kdatacenter [downloadtest.kdatacenter.com]
 host = downloadtest.kdatacenter.com
 
 ++ softlayer-seo
-menu = [KR] Softlayer (Seoul)
-title = [KR] Softlayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
+menu = [KR] SoftLayer (Seoul)
+title = [KR] SoftLayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
 host = speedtest.seo01.softlayer.com
 
 ++ tencent-ap-seoul
@@ -2994,8 +3079,8 @@ title = [IN] Digital Ocean (BLR1) - Bangladore, India [speedtest-blr1.digitaloce
 host = speedtest-blr1.digitalocean.com
 
 ++ softlayer-che
-menu = [IN] Softlayer (Chennai)
-title = [IN] Softlayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
+menu = [IN] SoftLayer (Chennai)
+title = [IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
 host = speedtest.che01.softlayer.com
 
 ++ psychz-in
@@ -3329,8 +3414,8 @@ title = [BR] Host1Plus - Sao Paulo, Brazil [191.96.4.248]
 host = 191.96.4.248
 
 ++ softlayer-sao
-menu = [BR] Softlayer (Sao Paulo)
-title = [BR] Softlayer (sao01) - Sao Paulo, Brazil [speedtest.sao01.softlayer.com]
+menu = [BR] SoftLayer (Sao Paulo)
+title = [BR] SoftLayer (sao01) - Sao Paulo, Brazil [speedtest.sao01.softlayer.com]
 host = speedtest.sao01.softlayer.com
 
 ++ offshoreracks-pa
@@ -3444,8 +3529,8 @@ title = [AU] Ransom IT - Sydney, Australia [sydney-lg.ransomit.com.au]
 host = sydney-lg.ransomit.com.au
 
 ++ softlayer-syd
-menu = [AU] Softlayer (Sydney)
-title = [AU] Softlayer (syd01) - Sydney, Australia [speedtest.syd01.softlayer.com]
+menu = [AU] SoftLayer (Sydney)
+title = [AU] SoftLayer (syd01) - Sydney, Australia [speedtest.syd01.softlayer.com]
 host = speedtest.syd01.softlayer.com
 
 ++ telstra-syd
@@ -3479,8 +3564,8 @@ title = [AU] Ransom IT - Melbourne, Australia [melbourne-lg.ransomit.com.au]
 host = melbourne-lg.ransomit.com.au
 
 ++ softlayer-mel
-menu = [AU] Softlayer (Melbourne)
-title = [AU] Softlayer (mel01) - Melbourne, Australia [speedtest.mel01.softlayer.com]
+menu = [AU] SoftLayer (Melbourne)
+title = [AU] SoftLayer (mel01) - Melbourne, Australia [speedtest.mel01.softlayer.com]
 host = speedtest.mel01.softlayer.com
 
 ++ ransomit-brb
