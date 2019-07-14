@@ -968,8 +968,8 @@ title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
 host = sat.speedtest.sbcglobal.net
 
 ++ telia-san-b1
-menu = Telia (San Antonio)
-title = Telia - San Antonio, TX, US [san-b1.telia.net]
+menu = [US/TX] Telia (San Antonio)
+title = [US/TX] Telia - San Antonio, TX, US [san-b1.telia.net]
 host = san-b1.telia.net
 
 #++ gatech
@@ -1223,8 +1223,8 @@ title = [CA/QC] ServaRICA - Montreal, Canada [162.250.190.17]
 host = 162.250.190.17
 
 ++ telia-motl-b1
-menu = Telia (Montreal)
-title = Telia - Montreal, Canada [motl-b1.telia.net]
+menu = [CA/QC] Telia (Montreal)
+title = [CA/QC] Telia - Montreal, Canada [motl-b1.telia.net]
 host = motl-b1.telia.net
 
 ++ telus-moqc
@@ -1253,8 +1253,8 @@ host = www.quonix.net
 #host = stosat-crls-01.sys.comcast.net
 
 ++ telia-pitt-b2
-menu = Telia (Pittsburgh)
-title = Telia - Pittsburgh, PA, US [pitt-b2.telia.net]
+menu = [US/PA] Telia (Pittsburgh)
+title = [US/PA] Telia - Pittsburgh, PA, US [pitt-b2.telia.net]
 host = pitt-b2.telia.net
 
 #++ comcast-ma-ndhm
@@ -1361,11 +1361,6 @@ host = 199.102.65.118
 menu = [US/FL] SecureDragon (Tampa)
 title = [US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]
 host = 199.167.30.105
-
-++ vapornode-tampa
-menu = [US/FL] VaporNode (Tampa)
-title = [US/FL] VaporNode - Tampa, Florida [v4.tpa.vapornode.com]
-host = v4.tpa.vapornode.com
 
 ++ hurricane-electric-mia1
 menu = [US/FL] he.net (Miami)
@@ -1547,9 +1542,14 @@ menu = [UK] LoveServers (Manchester)
 title = [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]
 host = lg.loveservers.com
 
+++ m247-man
+menu = [UK] M247 (Manchester)
+title = [UK] M247 (DDoS Protected) - Manchester, United Kingdom [www.m247.com]
+host = www.m247.com
+
 ++ virtono-man
-menu = [UK] Virtono (Manchester)
-title = [UK] Virtono - Manchester, United Kingdom [77.81.107.11]
+menu = [UK] Virtono @ M247
+title = [UK] Virtono @ M247 - Manchester, United Kingdom [77.81.107.11]
 host = 77.81.107.11
 
 ++ amazon-ir
@@ -1743,8 +1743,8 @@ title = [BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he
 host = core1.bru1.he.net
 
 ++ telia-brx-b2
-menu = Telia (Brussels)
-title = Telia - Brussels, Belgium [brx-b2.telia.net]
+menu = [BE] Telia (Brussels)
+title = [BE] Telia - Brussels, Belgium [brx-b2.telia.net]
 host = brx-b2.telia.net
 
 ++ buyvm-lu
@@ -1768,8 +1768,8 @@ title = [DE] UltraVPS - Dusseldorf, Germany [lg.dus.de.ultravps.eu]
 host = lg.dus.de.ultravps.eu
 
 ++ telia-koln-b1
-menu = Telia (Cologne)
-title = Telia - Cologne, Germany [koln-b1.telia.net]
+menu = [DE] Telia (Cologne)
+title = [DE] Telia - Cologne, Germany [koln-b1.telia.net]
 host = koln-b1.telia.net
 
 ++ acceleratedit-fra
@@ -2297,8 +2297,8 @@ title = [RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]
 host = lg-romania.prometeus.net
 
 ++ virtono-ro
-menu = [RO] Virtono (Bucharest)
-title = [RO] Virtono - Bucharest, Romania [85.204.49.17]
+menu = [RO] Virtono @ M247
+title = [RO] Virtono @ M247 - Bucharest, Romania [85.204.49.17]
 host = 85.204.49.17
 
 ++ edis-md
@@ -2355,11 +2355,6 @@ host = 185.219.132.125
 menu = [TR] Turkcell (Istanbul)
 title = [TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]
 host = medn01.hizinitestet.com
-
-++ turktelecom-ist
-menu = [TR] Turk Telecom (Istanbul)
-title = [TR] Turk Telecom - Istanbul, Turkey [gun1speedtest.turktelekom.com.tr]
-host = gun1speedtest.turktelekom.com.tr
 
 ++ vodafone-tr-ank
 menu = [TR] Vodafone (Ankara)
@@ -2558,11 +2553,6 @@ menu = [CN] Tencent (Guangzhou)
 title = [CN] Tencent Cloud - Guangzhou, China [cos.ap-guangzhou.myqcloud.com]
 host = cos.ap-guangzhou.myqcloud.com
 
-++ lightcloud-chendu
-menu = [CN] LightCloud (Chengdu)
-title = [CN] LightCloud - Chengdu, China [183.222.38.37]
-host = 183.222.38.37
-
 ++ tencent-ap-chengdu
 menu = [CN] Tencent (Chengdu)
 title = [CN] Tencent Cloud - Chengdu, China [cos.ap-chengdu.myqcloud.com]
@@ -2678,11 +2668,6 @@ menu = [HK] On9host
 title = [HK] On9host - Hong Kong, China [103.122.119.1]
 host = 103.122.119.1
 
-++ pumpcloud-hgc-dyn
-menu = [HK] Pumpcloud @ HGC (Dynamic)
-title = [HK] Pumpcloud @ HGC Global (Dynamic) - Hong Kong, China [221.124.241.23]
-host = 221.124.241.23
-
 ++ pumpcloud-hkbn-dyn
 menu = [HK] Pumpcloud @ HKBN
 title = [HK] Pumpcloud @ Hong Kong Broadband Network (HKBN) - Hong Kong, China [61.238.140.253]
@@ -2737,11 +2722,6 @@ host = 103.237.127.30
 menu = [MO] Mokvm @ CTM
 title = [MO] Mokvm @ CTM (Business) - Macau, China [202.175.167.1]
 host = 202.175.167.1
-
-++ dct
-menu = [TW] Dct
-title = [TW] Dct (210.203.22.254)
-host = 210.203.22.254
 
 ++ gcp-tw
 menu = [TW] Google Cloud
