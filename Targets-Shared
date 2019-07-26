@@ -237,6 +237,11 @@ host = lg.sea.colocrossing.com
 #title = [US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]
 #host = stosat-rvlt-01.sys.comcast.net
 
+++ gthost-sea
+menu = [US/WA] GTHost (Seattle)
+title = [US/WA] GTHost (GlobalTeleHost Corp.) - Seattle, United States [38.91.102.162]
+host = 38.91.102.162
+
 ++ incero-sea
 menu = [US/WA] Incero (Seattle)
 title = [US/WA] Incero - Seattle, Washington [10gseattle.incero.com]
@@ -402,6 +407,11 @@ menu = [US/CA] Free Range (Fremont)
 title = [US/CA] Free Range Cloud - Fremont, California [fmt.lg.freerangecloud.com]
 host = fmt.lg.freerangecloud.com
 
+++ ftpit-fmt
+menu = [US/CA] FTPit (Fremont)
+title = [US/CA] FTPit (Komputer King LLC) - Fremont, California [fremont.lg.ftpit.com]
+host = fremont.lg.ftpit.com
+
 ++ linode-ca
 menu = [US/CA] Linode (Fremont)
 title = [US/CA] Linode - Fremont, California [speedtest.fremont.linode.com]
@@ -427,15 +437,15 @@ menu = [US/CA] Tencent Cloud
 title = [US/CA] Tencent Cloud - Silicon Valley, United States [cos.na-siliconvalley.myqcloud.com]
 host = cos.na-siliconvalley.myqcloud.com
 
-++ xtom-fmt
-menu = [US/CA] xTom (Fremont)
-title = [US/CA] xTom - Fremont, California [mirrors.xtom.com]
-host = mirrors.xtom.com
-
 ++ vultr-sjo
 menu = [US/CA] Vultr (San Jose)
 title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
+
+++ xtom-fmt
+menu = [US/CA] xTom (Fremont)
+title = [US/CA] xTom - Fremont, California [mirrors.xtom.com]
+host = mirrors.xtom.com
 
 ++ anchnet-la
 menu = [US/CA] Anchnet (LA CN2)
@@ -491,6 +501,11 @@ host = lg.la.colocrossing.com
 menu = [US/CA] Dediserve (LA)
 title = [US/CA] Dediserve - Los Angeles, California [speedtest.c1.lax1.dediserve.com]
 host = speedtest.c1.lax1.dediserve.com
+
+++ gthost-lax
+menu = [US/CA] GTHost (Los Angeles)
+title = [US/CA] GTHost (GlobalTeleHost Corp.) - Los Angeles, United States [162.251.63.162]
+host = 162.251.63.162
 
 ++ hosthatch-lax
 menu = [US/CA] HostHatch (LA)
@@ -571,6 +586,11 @@ host = speedtest.rd.sd.cox.net
 menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
 host = speedtest.lv.buyvm.net
+
+++ buyvm-lv1
+menu = [US/NV] BuyVM @ Voxility
+title = [US/NV] BuyVM @ Voxility (DDOS Protected) - Las Vegas, Nevada [198.251.80.221]
+host = 198.251.80.221
 
 ++ centurylink-nv-lasvegas
 menu = [US/NV] CenturyLink
@@ -657,9 +677,14 @@ menu = [US/IL] Dediserve (Chicago)
 title = [US/IL] Dediserve - Chicago, Illinois, USA [speedtest.c1.chg1.dediserve.com]
 host = speedtest.c1.chg1.dediserve.com
 
+++ gthost-chi
+menu = [US/IL] GTHost (Chicago)
+title = [US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]
+host = 162.251.60.162
+
 ++ host1plus-chi
-menu = [US/IL] Host1Plus (Chicago)
-title = [US/IL] Host1Plus - Chicago, Illinois [181.214.61.207]
+menu = [US/IL] Heficed (Chicago)
+title = [US/IL] Heficed (Digital Energy Technologies Ltd.) FKA Host1Plus - Chicago, Illinois [181.214.61.207]
 host = 181.214.61.207
 
 #++ nfoservers-chi
@@ -721,6 +746,11 @@ host = speedtest-tor1.digitalocean.com
 menu = [CA/ON] FullHost (Toronto)
 title = [CA/ON] FullHost - Toronto, Canada [lg.toronto.fullhost.com]
 host = lg.toronto.fullhost.com
+
+++ gthost-tor
+menu = [CA/ON] GTHost (Toronto)
+title = [CA/ON] GTHost (GlobalTeleHost Corp.) - Toronto, Canada [198.57.26.164]
+host = 198.57.26.164
 
 ++ linode-tor
 menu = [CA/ON] Linode (Toronto)
@@ -892,6 +922,11 @@ menu = [US/TX] Dediserve (Dallas)
 title = [US/TX] Dediserve - Dallas, Texas, USA [speedtest.c1.dal1.dediserve.com]
 host = speedtest.c1.dal1.dediserve.com
 
+++ gthost-dal
+menu = [US/TX] GTHost (Dallas)
+title = [US/TX] GTHost (GlobalTeleHost Corp.) - Dallas, United States [38.68.134.162]
+host = 38.68.134.162
+
 ++ impactvps-dal
 menu = [US/TX] ImpactVPS (Dallas)
 title = [US/TX] ImpactVPS @ Incero - Dallas, Texas [172.110.8.1]
@@ -972,11 +1007,6 @@ menu = [US/TX] Telia (San Antonio)
 title = [US/TX] Telia - San Antonio, TX, US [san-b1.telia.net]
 host = san-b1.telia.net
 
-#++ gatech
-#menu = [US/GA] Georgia Tech
-#title = [US/GA] Georgia Institute of Technology (Georgia Tech) - Atlanta, GA, US [www.gatech.edu]
-#host = www.gatech.edu
-
 ++ att-ga-atl
 menu = [US/GA] AT&T (Tucker)
 title = [US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]
@@ -996,6 +1026,11 @@ host = lg.atl.colocrossing.com
 #menu = [US/GA] Comcast (Atlanta)
 #title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
 #host = stosat-smtn-01.sys.comcast.net
+
+++ ftpit-atl
+menu = [US/GA] FTPit (Atlanta)
+title = [US/GA] FTPit (Komputer King LLC) - Atlanta, Georgia [atlanta.lg.ftpit.com]
+host = atlanta.lg.ftpit.com
 
 ++ hostus-atl
 menu = [US/GA] HostUS (Atlanta)
@@ -1113,24 +1148,29 @@ title = [US/NY] AT&T - New York City, NY, US [nyc.speedtest.sbcglobal.net]
 host = nyc.speedtest.sbcglobal.net
 
 ++ buyvm-ny
-menu = [US/NY] BuyVM
+menu = [US/NY] BuyVM (NYC)
 title = [US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]
 host = speedtest.ny.buyvm.net
 
 ++ colocrossing-nyc
-menu = [US/NY] ColoCrossing
+menu = [US/NY] ColoCrossing (NYC)
 title = [US/NY] ColoCrossing - New York City, NY, US [lg.nyc.colocrossing.com]
 host = lg.nyc.colocrossing.com
 
 ++ digitalocean-nyc3
-menu = [US/NY] DigitalOcean
+menu = [US/NY] DigitalOcean (NYC)
 title = [US/NY] DigitalOcean (NYC3) - New York City, NY, US [speedtest-nyc3.digitalocean.com]
 host = speedtest-nyc3.digitalocean.com
 
 ++ ftpit-ny
-menu = [US/NY] FTPit
+menu = [US/NY] FTPit (NYC)
 title = [US/NY] FTPit (Komputer King LLC) - New York City, New York [newyork.lg.ftpit.com]
 host = newyork.lg.ftpit.com
+
+++ gthost-nyc
+menu = [US/NY] GTHost
+title = [US/NY] GTHost (GlobalTeleHost Corp.) - New York, United States [38.99.247.162]
+host = 38.99.247.162
 
 ++ hosthatch-nyc
 menu = [US/NY] HostHatch
@@ -1208,19 +1248,24 @@ title = [CA/QC] Amazon Web Services (ca-central-1) - Central Canada [35.182.0.25
 host = 35.182.0.251
 
 ++ gcp-yul
-menu = [CA/QC] GCP (Montreal)
+menu = [CA/QC] Google Cloud
 title = [CA/QC] Google Cloud Platform (northamerica-northeast1) - Montreal, Canada [northamerica-northeast1-gce.cloudharmony.net]
 host = northamerica-northeast1-gce.cloudharmony.net
 
-++ softlayer-mon
-menu = [CA/QC] SoftLayer (Montreal)
-title = [CA/QC] SoftLayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
-host = speedtest.mon01.softlayer.com
+++ ovh-bhs
+menu = [CA/QC] OVH (Beauharnois)
+title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
+host = ymq1-bhs.smokeping.ovh.net
 
 ++ servarica
 menu = [CA/QC] ServaRICA (Montreal)
 title = [CA/QC] ServaRICA - Montreal, Canada [162.250.190.17]
 host = 162.250.190.17
+
+++ softlayer-mon
+menu = [CA/QC] SoftLayer (Montreal)
+title = [CA/QC] SoftLayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
+host = speedtest.mon01.softlayer.com
 
 ++ telia-motl-b1
 menu = [CA/QC] Telia (Montreal)
@@ -1236,11 +1281,6 @@ host = montreal.speedtest.telus.com
 #menu = [CA/QC] McGill University
 #title = [CA/QC] McGill University [mcgill.ca]
 #host = mcgill.ca
-
-++ ovh-bhs
-menu = [CA/QC] OVH (Beauharnois)
-title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
-host = ymq1-bhs.smokeping.ovh.net
 
 ++ quonix
 menu = [US/PA] Quonix (Philadelphia)
@@ -1302,11 +1342,6 @@ host = halifax.speedtest.telus.com
 menu = North America - Southeast
 title = netmeter.club Global Ping Monitoring - North America (Southeast)
 
-++ leaseweb-wdc1
-menu = [US/DC] LeaseWeb
-title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
-host = mirror.wdc1.us.leaseweb.net
-
 ++ aliyun-us-east-1
 menu = [US/VA] Aliyun
 title = [US/VA] Aliyun / Alibaba Cloud - Virginia (us-east-1) [oss-us-east-1.aliyuncs.com]
@@ -1338,9 +1373,14 @@ title = [US/VA] Rackspace - Reston, Virginia [iad.speedtest.rackspace.com]
 host = iad.speedtest.rackspace.com
 
 ++ tencent-na-ashburn
-menu = [US/VA] Tencent (Virginia)
+menu = [US/VA] Tencent Cloud
 title = [US/VA] Tencent Cloud - Virginia, United States [cos.na-ashburn.myqcloud.com]
 host = cos.na-ashburn.myqcloud.com
+
+++ zeptovm-ash
+menu = [US/VA] ZeptoVM (Ashburn)
+title = [US/VA] ZeptoVM / Misaka Networks @ Voxility - Ashburn, Virginia [us-iad01.lg.misaka.one]
+host = us-iad01.lg.misaka.one
 
 #++ comcast-va-smil
 #menu = [US/VA] Comcast (Richmond)
@@ -1352,6 +1392,11 @@ menu = [US/VA] Cox (Arlington)
 title = [US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]
 host = speedtest.rd.dc.cox.net
 
+++ leaseweb-wdc1
+menu = [US/DC] LeaseWeb
+title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
+host = mirror.wdc1.us.leaseweb.net
+
 ++ smarthost-fl
 menu = [US/FL] SmartHost (Jacksonville)
 title = [US/FL] SmartHost @ GoRack - Jacksonville, Florida [199.102.65.118]
@@ -1362,10 +1407,10 @@ menu = [US/FL] SecureDragon (Tampa)
 title = [US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]
 host = 199.167.30.105
 
-++ hurricane-electric-mia1
-menu = [US/FL] he.net (Miami)
-title = [US/FL] Hurricane Electric - Equinix MI1 Miami Miami, FL, US [core1.mia1.he.net]
-host = core1.mia1.he.net
+++ gthost-mia
+menu = [US/FL] GTHost (Miami)
+title = [US/FL] GTHost (GlobalTeleHost Corp.) - Miami, United States [162.251.62.162]
+host = 162.251.62.162
 
 ++ quadranet-mia
 menu = [US/FL] QuadraNet (Miami)
@@ -1822,6 +1867,11 @@ menu = [DE] Google Cloud
 title = [DE] Google Cloud Platform (europe-west3) - Frankfurt, Germany [europe-west3-gce.cloudharmony.net]
 host = europe-west3-gce.cloudharmony.net
 
+++ gthost-fra
+menu = [DE] GTHost (Frankfurt)
+title = [DE] GTHost (GlobalTeleHost Corp.) - Frankfurt, Germany [193.108.116.162]
+host = 193.108.116.162
+
 ++ leaseweb-de
 menu = [DE] LeaseWeb
 title = [DE] LeaseWeb - Germany [mirror.de.leaseweb.net]
@@ -1996,6 +2046,7 @@ host = speedtest.telekom.hu
 menu = [SK] Slovak Telekom (Bratislava)
 title = [SK] Slovak Telekom - Bratislava, Slovakia [sp1.telekom.sk]
 host = sp1.telekom.sk
+
 
 + PointsInterestEU7
 menu = Europe - Spain, Italy, Portugal
@@ -2290,6 +2341,11 @@ host = 185.183.99.8
 menu = [RO] HostSolutions.ro
 title = [RO] HostSolutions.ro (S.C. Parfumuri-Femei.com S.R.L.) - Romania [secure.hostsolutions.ro]
 host = secure.hostsolutions.ro
+
+++ intovps-ro
+menu = [RO] IntoVPS (Cluj-Napoca)
+title = [RO] IntoVPS / Hosterion - Cluj-Napoca, Romania [cluj.hosterion.net]
+host = cluj.hosterion.net
 
 ++ prometeus-rom
 menu = [RO] Prometeus (Bucharest)
@@ -2860,7 +2916,7 @@ host = 103.102.4.4
 
 ++ xhostfire-khv
 menu = [RU] XHostFire (Khabarovsk)
-title = [RU] XHostFire - Khabarovsk, Russia (Rostelecom, TTK) [87.225.45.1]
+title = [RU] XHostFire @ Rostelecom, TTK - Khabarovsk, Russia [87.225.45.1]
 host = 87.225.45.1
 
 ++ zeptovm-khv
@@ -2882,11 +2938,6 @@ host = hd.ncc.snt.ru
 menu = [RU] Rostelecom (Ekaterinburg)
 title = [RU] Rostelecom - Ekaterinburg, Russian Federation [ekaterinburg2.speedtest.rt.ru]
 host = ekaterinburg2.speedtest.rt.ru
-
-++ mts-vdv
-menu = [RU] MTS (Vladivostok)
-title = [RU] MTS - Vladivostok, Russian Federation [speedtest.mtsdv.ru]
-host = speedtest.mtsdv.ru
 
 ++ vimpelcom-vdv
 menu = [RU] VimpelCom (Vladivostok)
@@ -3057,6 +3108,11 @@ host = 13.232.0.253
 menu = [IN] Digital Ocean
 title = [IN] Digital Ocean (BLR1) - Bangladore, India [speedtest-blr1.digitalocean.com]
 host = speedtest-blr1.digitalocean.com
+
+++ linode-mum
+menu = [IN] Linode (Mumbai)
+title = [IN] Linode - Mumbai, India [speedtest.mum1.linode.com]
+host = speedtest.mum1.linode.com
 
 ++ softlayer-che
 menu = [IN] SoftLayer (Chennai)
@@ -3277,6 +3333,11 @@ host = speedtest-jb1.sa.net
 menu = [ZA] ZappieHost
 title = [ZA] ZappieHost [lg-za.zappiehost.com]
 host = lg-za.zappiehost.com
+
+++ zeptovm-jnb
+menu = [ZA] ZeptoVM (Johannesburg)
+title = [ZA] ZeptoVM / Misaka Networks - Johannesburg, South Africa [za-jnb01.lg.misaka.one]
+host = za-jnb01.lg.misaka.one
 
 ++ seacom-za-cpt
 menu = [ZA] SEACOM (Cape Town)
