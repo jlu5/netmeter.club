@@ -812,15 +812,20 @@ menu = [US/CO] SecureDragon
 title = [US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]
 host = 198.57.46.4
 
+++ dedispec-mo
+menu = [US/MO] Dedispec (Kansas City)
+title = [US/MO] Dedispec - Kansas City, Missouri [198.204.225.10]
+host = 198.204.225.10
+
 ++ joes-dc
 menu = [US/MO] Joe's Datacenter
 title = [US/MO] Joe's Datacenter - Kansas City, Missouri [lg.joesdatacenter.com]
 host = lg.joesdatacenter.com
 
-++ dedispec-mo
-menu = [US/MO] Dedispec (Kansas City)
-title = [US/MO] Dedispec - Kansas City, Missouri [198.204.225.10]
-host = 198.204.225.10
+++ unrealservers-mo
+menu = [US/MO] UnrealServers
+title = [US/MO] UnrealServers - Kansas City, Missouri [ns2.unrealservers.net]
+host = ns2.unrealservers.net
 
 ++ centurylink-ia-cedar-rapids
 menu = [US/IA] CenturyLink
@@ -1362,6 +1367,11 @@ menu = [US/VA] Free Range Cloud
 title = [US/VA] Free Range Cloud - Ashburn, Virginia [ash.lg.freerangecloud.com]
 host = ash.lg.freerangecloud.com
 
+++ ovh-va
+menu = [US/VA] OVH (Vint Hill)
+title = [US/VA] OVH - Vint Hill, Virginia, US [was1-vin.smokeping.ovh.net]
+host = was1-vin.smokeping.ovh.net
+
 ++ psychz-va
 menu = [US/VA] Psychz (Ashburn)
 title = [US/VA] Psychz - Ashburn, Virginia [lg.va.psychz.net]
@@ -1847,10 +1857,10 @@ menu = [DE] Dediserve (Frankfurt)
 title = [DE] Dediserve - Frankfurt, Germany [speedtest.c1.fra1.dediserve.com]
 host = speedtest.c1.fra1.dediserve.com
 
-++ dtag
-menu = [DE] Deutsche Telekom
-title = [DE] Deutsche Telekom - Frankfurt, Germany [f-lga1.f.de.net.dtag.de]
-host = f-lga1.f.de.net.dtag.de
+#++ dtag
+#menu = [DE] Deutsche Telekom
+#title = [DE] Deutsche Telekom - Frankfurt, Germany [f-lga1.f.de.net.dtag.de]
+#host = f-lga1.f.de.net.dtag.de
 
 ++ digitalocean-fra
 menu = [DE] DigitalOcean (Frankfurt)
@@ -2634,11 +2644,6 @@ menu = [CN] UOvZ (Fujian CM)
 title = [CN] UOvZ @ China Mobile - Fujian 福建移动 [112.47.15.1]
 host = 112.47.15.1
 
-++ uovz-guizhou
-menu = [CN] UOvZ (Guizhou CT)
-title = [CN] UOvZ @ China Telecom - Guizhou 贵州电信 [123.249.0.1]
-host = 123.249.0.1
-
 
 + PointsInterestCN3
 menu = Asia - Hong Kong, Taiwan
@@ -2698,11 +2703,6 @@ host = 43.251.159.10
 menu = [HK] HKServerSolution @ HGC
 title = [HK] HKServerSolution @ HGC Global Communications - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
-
-++ huawei-ap-southeast-1
-menu = [HK] Huawei Cloud
-title = [HK] Huawei Cloud - Hong Kong, China [ecs.ap-southeast-1.myhwclouds.com]
-host = ecs.ap-southeast-1.myhwclouds.com
 
 ++ klayer-hk
 menu = [HK] KLayer
@@ -2799,6 +2799,11 @@ host = lg.tw.psychz.net
 menu = Asia - Japan, Korea, Russia
 title = netmeter.club Global Ping Monitoring - North, East Asia
 
+++ osdn-jp
+menu = [JP] OSDN @ IIJ
+title = [JP] OSDN @ IIJ [osdn.net]
+host = osdn.net
+
 ++ aliyun-ap-northeast-1
 menu = [JP] Aliyun (Tokyo)
 title = [JP] Aliyun - Tokyo, Japan [oss-ap-northeast-1.aliyuncs.com]
@@ -2889,10 +2894,10 @@ menu = [KR] Amazon AWS (Seoul)
 title = [KR] Amazon Web Services (ap-northeast-1) - Seoul, South Korea [54.180.0.0]
 host = 54.180.0.0
 
-++ kdatacenter
+++ kdatacenter0
 menu = [KR] Kdatacenter
-title = [KR] Kdatacenter [downloadtest.kdatacenter.com]
-host = downloadtest.kdatacenter.com
+title = [KR] Kdatacenter [speedtest.kdatacenter.com]
+host = speedtest.kdatacenter.com
 
 ++ softlayer-seo
 menu = [KR] SoftLayer (Seoul)
@@ -2921,8 +2926,8 @@ host = 87.225.45.1
 
 ++ zeptovm-khv
 menu = [RU] ZeptoVM (Khabarovsk)
-title = [RU] ZeptoVM / Misaka Networks - Khabarovsk, Russia [ru-khv01.lg.zeptovm.com]
-host = ru-khv01.lg.zeptovm.com
+title = [RU] ZeptoVM / Misaka Networks @ G-Core Labs - Khabarovsk, Russia [185.209.84.233]
+host = 185.209.84.233
 
 ++ justhost-adman
 menu = [RU] JustHost (Novosibirsk)
