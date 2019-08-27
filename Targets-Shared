@@ -112,6 +112,11 @@ menu = [CDN] jsDelivr
 title = [CDN] jsDelivr [cdn.jsdelivr.net]
 host = cdn.jsdelivr.net
 
+++ keycdn
+menu = [CDN] KeyCDN
+title = [CDN] KeyCDN [www.keycdn.com]
+host = www.keycdn.com
+
 ++ level3-cdn
 menu = [CDN] Level 3 DNS
 title = [CDN] Level 3 DNS Resolver [4.2.2.1]
@@ -551,6 +556,11 @@ host = 204.152.218.25
 menu = [US/CA] Ramnode (LA)
 title = [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
 host = lg.la.ramnode.com
+
+++ reliablesite-la
+menu = [US/CA] ReliableSite (LA)
+title = [US/CA] ReliableSite - Los Angeles, CA, US [los-angeles-speedtest.reliablesite.net]
+host = los-angeles-speedtest.reliablesite.net
 
 ++ rfchost-la
 menu = [US/CA] RFCHost (LA)
@@ -1173,12 +1183,12 @@ title = [US/NY] FTPit (Komputer King LLC) - New York City, New York [newyork.lg.
 host = newyork.lg.ftpit.com
 
 ++ gthost-nyc
-menu = [US/NY] GTHost
+menu = [US/NY] GTHost (NYC)
 title = [US/NY] GTHost (GlobalTeleHost Corp.) - New York, United States [38.99.247.162]
 host = 38.99.247.162
 
 ++ hosthatch-nyc
-menu = [US/NY] HostHatch
+menu = [US/NY] HostHatch (NYC)
 title = [US/NY] HostHatch - New York City [lg.ny.hosthatch.com]
 host = lg.ny.hosthatch.com
 
@@ -1193,9 +1203,14 @@ host = 172.110.20.1
 #host = 63.251.20.100
 
 ++ ramnode-nyc
-menu = [US/NY] Ramnode
+menu = [US/NY] Ramnode (NYC)
 title = [US/NY] Ramnode - New York City, NY, US [lg.nyc.ramnode.com]
 host = lg.nyc.ramnode.com
+
+++ reliablesite-nyc
+menu = [US/NY] ReliableSite (NYC)
+title = [US/NY] ReliableSite - New York City, NY, US [nycmetro-speedtest.reliablesite.net]
+host = nycmetro-speedtest.reliablesite.net
 
 ++ usdedicated-ny
 menu = [US/NY] US Dedicated
@@ -1358,8 +1373,8 @@ title = [US/VA] Amazon Web Services (us-east-1) - North Virginia [52.1.255.254]
 host = 52.1.255.254
 
 ++ budgetnode-ash
-menu = [US/VA] BudgetNode
-title = [US/VA] BudgetNode - Ashburn, Virginia [172.106.200.10]
+menu = [US/VA] BudgetNode @ Psychz
+title = [US/VA] BudgetNode @ Psychz - Ashburn, Virginia [172.106.200.10]
 host = 172.106.200.10
 
 ++ freerangecloud-ash
@@ -1426,6 +1441,11 @@ host = 162.251.62.162
 menu = [US/FL] QuadraNet (Miami)
 title = [US/FL] QuadraNet - Miami, Florida [173.44.32.10]
 host = 173.44.32.10
+
+++ reliablesite-mia
+menu = [US/FL] ReliableSite
+title = [US/FL] ReliableSite - Miami, FL, US [miami-speedtest.reliablesite.net]
+host = miami-speedtest.reliablesite.net
 
 ++ vultr-mia
 menu = [US/FL] Vultr (Miami)
@@ -2332,11 +2352,6 @@ menu = [RO] EDIS (Bucharest)
 title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
 host = ro.edis.at
 
-++ voxility-ro
-menu = [RO] HostClean @ Voxility
-title = [RO] HostClean @ Voxility - Bucharest, Romania [lg-voxility.hostclean.net]
-host = lg-voxility.hostclean.net
-
 ++ hostclean-ro-m247
 menu = [RO] HostClean @ M247
 title = [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
@@ -2899,6 +2914,11 @@ menu = [KR] Kdatacenter
 title = [KR] Kdatacenter [speedtest.kdatacenter.com]
 host = speedtest.kdatacenter.com
 
+++ moack
+menu = [KR] Moack
+title = [KR] Moack AS138195 - Seoul, Korea [lg.moack.co.kr]
+host = lg.moack.co.kr
+
 ++ softlayer-seo
 menu = [KR] SoftLayer (Seoul)
 title = [KR] SoftLayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
@@ -3349,11 +3369,6 @@ menu = [ZA] SEACOM (Cape Town)
 title = [ZA] SEACOM - Cape Town, South Africa [lg-01-cpt.za.seacomnet.com]
 host = lg-01-cpt.za.seacomnet.com
 
-++ seacom-za-dur
-menu = [ZA] SEACOM (Durban)
-title = [ZA] SEACOM - Durban, South Africa [lg-01-dur.za.seacomnet.com]
-host = lg-01-dur.za.seacomnet.com
-
 ++ airtel-ng
 menu = [NG] Airtel (Lagos)
 title = [NG] Airtel Nigeria - Lagos, Nigeria [speedtest1.ng.airtel.com]
@@ -3509,11 +3524,6 @@ menu = [AR] Tel. Argentina (Cordoba)
 title = [AR] Telecom Argentina - Cordoba, Argentina [stcor1.telecom.com.ar]
 host = stcor1.telecom.com.ar
 
-++ wnpower-ar
-menu = [AR] WNPOWER (Federal)
-title = [AR] WNPOWER (via NodePing.com) - Federal, Argentina [pinghostar.nodeping.com]
-host = pinghostar.nodeping.com
-
 ++ edis-cl
 menu = [CL] EDIS (Vina del Mar)
 title = [CL] EDIS - Viña del Mar, Chile [cl.edis.at]
@@ -3526,7 +3536,7 @@ host = speedtest.clarochile.cl
 
 ++ telefonica-cl
 menu = [CL] Telefonica (Santiago)
-title = [CL] Telefonica/Movistar Chile - Santiago, Chile [speedtest-netgauge.movistar.cl]
+title = [CL] Telefonica / Movistar Chile - Santiago, Chile [speedtest-netgauge.movistar.cl]
 host = speedtest-netgauge.movistar.cl
 
 ++ hurricane-electric-bog1
