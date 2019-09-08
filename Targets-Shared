@@ -362,11 +362,6 @@ host = speedtest.ed.shawcable.net
 #title = [CA/AB] TELUS - Edmonton, Alberta [edmonton.speedtest.telus.com]
 #host = edmonton.speedtest.telus.com
 
-++ hurricane-electric-yxe1
-menu = [CA/SK] he.net (Saskatoon)
-title = [CA/SK] Hurricane Electric - Saskatoon, Saskatchewan [core1.yxe1.he.net]
-host = core1.yxe1.he.net
-
 ++ northwestel-whyt
 menu = [CA/YT] Northwestel
 title = [CA/YT] Northwestel - Whitehorse, Yukon [wh-netspeed.nwtel.ca]
@@ -887,6 +882,11 @@ menu = [CA/MB] TELUS (Winnipeg)
 title = [CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]
 host = winnipeg.speedtest.telus.com
 
+++ hurricane-electric-yxe1
+menu = [CA/SK] he.net (Saskatoon)
+title = [CA/SK] Hurricane Electric - Saskatoon, Saskatchewan [core1.yxe1.he.net]
+host = core1.yxe1.he.net
+
 ++ charter-mt-spt01blngmt
 menu = [US/MT] Charter (Billings)
 title = [US/MT] Charter - Billings, MT, US [spt01blngmt.blng.mt.charter.com]
@@ -1021,66 +1021,6 @@ host = sat.speedtest.sbcglobal.net
 menu = [US/TX] Telia (San Antonio)
 title = [US/TX] Telia - San Antonio, TX, US [san-b1.telia.net]
 host = san-b1.telia.net
-
-++ att-ga-atl
-menu = [US/GA] AT&T (Tucker)
-title = [US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]
-host = atl.speedtest.sbcglobal.net
-
-++ budgetnode-atl
-menu = [US/GA] BudgetNode (Atlanta)
-title = [US/GA] BudgetNode - Atlanta, Georgia [104.129.25.90]
-host = 104.129.25.90
-
-++ colocrossing-atl
-menu = [US/GA] ColoCrossing (Atlanta)
-title = [US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]
-host = lg.atl.colocrossing.com
-
-#++ comcast-ga-smtn
-#menu = [US/GA] Comcast (Atlanta)
-#title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
-#host = stosat-smtn-01.sys.comcast.net
-
-++ ftpit-atl
-menu = [US/GA] FTPit (Atlanta)
-title = [US/GA] FTPit (Komputer King LLC) - Atlanta, Georgia [atlanta.lg.ftpit.com]
-host = atlanta.lg.ftpit.com
-
-++ hostus-atl
-menu = [US/GA] HostUS (Atlanta)
-title = [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
-host = atl-lg.hostus.us
-
-++ linode-atl
-menu = [US/GA] Linode (Atlanta)
-title = [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
-host = speedtest.atlanta.linode.com
-
-++ ramnode-atl
-menu = [US/GA] Ramnode (Atlanta)
-title = [US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]
-host = lg.atl.ramnode.com
-
-++ securedragon-atlanta
-menu = [US/GA] SecureDragon (Atlanta)
-title = [US/GA] SecureDragon @ QuadraNet - Atlanta, GA, United States [162.211.67.4]
-host = 162.211.67.4
-
-++ usdedicated-atl
-menu = [US/GA] US Dedicated (Atlanta)
-title = [US/GA] US Dedicated @ InterNAP ACS - Atlanta, Georgia [lg.atldedicated.net]
-host = lg.atldedicated.net
-
-++ vultr-atl
-menu = [US/GA] Vultr (Atlanta)
-title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
-host = ga-us-ping.vultr.com
-
-++ cox-ga-at
-menu = [US/GA] Cox (Alpharetta)
-title = [US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]
-host = speedtest.rd.at.cox.net
 
 ++ cox-ok-ok
 menu = [US/OK] Cox (Oklahoma City)
@@ -1421,6 +1361,66 @@ host = speedtest.rd.dc.cox.net
 menu = [US/DC] LeaseWeb
 title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
+
+++ att-ga-atl
+menu = [US/GA] AT&T (Tucker)
+title = [US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]
+host = atl.speedtest.sbcglobal.net
+
+++ budgetnode-atl
+menu = [US/GA] BudgetNode (Atlanta)
+title = [US/GA] BudgetNode - Atlanta, Georgia [104.129.25.90]
+host = 104.129.25.90
+
+++ colocrossing-atl
+menu = [US/GA] ColoCrossing (Atlanta)
+title = [US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]
+host = lg.atl.colocrossing.com
+
+#++ comcast-ga-smtn
+#menu = [US/GA] Comcast (Atlanta)
+#title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
+#host = stosat-smtn-01.sys.comcast.net
+
+++ cox-ga-at
+menu = [US/GA] Cox (Alpharetta)
+title = [US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]
+host = speedtest.rd.at.cox.net
+
+++ ftpit-atl
+menu = [US/GA] FTPit (Atlanta)
+title = [US/GA] FTPit (Komputer King LLC) - Atlanta, Georgia [atlanta.lg.ftpit.com]
+host = atlanta.lg.ftpit.com
+
+++ hostus-atl
+menu = [US/GA] HostUS (Atlanta)
+title = [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
+host = atl-lg.hostus.us
+
+++ linode-atl
+menu = [US/GA] Linode (Atlanta)
+title = [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
+host = speedtest.atlanta.linode.com
+
+++ ramnode-atl
+menu = [US/GA] Ramnode (Atlanta)
+title = [US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]
+host = lg.atl.ramnode.com
+
+++ securedragon-atlanta
+menu = [US/GA] SecureDragon (Atlanta)
+title = [US/GA] SecureDragon @ QuadraNet - Atlanta, GA, United States [162.211.67.4]
+host = 162.211.67.4
+
+++ usdedicated-atl
+menu = [US/GA] US Dedicated (Atlanta)
+title = [US/GA] US Dedicated @ InterNAP ACS - Atlanta, Georgia [lg.atldedicated.net]
+host = lg.atldedicated.net
+
+++ vultr-atl
+menu = [US/GA] Vultr (Atlanta)
+title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
+host = ga-us-ping.vultr.com
 
 ++ smarthost-fl
 menu = [US/FL] SmartHost (Jacksonville)
@@ -2157,9 +2157,14 @@ menu = [SE] HostHatch (Stockholm)
 title = [SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [lg.sto.hosthatch.com]
 host = lg.sto.hosthatch.com
 
+++ tele2-se-kst
+menu = [SE] Tele2 (Kista)
+title = [SE] Tele2 - Kista, Stockholm, Sweden [kst5-speedtest-1.tele2.net]
+host = kst5-speedtest-1.tele2.net
+
 ++ telia-se
 menu = [SE] Telia (Stockholm)
-title = [SE] Telia - Stockholm Hammarby, Sweden [hy-peer4.se.telia.net]
+title = [SE] Telia - Hammarby, Stockholm, Sweden [hy-peer4.se.telia.net]
 host = hy-peer4.se.telia.net
 
 ++ telia-gothenburg
@@ -2187,6 +2192,31 @@ menu = [NO] Terrahost (Sandefjord)
 title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
 host = lg.terrahost.no
 
+++ nextgentel-no
+menu = [NO] NextGenTel (Bergen)
+title = [NO] NextGenTel - Bergen, Norway [speedtest.nextgentel.no]
+host = speedtest.nextgentel.no
+
+++ telenor
+menu = [NO] Telenor (Oslo)
+title = [NO] Telenor - Oslo, Norway [test.telenor.net]
+host = test.telenor.net
+
+++ hurricane-electric-cph1
+menu = [DK] he.net (Copenhagen)
+title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
+host = core1.cph1.he.net
+
+++ tdc-dk
+menu = [DK] TDC Group (Copenhagen)
+title = [DK] TDC Group - Copenhagen, Denmark [linespeed.nms.tele.dk]
+host = linespeed.nms.tele.dk
+
+++ nordunet-dk
+menu = [DK] NORDUnet (Copenhagen)
+title = [DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]
+host = dk-ore.nordu.net
+
 ++ gcp-fin
 menu = [FI] Google Cloud
 title = [FI] Google Cloud Platform (europe-north1) - Hamina, Finland [europe-north1-gce.cloudharmony.net]
@@ -2201,16 +2231,6 @@ host = 95.216.24.40
 menu = [FI] XHostFire (Espoo)
 title = [FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]
 host = 81.22.243.1
-
-++ hurricane-electric-cph1
-menu = [DK] he.net (Copenhagen)
-title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
-host = core1.cph1.he.net
-
-++ nordunet-dk
-menu = [DK] NORDUnet (Copenhagen)
-title = [DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]
-host = dk-ore.nordu.net
 
 ++ bacloud-lt
 menu = [LT] BaCloud (Siauliai)
@@ -2337,16 +2357,6 @@ host = kharkovspeedtest.vodafone.ua
 menu = Europe - Southeast Europe
 title = netmeter.club Global Ping Monitoring - Southeast Europe
 
-++ alphavps-bg-0
-menu = [BG] AlphaVPS (Sofia)
-title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC [lgbg.alphavps.bg]
-host = lgbg.alphavps.bg
-
-++ edis-bg
-menu = [BG] EDIS (Sofia)
-title = [BG] EDIS - Sofia, Bulgaria [bg.edis.at]
-host = bg.edis.at
-
 ++ edis-ro
 menu = [RO] EDIS (Bucharest)
 title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
@@ -2382,6 +2392,11 @@ menu = [RO] Virtono @ M247
 title = [RO] Virtono @ M247 - Bucharest, Romania [85.204.49.17]
 host = 85.204.49.17
 
+++ orange-ro
+menu = [RO] Orange Romania
+title = [RO] Orange Romania - Bucharest, Romania [speedtestbuc.orangero.net]
+host = speedtestbuc.orangero.net
+
 ++ edis-md
 menu = [MD] EDIS (Chisinau)
 title = [MD] EDIS - Chisinau, Moldova [md.edis.at]
@@ -2392,25 +2407,65 @@ menu = [MD] UltraVPS (Chisinau)
 title = [MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]
 host = lg.kiv.md.ultravps.eu
 
-++ he-zag
-menu = [HR] he.net (Zagreb)
-title = [HR] Hurricane Electric @ University of Zagreb, University Computing Centre SRCE - Zagreb, Croatia [core1.zag1.he.net]
-host = core1.zag1.he.net
+++ alphavps-bg-0
+menu = [BG] AlphaVPS (Sofia)
+title = [BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC [lgbg.alphavps.bg]
+host = lgbg.alphavps.bg
+
+++ edis-bg
+menu = [BG] EDIS (Sofia)
+title = [BG] EDIS - Sofia, Bulgaria [bg.edis.at]
+host = bg.edis.at
+
+++ bulsatcom
+menu = [BG] Bulsatcom (Sofia)
+title = [BG] Bulsatcom - Sofia, Bulgaria [speedtest1.bulsat.com]
+host = speedtest1.bulsat.com
+
+++ bh-telecom
+menu = [BA] BH Telecom (Sarajevo)
+title = [BA] BH Telecom - Sarajevo, Bosnia and Herzegovina [speedtest.bih.net.ba]
+host = speedtest.bih.net.ba
+
+++ a1-hr
+menu = [HR] A1 Hrvatska
+title = [HR] A1 Hrvatska - Zagreb, Croatia [lxpspeed1.vipnet.hr]
+host = lxpspeed1.vipnet.hr
+
+++ hrvatski-telecom
+menu = [HR] Hrvatski Telekom
+title = [HR] Hrvatski Telekom - Zagreb, Croatia [speedtest.ht.hr]
+host = speedtest.ht.hr
 
 ++ edis-rs
 menu = [RS] EDIS (Belgrade)
 title = [RS] EDIS - Belgrade, Serbia [rs.edis.at]
 host = rs.edis.at
 
-++ telia-beg-b1
-menu = [RS] Telia (Belgrade)
-title = [RS] Telia - Belgrade, Serbia [beg-b1.telia.net]
-host = beg-b1.telia.net
+++ serbia-broadband
+menu = [RS] Serbia Broadband
+title = [RS] Serbia Broadband - Belgrade, Serbia [mirror.sbb.rs]
+host = mirror.sbb.rs
 
 ++ edis-si
 menu = [SI] EDIS (Ljubljana)
 title = [SI] EDIS - Ljubljana, Slovenia [si.edis.at]
 host = si.edis.at
+
+++ telekom-slovenije
+menu = [SI] Telekom Slovenije
+title = [SI] Telekom Slovenije - Ljubljana, Slovenia [speedtest1.telekom.si]
+host = speedtest1.telekom.si
+
+++ albtelecom
+menu = [AL] Albtelecom (Tirana)
+title = [AL] Albtelecom - Tirana, Albania [tirana.albtelecom.al]
+host = tirana.albtelecom.al
+
+++ crnogorski
+menu = [ME] Crnogorski Telekom
+title = [ME] Crnogorski Telekom - Podgorica, Montenegro [speedtest.t-com.me]
+host = speedtest.t-com.me
 
 ++ cosmote-2
 menu = [GR] Cosmote (Athens)
