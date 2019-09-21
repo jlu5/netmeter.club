@@ -1,5 +1,5 @@
 *** Targets ***
-#slaves = a b c
+#slaves = slave1 slave2 slave3
 probe = FPing
 
 menu = Top
@@ -9,3 +9,9 @@ remark = Connected to this server: <ul>\
 </ul>
 
 @include /etc/smokeping/config.d/Targets-Shared
+
+# Only include IPv6 capable hosts, for obvious reasons
+#slaves = slave1 slave2
+
+probe = FPing6
+@include /etc/smokeping/config.d/Targets-Shared6

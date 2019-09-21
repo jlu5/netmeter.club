@@ -1,0 +1,99 @@
++ PointsInterestCDN
+menu = CDNs (Worldwide) [IPv6]
+title = netmeter.club Global Ping Monitoring - CDNs (Worldwide, IPv6)
+
+++ akamai-v6
+menu = [CDN] Akamai
+title = [CDN] Akamai [www.akamai.com]
+host = www.akamai.com
+
+# TODO: find an address that supports v6
+#++ amazon-cloudfront-v6
+#menu = [CDN] Amazon CloudFront
+#title = [CDN] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
+#host = dq1dnt4af4eyy.cloudfront.net
+
+++ cloudflare-v6
+menu = [CDN] Cloudflare
+title = [CDN] Cloudflare [cloudflare.com]
+host = cloudflare.com
+
+++ dropbox-v6
+menu = [CDN] Dropbox
+title = [CDN] Dropbox [dropbox.com]
+host = dropbox.com
+
+++ facebook-v6
+menu = [CDN] Facebook
+title = [CDN] Facebook [facebook.com]
+host = facebook.com
+
+++ fastly-v6
+menu = [CDN] Fastly
+title = [CDN] Fastly [cdn-fastly.deb.debian.org]
+host = cdn-fastly.deb.debian.org
+
+++ gcorelabs-cdn-v6
+menu = [CDN] G-Core Labs CDN
+title = [CDN] G-Core Labs CDN [d.gcdn.co]
+host = d.gcdn.co
+
+++ google-v6
+menu = [CDN] Google
+title = [CDN] Google [ipv6.google.com]
+host = ipv6.google.com
+
+++ incapsula-v6
+menu = [CDN] Incapsula
+title = [CDN] Imperva Incapsula [www.incapsula.com]
+host = www.incapsula.com
+
+++ jsdelivr-v6
+menu = [CDN] jsDelivr
+title = [CDN] jsDelivr [cdn.jsdelivr.net]
+host = cdn.jsdelivr.net
+
+++ keycdn-v6
+menu = [CDN] KeyCDN
+title = [CDN] KeyCDN [www.keycdn.com]
+host = www.keycdn.com
+
+++ kernel-org-v6
+menu = [CDN] Linux Kernel Archives
+title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
+host = mirrors.edge.kernel.org
+
+++ microsoft-bing-v6
+menu = [CDN] Microsoft (bing.com)
+title = [CDN] Microsoft [bing.com]
+host = bing.com
+
+++ microsoft-o365-v6
+menu = [CDN] Microsoft O365
+title = [CDN] Microsoft Office 365 [www.outlook.com]
+host = www.outlook.com
+
+++ opendns-v6
+menu = [CDN] OpenDNS
+title = [CDN] OpenDNS [2620:119:35::35]
+host = 2620:119:35::35
+
+++ quad9-v6
+menu = [CDN] Quad9 DNS
+title = [CDN] Quad9 DNS [2620:fe::9]
+host = 2620:fe::9
+
+++ quantil-v6
+menu = [CDN] QUANTIL / Wangsu
+title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
+host = en.wangsu.com
+
+++ wikimedia-v6
+menu = [CDN] Wikimedia Foundation
+title = [CDN] Wikimedia Foundation [wikimedia.org]
+host = wikimedia.org
+
+++ yahoo-v6
+menu = [CDN] Yahoo
+title = [CDN] Yahoo [www.yahoo.com]
+host = www.yahoo.com
