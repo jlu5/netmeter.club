@@ -8,10 +8,11 @@ remark = Connected to this server: <ul>\
     <li>mastername: Someville, Somewhere [XYZ Hosting]</li>\
 </ul>
 
-@include /etc/smokeping/config.d/Targets-Shared
-
-# Only include IPv6 capable hosts, for obvious reasons
-#slaves = slave1 slave2
-
-probe = FPing6
+# List slaves that have IPv6 support
+@define IPV6-SLAVES slave1 slave2
+# Set to yes if master has no IPv6 support
+@define IPV6-NOMASTERPOLL no
+# Show the IPv6 list first since there are fewer things
 @include /etc/smokeping/config.d/Targets-Shared6
+
+@include /etc/smokeping/config.d/Targets-Shared

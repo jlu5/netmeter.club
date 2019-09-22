@@ -1,6 +1,9 @@
-+ PointsInterestCDN
++ PointsInterestCDN6
 menu = CDNs (Worldwide) [IPv6]
 title = netmeter.club Global Ping Monitoring - CDNs (Worldwide, IPv6)
+probe = FPing6
+slaves = IPV6-SLAVES
+nomasterpoll = IPV6-NOMASTERPOLL
 
 ++ akamai-v6
 menu = [CDN] Akamai
