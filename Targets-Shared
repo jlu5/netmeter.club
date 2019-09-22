@@ -87,15 +87,10 @@ menu = [CDN] G-Core Labs CDN
 title = [CDN] G-Core Labs CDN [d.gcdn.co]
 host = d.gcdn.co
 
-++ gcp-cdn
-menu = [CDN] Google Cloud Platform
-title = [CDN] Google Cloud Platform [cloud.google.com]
-host = cloud.google.com
-
-++ google-dns
-menu = [CDN] Google DNS
-title = [CDN] Google DNS [8.8.8.8]
-host = 8.8.8.8
+++ google
+menu = [CDN] Google
+title = [CDN] Google [google.com]
+host = google.com
 
 ++ incapsula
 menu = [CDN] Incapsula
@@ -261,6 +256,11 @@ host = lg.ionswitch.com
 #menu = [US/WA] NFOservers (Seattle)
 #title = [US/WA] NFOservers - Seattle, Washington [192.223.25.100]
 #host = 192.223.25.100
+
+++ quadranet-sea
+menu = [US/WA] QuadraNet (Seattle)
+title = [US/WA] QuadraNet - Seattle, Washington [173.205.92.235]
+host = 173.205.92.235
 
 ++ ramnode-sea
 menu = [US/WA] RamNode (Seattle)
@@ -1177,6 +1177,11 @@ menu = [US/NJ] Linode (Newark)
 title = [US/NJ] Linode - Newark, New Jersey [speedtest.newark.linode.com]
 host = speedtest.newark.linode.com
 
+++ quadranet-nj
+menu = [US/NJ] QuadraNet
+title = [US/NJ] QuadraNet - Secaucus, NJ, US [23.226.128.10]
+host = 23.226.128.10
+
 ++ smarthost-nj
 menu = [US/NJ] SmartHost (Piscataway)
 title = [US/NJ] SmartHost - Piscataway, New Jersey [66.11.120.2]
@@ -1647,11 +1652,6 @@ host = im.edis.at
 menu = Europe - France
 title = netmeter.club Global Ping Monitoring - France
 
-#++ proxad
-#menu = [FR] Proxad
-#title = [FR] Proxad [proxad.net]
-#host = proxad.net
-
 ++ 1fichier
 menu = [FR] 1fichier
 title = [FR] 1fichier.com (DStorage SASU) [1fichier.com]
@@ -1681,6 +1681,11 @@ host = ping.online.net
 menu = [FR] RENATER
 title = [FR] RENATER - Paris, France [www.renater.fr]
 host = www.renater.fr
+
+++ sfr-par
+menu = [FR] SFR
+title = [FR] SFR - Paris, France [speedtest.sfrbusinessteam.fr]
+host = speedtest.sfrbusinessteam.fr
 
 ++ softlayer-par
 menu = [FR] SoftLayer (Paris)
@@ -1716,6 +1721,11 @@ host = lg.ikoula.com
 menu = [FR] he.net (Marseille)
 title = [FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]
 host = core1.mrs1.he.net
+
+++ orange-fr-mrs
+menu = [FR] Orange (Marseille)
+title = [FR] Orange - Marseille, France [marseille.speedtest.orange.fr]
+host = marseille.speedtest.orange.fr
 
 
 + PointsInterestEU5
@@ -1782,6 +1792,11 @@ menu = [NL] Online.net (Amsterdam)
 title = [NL] Online.net - Amsterdam, Netherlands [ping-ams1.online.net]
 host = ping-ams1.online.net
 
+++ quadranet-ams
+menu = [NL] QuadraNet (Amsterdam)
+title = [NL] QuadraNet - Amsterdam, Netherlands [161.129.64.235]
+host = 161.129.64.235
+
 ++ ramnode-ams
 menu = [NL] Ramnode (Alblasserdam)
 title = [NL] Ramnode - Alblasserdam, Netherlands [lg.nl.ramnode.com]
@@ -1841,11 +1856,6 @@ host = lg.first-root.com
 menu = [DE] UltraVPS (Dusseldorf)
 title = [DE] UltraVPS - Dusseldorf, Germany [lg.dus.de.ultravps.eu]
 host = lg.dus.de.ultravps.eu
-
-++ telia-koln-b1
-menu = [DE] Telia (Cologne)
-title = [DE] Telia - Cologne, Germany [koln-b1.telia.net]
-host = koln-b1.telia.net
 
 ++ acceleratedit-fra
 menu = [DE] AcceleratedIT (Frankfurt)
@@ -1992,6 +2002,11 @@ menu = [CH] PrivateLayer (Zurich)
 title = [CH] PrivateLayer - Zurich, Switzerland [www.privatelayer.com]
 host = www.privatelayer.com
 
+++ sunrise-zrh
+menu = [CH] Sunrise Communications
+title = [CH] Sunrise Communications AG - Zurich, Switzerland [pzur01speedtst02.sunrise.ch]
+host = pzur01speedtst02.sunrise.ch
+
 ++ dediserve-pol1
 menu = [PL] Dediserve (Warsaw)
 title = [PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
@@ -2107,8 +2122,13 @@ menu = [IT] ArubaCloud (Arezzo)
 title = [IT] ArubaCloud - Arezzo, Italy [212.237.43.103]
 host = 212.237.43.103
 
+++ fastweb-rom
+menu = [IT] Fastweb (Rome)
+title = [IT] Fastweb - Rome, Italy [spd-pub-rm-01-01.fastwebnet.it]
+host = spd-pub-rm-01-01.fastwebnet.it
+
 ++ hurricane-electric-rom1
-menu = [IT] he.net (Roma)
+menu = [IT] he.net (Rome)
 title = [IT] Hurricane Electric - NaMeX Roma, IT [core1.rom1.he.net]
 host = core1.rom1.he.net
 
@@ -2217,6 +2237,11 @@ menu = [DK] NORDUnet (Copenhagen)
 title = [DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]
 host = dk-ore.nordu.net
 
+++ dna-fi
+menu = [FI] DNA Oy (Helsinki)
+title = [FI] DNA Oy - Helsinki, Finland [speedtest1.s.dnaip.fi]
+host = speedtest1.s.dnaip.fi
+
 ++ gcp-fin
 menu = [FI] Google Cloud
 title = [FI] Google Cloud Platform (europe-north1) - Hamina, Finland [europe-north1-gce.cloudharmony.net]
@@ -2322,10 +2347,10 @@ menu = [RU] Vimpelcom (St. Petersburg)
 title = [RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]
 host = speedtest.spb.gldn.net
 
-++ zeptovm-stp
-menu = [RU] ZeptoVM (St. Petersburg)
-title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
-host = ru-led01.lg.zeptovm.com
+#++ zeptovm-stp
+#menu = [RU] ZeptoVM (St. Petersburg)
+#title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
+#host = ru-led01.lg.zeptovm.com
 
 ++ transtelecom-nizhny
 menu = [RU] TransTelecom (Nizhny)
@@ -3114,6 +3139,11 @@ menu = [SG] SG.GS
 title = [SG] SG.GS - Singapore [www.sg.gs]
 host = www.sg.gs
 
+++ singtel
+menu = [SG] SingTel
+title = [SG] SingTel - Singapore [speedtest.singnet.com.sg]
+host = speedtest.singnet.com.sg
+
 ++ starrydns-sg
 menu = [SG] StarryDNS
 title = [SG] StarryDNS - Singapore [sg1.lg.starrydns.com]
@@ -3513,6 +3543,11 @@ host = lg-01-mpm.mz.seacomnet.com
 menu = [AO] Angola Cables
 title = [AO] Angola Cables - Luanda, Angola [197.149.150.178]
 host = 197.149.150.178
+
+++ telecom-namibia
+menu = [NA] Telecom Namibia
+title = [NA] Telecom Namibia - Windhoek, Namibia [www.speedtest1.ipb.na]
+host = www.speedtest1.ipb.na
 
 
 + PointsInterestSA
