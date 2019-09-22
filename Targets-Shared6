@@ -6,97 +6,97 @@ slaves = IPV6-SLAVES
 nomasterpoll = IPV6-NOMASTERPOLL
 
 ++ akamai-v6
-menu = [CDN] Akamai
-title = [CDN] Akamai [www.akamai.com]
+menu = [CDN6] Akamai
+title = [CDN6] Akamai [www.akamai.com]
 host = www.akamai.com
 
 # TODO: find an address that supports v6
 #++ amazon-cloudfront-v6
-#menu = [CDN] Amazon CloudFront
-#title = [CDN] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
+#menu = [CDN6] Amazon CloudFront
+#title = [CDN6] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
 #host = dq1dnt4af4eyy.cloudfront.net
 
 ++ cloudflare-v6
-menu = [CDN] Cloudflare
-title = [CDN] Cloudflare [cloudflare.com]
+menu = [CDN6] Cloudflare
+title = [CDN6] Cloudflare [cloudflare.com]
 host = cloudflare.com
 
 ++ dropbox-v6
-menu = [CDN] Dropbox
-title = [CDN] Dropbox [dropbox.com]
+menu = [CDN6] Dropbox
+title = [CDN6] Dropbox [dropbox.com]
 host = dropbox.com
 
 ++ facebook-v6
-menu = [CDN] Facebook
-title = [CDN] Facebook [facebook.com]
+menu = [CDN6] Facebook
+title = [CDN6] Facebook [facebook.com]
 host = facebook.com
 
 ++ fastly-v6
-menu = [CDN] Fastly
-title = [CDN] Fastly [cdn-fastly.deb.debian.org]
+menu = [CDN6] Fastly
+title = [CDN6] Fastly [cdn-fastly.deb.debian.org]
 host = cdn-fastly.deb.debian.org
 
 ++ gcorelabs-cdn-v6
-menu = [CDN] G-Core Labs CDN
-title = [CDN] G-Core Labs CDN [d.gcdn.co]
+menu = [CDN6] G-Core Labs CDN
+title = [CDN6] G-Core Labs CDN [d.gcdn.co]
 host = d.gcdn.co
 
 ++ google-v6
-menu = [CDN] Google
-title = [CDN] Google [ipv6.google.com]
+menu = [CDN6] Google
+title = [CDN6] Google [ipv6.google.com]
 host = ipv6.google.com
 
 ++ incapsula-v6
-menu = [CDN] Incapsula
-title = [CDN] Imperva Incapsula [www.incapsula.com]
+menu = [CDN6] Incapsula
+title = [CDN6] Imperva Incapsula [www.incapsula.com]
 host = www.incapsula.com
 
 ++ jsdelivr-v6
-menu = [CDN] jsDelivr
-title = [CDN] jsDelivr [cdn.jsdelivr.net]
+menu = [CDN6] jsDelivr
+title = [CDN6] jsDelivr [cdn.jsdelivr.net]
 host = cdn.jsdelivr.net
 
 ++ keycdn-v6
-menu = [CDN] KeyCDN
-title = [CDN] KeyCDN [www.keycdn.com]
+menu = [CDN6] KeyCDN
+title = [CDN6] KeyCDN [www.keycdn.com]
 host = www.keycdn.com
 
 ++ kernel-org-v6
-menu = [CDN] Linux Kernel Archives
-title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
+menu = [CDN6] Linux Kernel Archives
+title = [CDN6] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
 host = mirrors.edge.kernel.org
 
 ++ microsoft-bing-v6
-menu = [CDN] Microsoft (bing.com)
-title = [CDN] Microsoft [bing.com]
+menu = [CDN6] Microsoft (bing.com)
+title = [CDN6] Microsoft [bing.com]
 host = bing.com
 
 ++ microsoft-o365-v6
-menu = [CDN] Microsoft O365
-title = [CDN] Microsoft Office 365 [www.outlook.com]
+menu = [CDN6] Microsoft O365
+title = [CDN6] Microsoft Office 365 [www.outlook.com]
 host = www.outlook.com
 
 ++ opendns-v6
-menu = [CDN] OpenDNS
-title = [CDN] OpenDNS [2620:119:35::35]
+menu = [CDN6] OpenDNS
+title = [CDN6] OpenDNS [2620:119:35::35]
 host = 2620:119:35::35
 
 ++ quad9-v6
-menu = [CDN] Quad9 DNS
-title = [CDN] Quad9 DNS [2620:fe::9]
+menu = [CDN6] Quad9 DNS
+title = [CDN6] Quad9 DNS [2620:fe::9]
 host = 2620:fe::9
 
 ++ quantil-v6
-menu = [CDN] QUANTIL / Wangsu
-title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
+menu = [CDN6] QUANTIL / Wangsu
+title = [CDN6] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
 host = en.wangsu.com
 
 ++ wikimedia-v6
-menu = [CDN] Wikimedia Foundation
-title = [CDN] Wikimedia Foundation [wikimedia.org]
+menu = [CDN6] Wikimedia Foundation
+title = [CDN6] Wikimedia Foundation [wikimedia.org]
 host = wikimedia.org
 
 ++ yahoo-v6
-menu = [CDN] Yahoo
-title = [CDN] Yahoo [www.yahoo.com]
+menu = [CDN6] Yahoo
+title = [CDN6] Yahoo [www.yahoo.com]
 host = www.yahoo.com
