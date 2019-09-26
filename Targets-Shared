@@ -687,11 +687,6 @@ menu = [US/IL] GTHost (Chicago)
 title = [US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]
 host = 162.251.60.162
 
-++ host1plus-chi
-menu = [US/IL] Heficed (Chicago)
-title = [US/IL] Heficed (Digital Energy Technologies Ltd.) FKA Host1Plus - Chicago, Illinois [181.214.61.207]
-host = 181.214.61.207
-
 #++ nfoservers-chi
 #menu = [US/IL] NFOservers (Chicago)
 #title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
@@ -1682,11 +1677,6 @@ menu = [FR] RENATER
 title = [FR] RENATER - Paris, France [www.renater.fr]
 host = www.renater.fr
 
-++ sfr-par
-menu = [FR] SFR
-title = [FR] SFR - Paris, France [speedtest.sfrbusinessteam.fr]
-host = speedtest.sfrbusinessteam.fr
-
 ++ softlayer-par
 menu = [FR] SoftLayer (Paris)
 title = [FR] SoftLayer (par01) - Paris, France [speedtest.par01.softlayer.com]
@@ -1721,11 +1711,6 @@ host = lg.ikoula.com
 menu = [FR] he.net (Marseille)
 title = [FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]
 host = core1.mrs1.he.net
-
-++ orange-fr-mrs
-menu = [FR] Orange (Marseille)
-title = [FR] Orange - Marseille, France [marseille.speedtest.orange.fr]
-host = marseille.speedtest.orange.fr
 
 
 + PointsInterestEU5
@@ -2507,11 +2492,6 @@ menu = [GR] Cosmote (Thessaloniki)
 title = [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
 host = speedtest.cosmote.net
 
-++ hostigger-ist
-menu = [TR] Hostigger (Istanbul)
-title = [TR] Hostigger - Istanbul, Turkey [185.219.132.125]
-host = 185.219.132.125
-
 ++ turkcell-ist
 menu = [TR] Turkcell (Istanbul)
 title = [TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]
@@ -2587,11 +2567,6 @@ host = oss-cn-huhehaote.aliyuncs.com
 menu = [CN] Amazon AWS (Ningxia)
 title = [CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [52.82.0.253]
 host = 52.82.0.253
-
-++ tcloud-nanyang-cm
-menu = [CN] TCloud (Nanyang CM)
-title = [CN] TCloud @ China Mobile - Nanyang, Henan 南阳移动 [111.6.79.1]
-host = 111.6.79.1
 
 ++ uovz-henan-cm
 menu = [CN] UOvZ (Henan CM)
@@ -2754,6 +2729,11 @@ menu = [HK] Aliyun
 title = [HK] Aliyun / Alibaba Cloud - Hong Kong, China [oss-cn-hongkong.aliyuncs.com]
 host = oss-cn-hongkong.aliyuncs.com
 
+++ amazon-hk
+menu = [HK] Amazon AWS
+title = [HK] Amazon Web Services (ap-east-1) - Hong Kong, China [18.162.80.8]
+host = 18.162.80.8
+
 ++ anchnet-hk
 menu = [HK] Anchnet
 title = [HK] Anchnet - Hong Kong, China (BGP) [118.193.193.24]
@@ -2850,12 +2830,12 @@ title = [HK] Tencent Cloud - Hong Kong, China [cos.ap-hongkong.myqcloud.com]
 host = cos.ap-hongkong.myqcloud.com
 
 ++ uovz-hk-hkbn
-menu = [HK] UOvZ @ HKBN, 66.TO
+menu = [HK] UOvZ @ HKBN
 title = [HK] UOvZ @ HKBN, 66.TO - Hong Kong, China [103.107.8.1]
 host = 103.107.8.1
 
 ++ uovz-hk-newworldtel
-menu = [HK] UOvZ @ NWT, VpsQuan
+menu = [HK] UOvZ @ NWT
 title = [HK] UOvZ @ NWT, VpsQuan - Hong Kong, China [103.228.130.1]
 host = 103.228.130.1
 
@@ -3294,6 +3274,11 @@ menu = [AE] Etisalat (EmIX)
 title = [AE] Etisalat AS8966 @ EmIX [lg.emix.net.ae]
 host = lg.emix.net.ae
 
+++ amazon-bh
+menu = [BH] Amazon AWS
+title = [BH] Amazon Web Services (me-south-1) - Bahrain [15.185.32.254]
+host = 15.185.32.254
+
 ++ edis-il
 menu = [IL] EDIS (Tel Aviv)
 title = [IL] EDIS - Tel Aviv, Israel [il.edis.at]
@@ -3558,11 +3543,6 @@ title = netmeter.club Global Ping Monitoring - South, Central America
 menu = [BR] Amazon AWS (Sao Paulo)
 title = [BR] Amazon Web Services (sa-east-1) - Sao Paulo, Brazil [54.94.0.66]
 host = 54.94.0.66
-
-++ host1plus-sao
-menu = [BR] Host1Plus (Sao Paulo)
-title = [BR] Host1Plus - Sao Paulo, Brazil [191.96.4.248]
-host = 191.96.4.248
 
 ++ softlayer-sao
 menu = [BR] SoftLayer (Sao Paulo)
