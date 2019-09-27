@@ -1,4 +1,4 @@
-@define TITLE-HEADER6 netmeter.club Global Ping Monitoring
+@define TITLE-HEADER6 netmeter.club
 
 + netmeter6
 menu = IPv6
@@ -68,12 +68,12 @@ title = [CDN6] KeyCDN [www.keycdn.com]
 host = www.keycdn.com
 
 +++ kernel-org-v6
-menu = [CDN6] Linux Kernel Archives
+menu = [CDN6] kernel.org
 title = [CDN6] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
 host = mirrors.edge.kernel.org
 
 +++ microsoft-bing-v6
-menu = [CDN6] Microsoft (bing.com)
+menu = [CDN6] Microsoft
 title = [CDN6] Microsoft [bing.com]
 host = bing.com
 
@@ -98,7 +98,7 @@ title = [CDN6] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
 host = en.wangsu.com
 
 +++ wikimedia-v6
-menu = [CDN6] Wikimedia Foundation
+menu = [CDN6] Wikimedia
 title = [CDN6] Wikimedia Foundation [wikimedia.org]
 host = wikimedia.org
 
@@ -113,22 +113,22 @@ menu = {IPv6} North America - West
 title = TITLE-HEADER6 - North America (West)
 
 +++ telus-yvr-v6
-menu = [CA/BC] TELUS (Vancouver)
+menu = [CA/BC] TELUS
 title = {IPv6} [CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]
 host = vancouver.speedtest.telus.com
 
 +++ rogers-yvr-v6
-menu = [CA/BC] Rogers (Vancouver)
+menu = [CA/BC] Rogers
 title = {IPv6} [CA/BC] Rogers - Vancouver, British Columbia [speedtestbcvan.rogers.com]
 host = speedtestbcvan.rogers.com
 
 +++ teksavvy-v6
-menu = [CA/BC] Teksavvy (Vancouver)
+menu = [CA/BC] Teksavvy
 title = {IPv6} [CA/BC] Teksavvy - Vancouver, Canada [speedtest-van.teksavvy.com]
 host = speedtest-van.teksavvy.com
 
 +++ ionswitch-sea-v6
-menu = [US/WA] IonSwitch (Seattle)
+menu = [US/WA] IonSwitch
 title = {IPv6} [US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]
 host = lg.ionswitch.com
 
@@ -138,7 +138,7 @@ title = {IPv6} [US/WA] Incero - Seattle, Washington [2604:880:a:2::1]
 host = 2604:880:a:2::1
 
 +++ ramnode-sea-v6
-menu = [US/WA] RamNode (Seattle)
+menu = [US/WA] RamNode
 title = {IPv6} [US/WA] RamNode - Seattle, Washington [lg.sea.ramnode.com]
 host = lg.sea.ramnode.com
 
@@ -173,7 +173,7 @@ title = {IPv6} [US/CA] LeaseWeb - San Francisco, California [mirror.sfo12.us.lea
 host = mirror.sfo12.us.leaseweb.net
 
 +++ softlayer-sjc-v6
-menu = [US/CA] SoftLayer (San Jose)
+menu = [US/CA] SoftLayer
 title = {IPv6} [US/CA] SoftLayer - San Jose, California [speedtest.sjc01.softlayer.com]
 host = speedtest.sjc01.softlayer.com
 
@@ -183,7 +183,7 @@ title = {IPv6} [US/CA] Vultr / Choopa - Silicon Valley, California [2001:19f0:ac
 host = 2001:19f0:ac00:126:5054:ff:fe9f:68ec
 
 +++ psychz-la-v6
-menu = [US/CA] Psychz (Los Angeles)
+menu = [US/CA] Psychz (LA)
 title = {IPv6} [US/CA] Psychz - Los Angeles, California [lg.lax.psychz.net]
 host = lg.lax.psychz.net
 
@@ -198,7 +198,7 @@ title = {IPv6} [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
 host = lg.la.ramnode.com
 
 +++ vmhaus-lax-v6
-menu = [US/CA] VMHaus (Los Angeles)
+menu = [US/CA] VMHaus (LA)
 title = {IPv6} [US/CA] VMHaus - Los Angeles, California [2402:28c0:2:310::1]
 host = 2402:28c0:2:310::1
 
@@ -213,7 +213,7 @@ title = {IPv6} [CA/AB] TELUS - Calgary, Alberta [calgary.speedtest.telus.com]
 host = calgary.speedtest.telus.com
 
 +++ rogers-edab-v6
-menu = [CA/AB] Rogers (Edmonton)
+menu = [CA/AB] Rogers
 title = {IPv6} [CA/AB] Rogers - Edmonton, Alberta [speedtestedmonton.rogers.com]
 host = speedtestedmonton.rogers.com
 
@@ -258,7 +258,7 @@ title = {IPv6} [US/TX] SoftLayer (dal06) - Dallas, Texas [speedtest.dal06.softla
 host = speedtest.dal06.softlayer.com
 
 +++ spartanhost-dal-v6
-menu = [US/TX] SpartanHost (Dallas)
+menu = [US/TX] SpartanHost
 title = {IPv6} [US/TX] SpartanHost - Dallas, Texas [lg.dal.spartanhost.net]
 host = lg.dal.spartanhost.net
 
@@ -268,7 +268,7 @@ title = {IPv6} [US/TX] Vultr - Dallas, Texas [2001:19f0:6400:8001:5054:ff:fe48:5
 host = 2001:19f0:6400:8001:5054:ff:fe48:5e6e
 
 +++ digitalocean-tor1-v6
-menu = [CA/ON] DigitalOcean (Toronto)
+menu = [CA/ON] DigitalOcean
 title = {IPv6} [CA/ON] DigitalOcean (TOR1) - Toronto, Canada [speedtest-tor1.digitalocean.com]
 host = speedtest-tor1.digitalocean.com
 
@@ -278,12 +278,12 @@ title = {IPv6} [CA/ON] Linode - Toronto, Canada [speedtest.tor1.linode.com]
 host = speedtest.toronto1.linode.com
 
 +++ softlayer-tor-v6
-menu = [CA/ON] SoftLayer (Toronto)
+menu = [CA/ON] SoftLayer
 title = {IPv6} [CA/ON] SoftLayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
 host = speedtest.tor01.softlayer.com
 
 +++ teksavvy-v6
-menu = [CA/ON] Teksavvy (Toronto)
+menu = [CA/ON] Teksavvy
 title = {IPv6} [CA/ON] Teksavvy - Toronto, Canada [speedtest.teksavvy.com]
 host = speedtest.teksavvy.com
 
@@ -298,7 +298,7 @@ title = {IPv6} [CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.co
 host = speedtestslnt.rogers.com
 
 +++ nocix-mo-v6
-menu = [US/MO] Nocix (Kansas City)
+menu = [US/MO] Nocix (Kansas)
 title = {IPv6} [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [2604:4300:a:21a::1]
 host = 2604:4300:a:21a::1
 
@@ -333,7 +333,7 @@ title = {IPv6} [US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]
 host = speedtest.ny.buyvm.net
 
 +++ digitalocean-nyc3-v6
-menu = [US/NY] DigitalOcean (NYC)
+menu = [US/NY] DigitalOcean
 title = {IPv6} [US/NY] DigitalOcean (NYC3) - New York City, NY, US [speedtest-nyc3.digitalocean.com]
 host = speedtest-nyc3.digitalocean.com
 
@@ -418,17 +418,17 @@ title = {IPv6} [CA/QC] Amazon Web Services (ca-central-1) - Central Canada [2600
 host = 2600:1f11:b15:2000::ec2
 
 +++ ovh-bhs-v6
-menu = [CA/QC] OVH (Beauharnois)
+menu = [CA/QC] OVH
 title = {IPv6} [CA/QC] OVH - Beauharnois, Quebec, Canada [speedtest-bhs.as16276.ovh]
 host = speedtest-bhs.as16276.ovh
 
 +++ quonix-v6
-menu = [US/PA] Quonix (Philadelphia)
+menu = [US/PA] Quonix
 title = {IPv6} [US/PA] Quonix - Philadelphia, Pennsylvania [www.quonix.net]
 host = www.quonix.net
 
 +++ hostus-clt-v6
-menu = [US/NC] HostUS (Charlotte)
+menu = [US/NC] HostUS
 title = {IPv6} [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
 host = clt-lg.hostus.us
 
