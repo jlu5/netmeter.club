@@ -1,6 +1,8 @@
+@define TITLE-HEADER netmeter.club Global Ping Monitoring
+
 + PointsInterestCDN
 menu = CDNs (Worldwide)
-title = netmeter.club Global Ping Monitoring - CDNs (Worldwide)
+title = TITLE-HEADER - CDNs (Worldwide)
 
 ++ akamai
 menu = [CDN] Akamai
@@ -180,7 +182,7 @@ host = www.yahoo.com
 
 + PointsInterestNAW
 menu = North America - Northwest
-title = netmeter.club Global Ping Monitoring - North America (Northwest)
+title = TITLE-HEADER - North America (Northwest)
 
 ++ ubc
 menu = [CA/BC] UBC (Vancouver)
@@ -375,7 +377,7 @@ host = speedtest.anc.acsalaska.net
 
 + PointsInterestNAW2
 menu = North America - Southwest
-title = netmeter.club Global Ping Monitoring - North America (Southwest)
+title = TITLE-HEADER - North America (Southwest)
 
 ++ internet-archive
 menu = [US/CA] Internet Archive
@@ -660,7 +662,7 @@ host = core1.hnl1.he.net
 
 + PointsInterestNAC
 menu = North America - Central
-title = netmeter.club Global Ping Monitoring - North America (Central)
+title = TITLE-HEADER - North America (Central)
 
 ++ uchicago
 menu = [US/IL] University of Chicago
@@ -920,7 +922,7 @@ host = yk-netspeed.nwtel.ca
 
 + PointsInterestNAS
 menu = North America - South
-title = netmeter.club Global Ping Monitoring - North America (South)
+title = TITLE-HEADER - North America (South)
 
 ++ colocrossing-dal-0
 menu = [US/TX] ColoCrossing (Dallas)
@@ -1085,7 +1087,7 @@ host = internet5.movistar.com.mx
 
 + PointsInterestNAE
 menu = North America - Northeast
-title = netmeter.club Global Ping Monitoring - North America (Northeast)
+title = TITLE-HEADER - North America (Northeast)
 
 ++ columbia-u
 menu = [US/NY] Columbia University
@@ -1300,7 +1302,7 @@ host = halifax.speedtest.telus.com
 
 + PointsInterestNASE
 menu = North America - Southeast
-title = netmeter.club Global Ping Monitoring - North America (Southeast)
+title = TITLE-HEADER - North America (Southeast)
 
 ++ aliyun-us-east-1
 menu = [US/VA] Aliyun
@@ -1510,7 +1512,7 @@ host = spt01kgpttn.kgpt.tn.charter.com
 
 + PointsInterestEU
 menu = Europe - UK, Ireland, British Isles
-title = netmeter.club Global Ping Monitoring - United Kingdom, Ireland, British Isles
+title = TITLE-HEADER - United Kingdom, Ireland, British Isles
 
 ++ launchpad
 menu = [UK] Launchpad / Canonical Ltd.
@@ -1645,7 +1647,7 @@ host = im.edis.at
 
 + PointsInterestEU1
 menu = Europe - France
-title = netmeter.club Global Ping Monitoring - France
+title = TITLE-HEADER - France
 
 ++ 1fichier
 menu = [FR] 1fichier
@@ -1715,7 +1717,7 @@ host = core1.mrs1.he.net
 
 + PointsInterestEU5
 menu = Europe - Benelux
-title = netmeter.club Global Ping Monitoring - Benelux (Belgium, The Netherlands, Luxembourg)
+title = TITLE-HEADER - Benelux (Belgium, The Netherlands, Luxembourg)
 
 ++ bandwagonhost-nl
 menu = [NL] BandwagonHost
@@ -1830,7 +1832,7 @@ host = speedtest.lu.buyvm.net
 
 + PointsInterestEU6
 menu = Europe - Germany
-title = netmeter.club Global Ping Monitoring - Germany
+title = TITLE-HEADER - Germany
 
 ++ first-root
 menu = [DE] First Root (Dusseldorf)
@@ -1950,7 +1952,7 @@ host = lg.netcup.net
 
 + PointsInterestEU2
 menu = Europe - Central Europe
-title = netmeter.club Global Ping Monitoring - Central Europe
+title = TITLE-HEADER - Central Europe
 
 ++ cern-ch
 menu = [CH] CERN
@@ -2080,7 +2082,7 @@ host = sp1.telekom.sk
 
 + PointsInterestEU7
 menu = Europe - Spain, Italy, Portugal
-title = netmeter.club Global Ping Monitoring - Southern Europe (Spain, Italy, Portugal)
+title = TITLE-HEADER - Southern Europe (Spain, Italy, Portugal)
 
 ++ edis-it
 menu = [IT] EDIS (Milan)
@@ -2145,7 +2147,7 @@ host = core1.lis1.he.net
 
 + PointsInterestEU4
 menu = Europe - Nordic, Baltic Countries
-title = netmeter.club Global Ping Monitoring - Nordic, Baltic Countries
+title = TITLE-HEADER - Nordic, Baltic Countries
 
 ++ amazon-se
 menu = [SE] Amazon AWS
@@ -2275,7 +2277,7 @@ host = is.edis.at
 
 + PointsInterestEU3
 menu = Europe - Eastern Europe
-title = netmeter.club Global Ping Monitoring - Eastern Europe
+title = TITLE-HEADER - Eastern Europe
 
 ++ edis-ru
 menu = [RU] EDIS (Moscow)
@@ -2365,7 +2367,7 @@ host = kharkovspeedtest.vodafone.ua
 
 + PointsInterestEU8
 menu = Europe - Southeast Europe
-title = netmeter.club Global Ping Monitoring - Southeast Europe
+title = TITLE-HEADER - Southeast Europe
 
 ++ edis-ro
 menu = [RO] EDIS (Bucharest)
@@ -2505,7 +2507,7 @@ host = speedtest.vodafone.com.tr
 
 + PointsInterestCN
 menu = Asia - China Mainland (North)
-title = netmeter.club Global Ping Monitoring - Mainland China (North)
+title = TITLE-HEADER - Mainland China (North)
 
 ++ aliyun-beijing
 menu = [CN] Aliyun (Beijing)
@@ -2576,7 +2578,7 @@ host = 117.159.147.1
 
 + PointsInterestCNE
 menu = Asia - China Mainland (East)
-title = netmeter.club Global Ping Monitoring - Mainland China (East)
+title = TITLE-HEADER - Mainland China (East)
 
 ++ aliyun-shanghai
 menu = [CN] Aliyun (Shanghai)
@@ -2667,7 +2669,7 @@ host = 115.231.235.254
 
 + PointsInterestCNS
 menu = Asia - China Mainland (South)
-title = netmeter.club Global Ping Monitoring - Mainland China (South)
+title = TITLE-HEADER - Mainland China (South)
 
 ++ aliyun-shenzhen
 menu = [CN] Aliyun (Shenzhen)
@@ -2717,7 +2719,7 @@ host = 112.47.15.1
 
 + PointsInterestCN3
 menu = Asia - Hong Kong, Taiwan
-title = netmeter.club Global Ping Monitoring - Hong Kong, Taiwan
+title = TITLE-HEADER - Hong Kong, Taiwan
 
 ++ 50kvm-hk-shatin
 menu = [HK] 50KVM
@@ -2872,7 +2874,7 @@ host = lg.tw.psychz.net
 
 + PointsInterestAS
 menu = Asia - Japan, Korea, Russia
-title = netmeter.club Global Ping Monitoring - North, East Asia
+title = TITLE-HEADER - North, East Asia
 
 ++ osdn-jp
 menu = [JP] OSDN @ IIJ
@@ -3042,7 +3044,7 @@ host = speedtest.irkutsk.ertelecom.ru
 
 + PointsInterestAS2
 menu = Asia - South, Southeast Asia
-title = netmeter.club Global Ping Monitoring - South, Southeast Asia
+title = TITLE-HEADER - South, Southeast Asia
 
 ++ alibabacloud-sg
 menu = [SG] Aliyun
@@ -3257,7 +3259,7 @@ host = www.vnpt.vn
 
 + PointsInterestAS3
 menu = Asia - West, Central Asia
-title = netmeter.club Global Ping Monitoring - West, Central Asia
+title = TITLE-HEADER - West, Central Asia
 
 ++ aliyun-me-east-1
 menu = [AE] Aliyun (Dubai)
@@ -3407,7 +3409,7 @@ host = sp1.afghantelecom.af
 
 + PointsInterestAfr
 menu = Africa
-title = netmeter.club Global Ping Monitoring - Africa
+title = TITLE-HEADER - Africa
 
 ++ hurricane-electric-jnb1
 menu = [ZA] he.net (Johannesburg)
@@ -3537,7 +3539,7 @@ host = www.speedtest1.ipb.na
 
 + PointsInterestSA
 menu = South, Central America
-title = netmeter.club Global Ping Monitoring - South, Central America
+title = TITLE-HEADER - South, Central America
 
 ++ amazon-br
 menu = [BR] Amazon AWS (Sao Paulo)
@@ -3617,7 +3619,7 @@ host = core1.bog1.he.net
 
 + PointsInterestOc
 menu = Oceania
-title = netmeter.club Global Ping Monitoring - Oceania
+title = TITLE-HEADER - Oceania
 
 ++ aliyun-ap-southeast-2
 menu = [AU] Aliyun (Sydney)
