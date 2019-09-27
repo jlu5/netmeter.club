@@ -224,6 +224,11 @@ menu = [CA/BC] Shaw (Vancouver)
 title = [CA/BC] Shaw - Vancouver, British Columbia [speedtest.vc.shawcable.net]
 host = speedtest.vc.shawcable.net
 
+++ teksavvy-yvr
+menu = [CA/BC] Teksavvy (Vancouver)
+title = [CA/BC] Teksavvy - Vancouver, Canada [speedtest-van.teksavvy.com]
+host = speedtest-van.teksavvy.com
+
 ++ telus-yvr
 menu = [CA/BC] TELUS (Vancouver)
 title = [CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]
@@ -769,6 +774,11 @@ menu = [CA/ON] SoftLayer (Toronto)
 title = [CA/ON] SoftLayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
 host = speedtest.tor01.softlayer.com
 
+++ teksavvy
+menu = [CA/ON] Teksavvy (Toronto)
+title = [CA/ON] Teksavvy - Toronto, Canada [speedtest.teksavvy.com]
+host = speedtest.teksavvy.com
+
 ++ tencent-na-toronto
 menu = [CA/ON] Tencent (Toronto)
 title = [CA/ON] Tencent Cloud - Toronto, Canada [cos.na-toronto.myqcloud.com]
@@ -788,6 +798,11 @@ host = utoronto.ca
 menu = [CA/ON] UWaterloo
 title = [CA/ON] University of Waterloo - Waterloo, Canada [mirror.csclub.uwaterloo.ca]
 host = mirror.csclub.uwaterloo.ca
+
+++ bell-otw
+menu = [CA/ON] Bell (Ottawa)
+title = [CA/ON] Bell - Ottawa, Ontario, Canada [otw23spd01.srvr.bell.ca]
+host = otw23spd01.srvr.bell.ca
 
 ++ rogers-oton
 menu = [CA/ON] Rogers (Ottawa)
@@ -1208,6 +1223,11 @@ host = 162.253.176.4
 menu = [CA/QC] Amazon AWS
 title = [CA/QC] Amazon Web Services (ca-central-1) - Central Canada [35.182.0.251]
 host = 35.182.0.251
+
+++ bell-moqc
+menu = [CA/QC] Bell (Montreal)
+title = [CA/QC] Bell - Montreal, Canada [mtldjspeedtest01.srvr.bell.ca]
+host = mtldjspeedtest01.srvr.bell.ca
 
 ++ gcp-yul
 menu = [CA/QC] Google Cloud

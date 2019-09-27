@@ -1,102 +1,438 @@
-+ PointsInterestCDN6
-menu = CDNs (Worldwide) [IPv6]
-title = netmeter.club Global Ping Monitoring - CDNs (Worldwide, IPv6)
+@define TITLE-HEADER6 netmeter.club Global Ping Monitoring
+
++ netmeter6
+menu = IPv6
+title = TITLE-HEADER6 - IPv6 Destinations
 probe = FPing6
 slaves = IPV6-SLAVES
 nomasterpoll = IPV6-NOMASTERPOLL
 
-++ akamai-v6
+++ CDN6
+menu = {IPv6} CDNs (Worldwide)
+title = TITLE-HEADER6 - CDNs (Worldwide, IPv6)
+
++++ akamai-v6
 menu = [CDN6] Akamai
 title = [CDN6] Akamai [www.akamai.com]
 host = www.akamai.com
 
 # TODO: find an address that supports v6
-#++ amazon-cloudfront-v6
+#+++ amazon-cloudfront-v6
 #menu = [CDN6] Amazon CloudFront
 #title = [CDN6] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
 #host = dq1dnt4af4eyy.cloudfront.net
 
-++ cloudflare-v6
++++ cloudflare-v6
 menu = [CDN6] Cloudflare
 title = [CDN6] Cloudflare [cloudflare.com]
 host = cloudflare.com
 
-++ dropbox-v6
++++ dropbox-v6
 menu = [CDN6] Dropbox
 title = [CDN6] Dropbox [dropbox.com]
 host = dropbox.com
 
-++ facebook-v6
++++ facebook-v6
 menu = [CDN6] Facebook
 title = [CDN6] Facebook [facebook.com]
 host = facebook.com
 
-++ fastly-v6
++++ fastly-v6
 menu = [CDN6] Fastly
 title = [CDN6] Fastly [cdn-fastly.deb.debian.org]
 host = cdn-fastly.deb.debian.org
 
-++ gcorelabs-cdn-v6
++++ gcorelabs-cdn-v6
 menu = [CDN6] G-Core Labs CDN
 title = [CDN6] G-Core Labs CDN [d.gcdn.co]
 host = d.gcdn.co
 
-++ google-v6
++++ google-v6
 menu = [CDN6] Google
 title = [CDN6] Google [ipv6.google.com]
 host = ipv6.google.com
 
-++ incapsula-v6
++++ incapsula-v6
 menu = [CDN6] Incapsula
 title = [CDN6] Imperva Incapsula [www.incapsula.com]
 host = www.incapsula.com
 
-++ jsdelivr-v6
++++ jsdelivr-v6
 menu = [CDN6] jsDelivr
 title = [CDN6] jsDelivr [cdn.jsdelivr.net]
 host = cdn.jsdelivr.net
 
-++ keycdn-v6
++++ keycdn-v6
 menu = [CDN6] KeyCDN
 title = [CDN6] KeyCDN [www.keycdn.com]
 host = www.keycdn.com
 
-++ kernel-org-v6
++++ kernel-org-v6
 menu = [CDN6] Linux Kernel Archives
 title = [CDN6] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
 host = mirrors.edge.kernel.org
 
-++ microsoft-bing-v6
++++ microsoft-bing-v6
 menu = [CDN6] Microsoft (bing.com)
 title = [CDN6] Microsoft [bing.com]
 host = bing.com
 
-++ microsoft-o365-v6
++++ microsoft-o365-v6
 menu = [CDN6] Microsoft O365
 title = [CDN6] Microsoft Office 365 [www.outlook.com]
 host = www.outlook.com
 
-++ opendns-v6
++++ opendns-v6
 menu = [CDN6] OpenDNS
 title = [CDN6] OpenDNS [2620:119:35::35]
 host = 2620:119:35::35
 
-++ quad9-v6
++++ quad9-v6
 menu = [CDN6] Quad9 DNS
 title = [CDN6] Quad9 DNS [2620:fe::9]
 host = 2620:fe::9
 
-++ quantil-v6
++++ quantil-v6
 menu = [CDN6] QUANTIL / Wangsu
 title = [CDN6] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
 host = en.wangsu.com
 
-++ wikimedia-v6
++++ wikimedia-v6
 menu = [CDN6] Wikimedia Foundation
 title = [CDN6] Wikimedia Foundation [wikimedia.org]
 host = wikimedia.org
 
-++ yahoo-v6
++++ yahoo-v6
 menu = [CDN6] Yahoo
 title = [CDN6] Yahoo [www.yahoo.com]
 host = www.yahoo.com
+
+
+++ NAWest6
+menu = {IPv6} North America - West
+title = TITLE-HEADER6 - North America (West)
+
++++ telus-yvr-v6
+menu = {IPv6} [CA/BC] TELUS (Vancouver)
+title = {IPv6} [CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]
+host = vancouver.speedtest.telus.com
+
++++ rogers-yvr-v6
+menu = {IPv6} [CA/BC] Rogers (Vancouver)
+title = {IPv6} [CA/BC] Rogers - Vancouver, British Columbia [speedtestbcvan.rogers.com]
+host = speedtestbcvan.rogers.com
+
++++ teksavvy-v6
+menu = {IPv6} [CA/BC] Teksavvy (Vancouver)
+title = {IPv6} [CA/BC] Teksavvy - Vancouver, Canada [speedtest-van.teksavvy.com]
+host = speedtest-van.teksavvy.com
+
++++ ionswitch-sea-v6
+menu = {IPv6} [US/WA] IonSwitch (Seattle)
+title = {IPv6} [US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]
+host = lg.ionswitch.com
+
++++ incero-sea-v6
+menu = {IPv6} [US/WA] Incero (Seattle)
+title = {IPv6} [US/WA] Incero - Seattle, Washington [2604:880:a:2::1]
+host = 2604:880:a:2::1
+
++++ ramnode-sea-v6
+menu = {IPv6} [US/WA] RamNode (Seattle)
+title = {IPv6} [US/WA] RamNode - Seattle, Washington [lg.sea.ramnode.com]
+host = lg.sea.ramnode.com
+
++++ vultr-sea-v6
+menu = {IPv6} [US/WA] Vultr (Seattle)
+title = {IPv6} [US/WA] Vultr / Choopa - Seattle, Washington [2001:19f0:8000:8001:5054:ff:fe2d:aea4]
+host = 2001:19f0:8000:8001:5054:ff:fe2d:aea4
+
++++ amazon-pdx-v6
+menu = {IPv6} [US/OR] Amazon AWS
+title = {IPv6} [US/OR] Amazon Web Services (us-west-2) - Oregon [2600:1f14:84a:b000::ec2]
+host = 2600:1f14:84a:b000::ec2
+
++++ amazon-ncal-v6
+menu = {IPv6} [US/CA] Amazon AWS
+title = {IPv6} [US/CA] Amazon Web Services (us-west-1) - North California [2620:107:300f::36c1:3]
+host = 2620:107:300f::36c1:3
+
++++ digitalocean-sfo-v6
+menu = {IPv6} [US/CA] Digital Ocean
+title = {IPv6} [US/CA] Digital Ocean - San Francisco, California [speedtest-sfo1.digitalocean.com]
+host = speedtest-sfo1.digitalocean.com
+
++++ linode-ca-v6
+menu = {IPv6} [US/CA] Linode (Fremont)
+title = {IPv6} [US/CA] Linode - Fremont, California [speedtest.fremont.linode.com]
+host = speedtest.fremont.linode.com
+
++++ leaseweb-sfo-v6
+menu = {IPv6} [US/CA] LeaseWeb
+title = {IPv6} [US/CA] LeaseWeb - San Francisco, California [mirror.sfo12.us.leaseweb.net]
+host = mirror.sfo12.us.leaseweb.net
+
++++ softlayer-sjc-v6
+menu = {IPv6} [US/CA] SoftLayer (San Jose)
+title = {IPv6} [US/CA] SoftLayer - San Jose, California [speedtest.sjc01.softlayer.com]
+host = speedtest.sjc01.softlayer.com
+
++++ vultr-sjo-v6
+menu = {IPv6} [US/CA] Vultr (San Jose)
+title = {IPv6} [US/CA] Vultr / Choopa - Silicon Valley, California [2001:19f0:ac00:126:5054:ff:fe9f:68ec]
+host = 2001:19f0:ac00:126:5054:ff:fe9f:68ec
+
++++ psychz-la-v6
+menu = {IPv6} [US/CA] Psychz (Los Angeles)
+title = {IPv6} [US/CA] Psychz - Los Angeles, California [lg.lax.psychz.net]
+host = lg.lax.psychz.net
+
++++ quadranet-la-v6
+menu = {IPv6} [US/CA] QuadraNet (LA)
+title = {IPv6} [US/CA] QuadraNet - Los Angeles, California [2607:fcd0:0:a::2]
+host = 2607:fcd0:0:a::2
+
++++ ramnode-la-v6
+menu = {IPv6} [US/CA] Ramnode (LA)
+title = {IPv6} [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
+host = lg.la.ramnode.com
+
++++ vmhaus-lax-v6
+menu = {IPv6} [US/CA] VMHaus (Los Angeles)
+title = {IPv6} [US/CA] VMHaus - Los Angeles, California [2402:28c0:2:310::1]
+host = 2402:28c0:2:310::1
+
++++ xmission-v6
+menu = {IPv6} [US/UT] XMission
+title = {IPv6} [US/UT] XMission - Salt Lake City, Utah, US [xmission.com]
+host = xmission.com
+
++++ telus-cgab-v6
+menu = {IPv6} [CA/AB] TELUS (Calgary)
+title = {IPv6} [CA/AB] TELUS - Calgary, Alberta [calgary.speedtest.telus.com]
+host = calgary.speedtest.telus.com
+
++++ rogers-edab-v6
+menu = {IPv6} [CA/AB] Rogers (Edmonton)
+title = {IPv6} [CA/AB] Rogers - Edmonton, Alberta [speedtestedmonton.rogers.com]
+host = speedtestedmonton.rogers.com
+
+
+++ NACtrl6
+menu = {IPv6} North America - Central, South
+title = TITLE-HEADER6 - North America (Central, South)
+
++++ psychz-chi-v6
+menu = {IPv6} [US/IL] Psychz (Chicago)
+title = {IPv6} [US/IL] Psychz - Chicago, Illinois [lg.chi.psychz.net]
+host = lg.chi.psychz.net
+
++++ steadfast-il-v6
+menu = {IPv6} [US/IL] Steadfast (Chicago)
+title = {IPv6} [US/IL] Steadfast - Chicago, Illinois [lookingglass.chi.steadfast.net]
+host = lookingglass.chi.steadfast.net
+
++++ vultr-chi-v6
+menu = {IPv6} [US/IL] Vultr (Chicago)
+title = {IPv6} [US/IL] Vultr - Chicago, Illinois [2001:19f0:5c00:8401:5054:ff:fe27:19b9]
+host = 2001:19f0:5c00:8401:5054:ff:fe27:19b9
+
++++ linode-dal-v6
+menu = {IPv6} [US/TX] Linode (Dallas)
+title = {IPv6} [US/TX] Linode - Dallas, Texas [speedtest.dallas.linode.com]
+host = speedtest.dallas.linode.com
+
++++ nexril-v6
+menu = {IPv6} [US/TX] Nexril (Dallas)
+title = {IPv6} [US/TX] Nexril - Dallas, Texas [lg.nexril.net]
+host = lg.nexril.net
+
++++ psychz-texas-v6
+menu = {IPv6} [US/TX] Psychz (Dallas)
+title = {IPv6} [US/TX] Psychz - Dallas, Texas [lg.texas.psychz.net]
+host = lg.texas.psychz.net
+
++++ softlayer-dal-v6
+menu = {IPv6} [US/TX] SoftLayer (Dallas)
+title = {IPv6} [US/TX] SoftLayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]
+host = speedtest.dal06.softlayer.com
+
++++ spartanhost-dal-v6
+menu = {IPv6} [US/TX] SpartanHost (Dallas)
+title = {IPv6} [US/TX] SpartanHost - Dallas, Texas [lg.dal.spartanhost.net]
+host = lg.dal.spartanhost.net
+
++++ vultr-dal-v6
+menu = {IPv6} [US/TX] Vultr (Dallas)
+title = {IPv6} [US/TX] Vultr - Dallas, Texas [2001:19f0:6400:8001:5054:ff:fe48:5e6e]
+host = 2001:19f0:6400:8001:5054:ff:fe48:5e6e
+
++++ digitalocean-tor1-v6
+menu = {IPv6} [CA/ON] DigitalOcean (Toronto)
+title = {IPv6} [CA/ON] DigitalOcean (TOR1) - Toronto, Canada [speedtest-tor1.digitalocean.com]
+host = speedtest-tor1.digitalocean.com
+
++++ linode-tor-v6
+menu = {IPv6} [CA/ON] Linode (Toronto)
+title = {IPv6} [CA/ON] Linode - Toronto, Canada [speedtest.tor1.linode.com]
+host = speedtest.toronto1.linode.com
+
++++ softlayer-tor-v6
+menu = {IPv6} [CA/ON] SoftLayer (Toronto)
+title = {IPv6} [CA/ON] SoftLayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]
+host = speedtest.tor01.softlayer.com
+
++++ teksavvy-v6
+menu = {IPv6} [CA/ON] Teksavvy (Toronto)
+title = {IPv6} [CA/ON] Teksavvy - Toronto, Canada [speedtest.teksavvy.com]
+host = speedtest.teksavvy.com
+
++++ uwaterloo0-v6
+menu = {IPv6} [CA/ON] UWaterloo
+title = {IPv6} [CA/ON] University of Waterloo - Waterloo, Canada [mirror.csclub.uwaterloo.ca]
+host = mirror.csclub.uwaterloo.ca
+
++++ rogers-oton-v6
+menu = {IPv6} [CA/ON] Rogers (Ottawa)
+title = {IPv6} [CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.com]
+host = speedtestslnt.rogers.com
+
++++ nocix-mo-v6
+menu = {IPv6} [US/MO] Nocix (Kansas City)
+title = {IPv6} [US/MO] mrvm.net @ Nocix - Kansas City, Missouri [2604:4300:a:21a::1]
+host = 2604:4300:a:21a::1
+
++++ unrealservers-mo-v6
+menu = {IPv6} [US/MO] UnrealServers
+title = {IPv6} [US/MO] UnrealServers - Kansas City, Missouri [ns2.unrealservers.net]
+host = ns2.unrealservers.net
+
++++ amazon-ohi-v6
+menu = {IPv6} [US/OH] Amazon AWS
+title = {IPv6} [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [2600:1f16:c01:4000::ec2]
+host = 2600:1f16:c01:4000::ec2
+
++++ telus-wpmb-v6
+menu = {IPv6} [CA/MB] TELUS (Winnipeg)
+title = {IPv6} [CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]
+host = winnipeg.speedtest.telus.com
+
++++ softlayer-mex-v6
+menu = {IPv6} [MX] SoftLayer (Queretaro)
+title = {IPv6} [MX] SoftLayer (mex01) - Queretaro, Mexico [speedtest.mex01.softlayer.com]
+host = speedtest.mex01.softlayer.com
+
+
+++ NACtrl6
+menu = {IPv6} North America - East
+title = TITLE-HEADER6 - North America (East)
+
++++ buyvm-ny-v6
+menu = {IPv6} [US/NY] BuyVM (NYC)
+title = {IPv6} [US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]
+host = speedtest.ny.buyvm.net
+
++++ digitalocean-nyc3-v6
+menu = {IPv6} [US/NY] DigitalOcean (NYC)
+title = {IPv6} [US/NY] DigitalOcean (NYC3) - New York City, NY, US [speedtest-nyc3.digitalocean.com]
+host = speedtest-nyc3.digitalocean.com
+
++++ hosthatch-nyc-v6
+menu = {IPv6} [US/NY] HostHatch (NYC)
+title = {IPv6} [US/NY] HostHatch - New York City, NY, US [2a0d:5600:33:5:dead::beef]
+host = 2a0d:5600:33:5:dead::beef
+
++++ ramnode-nyc-v6
+menu = {IPv6} [US/NY] Ramnode (NYC)
+title = {IPv6} [US/NY] Ramnode - New York City, NY, US [lg.nyc.ramnode.com]
+host = lg.nyc.ramnode.com
+
++++ linode-nj-v6
+menu = {IPv6} [US/NJ] Linode (Newark)
+title = {IPv6} [US/NJ] Linode - Newark, New Jersey [speedtest.newark.linode.com]
+host = speedtest.newark.linode.com
+
++++ steadfast-nj-v6
+menu = {IPv6} [US/NJ] Steadfast
+title = {IPv6} [US/NJ] Steadfast - Edison, New Jersey [lookingglass.edi.steadfast.net]
+host = lookingglass.edi.steadfast.net
+
++++ vultr-nj-v6
+menu = {IPv6} [US/NJ] Vultr
+title = {IPv6} [US/NJ] Vultr (New Jersey) [2001:19f0:4009:405:5054:ff:fe6f:fa02]
+host = 2001:19f0:4009:405:5054:ff:fe6f:fa02
+
++++ amazon-nva-v6
+menu = {IPv6} [US/VA] Amazon AWS
+title = {IPv6} [US/VA] Amazon Web Services (us-east-1) - North Virginia [2600:1f18:2fe:900::ec2]
+host = 2600:1f18:2fe:900::ec2
+
++++ ovh-va-v6
+menu = {IPv6} [US/VA] OVH (Vint Hill)
+title = {IPv6} [US/VA] ExtraVM @ OVH - Vint Hill, Virginia, US [vin.lg.extravm.com]
+host = vin.lg.extravm.com
+
++++ psychz-va-v6
+menu = {IPv6} [US/VA] Psychz (Ashburn)
+title = {IPv6} [US/VA] Psychz - Ashburn, Virginia [lg.va.psychz.net]
+host = lg.va.psychz.net
+
++++ leaseweb-wdc1-v6
+menu = {IPv6} [US/DC] LeaseWeb
+title = {IPv6} [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
+host = mirror.wdc1.us.leaseweb.net
+
++++ hostus-atl-v6
+menu = {IPv6} [US/GA] HostUS (Atlanta)
+title = {IPv6} [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
+host = atl-lg.hostus.us
+
++++ linode-atl-v6
+menu = {IPv6} [US/GA] Linode (Atlanta)
+title = {IPv6} [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
+host = speedtest.atlanta.linode.com
+
++++ ramnode-atl-v6
+menu = {IPv6} [US/GA] Ramnode (Atlanta)
+title = {IPv6} [US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]
+host = lg.atl.ramnode.com
+
++++ vultr-atl-v6
+menu = {IPv6} [US/GA] Vultr (Atlanta)
+title = {IPv6} [US/GA] Vultr - Atlanta, Georgia [2001:19f0:5400:8001:5054:ff:fe4c:1717]
+host = 2001:19f0:5400:8001:5054:ff:fe4c:1717
+
++++ quadranet-mia-v6
+menu = {IPv6} [US/FL] QuadraNet (Miami)
+title = {IPv6} [US/FL] QuadraNet - Miami, Florida [2607:ff48:0:a:b:c:d:666]
+host = 2607:ff48:0:a:b:c:d:666
+
++++ vultr-mia-v6
+menu = {IPv6} [US/FL] Vultr (Miami)
+title = {IPv6} [US/FL] Vultr - Miami, Florida [2001:19f0:9000:8001:5054:ff:fe8f:a86a]
+host = 2001:19f0:9000:8001:5054:ff:fe8f:a86a
+
++++ amazon-ca-v6
+menu = {IPv6} [CA/QC] Amazon AWS
+title = {IPv6} [CA/QC] Amazon Web Services (ca-central-1) - Central Canada [2600:1f11:b15:2000::ec2]
+host = 2600:1f11:b15:2000::ec2
+
++++ ovh-bhs-v6
+menu = {IPv6} [CA/QC] OVH (Beauharnois)
+title = {IPv6} [CA/QC] OVH - Beauharnois, Quebec, Canada [speedtest-bhs.as16276.ovh]
+host = speedtest-bhs.as16276.ovh
+
++++ quonix-v6
+menu = {IPv6} [US/PA] Quonix (Philadelphia)
+title = {IPv6} [US/PA] Quonix - Philadelphia, Pennsylvania [www.quonix.net]
+host = www.quonix.net
+
++++ hostus-clt-v6
+menu = {IPv6} [US/NC] HostUS (Charlotte)
+title = {IPv6} [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
+host = clt-lg.hostus.us
+
++++ mrvm-ler-v6
+menu = {IPv6} [US/NC] mrvm.net (Lenoir)
+title = {IPv6} [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [2607:5600:8e:2d:9466:374f:d50f:1]
+host = 2607:5600:8e:2d:9466:374f:d50f:1
