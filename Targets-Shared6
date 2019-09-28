@@ -518,7 +518,7 @@ title = {IPv6} [FR] Vultr - Paris, France [2001:19f0:6800:8002::33]
 host = 2001:19f0:6800:8002::33
 
 +++ ovh-gra-v6
-menu = {IPv6} [FR] OVH (Gravelines)
+menu = {IPv6} [FR] OVH (GRA)
 title = {IPv6} [FR] OVH - Gravelines, France [speedtest-gra.as16276.ovh]
 host = speedtest-gra.as16276.ovh
 
@@ -573,7 +573,7 @@ title = {IPv6} [ES] EDIS - Seville, Spain [2a00:1d70:ed15::1]
 host = 2a00:1d70:ed15::1
 
 +++ ginernet-mad-v6
-menu = {IPv6} [ES] GinerNet (Madrid)
+menu = {IPv6} [ES] GinerNet
 title = {IPv6} [ES] GinerNet - Madrid, Spain @ Madrid Interxion [2a03:c7c0:1:100::1]
 host = 2a03:c7c0:1:100::1
 
@@ -583,32 +583,32 @@ menu = {IPv6} Europe - Central
 title = TITLE-HEADER6 - Europe (Central, South)
 
 +++ first-root-v6
-menu = {IPv6} [DE] First Root (Dusseldorf)
+menu = {IPv6} [DE] First Root
 title = {IPv6} [DE] First Root - Dusseldorf, Germany [2001:67c:12a0::14]
 host = 2001:67c:12a0::14
 
 +++ ultravps-de-v6
-menu = {IPv6} [DE] UltraVPS (Dusseldorf)
+menu = {IPv6} [DE] UltraVPS
 title = {IPv6} [DE] UltraVPS - Dusseldorf, Germany [2a02:e00:ffec:3a::1]
 host = 2a02:e00:ffec:3a::1
 
 +++ acceleratedit-fra-v6
-menu = {IPv6} [DE] AcceleratedIT (Frankfurt)
+menu = {IPv6} [DE] AcceleratedIT
 title = {IPv6} [DE] AcceleratedIT - Frankfurt, Germany [lg.ip-projects.de]
 host = lg.ip-projects.de
 
 +++ amazon-fra-v6
-menu = {IPv6} [DE] Amazon AWS (Frankfurt)
+menu = {IPv6} [DE] Amazon AWS
 title = {IPv6} [DE] Amazon Web Services - Frankfurt, Germany [2a01:578:13::365d:2002]
 host = 2a01:578:13::365d:2002
 
 +++ combahton-v6
-menu = {IPv6} [DE] combahton (Frankfurt)
+menu = {IPv6} [DE] combahton
 title = {IPv6} [DE] combahton IT Services (FFM2) - Frankfurt, Germany [lg.combahton.net]
 host = lg.combahton.net
 
 +++ digitalocean-fra-v6
-menu = {IPv6} [DE] DigitalOcean (Frankfurt)
+menu = {IPv6} [DE] DigitalOcean
 title = {IPv6} [DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]
 host = speedtest-fra1.digitalocean.com
 
@@ -618,22 +618,22 @@ title = {IPv6} [DE] LeaseWeb - Germany [mirror.de.leaseweb.net]
 host = mirror.de.leaseweb.net
 
 +++ linode-fra-v6
-menu = {IPv6} [DE] Linode (Frankfurt)
+menu = {IPv6} [DE] Linode
 title = {IPv6} [DE] Linode - Frankfurt, Germany [speedtest.frankfurt.linode.com]
 host = speedtest.frankfurt.linode.com
 
 +++ vultr-fra-v6
-menu = {IPv6} [DE] Vultr (Frankfurt)
+menu = {IPv6} [DE] Vultr
 title = {IPv6} [DE] Vultr - Frankfurt, Germany [2001:19f0:6c00:8002:5400:ff:fe00:536a]
 host = 2001:19f0:6c00:8002:5400:ff:fe00:536a
 
 +++ hetzner-v6
-menu = {IPv6} [DE] Hetzner (Falkenstein)
+menu = {IPv6} [DE] Hetzner
 title = {IPv6} [DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]
 host = speed.hetzner.de
 
 +++ netcup-nbg-v6
-menu = {IPv6} [DE] Netcup (Nuremberg)
+menu = {IPv6} [DE] Netcup
 title = {IPv6} [DE] Netcup - Nuremberg, Germany [lg.netcup.net]
 host = lg.netcup.net
 
@@ -658,12 +658,12 @@ title = {IPv6} [IT] EDIS - Palermo, Sicily, Italy [2a03:f80:3991::1]
 host = 2a03:f80:3991::1
 
 +++ prometeus-mlo-v6
-menu = {IPv6} [IT] Prometeus (Milan)
+menu = {IPv6} [IT] Prometeus
 title = {IPv6} [IT] Prometeus - Milan, Italy [2a00:dcc0:eda:3754:247:55:7e31:1243]
 host = 2a00:dcc0:eda:3754:247:55:7e31:1243
 
 +++ softlayer-mil-v6
-menu = {IPv6} [IT] SoftLayer (Milan)
+menu = {IPv6} [IT] SoftLayer
 title = {IPv6} [IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
 host = speedtest.mil01.softlayer.com
 
@@ -673,12 +673,12 @@ title = {IPv6} [PL] EDIS - Warsaw, Poland [2a03:f80:48::1]
 host = 2a03:f80:48::1
 
 +++ orange-pl-gdo-v6
-menu = {IPv6} [PL] Orange (Gdansk)
+menu = {IPv6} [PL] Orange(Gdansk)
 title = {IPv6} [PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]
 host = gda-o1.speedtest.orange.pl
 
 +++ orange-pl-waw-v6
-menu = {IPv6} [PL] Orange (Warsaw)
+menu = {IPv6} [PL] Orange(Warsaw)
 title = {IPv6} [PL] Orange Polska TPSA - Warsaw, Poland [war-o1.speedtest.orange.pl]
 host = war-o1.speedtest.orange.pl
 
@@ -718,27 +718,27 @@ title = {IPv6} [SE] Tele2 - Kista, Stockholm, Sweden [kst5-speedtest-1.tele2.net
 host = kst5-speedtest-1.tele2.net
 
 +++ hosthatch-osl-v6
-menu = {IPv6} [NO] HostHatch (Oslo)
+menu = {IPv6} [NO] HostHatch
 title = {IPv6} [NO] HostHatch - Oslo, Norway [2a0d:5600:30:40:dd::beef]
 host = 2a0d:5600:30:40:dd::beef
 
 +++ softlayer-osl-v6
-menu = {IPv6} [NO] SoftLayer (Oslo)
+menu = {IPv6} [NO] SoftLayer
 title = {IPv6} [NO] SoftLayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
 host = speedtest.osl01.softlayer.com
 
 +++ terrahost-no-v6
-menu = {IPv6} [NO] Terrahost (Sandefjord)
+menu = {IPv6} [NO] Terrahost
 title = {IPv6} [NO] Terrahost AS203629 - Sandefjord, Norway [2a03:94e0:1803::1]
 host = 2a03:94e0:1803::1
 
 +++ telenor-v6
-menu = {IPv6} [NO] Telenor (Oslo)
+menu = {IPv6} [NO] Telenor
 title = {IPv6} [NO] Telenor - Oslo, Norway [test.telenor.net]
 host = test.telenor.net
 
 +++ ultravps-lt-v6
-menu = {IPv6} [LT] UltraVPS (Siauliai)
+menu = {IPv6} [LT] UltraVPS
 title = {IPv6} [LT] UltraVPS - Siauliai, Lithuania [2a02:e00:ffe7:3::1]
 host = 2a02:e00:ffe7:3::1
 
@@ -778,7 +778,7 @@ title = {IPv6} [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [2a
 host = 2a00:1838:20:1::5b2a:9cbf
 
 +++ justhost-rtcom-v6
-menu = {IPv6} [RU] JustHost (Kazan)
+menu = {IPv6} [RU] JustHost(Kazan)
 title = {IPv6} [RU] JustHost.ru @ RosTelecom - Kazan, Russia [2a00:b700:1::5f]
 host = 2a00:b700:1::5f
 

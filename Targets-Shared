@@ -3031,10 +3031,10 @@ menu = [RU] ZeptoVM (Khabarovsk)
 title = [RU] ZeptoVM / Misaka Networks @ G-Core Labs - Khabarovsk, Russia [185.209.84.233]
 host = 185.209.84.233
 
-++ justhost-adman
+++ justhost-nsk
 menu = [RU] JustHost (Novosibirsk)
-title = [RU] JustHost.ru @ Adman - Novosibirsk, Russia [lg-adman.justhost.ru]
-host = lg-adman.justhost.ru
+title = [RU] JustHost.ru @ RosTelecom - Novosibirsk, Russia [lg-nsk.justhost.ru]
+host = lg-nsk.justhost.ru
 
 ++ xhostfire-nvo0
 menu = [RU] Rostelecom (Novosibirsk)
