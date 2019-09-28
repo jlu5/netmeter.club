@@ -2309,11 +2309,6 @@ menu = [RU] JustHost @ DataLine
 title = [RU] JustHost.ru @ DataLine - Moscow, Russia [lg.justhost.ru]
 host = lg.justhost.ru
 
-++ justhost-rtcom
-menu = [RU] JustHost @ RosTelecom
-title = [RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]
-host = lg-rtcom.justhost.ru
-
 ++ justhost-fiord
 menu = [RU] JustHost @ Fiord
 title = [RU] JustHost.ru @ Fiord - Moscow, Russia [lg-prgrs.justhost.ru]
@@ -2363,6 +2358,11 @@ host = speedtest.spb.gldn.net
 menu = [RU] TransTelecom (Nizhny)
 title = [RU] TransTelecom TTK - Nizhny Novgorod, Russian Federation [speed.ttknn.net]
 host = speed.ttknn.net
+
+++ justhost-rtcom
+menu = [RU] JustHost @ RosTelecom
+title = [RU] JustHost.ru @ RosTelecom - Kazan, Russia [lg-rtcom.justhost.ru]
+host = lg-rtcom.justhost.ru
 
 ++ er-telecom-rostov
 menu = [RU] ER-Telecom (Rostov)

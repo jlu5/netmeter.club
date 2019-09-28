@@ -436,3 +436,403 @@ host = clt-lg.hostus.us
 menu = [US/NC] mrvm.net (Lenoir)
 title = {IPv6} [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [2607:5600:8e:2d:9466:374f:d50f:1]
 host = 2607:5600:8e:2d:9466:374f:d50f:1
+
+
+++ EUWest6
+menu = {IPv6} Europe - West
+title = TITLE-HEADER6 - Europe (West)
+
++++ amazon-ir-v6
+menu = {IPv6} [IE] Amazon AWS
+title = {IPv6} [IE] Amazon Web Services (eu-west-1) - Ireland [2a05:d018:3c:6000::ec2]
+host = 2a05:d018:3c:6000::ec2
+
++++ amazon-lon-v6
+menu = {IPv6} [UK] Amazon AWS
+title = {IPv6} [UK] Amazon Web Services - London, United Kingdom [2a05:d01c:810:8100::ec2]
+host = 2a05:d01c:810:8100::ec2
+
++++ clouvider-lon-v6
+menu = {IPv6} [UK] Clouvider
+title = {IPv6} [UK] Clouvider - London, United Kingdom [lg.clouvider.net]
+host = lg.clouvider.net
+
++++ digitalocean-lon-v6
+menu = {IPv6} [UK] DigitalOcean
+title = {IPv6} [UK] DigitalOcean (LON1) - London, United Kingdom [speedtest-lon1.digitalocean.com]
+host = speedtest-lon1.digitalocean.com
+
++++ linode-lon-v6
+menu = {IPv6} [UK] Linode
+title = {IPv6} [UK] Linode - London, United Kingdom [speedtest.london.linode.com]
+host = speedtest.london.linode.com
+
++++ ovh-lon-v6
+menu = {IPv6} [UK] OVH
+title = {IPv6} [UK] ExtraVM @ OVH - Erith, London, United Kingdom [lon.lg.extravm.com]
+host = lon.lg.extravm.com
+
++++ vmhaus-lon-v6
+menu = {IPv6} [UK] VMHaus
+title = {IPv6} [UK] VMHaus - London, United Kingdom [lg.thn2.vmhaus.com]
+host = lg.thn2.vmhaus.com
+
++++ vultr-lon-v6
+menu = {IPv6} [UK] Vultr
+title = {IPv6} [UK] Vultr - London, United Kingdom [2001:19f0:7400:8001:5054:ff:fe40:9d5f]
+host = 2001:19f0:7400:8001:5054:ff:fe40:9d5f
+
++++ loveservers-man-v6
+menu = {IPv6} [UK] LoveServers
+title = {IPv6} [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]
+host = lg.loveservers.com
+
++++ m247-man-v6
+menu = {IPv6} [UK] M247
+title = {IPv6} [UK] M247 - Manchester, United Kingdom [www.m247.com]
+host = www.m247.com
+
++++ amazon-par-v6
+menu = {IPv6} [FR] Amazon AWS
+title = {IPv6} [FR] Amazon Web Services - Paris, France [2a05:d012:3:c000::ec2]
+host = 2a05:d012:3:c000::ec2
+
++++ edis-fr-v6
+menu = {IPv6} [FR] EDIS (Paris)
+title = {IPv6} [FR] EDIS - Paris, France [fr.edis.at]
+host = fr.edis.at
+
++++ online-net-par-v6
+menu = {IPv6} [FR] Online.net
+title = {IPv6} [FR] Online.net - Paris, France [ping6.online.net]
+host = ping6.online.net
+
++++ softlayer-par-v6
+menu = {IPv6} [FR] SoftLayer
+title = {IPv6} [FR] SoftLayer (par01) - Paris, France [speedtest.par01.softlayer.com]
+host = speedtest.par01.softlayer.com
+
++++ vultr-par-v6
+menu = {IPv6} [FR] Vultr (Paris)
+title = {IPv6} [FR] Vultr - Paris, France [2001:19f0:6800:8002::33]
+host = 2001:19f0:6800:8002::33
+
++++ ovh-gra-v6
+menu = {IPv6} [FR] OVH (Gravelines)
+title = {IPv6} [FR] OVH - Gravelines, France [speedtest-gra.as16276.ovh]
+host = speedtest-gra.as16276.ovh
+
++++ ikoula-v6
+menu = {IPv6} [FR] Ikoula (Reims)
+title = {IPv6} [FR] Ikoula @ Ikoula - Reims, France [2a00:c70:1:213:246:61:65:1]
+host = 2a00:c70:1:213:246:61:65:1
+
++++ digitalocean-ams-v6
+menu = {IPv6} [NL] DigitalOcean
+title = {IPv6} [NL] DigitalOcean (AMS2) - Amsterdam, Netherlands [speedtest-ams2.digitalocean.com]
+host = speedtest-ams2.digitalocean.com
+
++++ hosthatch-ams-v6
+menu = {IPv6} [NL] HostHatch
+title = {IPv6} [NL] HostHatch @ NFOrce - Amsterdam, Netherlands [2a01:6f0:ffff:aa::beef]
+host = 2a01:6f0:ffff:aa::beef
+
++++ leaseweb-nl-v6
+menu = {IPv6} [NL] LeaseWeb
+title = {IPv6} [NL] LeaseWeb - The Netherlands [mirror.nl.leaseweb.net]
+host = mirror.nl.leaseweb.net
+
++++ ramnode-ams-v6
+menu = {IPv6} [NL] Ramnode
+title = {IPv6} [NL] Ramnode - Alblasserdam, Netherlands [lg.nl.ramnode.com]
+host = lg.nl.ramnode.com
+
++++ ultravps-ams-v6
+menu = {IPv6} [NL] UltraVPS
+title = {IPv6} [NL] UltraVPS - Amsterdam, Netherlands [2a02:e00:fff0:c::1]
+host = 2a02:e00:fff0:c::1
+
++++ vultr-ams-v6
+menu = {IPv6} [NL] Vultr
+title = {IPv6} [NL] Vultr - Amsterdam, Netherlands [2001:19f0:5000:8001:5054:ff:fe8a:a295]
+host = 2001:19f0:5000:8001:5054:ff:fe8a:a295
+
++++ edis-be-v6
+menu = {IPv6} [BE] EDIS
+title = {IPv6} [BE] EDIS - Oostkamp, Belgium [2a03:f80:32::1]
+host = 2a03:f80:32::1
+
++++ buyvm-lu-v6
+menu = {IPv6} [LU] BuyVM
+title = {IPv6} [LU] BuyVM - Roost, Luxembourg [speedtest.lu.buyvm.net]
+host = speedtest.lu.buyvm.net
+
++++ edis-es-v6
+menu = {IPv6} [ES] EDIS (Seville)
+title = {IPv6} [ES] EDIS - Seville, Spain [2a00:1d70:ed15::1]
+host = 2a00:1d70:ed15::1
+
++++ ginernet-mad-v6
+menu = {IPv6} [ES] GinerNet (Madrid)
+title = {IPv6} [ES] GinerNet - Madrid, Spain @ Madrid Interxion [2a03:c7c0:1:100::1]
+host = 2a03:c7c0:1:100::1
+
+
+++ EUCtrl6
+menu = {IPv6} Europe - Central
+title = TITLE-HEADER6 - Europe (Central, South)
+
++++ first-root-v6
+menu = {IPv6} [DE] First Root (Dusseldorf)
+title = {IPv6} [DE] First Root - Dusseldorf, Germany [2001:67c:12a0::14]
+host = 2001:67c:12a0::14
+
++++ ultravps-de-v6
+menu = {IPv6} [DE] UltraVPS (Dusseldorf)
+title = {IPv6} [DE] UltraVPS - Dusseldorf, Germany [2a02:e00:ffec:3a::1]
+host = 2a02:e00:ffec:3a::1
+
++++ acceleratedit-fra-v6
+menu = {IPv6} [DE] AcceleratedIT (Frankfurt)
+title = {IPv6} [DE] AcceleratedIT - Frankfurt, Germany [lg.ip-projects.de]
+host = lg.ip-projects.de
+
++++ amazon-fra-v6
+menu = {IPv6} [DE] Amazon AWS (Frankfurt)
+title = {IPv6} [DE] Amazon Web Services - Frankfurt, Germany [2a01:578:13::365d:2002]
+host = 2a01:578:13::365d:2002
+
++++ combahton-v6
+menu = {IPv6} [DE] combahton (Frankfurt)
+title = {IPv6} [DE] combahton IT Services (FFM2) - Frankfurt, Germany [lg.combahton.net]
+host = lg.combahton.net
+
++++ digitalocean-fra-v6
+menu = {IPv6} [DE] DigitalOcean (Frankfurt)
+title = {IPv6} [DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]
+host = speedtest-fra1.digitalocean.com
+
++++ leaseweb-de-v6
+menu = {IPv6} [DE] LeaseWeb
+title = {IPv6} [DE] LeaseWeb - Germany [mirror.de.leaseweb.net]
+host = mirror.de.leaseweb.net
+
++++ linode-fra-v6
+menu = {IPv6} [DE] Linode (Frankfurt)
+title = {IPv6} [DE] Linode - Frankfurt, Germany [speedtest.frankfurt.linode.com]
+host = speedtest.frankfurt.linode.com
+
++++ vultr-fra-v6
+menu = {IPv6} [DE] Vultr (Frankfurt)
+title = {IPv6} [DE] Vultr - Frankfurt, Germany [2001:19f0:6c00:8002:5400:ff:fe00:536a]
+host = 2001:19f0:6c00:8002:5400:ff:fe00:536a
+
++++ hetzner-v6
+menu = {IPv6} [DE] Hetzner (Falkenstein)
+title = {IPv6} [DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]
+host = speed.hetzner.de
+
++++ netcup-nbg-v6
+menu = {IPv6} [DE] Netcup (Nuremberg)
+title = {IPv6} [DE] Netcup - Nuremberg, Germany [lg.netcup.net]
+host = lg.netcup.net
+
++++ cern-ch-v6
+menu = {IPv6} [CH] CERN
+title = {IPv6} [CH] CERN - European Organization for Nuclear Research - Geneva, Switzerland [cern.ch]
+host = cern.ch
+
++++ edis-ch-v6
+menu = {IPv6} [CH] EDIS (Zurich)
+title = {IPv6} [CH] EDIS - Zurich, Switzerland [2a02:418:6a04::1]
+host = 2a02:418:6a04::1
+
++++ edis-it-v6
+menu = {IPv6} [IT] EDIS (Milan)
+title = {IPv6} [IT] EDIS - Milan, Italy [2001:b60:1000::1]
+host = 2001:b60:1000::1
+
++++ edis-itpa-v6
+menu = {IPv6} [IT] EDIS (Palermo)
+title = {IPv6} [IT] EDIS - Palermo, Sicily, Italy [2a03:f80:3991::1]
+host = 2a03:f80:3991::1
+
++++ prometeus-mlo-v6
+menu = {IPv6} [IT] Prometeus (Milan)
+title = {IPv6} [IT] Prometeus - Milan, Italy [2a00:dcc0:eda:3754:247:55:7e31:1243]
+host = 2a00:dcc0:eda:3754:247:55:7e31:1243
+
++++ softlayer-mil-v6
+menu = {IPv6} [IT] SoftLayer (Milan)
+title = {IPv6} [IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
+host = speedtest.mil01.softlayer.com
+
++++ edis-pl-v6
+menu = {IPv6} [PL] EDIS (Warsaw)
+title = {IPv6} [PL] EDIS - Warsaw, Poland [2a03:f80:48::1]
+host = 2a03:f80:48::1
+
++++ orange-pl-gdo-v6
+menu = {IPv6} [PL] Orange (Gdansk)
+title = {IPv6} [PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]
+host = gda-o1.speedtest.orange.pl
+
++++ orange-pl-waw-v6
+menu = {IPv6} [PL] Orange (Warsaw)
+title = {IPv6} [PL] Orange Polska TPSA - Warsaw, Poland [war-o1.speedtest.orange.pl]
+host = war-o1.speedtest.orange.pl
+
++++ edis-at-v6
+menu = {IPv6} [AT] EDIS (Vienna)
+title = {IPv6} [AT] EDIS - Vienna, Austria [2a03:f80:ed15:149:154:154:90:1]
+host = 2a03:f80:ed15:149:154:154:90:1
+
++++ edis-atgrz-v6
+menu = {IPv6} [AT] EDIS (Graz)
+title = {IPv6} [AT] EDIS - Graz, Austria [2a03:f80:ed15:151:236:30:10:1]
+host = 2a03:f80:ed15:151:236:30:10:1
+
++++ hosthatch-vie-v6
+menu = {IPv6} [AT] HostHatch (Vienna)
+title = {IPv6} [AT] HostHatch - Vienna, Austria [2a0d:5600:31:27:dd::beef]
+host = 2a0d:5600:31:27:dd::beef
+
+
+++ EUNorth6
+menu = {IPv6} Europe - North
+title = TITLE-HEADER6 - Europe (North)
+
++++ amazon-se-v6
+menu = {IPv6} [SE] Amazon AWS
+title = {IPv6} [SE] Amazon Web Services (eu-north-1) - Stockholm, Sweden [2a05:d016:35:4100::ec2]
+host = 2a05:d016:35:4100::ec2
+
++++ hosthatch-sto-v6
+menu = {IPv6} [SE] HostHatch
+title = {IPv6} [SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [2a00:1a28:1157:dd::beef]
+host = 2a00:1a28:1157:dd::beef
+
++++ tele2-se-kst-v6
+menu = {IPv6} [SE] Tele2 (Kista)
+title = {IPv6} [SE] Tele2 - Kista, Stockholm, Sweden [kst5-speedtest-1.tele2.net]
+host = kst5-speedtest-1.tele2.net
+
++++ hosthatch-osl-v6
+menu = {IPv6} [NO] HostHatch (Oslo)
+title = {IPv6} [NO] HostHatch - Oslo, Norway [2a0d:5600:30:40:dd::beef]
+host = 2a0d:5600:30:40:dd::beef
+
++++ softlayer-osl-v6
+menu = {IPv6} [NO] SoftLayer (Oslo)
+title = {IPv6} [NO] SoftLayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]
+host = speedtest.osl01.softlayer.com
+
++++ terrahost-no-v6
+menu = {IPv6} [NO] Terrahost (Sandefjord)
+title = {IPv6} [NO] Terrahost AS203629 - Sandefjord, Norway [2a03:94e0:1803::1]
+host = 2a03:94e0:1803::1
+
++++ telenor-v6
+menu = {IPv6} [NO] Telenor (Oslo)
+title = {IPv6} [NO] Telenor - Oslo, Norway [test.telenor.net]
+host = test.telenor.net
+
++++ ultravps-lt-v6
+menu = {IPv6} [LT] UltraVPS (Siauliai)
+title = {IPv6} [LT] UltraVPS - Siauliai, Lithuania [2a02:e00:ffe7:3::1]
+host = 2a02:e00:ffe7:3::1
+
++++ edis-is-v6
+menu = {IPv6} [IS] EDIS
+title = {IPv6} [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
+host = is.edis.at
+
+
+++ EUEast6
+menu = {IPv6} Europe - East
+title = TITLE-HEADER6 - Europe (East)
+
++++ edis-ru-v6
+menu = {IPv6} [RU] EDIS (Moscow)
+title = {IPv6} [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
+host = ru.edis.at
+
++++ justhost-dataline-v6
+menu = {IPv6} [RU] JustHost@DataLine
+title = {IPv6} [RU] JustHost.ru @ DataLine - Moscow, Russia [2a00:b700::3a]
+host = 2a00:b700::3a
+
++++ justhost-fiord-v6
+menu = {IPv6} [RU] JustHost@Fiord
+title = {IPv6} [RU] JustHost.ru @ Fiord - Moscow, Russia [2a00:b700:3::88]
+host = 2a00:b700:3::88
+
++++ edis-rusp-v6
+menu = {IPv6} [RU] EDIS (SPB)
+title = {IPv6} [RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]
+host = rusp.edis.at
+
++++ veesp-stp-v6
+menu = {IPv6} [RU] Veesp
+title = {IPv6} [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [2a00:1838:20:1::5b2a:9cbf]
+host = 2a00:1838:20:1::5b2a:9cbf
+
++++ justhost-rtcom-v6
+menu = {IPv6} [RU] JustHost (Kazan)
+title = {IPv6} [RU] JustHost.ru @ RosTelecom - Kazan, Russia [2a00:b700:1::5f]
+host = 2a00:b700:1::5f
+
++++ hostclean-ro-m247-v6
+menu = {IPv6} [RO] M247
+title = {IPv6} [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
+host = lg-m247.hostclean.net
+
++++ prometeus-rom-v6
+menu = {IPv6} [RO] Prometeus
+title = {IPv6} [RO] Prometeus - Bucharest, Romania [2a06:fdc0:f:f:185:136:176:99]
+host = 2a06:fdc0:f:f:185:136:176:99
+
++++ edis-md-v6
+menu = {IPv6} [MD] EDIS
+title = {IPv6} [MD] EDIS - Chisinau, Moldova [2a03:f80:373:192:121:87:10:1]
+host = 2a03:f80:373:192:121:87:10:1
+
++++ ultravps-md-v6
+menu = {IPv6} [MD] UltraVPS
+title = {IPv6} [MD] UltraVPS - Chisinau, Moldova [2a02:e00:ffe8:3::1]
+host = 2a02:e00:ffe8:3::1
+
++++ hrvatski-telecom-v6
+menu = {IPv6} [HR] Hrvatski
+title = {IPv6} [HR] Hrvatski Telekom - Zagreb, Croatia [speedtest.ht.hr]
+host = speedtest.ht.hr
+
++++ edis-rs-v6
+menu = {IPv6} [RS] EDI
+title = {IPv6} [RS] EDIS - Belgrade, Serbia [2a03:f80:381::1]
+host = 2a03:f80:381::1
+
++++ albtelecom-v6
+menu = {IPv6} [AL] Albtelecom
+title = {IPv6} [AL] Albtelecom - Tirana, Albania [tirana.albtelecom.al]
+host = tirana.albtelecom.al
+
++++ edis-si-v6
+menu = {IPv6} [SI] EDIS
+title = {IPv6} [SI] EDIS - Ljubljana, Slovenia [2a03:f80:386::1]
+host = 2a03:f80:386::1
+
++++ vodafone-ua-v6
+menu = {IPv6} [UA] Vodafone
+title = {IPv6} [UA] Vodafone - Kharkiv, Ukraine [kharkovspeedtest.vodafone.ua]
+host = kharkovspeedtest.vodafone.ua
+
++++ gr-ix-v6
+menu = {IPv6} [GR] GRNET GR-IX
+title = {IPv6} [GR] GR-IX Greek Internet Exchange - Athens, Greece [speedtest.gr-ix.gr]
+host = speedtest.gr-ix.gr
+
++++ cosmote-1-v6
+menu = {IPv6} [GR] Cosmote
+title = {IPv6} [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
+host = speedtest.cosmote.net
