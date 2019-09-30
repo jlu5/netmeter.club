@@ -133,7 +133,7 @@ title = {IPv6} [US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]
 host = lg.ionswitch.com
 
 +++ incero-sea-v6
-menu = [US/WA] Incero (Seattle)
+menu = [US/WA] Incero
 title = {IPv6} [US/WA] Incero - Seattle, Washington [2604:880:a:2::1]
 host = 2604:880:a:2::1
 
@@ -143,7 +143,7 @@ title = {IPv6} [US/WA] RamNode - Seattle, Washington [lg.sea.ramnode.com]
 host = lg.sea.ramnode.com
 
 +++ vultr-sea-v6
-menu = [US/WA] Vultr (Seattle)
+menu = [US/WA] Vultr
 title = {IPv6} [US/WA] Vultr / Choopa - Seattle, Washington [2001:19f0:8000:8001:5054:ff:fe2d:aea4]
 host = 2001:19f0:8000:8001:5054:ff:fe2d:aea4
 
@@ -223,37 +223,37 @@ menu = {IPv6} North America - Central
 title = TITLE-HEADER6 - North America (Central, South)
 
 +++ psychz-chi-v6
-menu = [US/IL] Psychz (Chicago)
+menu = [US/IL] Psychz
 title = {IPv6} [US/IL] Psychz - Chicago, Illinois [lg.chi.psychz.net]
 host = lg.chi.psychz.net
 
 +++ steadfast-il-v6
-menu = [US/IL] Steadfast (Chicago)
+menu = [US/IL] Steadfast
 title = {IPv6} [US/IL] Steadfast - Chicago, Illinois [lookingglass.chi.steadfast.net]
 host = lookingglass.chi.steadfast.net
 
 +++ vultr-chi-v6
-menu = [US/IL] Vultr (Chicago)
+menu = [US/IL] Vultr
 title = {IPv6} [US/IL] Vultr - Chicago, Illinois [2001:19f0:5c00:8401:5054:ff:fe27:19b9]
 host = 2001:19f0:5c00:8401:5054:ff:fe27:19b9
 
 +++ linode-dal-v6
-menu = [US/TX] Linode (Dallas)
+menu = [US/TX] Linode
 title = {IPv6} [US/TX] Linode - Dallas, Texas [speedtest.dallas.linode.com]
 host = speedtest.dallas.linode.com
 
 +++ nexril-v6
-menu = [US/TX] Nexril (Dallas)
+menu = [US/TX] Nexril
 title = {IPv6} [US/TX] Nexril - Dallas, Texas [lg.nexril.net]
 host = lg.nexril.net
 
 +++ psychz-texas-v6
-menu = [US/TX] Psychz (Dallas)
+menu = [US/TX] Psychz
 title = {IPv6} [US/TX] Psychz - Dallas, Texas [lg.texas.psychz.net]
 host = lg.texas.psychz.net
 
 +++ softlayer-dal-v6
-menu = [US/TX] SoftLayer (Dallas)
+menu = [US/TX] SoftLayer
 title = {IPv6} [US/TX] SoftLayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]
 host = speedtest.dal06.softlayer.com
 
@@ -263,7 +263,7 @@ title = {IPv6} [US/TX] SpartanHost - Dallas, Texas [lg.dal.spartanhost.net]
 host = lg.dal.spartanhost.net
 
 +++ vultr-dal-v6
-menu = [US/TX] Vultr (Dallas)
+menu = [US/TX] Vultr
 title = {IPv6} [US/TX] Vultr - Dallas, Texas [2001:19f0:6400:8001:5054:ff:fe48:5e6e]
 host = 2001:19f0:6400:8001:5054:ff:fe48:5e6e
 
@@ -273,7 +273,7 @@ title = {IPv6} [CA/ON] DigitalOcean (TOR1) - Toronto, Canada [speedtest-tor1.dig
 host = speedtest-tor1.digitalocean.com
 
 +++ linode-tor-v6
-menu = [CA/ON] Linode (Toronto)
+menu = [CA/ON] Linode
 title = {IPv6} [CA/ON] Linode - Toronto, Canada [speedtest.tor1.linode.com]
 host = speedtest.toronto1.linode.com
 
@@ -327,28 +327,23 @@ host = speedtest.mex01.softlayer.com
 menu = {IPv6} North America - East
 title = TITLE-HEADER6 - North America (East)
 
-+++ buyvm-ny-v6
-menu = [US/NY] BuyVM (NYC)
-title = {IPv6} [US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]
-host = speedtest.ny.buyvm.net
-
 +++ digitalocean-nyc3-v6
 menu = [US/NY] DigitalOcean
 title = {IPv6} [US/NY] DigitalOcean (NYC3) - New York City, NY, US [speedtest-nyc3.digitalocean.com]
 host = speedtest-nyc3.digitalocean.com
 
 +++ hosthatch-nyc-v6
-menu = [US/NY] HostHatch (NYC)
+menu = [US/NY] HostHatch
 title = {IPv6} [US/NY] HostHatch - New York City, NY, US [2a0d:5600:33:5:dead::beef]
 host = 2a0d:5600:33:5:dead::beef
 
 +++ ramnode-nyc-v6
-menu = [US/NY] Ramnode (NYC)
+menu = [US/NY] Ramnode
 title = {IPv6} [US/NY] Ramnode - New York City, NY, US [lg.nyc.ramnode.com]
 host = lg.nyc.ramnode.com
 
 +++ linode-nj-v6
-menu = [US/NJ] Linode (Newark)
+menu = [US/NJ] Linode
 title = {IPv6} [US/NJ] Linode - Newark, New Jersey [speedtest.newark.linode.com]
 host = speedtest.newark.linode.com
 
@@ -373,7 +368,7 @@ title = {IPv6} [US/VA] ExtraVM @ OVH - Vint Hill, Virginia, US [vin.lg.extravm.c
 host = vin.lg.extravm.com
 
 +++ psychz-va-v6
-menu = [US/VA] Psychz (Ashburn)
+menu = [US/VA] Psychz
 title = {IPv6} [US/VA] Psychz - Ashburn, Virginia [lg.va.psychz.net]
 host = lg.va.psychz.net
 
@@ -383,32 +378,32 @@ title = {IPv6} [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
 +++ hostus-atl-v6
-menu = [US/GA] HostUS (Atlanta)
+menu = [US/GA] HostUS
 title = {IPv6} [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
 host = atl-lg.hostus.us
 
 +++ linode-atl-v6
-menu = [US/GA] Linode (Atlanta)
+menu = [US/GA] Linode
 title = {IPv6} [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
 host = speedtest.atlanta.linode.com
 
 +++ ramnode-atl-v6
-menu = [US/GA] Ramnode (Atlanta)
+menu = [US/GA] Ramnode
 title = {IPv6} [US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]
 host = lg.atl.ramnode.com
 
 +++ vultr-atl-v6
-menu = [US/GA] Vultr (Atlanta)
+menu = [US/GA] Vultr
 title = {IPv6} [US/GA] Vultr - Atlanta, Georgia [2001:19f0:5400:8001:5054:ff:fe4c:1717]
 host = 2001:19f0:5400:8001:5054:ff:fe4c:1717
 
 +++ quadranet-mia-v6
-menu = [US/FL] QuadraNet (Miami)
+menu = [US/FL] QuadraNet
 title = {IPv6} [US/FL] QuadraNet - Miami, Florida [2607:ff48:0:a:b:c:d:666]
 host = 2607:ff48:0:a:b:c:d:666
 
 +++ vultr-mia-v6
-menu = [US/FL] Vultr (Miami)
+menu = [US/FL] Vultr
 title = {IPv6} [US/FL] Vultr - Miami, Florida [2001:19f0:9000:8001:5054:ff:fe8f:a86a]
 host = 2001:19f0:9000:8001:5054:ff:fe8f:a86a
 
@@ -433,7 +428,7 @@ title = {IPv6} [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
 host = clt-lg.hostus.us
 
 +++ mrvm-ler-v6
-menu = [US/NC] mrvm.net (Lenoir)
+menu = [US/NC] mrvm.net
 title = {IPv6} [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [2607:5600:8e:2d:9466:374f:d50f:1]
 host = 2607:5600:8e:2d:9466:374f:d50f:1
 
@@ -472,10 +467,10 @@ menu = {IPv6} [UK] OVH
 title = {IPv6} [UK] ExtraVM @ OVH - Erith, London, United Kingdom [lon.lg.extravm.com]
 host = lon.lg.extravm.com
 
-+++ vmhaus-lon-v6
++++ vmhaus-lon-v6-0
 menu = {IPv6} [UK] VMHaus
-title = {IPv6} [UK] VMHaus - London, United Kingdom [lg.thn2.vmhaus.com]
-host = lg.thn2.vmhaus.com
+title = {IPv6} [UK] VMHaus - London, United Kingdom [2a06:82c2:0:88::1]
+host = 2a06:82c2:0:88::1
 
 +++ vultr-lon-v6
 menu = {IPv6} [UK] Vultr
@@ -498,7 +493,7 @@ title = {IPv6} [FR] Amazon Web Services - Paris, France [2a05:d012:3:c000::ec2]
 host = 2a05:d012:3:c000::ec2
 
 +++ edis-fr-v6
-menu = {IPv6} [FR] EDIS (Paris)
+menu = {IPv6} [FR] EDIS
 title = {IPv6} [FR] EDIS - Paris, France [fr.edis.at]
 host = fr.edis.at
 
@@ -513,7 +508,7 @@ title = {IPv6} [FR] SoftLayer (par01) - Paris, France [speedtest.par01.softlayer
 host = speedtest.par01.softlayer.com
 
 +++ vultr-par-v6
-menu = {IPv6} [FR] Vultr (Paris)
+menu = {IPv6} [FR] Vultr
 title = {IPv6} [FR] Vultr - Paris, France [2001:19f0:6800:8002::33]
 host = 2001:19f0:6800:8002::33
 
@@ -521,6 +516,16 @@ host = 2001:19f0:6800:8002::33
 menu = {IPv6} [FR] OVH (GRA)
 title = {IPv6} [FR] OVH - Gravelines, France [speedtest-gra.as16276.ovh]
 host = speedtest-gra.as16276.ovh
+
++++ ovh-rbx-v6
+menu = {IPv6} [FR] OVH (RBX)
+title = {IPv6} [FR] OVH - Roubaix, France [rbx.proof.ovh.net]
+host = rbx.proof.ovh.net
+
++++ ovh-sbg-v6
+menu = {IPv6} [FR] OVH (SBG)
+title = {IPv6} [FR] OVH - Strasbourg, France [sbg.proof.ovh.net]
+host = sbg.proof.ovh.net
 
 +++ ikoula-v6
 menu = {IPv6} [FR] Ikoula (Reims)
@@ -561,11 +566,6 @@ host = 2001:19f0:5000:8001:5054:ff:fe8a:a295
 menu = {IPv6} [BE] EDIS
 title = {IPv6} [BE] EDIS - Oostkamp, Belgium [2a03:f80:32::1]
 host = 2a03:f80:32::1
-
-+++ buyvm-lu-v6
-menu = {IPv6} [LU] BuyVM
-title = {IPv6} [LU] BuyVM - Roost, Luxembourg [speedtest.lu.buyvm.net]
-host = speedtest.lu.buyvm.net
 
 +++ edis-es-v6
 menu = {IPv6} [ES] EDIS (Seville)
@@ -668,7 +668,7 @@ title = {IPv6} [IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.
 host = speedtest.mil01.softlayer.com
 
 +++ edis-pl-v6
-menu = {IPv6} [PL] EDIS (Warsaw)
+menu = {IPv6} [PL] EDIS
 title = {IPv6} [PL] EDIS - Warsaw, Poland [2a03:f80:48::1]
 host = 2a03:f80:48::1
 
@@ -693,7 +693,7 @@ title = {IPv6} [AT] EDIS - Graz, Austria [2a03:f80:ed15:151:236:30:10:1]
 host = 2a03:f80:ed15:151:236:30:10:1
 
 +++ hosthatch-vie-v6
-menu = {IPv6} [AT] HostHatch (Vienna)
+menu = {IPv6} [AT] HostHatch
 title = {IPv6} [AT] HostHatch - Vienna, Austria [2a0d:5600:31:27:dd::beef]
 host = 2a0d:5600:31:27:dd::beef
 
@@ -713,7 +713,7 @@ title = {IPv6} [SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [2a00:1a28
 host = 2a00:1a28:1157:dd::beef
 
 +++ tele2-se-kst-v6
-menu = {IPv6} [SE] Tele2 (Kista)
+menu = {IPv6} [SE] Tele2
 title = {IPv6} [SE] Tele2 - Kista, Stockholm, Sweden [kst5-speedtest-1.tele2.net]
 host = kst5-speedtest-1.tele2.net
 
@@ -741,11 +741,6 @@ host = test.telenor.net
 menu = {IPv6} [LT] UltraVPS
 title = {IPv6} [LT] UltraVPS - Siauliai, Lithuania [2a02:e00:ffe7:3::1]
 host = 2a02:e00:ffe7:3::1
-
-+++ edis-is-v6
-menu = {IPv6} [IS] EDIS
-title = {IPv6} [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
-host = is.edis.at
 
 
 ++ EUEast6
@@ -801,11 +796,6 @@ host = 2a03:f80:373:192:121:87:10:1
 menu = {IPv6} [MD] UltraVPS
 title = {IPv6} [MD] UltraVPS - Chisinau, Moldova [2a02:e00:ffe8:3::1]
 host = 2a02:e00:ffe8:3::1
-
-+++ hrvatski-telecom-v6
-menu = {IPv6} [HR] Hrvatski
-title = {IPv6} [HR] Hrvatski Telekom - Zagreb, Croatia [speedtest.ht.hr]
-host = speedtest.ht.hr
 
 +++ edis-rs-v6
 menu = {IPv6} [RS] EDI

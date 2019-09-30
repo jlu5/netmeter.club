@@ -1531,8 +1531,8 @@ host = spt01kgpttn.kgpt.tn.charter.com
 
 
 + PointsInterestEU
-menu = Europe - UK, Ireland, British Isles
-title = TITLE-HEADER - United Kingdom, Ireland, British Isles
+menu = Europe - UK, Ireland
+title = TITLE-HEADER - United Kingdom & Ireland
 
 ++ launchpad
 menu = [UK] Launchpad / Canonical Ltd.
@@ -1971,7 +1971,7 @@ host = lg.netcup.net
 
 
 + PointsInterestEU2
-menu = Europe - Central Europe
+menu = Europe - Central
 title = TITLE-HEADER - Central Europe
 
 ++ cern-ch
@@ -2101,8 +2101,8 @@ host = sp1.telekom.sk
 
 
 + PointsInterestEU7
-menu = Europe - Spain, Italy, Portugal
-title = TITLE-HEADER - Southern Europe (Spain, Italy, Portugal)
+menu = Europe - South
+title = TITLE-HEADER - Southern Europe
 
 ++ edis-it
 menu = [IT] EDIS (Milan)
@@ -2166,8 +2166,8 @@ host = core1.lis1.he.net
 
 
 + PointsInterestEU4
-menu = Europe - Nordic, Baltic Countries
-title = TITLE-HEADER - Nordic, Baltic Countries
+menu = Europe - North
+title = TITLE-HEADER - Europe (North)
 
 ++ amazon-se
 menu = [SE] Amazon AWS
@@ -2296,7 +2296,7 @@ host = is.edis.at
 
 
 + PointsInterestEU3
-menu = Europe - Eastern Europe
+menu = Europe - East
 title = TITLE-HEADER - Eastern Europe
 
 ++ edis-ru
@@ -2386,7 +2386,7 @@ host = kharkovspeedtest.vodafone.ua
 
 
 + PointsInterestEU8
-menu = Europe - Southeast Europe
+menu = Europe - Southeast
 title = TITLE-HEADER - Southeast Europe
 
 ++ edis-ro
@@ -2893,8 +2893,8 @@ host = lg.tw.psychz.net
 
 
 + PointsInterestAS
-menu = Asia - Japan, Korea, Russia
-title = TITLE-HEADER - North, East Asia
+menu = Asia - Northeast
+title = TITLE-HEADER - Northeast Asia
 
 ++ osdn-jp
 menu = [JP] OSDN @ IIJ
@@ -2996,6 +2996,11 @@ menu = [KR] Kdatacenter
 title = [KR] Kdatacenter [speedtest.kdatacenter.com]
 host = speedtest.kdatacenter.com
 
+++ kecloud
+menu = [KR] KeCloud
+title = [KR] KeCloud @ LG U+ - Seoul, Korea [112.196.204.1]
+host = 112.196.204.1
+
 ++ moack
 menu = [KR] Moack
 title = [KR] Moack AS138195 - Seoul, Korea [lg.moack.co.kr]
@@ -3060,6 +3065,11 @@ host = speedtest.amur.ru
 menu = [RU] ER-Telecom (Irkutsk)
 title = [RU] ER-Telecom - Irkutsk, Russian Federation [speedtest.irkutsk.ertelecom.ru]
 host = speedtest.irkutsk.ertelecom.ru
+
+++ itools
+menu = [MN] itools (Ulaanbaatar)
+title = [MN] itools @ MobiCom - Ulaanbaatar, Mongolia [43.231.112.1]
+host = 43.231.112.1
 
 
 + PointsInterestAS2
