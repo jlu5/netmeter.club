@@ -826,3 +826,193 @@ host = speedtest.gr-ix.gr
 menu = {IPv6} [GR] Cosmote
 title = {IPv6} [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
 host = speedtest.cosmote.net
+
+
+++ ASEast6
+menu = {IPv6} Asia - North, East
+title = TITLE-HEADER6 - North & East Asia
+
++++ amazon-cn-north1-v6
+menu = {IPv6} [CN] AWS (Beijing)
+title = {IPv6} [CN] Amazon Web Services (cn-north1 @ Sinnet) - Beijing, China [2400:7fc0:8811:9600::ec2]
+host = 2400:7fc0:8811:9600::ec2
+
++++ amazon-cn-northwest1-v6
+menu = {IPv6} [CN] AWS (Ningxia)
+title = {IPv6} [CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [2404:c2c0:88bb:2400::ec2]
+host = 2404:c2c0:88bb:2400::ec2
+
++++ tsinghua-v6
+menu = {IPv6} [CN] Tsinghua U.
+title = {IPv6} [CN] Tsinghua University - Beijing, China [mirrors.tuna.tsinghua.edu.cn]
+host = mirrors.tuna.tsinghua.edu.cn
+
++++ ustc-v6
+menu = {IPv6} [CN] USTC
+title = {IPv6} [CN] University of Science and Technology of China - Hefei, Anhui, China [mirrors.ustc.edu.cn]
+host = mirrors.ustc.edu.cn
+
++++ amazon-hk-v6
+menu = {IPv6} [HK] Amazon AWS
+title = {IPv6} [HK] Amazon Web Services (ap-east-1) - Hong Kong, China [2406:da1e:fca:1600::ec2]
+host = 2406:da1e:fca:1600::ec2
+
++++ edis-hk-v6
+menu = {IPv6} [HK] EDIS
+title = {IPv6} [HK] EDIS - New Territories, Hong Kong [2a03:f80:852::1]
+host = 2a03:f80:852::1
+
++++ leaseweb-hk-v6
+menu = {IPv6} [HK] LeaseWeb
+title = {IPv6} [HK] LeaseWeb - Hong Kong, China [mirror.hk.leaseweb.net]
+host = mirror.hk.leaseweb.net
+
++++ ransomit-hk-v6
+menu = {IPv6} [HK] Ransom IT
+title = {IPv6} [HK] Ransom IT - Hong Kong, China [2406:d500:14:200::cbc8:d940]
+host = 2406:d500:14:200::cbc8:d940
+
++++ starrydns-hk-v6
+menu = {IPv6} [HK] StarryDNS
+title = {IPv6} [HK] StarryDNS (HK4) - Hong Kong, China [2403:ad80:98::9]
+host = 2403:ad80:98::9
+
++++ xtom-hk-v6
+menu = {IPv6} [HK] xTom
+title = {IPv6} [HK] xTom - Hong Kong, China [mirrors.xtom.com.hk]
+host = mirrors.xtom.com.hk
+
++++ amazon-jp-v6
+menu = {IPv6} [JP] Amazon AWS
+title = {IPv6} [JP] Amazon Web Services (ap-northeast-2) - Tokyo, Japan [2406:da14:295:300::ec2]
+host = 2406:da14:295:300::ec2
+
++++ linode-jp-v6
+menu = {IPv6} [JP] Linode
+title = {IPv6} [JP] Linode (Tokyo 2) - Tokyo, Japan [speedtest.tokyo2.linode.com]
+host = speedtest.tokyo2.linode.com
+
++++ ransomit-jp-v6
+menu = {IPv6} [JP] Ransom IT
+title = {IPv6} [JP] Ransom IT - Tokyo, Japan [2406:d500:9::8a53:2806]
+host = 2406:d500:9::8a53:2806
+
++++ rivencloud-osaka-v6
+menu = {IPv6} [JP] Riven Cloud (Osaka)
+title = {IPv6} [JP] Riven Cloud - Osaka, Japan [speedtest-os1.sa.net]
+host = speedtest-os1.sa.net
+
++++ rivencloud-tokyo-v6
+menu = {IPv6} [JP] Riven Cloud (Tokyo)
+title = {IPv6} [JP] Riven Cloud - Tokyo, Japan [speedtest-ty1.sa.net]
+host = speedtest-ty1.sa.net
+
++++ softlayer-tok-v6
+menu = {IPv6} [JP] SoftLayer
+title = {IPv6} [JP] SoftLayer (tok02) - Tokyo, Japan [speedtest.tok02.softlayer.com]
+host = speedtest.tok02.softlayer.com
+
++++ starrydns-tok-v6
+menu = {IPv6} [JP] StarryDNS
+title = {IPv6} [JP] StarryDNS - Tokyo, Japan [2403:ad80:88:4000::2]
+host = 2403:ad80:88:4000::2
+
++++ vultr-jp-v6
+menu = {IPv6} [JP] Vultr
+title = {IPv6} [JP] Vultr / Choopa - Tokyo, Japan [2001:19f0:7000:8002:5054:ff:feb5:68b5]
+host = 2001:19f0:7000:8002:5054:ff:feb5:68b5
+
++++ amazon-kr-v6
+menu = {IPv6} [KR] Amazon AWS
+title = {IPv6} [KR] Amazon Web Services (ap-northeast-1) - Seoul, South Korea [2406:da12:128:d200::ec2]
+host = 2406:da12:128:d200::ec2
+
++++ softlayer-seo-v6
+menu = {IPv6} [KR] SoftLayer
+title = {IPv6} [KR] SoftLayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
+host = speedtest.seo01.softlayer.com
+
++++ xhostfire-khv-v6
+menu = {IPv6} [RU] XHostFire
+title = {IPv6} [RU] XHostFire @ Rostelecom, TTK - Khabarovsk, Russia [2a01:620:1:5019::1]
+host = 2a01:620:1:5019::1
+
++++ justhost-nsk-v6
+menu = {IPv6} [RU] JustHost (NSK)
+title = {IPv6} [RU] JustHost.ru @ RosTelecom - Novosibirsk, Russia [2a00:b700:2::8a]
+host = 2a00:b700:2::8a
+
+
+++ ASSouth6
+menu = {IPv6} Asia - South, Southeast
+title = TITLE-HEADER6 - South & Southeast Asia
+
++++ amazon-sg-v6
+menu = {IPv6} [SG] Amazon AWS
+title = {IPv6} [SG] Amazon Web Services (ap-southeast-1) - Singapore [2406:da18:ec6:6400::ec2]
+host = 2406:da18:ec6:6400::ec2
+
++++ digitalocean-sgp-v6
+menu = {IPv6} [SG] Digital Ocean
+title = {IPv6} [SG] Digital Ocean (SGP1) - Singapore [speedtest-sgp1.digitalocean.com]
+host = speedtest-sgp1.digitalocean.com
+
++++ leaseweb-sg-v6
+menu = {IPv6} [SG] LeaseWeb
+title = {IPv6} [SG] LeaseWeb - Singapore [mirror.sg.leaseweb.net]
+host = mirror.sg.leaseweb.net
+
++++ linode-sg-v6
+menu = {IPv6} [SG] Linode
+title = {IPv6} [SG] Linode - Singapore [speedtest.singapore.linode.com]
+host = speedtest.singapore.linode.com
+
++++ mrvm-sgp-v6
+menu = {IPv6} [SG] mrvm.net
+title = {IPv6} [SG] mrvm.net @ Equinix SG3 - Singapore [2406:d500:12:beef:60::1]
+host = 2406:d500:12:beef:60::1
+
++++ ovh-sgp-v6
+menu = {IPv6} [SG] OVH
+title = {IPv6} [SG] OVH - Singapore [speedtest-sgp.apac-tools.ovh]
+host = speedtest-sgp.apac-tools.ovh
+
++++ sg-gs-v6
+menu = {IPv6} [SG] SG.GS
+title = {IPv6} [SG] OneAsiaHost @ SG.GS - Singapore [2405:4200:202::208:201]
+host = 2405:4200:202::208:201
+
++++ starrydns-sg-v6
+menu = {IPv6} [SG] StarryDNS
+title = {IPv6} [SG] StarryDNS - Singapore [2403:ad80:a7:7e8::ffff]
+host = 2403:ad80:a7:7e8::ffff
+
++++ vultr-sg-v6
+menu = {IPv6} [SG] Vultr
+title = {IPv6} [SG] Vultr / Choopa - Singapore [2001:19f0:4400:4001:5400:ff:fe32:b7e5]
+host = 2001:19f0:4400:4001:5400:ff:fe32:b7e5
+
++++ amazon-mumbai-v6
+menu = {IPv6} [IN] Amazon AWS
+title = {IPv6} [IN] Amazon Web Services (ap-southeast-2) - Mumbai, India [2406:da00:a000::3442:4202]
+host = 2406:da00:a000::3442:4202
+
++++ digitalocean-blr-v6
+menu = {IPv6} [IN] Digital Ocean
+title = {IPv6} [IN] Digital Ocean (BLR1) - Bangladore, India [speedtest-blr1.digitalocean.com]
+host = speedtest-blr1.digitalocean.com
+
++++ linode-mum-v6
+menu = {IPv6} [IN] Linode
+title = {IPv6} [IN] Linode - Mumbai, India [speedtest.mum1.linode.com]
+host = speedtest.mum1.linode.com
+
++++ softlayer-che-v6
+menu = {IPv6} [IN] SoftLayer
+title = {IPv6} [IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
+host = speedtest.che01.softlayer.com
+
++++ cambohost-v6
+menu = {IPv6} [KH] Cambo.Host
+title = {IPv6} [KH] Cambo.Host [cambo.host]
+host = cambo.host

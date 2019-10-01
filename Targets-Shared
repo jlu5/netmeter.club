@@ -2100,74 +2100,9 @@ title = [SK] Slovak Telekom - Bratislava, Slovakia [sp1.telekom.sk]
 host = sp1.telekom.sk
 
 
-+ PointsInterestEU7
-menu = Europe - South
-title = TITLE-HEADER - Southern Europe
-
-++ edis-it
-menu = [IT] EDIS (Milan)
-title = [IT] EDIS - Milan, Italy [it.edis.at]
-host = it.edis.at
-
-++ netsons-mil
-menu = [IT] Netsons (Milan)
-title = [IT] Netsons - Milan, Italy [46.252.149.1]
-host = 46.252.149.1
-
-++ prometeus-mlo
-menu = [IT] Prometeus (Milan)
-title = [IT] Prometeus - Milan, Italy [37.247.53.10]
-host = 37.247.53.10
-
-++ softlayer-mil
-menu = [IT] SoftLayer (Milan)
-title = [IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
-host = speedtest.mil01.softlayer.com
-
-++ arubacloud-it1
-menu = [IT] ArubaCloud (Arezzo)
-title = [IT] ArubaCloud - Arezzo, Italy [212.237.43.103]
-host = 212.237.43.103
-
-++ fastweb-rom
-menu = [IT] Fastweb (Rome)
-title = [IT] Fastweb - Rome, Italy [spd-pub-rm-01-01.fastwebnet.it]
-host = spd-pub-rm-01-01.fastwebnet.it
-
-++ hurricane-electric-rom1
-menu = [IT] he.net (Rome)
-title = [IT] Hurricane Electric - NaMeX Roma, IT [core1.rom1.he.net]
-host = core1.rom1.he.net
-
-++ edis-itpa
-menu = [IT] EDIS (Palermo)
-title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
-host = itpa.edis.at
-
-++ ginernet-mad
-menu = [ES] GinerNet (Madrid)
-title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
-host = 5.134.117.74
-
-++ telefonica
-menu = [ES] Telefonica
-title = [ES] Telefonica [www.telefonicaglobalsolutions.com]
-host = www.telefonicaglobalsolutions.com
-
-++ edis-es
-menu = [ES] EDIS (Seville)
-title = [ES] EDIS - Seville, Spain [es.edis.at]
-host = es.edis.at
-
-++ hurricane-electric-lis1
-menu = [PT] he.net (Lisbon)
-title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
-host = core1.lis1.he.net
-
-
 + PointsInterestEU4
 menu = Europe - North
-title = TITLE-HEADER - Europe (North)
+title = TITLE-HEADER - Northern Europe
 
 ++ amazon-se
 menu = [SE] Amazon AWS
@@ -2293,6 +2228,71 @@ host = is.edis.at
 #menu = [IS] NORDUnet (Reykjavik)
 #title = [IS] NORDUnet (Nordic Gateway for Research & Education) - Reykjavik, Iceland [is-rey.nordu.net]
 #host = is-rey.nordu.net
+
+
++ PointsInterestEU7
+menu = Europe - South
+title = TITLE-HEADER - Southern Europe
+
+++ edis-it
+menu = [IT] EDIS (Milan)
+title = [IT] EDIS - Milan, Italy [it.edis.at]
+host = it.edis.at
+
+++ netsons-mil
+menu = [IT] Netsons (Milan)
+title = [IT] Netsons - Milan, Italy [46.252.149.1]
+host = 46.252.149.1
+
+++ prometeus-mlo
+menu = [IT] Prometeus (Milan)
+title = [IT] Prometeus - Milan, Italy [37.247.53.10]
+host = 37.247.53.10
+
+++ softlayer-mil
+menu = [IT] SoftLayer (Milan)
+title = [IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]
+host = speedtest.mil01.softlayer.com
+
+++ arubacloud-it1
+menu = [IT] ArubaCloud (Arezzo)
+title = [IT] ArubaCloud - Arezzo, Italy [212.237.43.103]
+host = 212.237.43.103
+
+++ fastweb-rom
+menu = [IT] Fastweb (Rome)
+title = [IT] Fastweb - Rome, Italy [spd-pub-rm-01-01.fastwebnet.it]
+host = spd-pub-rm-01-01.fastwebnet.it
+
+++ hurricane-electric-rom1
+menu = [IT] he.net (Rome)
+title = [IT] Hurricane Electric - NaMeX Roma, IT [core1.rom1.he.net]
+host = core1.rom1.he.net
+
+++ edis-itpa
+menu = [IT] EDIS (Palermo)
+title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
+host = itpa.edis.at
+
+++ ginernet-mad
+menu = [ES] GinerNet (Madrid)
+title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
+host = 5.134.117.74
+
+++ telefonica
+menu = [ES] Telefonica
+title = [ES] Telefonica [www.telefonicaglobalsolutions.com]
+host = www.telefonicaglobalsolutions.com
+
+++ edis-es
+menu = [ES] EDIS (Seville)
+title = [ES] EDIS - Seville, Spain [es.edis.at]
+host = es.edis.at
+
+++ hurricane-electric-lis1
+menu = [PT] he.net (Lisbon)
+title = [PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]
+host = core1.lis1.he.net
 
 
 + PointsInterestEU3
@@ -2968,7 +2968,7 @@ host = speedtest.tok02.softlayer.com
 
 ++ starrydns-tok
 menu = [JP] StarryDNS (Tokyo)
-title = [JP] StarryDNS  - Tokyo, Japan [jp4.lg.starrydns.com]
+title = [JP] StarryDNS - Tokyo, Japan [jp4.lg.starrydns.com]
 host = jp4.lg.starrydns.com
 
 ++ telia-tky-b1
