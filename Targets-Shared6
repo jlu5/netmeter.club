@@ -1017,10 +1017,10 @@ menu = {IPv6} [AU] Amazon AWS
 title = {IPv6} [AU] Amazon Web Services (ap-southeast-2) - Sydney, Australia [2406:da1c:16:9000::ec2]
 host = 2406:da1c:16:9000::ec2
 
-+++ ovh-syd-v6
++++ ovh-syd0-v6
 menu = {IPv6} [AU] OVH (Sydney)
-title = {IPv6} [AU] OVH - Sydney, Australia [syd.apac-tools.ovh]
-host = syd.apac-tools.ovh
+title = {IPv6} [AU] OVH - Sydney, Australia [speedtest-syd.apac-tools.ovh]
+host = speedtest-syd.apac-tools.ovh
 
 +++ ransomit-syd-v6
 menu = {IPv6} [AU] Ransom IT (Sydney)

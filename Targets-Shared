@@ -1409,11 +1409,6 @@ menu = [US/GA] Cox (Alpharetta)
 title = [US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]
 host = speedtest.rd.at.cox.net
 
-++ ftpit-atl
-menu = [US/GA] FTPit (Atlanta)
-title = [US/GA] FTPit (Komputer King LLC) - Atlanta, Georgia [atlanta.lg.ftpit.com]
-host = atlanta.lg.ftpit.com
-
 ++ hostus-atl
 menu = [US/GA] HostUS (Atlanta)
 title = [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
