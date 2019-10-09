@@ -1077,11 +1077,6 @@ menu = {IPv6} [AU] Telstra (Perth)
 title = {IPv6} [AU] Telstra - Perth, Australia [per1.speedtest.telstra.net]
 host = per1.speedtest.telstra.net
 
-+++ ransomit-nz-v6
-menu = {IPv6} [NZ] Ransom IT (Auckland)
-title = {IPv6} [NZ] Ransom IT - Auckland, New Zealand [2401:7000:0:7::1]
-host = 2401:7000:0:7::1
-
 
 ++ SA6
 menu = {IPv6} South, Central America

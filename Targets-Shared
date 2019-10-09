@@ -454,11 +454,6 @@ menu = [US/CA] xTom (Fremont)
 title = [US/CA] xTom - Fremont, California [mirrors.xtom.com]
 host = mirrors.xtom.com
 
-++ anchnet-la
-menu = [US/CA] Anchnet (LA CN2)
-title = [US/CA] Anchnet - Los Angeles, California (CN2) [118.184.73.35]
-host = 118.184.73.35
-
 ++ anynode-la
 menu = [US/CA] anyNode (LA)
 title = [US/CA] anyNode - Los Angeles, California [lg.lax.anynode.net]
@@ -1389,11 +1384,6 @@ menu = [US/GA] AT&T (Tucker)
 title = [US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]
 host = atl.speedtest.sbcglobal.net
 
-++ budgetnode-atl
-menu = [US/GA] BudgetNode (Atlanta)
-title = [US/GA] BudgetNode - Atlanta, Georgia [104.129.25.90]
-host = 104.129.25.90
-
 ++ colocrossing-atl
 menu = [US/GA] ColoCrossing (Atlanta)
 title = [US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]
@@ -1419,6 +1409,11 @@ menu = [US/GA] Linode (Atlanta)
 title = [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
 host = speedtest.atlanta.linode.com
 
+++ quadranet-atl
+menu = [US/GA] QuadraNet (Atlanta)
+title = [US/GA] QuadraNet - Atlanta, Georgia [104.223.90.5]
+host = 104.223.90.5
+
 ++ ramnode-atl
 menu = [US/GA] Ramnode (Atlanta)
 title = [US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]
@@ -1439,10 +1434,10 @@ menu = [US/GA] Vultr (Atlanta)
 title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
 host = ga-us-ping.vultr.com
 
-++ smarthost-fl
-menu = [US/FL] SmartHost (Jacksonville)
-title = [US/FL] SmartHost @ GoRack - Jacksonville, Florida [199.102.65.118]
-host = 199.102.65.118
+++ gorack
+menu = [US/FL] GoRack (Jacksonville)
+title = [US/FL] GoRack - Jacksonville, Florida [www.gorack.net]
+host = www.gorack.net
 
 ++ securedragon-tampa
 menu = [US/FL] SecureDragon (Tampa)
@@ -2756,11 +2751,6 @@ menu = [HK] Anchnet
 title = [HK] Anchnet - Hong Kong, China (BGP) [118.193.193.24]
 host = 118.193.193.24
 
-++ bandwagonhost-hk
-menu = [HK] BandwagonHost
-title = [HK] BandwagonHost (IT7 Networks) @ PCCW - Hong Kong, China [23.252.97.148]
-host = 23.252.97.148
-
 ++ chinatelecomglobal-hk
 menu = [HK] China Telecom Global
 title = [HK] China Telecom Global - Hong Kong, China [203.14.188.1]
@@ -3171,10 +3161,30 @@ menu = [ID] Aliyun (Jakarta)
 title = [ID] Aliyun - Jakarta, Indonesia [oss-ap-southeast-5.aliyuncs.com]
 host = oss-ap-southeast-5.aliyuncs.com
 
+++ telkom-id-bekasi
+menu = [ID] Telkom (Bekasi)
+title = [ID] Telkom Indonesia - Bekasi, Indonesia [speedtest1.telkomsel.com]
+host = speedtest1.telkomsel.com
+
 ++ dediserve-jkt1
 menu = [ID] Dediserve (Jakarta)
 title = [ID] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
 host = speedtest.c1.jkt1.dediserve.com
+
+++ wowrack-id-jkt
+menu = [ID] Wowrack (Jakarta)
+title = [ID] Wowrack - Jakarta, Indonesia [sp1-jkt.wowrack.co.id]
+host = sp1-jkt.wowrack.co.id
+
+++ telkom-id-surabaya
+menu = [ID] Telkom (Surabaya)
+title = [ID] Telkom Indonesia - Surabaya, Indonesia [surabaya.speedtest.telkom.net.id]
+host = surabaya.speedtest.telkom.net.id
+
+++ wowrack-id-sby
+menu = [ID] Wowrack (Surabaya)
+title = [ID] Wowrack - Surabaya, Indonesia [sp1-sby.wowrack.co.id]
+host = sp1-sby.wowrack.co.id
 
 ++ aliyun-ap-southeast-3
 menu = [MY] Aliyun (Kuala Lumpur)
@@ -3646,6 +3656,11 @@ host = core1.bog1.he.net
 menu = Oceania
 title = TITLE-HEADER - Oceania
 
+++ aarnet-syd
+menu = [AU] AARNet (Sydney)
+title = [AU] AARNet Australian Academic and Research Network - Sydney, Australia [nsw-brwy-speedtest.aarnet.net.au]
+host = nsw-brwy-speedtest.aarnet.net.au
+
 ++ aliyun-ap-southeast-2
 menu = [AU] Aliyun (Sydney)
 title = [AU] Aliyun - Sydney, Australia [oss-ap-southeast-2.aliyuncs.com]
@@ -3721,10 +3736,25 @@ menu = [AU] SoftLayer (Melbourne)
 title = [AU] SoftLayer (mel01) - Melbourne, Australia [speedtest.mel01.softlayer.com]
 host = speedtest.mel01.softlayer.com
 
+++ vodafone-mel
+menu = [AU] Vodafone (Melbourne)
+title = [AU] Vodafone Hutchison Australia - Melbourne, Australia [my1.speedtest.vodafone.com.au]
+host = my1.speedtest.vodafone.com.au
+
+++ internode-brb
+menu = [AU] Internode (Brisbane)
+title = [AU] Internode - Brisbane, Australia [speedtest-bne.cdn.on.net]
+host = speedtest-bne.cdn.on.net
+
 ++ ransomit-brb
 menu = [AU] Ransom IT (Brisbane)
 title = [AU] Ransom IT - Brisbane, Australia [brisbane-lg.ransomit.com.au]
 host = brisbane-lg.ransomit.com.au
+
+++ internode-ade
+menu = [AU] Internode (Adelaide)
+title = [AU] Internode - Adelaide, Australia [speedtest-adl.cdn.on.net]
+host = speedtest-adl.cdn.on.net
 
 ++ ransomit-ade
 menu = [AU] Ransom IT (Adelaide)
@@ -3736,6 +3766,11 @@ menu = [AU] Telstra (Adelaide)
 title = [AU] Telstra - Adelaide, Australia [ade1.speedtest.telstra.net]
 host = ade1.speedtest.telstra.net
 
+++ optus-per
+menu = [AU] Optus (Perth)
+title = [AU] Optus - Perth, Australia [speedtest.per.optusnet.com.au]
+host = speedtest.per.optusnet.com.au
+
 ++ ransomit-per
 menu = [AU] Ransom IT (Perth)
 title = [AU] Ransom IT - Perth, Australia [perth-lg.ransomit.com.au]
@@ -3746,10 +3781,55 @@ menu = [AU] Vocus (Perth)
 title = [AU] Vocus - Perth, Australia [speedtest.pth.m2core.net.au]
 host = speedtest.pth.m2core.net.au
 
+++ optus-drw
+menu = [AU] Optus (Darwin)
+title = [AU] Optus - Darwin, Australia [darwin.nt.speedtest.optusnet.com.au]
+host = darwin.nt.speedtest.optusnet.com.au
+
+++ telstra-drw
+menu = [AU] Telstra (Darwin)
+title = [AU] Telstra - Darwin, Australia [drw1.speedtest.telstra.net]
+host = drw1.speedtest.telstra.net
+
 ++ ransomit-nz
 menu = [NZ] Ransom IT (Auckland)
 title = [NZ] Ransom IT - Auckland, New Zealand [auckland-lg.ransomit.com.au]
 host = auckland-lg.ransomit.com.au
+
+++ spark-nz
+menu = [NZ] Spark (Auckland)
+title = [NZ] Spark - Auckland, New Zealand [speedtest-auckland.telecom.co.nz]
+host = speedtest-auckland.telecom.co.nz
+
+++ vodafone-nz
+menu = [NZ] Vodafone (Auckland)
+title = [NZ] Vodafone - Auckland, New Zealand [auckland.speedtest.vodafone.co.nz]
+host = auckland.speedtest.vodafone.co.nz
+
+++ zappiehost-nz
+menu = [NZ] ZappieHost (Auckland)
+title = [NZ] ZappieHost - Auckland, New Zealand [lg-nz.zappiehost.com]
+host = lg-nz.zappiehost.com
+
+++ spark-nz-wel
+menu = [NZ] Spark (Wellington)
+title = [NZ] Spark - Wellington, New Zealand [speedtest-wellington.spark.co.nz]
+host = speedtest-wellington.spark.co.nz
+
+++ 2degrees
+menu = [NZ] 2degrees (Christchurch)
+title = [NZ] 2degrees - Christchurch, New Zealand [speed.snap.net.nz]
+host = speed.snap.net.nz
+
+++ digicel-pg
+menu = [PG] Digicel
+title = [PG] Digicel - Port Moresby, Papua New Guinea [speedtest1.online.net.pg]
+host = speedtest1.online.net.pg
+
+++ telecom-fiji
+menu = [FJ] Telecom Fiji
+title = [FJ] Telecom Fiji - Suva, Fiji [speedtest.tfl.com.fj]
+host = speedtest.tfl.com.fj
 
 ++ teleguam
 menu = [US/GU] GTA Teleguam
