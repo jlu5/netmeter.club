@@ -3058,8 +3058,8 @@ host = 43.231.112.1
 
 
 + PointsInterestAS2
-menu = Asia - South, Southeast Asia
-title = TITLE-HEADER - South, Southeast Asia
+menu = Asia - Singapore
+title = TITLE-HEADER - Singapore
 
 ++ alibabacloud-sg
 menu = [SG] Aliyun
@@ -3156,6 +3156,11 @@ menu = [SG] Vultr
 title = [SG] Vultr / Choopa - Singapore [sgp-ping.vultr.com]
 host = sgp-ping.vultr.com
 
+
++ PointsInterestASSE
+menu = Asia - Southeast
+title = TITLE-HEADER - Southeast Asia
+
 ++ aliyun-ap-southeast-5
 menu = [ID] Aliyun (Jakarta)
 title = [ID] Aliyun - Jakarta, Indonesia [oss-ap-southeast-5.aliyuncs.com]
@@ -3196,10 +3201,75 @@ menu = [MY] GigsGigsCloud
 title = [MY] GigsGigsCloud / TechAvenue - Malaysia [210.1.226.1]
 host = 210.1.226.1
 
+++ telekom-malaysia
+menu = [MY] Telekom Malaysia
+title = [MY] Telekom Malaysia - Kuala Lumpur, Malaysia [speedtest-ookla1.tm.net.my]
+host = speedtest-ookla1.tm.net.my
+
+++ umobile-my
+menu = [MY] U Mobile
+title = [MY] U Mobile - Kuala Lumpur, Malaysia [speedtest.u.com.my]
+host = speedtest.u.com.my
+
 ++ cloudsigma-ph
 menu = [PH] CloudSigma (Manila)
 title = [PH] CloudSigma - Manila, Philippines [116.93.97.1]
 host = 116.93.97.1
+
+++ globe-man
+menu = [PH] Globe Telecom (Manila)
+title = [PH] Globe Telecom - Manila, Philippines [mnl-speedtest.globe.com.ph]
+host = mnl-speedtest.globe.com.ph
+
+++ pldt-man
+menu = [PH] PLDT (Manila)
+title = [PH] PLDT - Manila, Philippines [119.92.238.50]
+host = 119.92.238.50
+
+++ globe-qc
+menu = [PH] Globe Telecom (Quezon)
+title = [PH] Globe Telecom - Quezon, Philippines [qc2-speedtest.globe.com.ph]
+host = qc2-speedtest.globe.com.ph
+
+++ pldt-qc
+menu = [PH] PLDT (Quezon)
+title = [PH] PLDT - Quezon, Philippines [119.92.223.158]
+host = 119.92.223.158
+
+++ fpt-han
+menu = [VN] FPT Telecom (Hanoi)
+title = [VN] FPT Telecom - Hanoi, Vietnam [speedtesthn.fpt.vn]
+host = speedtesthn.fpt.vn
+
+++ viettel-han
+menu = [VN] Viettel (Hanoi)
+title = [VN] Viettel - Hanoi, Vietnam [speedtestkv1a.viettel.vn]
+host = speedtestkv1a.viettel.vn
+
+++ vnpt-han
+menu = [VN] VNPT (Hanoi)
+title = [VN] VNPT - Hanoi, Vietnam [speedtest1.vtn.com.vn]
+host = speedtest1.vtn.com.vn
+
+++ fpt-hcmc
+menu = [VN] FPT Telecom (HCMC)
+title = [VN] FPT Telecom - Ho Chi Minh City, Vietnam [speedtest.fpt.vn]
+host = speedtest.fpt.vn
+
+++ viettel-hcmc
+menu = [VN] Viettel (HCMC)
+title = [VN] Viettel - Ho Chi Minh City, Vietnam [speed-hht1.viettelidc.com.vn]
+host = speed-hht1.viettelidc.com.vn
+
+++ vnpt-hcmc
+menu = [VN] VNPT (HCMC)
+title = [VN] VNPT - Ho Chi Minh City, Vietnam [speedtest3.vtn.com.vn]
+host = speedtest3.vtn.com.vn
+
+++ vnpt-danang
+menu = [VN] VNPT (Da Nang)
+title = [VN] VNPT - Da Nang, Vietnam [speedtest5.vtn.com.vn]
+host = speedtest5.vtn.com.vn
 
 ++ huawei-ap-southeast-2
 menu = [TH] Huawei (Bangkok)
@@ -3211,15 +3281,35 @@ menu = [TH] Tencent (Bangkok)
 title = [TH] Tencent Cloud - Bangkok, Thailand [cos.ap-bangkok.myqcloud.com]
 host = cos.ap-bangkok.myqcloud.com
 
+++ tot-th
+menu = [TH] TOT (Bangkok)
+title = [TH] TOT - Bangkok, Thailand [sp1.totbb.net]
+host = sp1.totbb.net
+
+++ trueinternet-th
+menu = [TH] True Internet
+title = [TH] True Internet - Bangkok, Thailand [speedtest1.trueinternet.co.th]
+host = speedtest1.trueinternet.co.th
+
+++ mpt-mn
+menu = [MN] MPT (Yangon)
+title = [MN] Myanmar Posts and Telecommunications - Yangon, Myanmar [mpt01.mpt.net.mm]
+host = mpt01.mpt.net.mm
+
+++ myanmarnet
+menu = [MN] Myanmar Net
+title = [MN] Myanmar Net - Yangon, Myanmar [sp1.myanmarnet.com]
+host = sp1.myanmarnet.com
+
 ++ cambohost
 menu = [KH] Cambo.Host
 title = [KH] Cambo.Host [cambo.host]
 host = cambo.host
 
-++ hostingviet
-menu = [VN] HostingViet
-title = [VN] HostingViet @ FPT Telecom [103.81.86.64]
-host = 103.81.86.64
+
++ PointsInterestASSouth
+menu = Asia - South
+title = TITLE-HEADER - South Asia
 
 ++ aliyun-ap-south-1
 menu = [IN] Aliyun (Mumbai)
@@ -3286,14 +3376,9 @@ menu = [BD] Teletalk Bangladesh
 title = [BD] Teletalk Bangladesh - Dhaka, Bangladesh [testspeed1.teletalk.com.bd]
 host = testspeed1.teletalk.com.bd
 
-++ vnpt
-menu = [VN] VNPT
-title = [VN] VNPT (Vietnam Posts and Telecommunications Group) [www.vnpt.vn]
-host = www.vnpt.vn
-
 
 + PointsInterestAS3
-menu = Asia - West, Central Asia
+menu = Asia - West, Central
 title = TITLE-HEADER - West, Central Asia
 
 ++ aliyun-me-east-1
