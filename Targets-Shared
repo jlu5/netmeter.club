@@ -2264,6 +2264,11 @@ menu = [IT] EDIS (Palermo)
 title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
 host = itpa.edis.at
 
+++ seabone-cat
+menu = [IT] Seabone (Catania)
+title = [IT] Seabone / Telecom Italia Sparkle - Catania, Italy [93.186.129.94]
+host = 93.186.129.94
+
 ++ ginernet-mad
 menu = [ES] GinerNet (Madrid)
 title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
@@ -2878,8 +2883,8 @@ host = lg.tw.psychz.net
 
 
 + PointsInterestAS
-menu = Asia - Northeast
-title = TITLE-HEADER - Northeast Asia
+menu = Asia - Northeast / Japan, Korea, Russia
+title = TITLE-HEADER - Northeast Asia (Japan, Korea, Russia)
 
 ++ osdn-jp
 menu = [JP] OSDN @ IIJ
@@ -3158,8 +3163,8 @@ host = sgp-ping.vultr.com
 
 
 + PointsInterestASSE
-menu = Asia - Southeast
-title = TITLE-HEADER - Southeast Asia
+menu = Asia - Southeast (excl. Singapore)
+title = TITLE-HEADER - Southeast Asia (excl. Singapore)
 
 ++ aliyun-ap-southeast-5
 menu = [ID] Aliyun (Jakarta)
@@ -3226,16 +3231,6 @@ menu = [PH] PLDT (Manila)
 title = [PH] PLDT - Manila, Philippines [119.92.238.50]
 host = 119.92.238.50
 
-++ globe-qc
-menu = [PH] Globe Telecom (Quezon)
-title = [PH] Globe Telecom - Quezon, Philippines [qc2-speedtest.globe.com.ph]
-host = qc2-speedtest.globe.com.ph
-
-++ pldt-qc
-menu = [PH] PLDT (Quezon)
-title = [PH] PLDT - Quezon, Philippines [119.92.223.158]
-host = 119.92.223.158
-
 ++ fpt-han
 menu = [VN] FPT Telecom (Hanoi)
 title = [VN] FPT Telecom - Hanoi, Vietnam [speedtesthn.fpt.vn]
@@ -3260,11 +3255,6 @@ host = speedtest.fpt.vn
 menu = [VN] Viettel (HCMC)
 title = [VN] Viettel - Ho Chi Minh City, Vietnam [speed-hht1.viettelidc.com.vn]
 host = speed-hht1.viettelidc.com.vn
-
-++ vnpt-hcmc
-menu = [VN] VNPT (HCMC)
-title = [VN] VNPT - Ho Chi Minh City, Vietnam [speedtest3.vtn.com.vn]
-host = speedtest3.vtn.com.vn
 
 ++ vnpt-danang
 menu = [VN] VNPT (Da Nang)
@@ -3308,8 +3298,8 @@ host = cambo.host
 
 
 + PointsInterestASSouth
-menu = Asia - South
-title = TITLE-HEADER - South Asia
+menu = Asia - India
+title = TITLE-HEADER - India
 
 ++ aliyun-ap-south-1
 menu = [IN] Aliyun (Mumbai)
@@ -3331,11 +3321,6 @@ menu = [IN] Linode (Mumbai)
 title = [IN] Linode - Mumbai, India [speedtest.mum1.linode.com]
 host = speedtest.mum1.linode.com
 
-++ softlayer-che
-menu = [IN] SoftLayer (Chennai)
-title = [IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
-host = speedtest.che01.softlayer.com
-
 ++ psychz-in
 menu = [IN] Psychz (Mumbai)
 title = [IN] Psychz - Mumbai, India [lg.in.psychz.net]
@@ -3346,35 +3331,170 @@ menu = [IN] Tencent (Mumbai)
 title = [IN] Tencent Cloud - Mumbai, India [cos.ap-mumbai.myqcloud.com]
 host = cos.ap-mumbai.myqcloud.com
 
+++ bharti-mumbai
+menu = [IN] Airtel (Mumbai)
+title = [IN] Airtel Broadband - Delhi, India [speedtestmh.airtelbroadband.in]
+host = speedtestmh.airtelbroadband.in
+
+++ jio-mumbai
+menu = [IN] Jio (Mumbai)
+title = [IN] Jio - Mumbai, India [speedmum2.jioconnect.com]
+host = speedmum2.jioconnect.com
+
 ++ tatasky-mumbai
 menu = [IN] Tata (Mumbai)
-title = [IN] Tatasky Broadband Pvt Ltd. - Mumbai, India [speedtestmum.tataskybroadband.com]
+title = [IN] Tatasky Broadband - Mumbai, India [speedtestmum.tataskybroadband.com]
 host = speedtestmum.tataskybroadband.com
+
+++ vodafone-mumbai
+menu = [IN] Vodafone India (Mumbai)
+title = [IN] Vodafone India - Mumbai, India [speedtestmum.vodafone.ind.in]
+host = speedtestmum.vodafone.ind.in
 
 ++ bharti-delhi
 menu = [IN] Airtel (Delhi)
-title = [IN] Bharti Airtel Ltd - Delhi, India [speedtestdel.airtelbroadband.in]
+title = [IN] Airtel Broadband - Delhi, India [speedtestdel.airtelbroadband.in]
 host = speedtestdel.airtelbroadband.in
+
+++ hathway-delhi
+menu = [IN] Hathway (Delhi)
+title = [IN] Hathway - Delhi, India [del-speed.hathway.com]
+host = del-speed.hathway.com
 
 ++ vodafone-delhi
 menu = [IN] Vodafone India (Delhi)
 title = [IN] Vodafone India - Delhi, India [speedtestdel.vodafone.ind.in]
 host = speedtestdel.vodafone.ind.in
 
+++ act-fibernet-blr
+menu = [IN] ACT Fibernet (Bangalore)
+title = [IN] ACT Fibernet - Bangalore, India [speedtestblr.actcorp.in]
+host = speedtestblr.actcorp.in
+
+++ hathway-blr
+menu = [IN] Hathway (Bangalore)
+title = [IN] Hathway - Bangalore, India [bangspeed.hathway.com]
+host = bangspeed.hathway.com
+
 ++ jio-bangalore
 menu = [IN] Jio (Bangalore)
 title = [IN] Jio - Bangalore, India [speedbgl1.jioconnect.com]
 host = speedbgl1.jioconnect.com
+
+++ act-fibernet-hyd
+menu = [IN] ACT Fibernet (Hyderabad)
+title = [IN] ACT Fibernet - Hyderabad, India [speedtesthyd.actcorp.in]
+host = speedtesthyd.actcorp.in
+
+++ bharti-hyd
+menu = [IN] Airtel (Hyderabad)
+title = [IN] Airtel - Hyderabad, India [speedtestap1.airtel.in]
+host = speedtestap1.airtel.in
+
+++ vodafone-ahm
+menu = [IN] Vodafone India (Ahmedabad)
+title = [IN] Vodafone India - Ahmedabad, India [speedtestahm.vodafone.ind.in]
+host = speedtestahm.vodafone.ind.in
+
+++ bharti-chn
+menu = [IN] Airtel (Chennai)
+title = [IN] Airtel - Chennai, India [speedtestchn1.airtel.in]
+host = speedtestchn1.airtel.in
+
+++ jio-chn
+menu = [IN] Jio (Chennai)
+title = [IN] Jio - Chennai, India [speedchn1.jioconnect.com]
+host = speedchn1.jioconnect.com
+
+++ softlayer-che
+menu = [IN] SoftLayer (Chennai)
+title = [IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
+host = speedtest.che01.softlayer.com
+
+++ jio-kol
+menu = [IN] Jio (Kolkata)
+title = [IN] Jio - Chennai, India [speedkol1.jioconnect.com]
+host = speedkol1.jioconnect.com
+
+++ vodafone-kol
+menu = [IN] Vodafone India (Kolkata)
+title = [IN] Vodafone India - Kolkata, India [speedtestkol.vodafone.ind.in]
+host = speedtestkol.vodafone.ind.in
+
+
++ PointsInterestASSouth2
+menu = Asia - South (excl. India)
+title = TITLE-HEADER - South Asia (excl. India)
+
+++ cybernet-kar
+menu = [PK] Cybernet (Karachi)
+title = [PK] Cybernet - Karachi, Pakistan [speedtest.nationalbroadband.pk]
+host = speedtest.nationalbroadband.pk
+
+++ jazz-kar
+menu = [PK] Jazz (Karachi)
+title = [PK] Jazz - Karachi, Pakistan [speedtest-khi1.jazz.com.pk]
+host = speedtest-khi1.jazz.com.pk
+
+++ ptcl-kar
+menu = [PK] PTCL (Karachi)
+title = PTCL - Karachi, Pakistan [speedtest3.ptcl.net]
+host = speedtest3.ptcl.net
+
+++ ptcl-lah
+menu = [PK] PTCL (Lahore)
+title = PTCL - Lahore, Pakistan [speedtest2.ptcl.net]
+host = speedtest2.ptcl.net
+
+++ waheen-lah
+menu = [PK] Waheen (Lahore)
+title = [PK] Waheen - Lahore, Pakistan [speedtest.wateen.net]
+host = speedtest.wateen.net
+
+++ zong-lah
+menu = [PK] Zong CMPak (Lahore)
+title = [PK] Zong / China Mobile Pakistan - Lahore, Pakistan [speedtest-lhr1.zong.com.pk]
+host = speedtest-lhr1.zong.com.pk
 
 ++ telenor-islamabad
 menu = [PK] Telenor (Islamabad)
 title = [PK] Telenor - Islamabad, Pakistan [speedtest1.telenor.com.pk]
 host = speedtest1.telenor.com.pk
 
+++ ufone-isl
+menu = [PK] Ufone (Islamabad)
+title = [PK] Ufone - Islamabad, Pakistan [uspeedtest01.ufone.com]
+host = uspeedtest01.ufone.com
+
+++ zong-isl
+menu = [PK] Zong CMPak (Islamabad)
+title = [PK] Zong / China Mobile Pakistan - Islamabad, Pakistan [speedtest-isb1.zong.com.pk]
+host = speedtest-isb1.zong.com.pk
+
+++ robi-dhaka
+menu = [BD] Robi (Dhaka)
+title = [BD] Robi Axiata - Dhaka, Bangladesh [speedtest.robi.com.bd]
+host = speedtest.robi.com.bd
+
 ++ teletalk-dhaka
-menu = [BD] Teletalk Bangladesh
+menu = [BD] Teletalk (Dhaka)
 title = [BD] Teletalk Bangladesh - Dhaka, Bangladesh [testspeed1.teletalk.com.bd]
 host = testspeed1.teletalk.com.bd
+
+++ robi-cht
+menu = [BD] Robi (Chittagong)
+title = [BD] Robi Axiata - Chittagong, Bangladesh [speedtest2.robi.com.bd]
+host = speedtest2.robi.com.bd
+
+++ dialog-lk
+menu = [LK] Dialog (Colombo)
+title = [LK] Dialog - Colombo, Sri Lanka [ookla1.dialog.lk]
+host = ookla1.dialog.lk
+
+++ sri-lanka-telecom
+menu = [LK] Sri Lanka Telecom
+title = [LK] Sri Lanka Telecom - Colombo, Sri Lanka [speedtest1.sltnet.lk]
+host = speedtest1.sltnet.lk
 
 
 + PointsInterestAS3
@@ -3600,6 +3720,11 @@ host = speedtest2.ooredoo.tn
 menu = [TN] Tunisie Telecom
 title = [TN] Tunisie Telecom - Tunis, Tunisia [speedtest.tunisietelecom.tn]
 host = speedtest.tunisietelecom.tn
+
+++ ethio-telecom
+menu = [ET] Ethio Telecom
+title = [ET] Ethio Telecom - Addis Ababa, Ethiopia [wwa.st.net.et]
+host = wwa.st.net.et
 
 ++ angani
 menu = [KE] Angani
