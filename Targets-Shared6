@@ -482,11 +482,6 @@ menu = {IPv6} [UK] LoveServers
 title = {IPv6} [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]
 host = lg.loveservers.com
 
-+++ m247-man-v6
-menu = {IPv6} [UK] M247
-title = {IPv6} [UK] M247 - Manchester, United Kingdom [www.m247.com]
-host = www.m247.com
-
 +++ amazon-par-v6
 menu = {IPv6} [FR] Amazon AWS
 title = {IPv6} [FR] Amazon Web Services - Paris, France [2a05:d012:3:c000::ec2]
@@ -1002,6 +997,21 @@ menu = {IPv6} [IN] Linode
 title = {IPv6} [IN] Linode - Mumbai, India [speedtest.mum1.linode.com]
 host = speedtest.mum1.linode.com
 
++++ act-fibernet-blr-v6
+menu = {IPv6} [IN] ACT Fibernet
+title = {IPv6} [IN] ACT Fibernet - Bangalore, India [speedtestblr.actcorp.in]
+host = speedtestblr.actcorp.in
+
++++ tot-th-v6
+menu = {IPv6} [TH] TOT (Bangkok)
+title = {IPv6} [TH] TOT - Bangkok, Thailand [sp1.totbb.net]
+host = sp1.totbb.net
+
++++ dialog-lk-v6
+menu = {IPv6} [LK] Dialog (Colombo)
+title = {IPv6} [LK] Dialog - Colombo, Sri Lanka [ookla1.dialog.lk]
+host = ookla1.dialog.lk
+
 +++ cambohost-v6
 menu = {IPv6} [KH] Cambo.Host
 title = {IPv6} [KH] Cambo.Host [cambo.host]
@@ -1076,6 +1086,16 @@ host = 2404:f780:8:503::9fa7:a71
 menu = {IPv6} [AU] Telstra (Perth)
 title = {IPv6} [AU] Telstra - Perth, Australia [per1.speedtest.telstra.net]
 host = per1.speedtest.telstra.net
+
++++ vodafone-nz-v6
+menu = {IPv6} [NZ] Vodafone
+title = {IPv6} [NZ] Vodafone - Auckland, New Zealand [auckland.speedtest.vodafone.co.nz]
+host = auckland.speedtest.vodafone.co.nz
+
++++ zappiehost-nz-v6
+menu = {IPv6} [NZ] ZappieHost
+title = {IPv6} [NZ] ZappieHost - Auckland, New Zealand [lg-nz.zappiehost.com]
+host = lg-nz.zappiehost.com
 
 
 ++ SA6

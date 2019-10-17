@@ -869,11 +869,6 @@ menu = [CA/MB] Free Range Cloud
 title = [CA/MB] Free Range Cloud - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]
 host = lg.freerangecloud.com
 
-++ hurricane-electric-ywg1
-menu = [CA/MB] he.net (Winnipeg)
-title = [CA/MB] Hurricane Electric - Global Server Center, Winnipeg Winnipeg, MB, CA [core1.ywg1.he.net]
-host = core1.ywg1.he.net
-
 ++ rogers-wpmb
 menu = [CA/MB] Rogers (Winnipeg)
 title = [CA/MB] Rogers - Winnipeg, Canada [speedtestwinnipeg.rogers.com]
@@ -1609,11 +1604,6 @@ menu = [UK] Riven Cloud @ xTom
 title = [UK] Riven Cloud @ xTom - London, United Kingdom [speedtest-ld1.sa.net]
 host = speedtest-ld1.sa.net
 
-++ vodafone-lon
-menu = [UK] Vodafone (London)
-title = [UK] Vodafone - London, United Kingdom [195.2.27.162]
-host = 195.2.27.162
-
 ++ vmhaus-lon
 menu = [UK] VMHaus (London)
 title = [UK] VMHaus - London, United Kingdom [lg.thn2.vmhaus.com]
@@ -1628,11 +1618,6 @@ host = lon-gb-ping.vultr.com
 menu = [UK] LoveServers (Manchester)
 title = [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]
 host = lg.loveservers.com
-
-++ m247-man
-menu = [UK] M247 (Manchester)
-title = [UK] M247 (DDoS Protected) - Manchester, United Kingdom [www.m247.com]
-host = www.m247.com
 
 ++ virtono-man
 menu = [UK] Virtono @ M247
@@ -1673,11 +1658,6 @@ host = 52.47.32.127
 menu = [FR] EDIS (Paris)
 title = [FR] EDIS - Paris, France [fr.edis.at]
 host = fr.edis.at
-
-++ hurricane-electric-par2
-menu = [FR] he.net (Paris)
-title = [FR] Hurricane Electric - Telehouse Paris Voltaire Paris, FR [core1.par2.he.net]
-host = core1.par2.he.net
 
 ++ online-net-par
 menu = [FR] Online.net (Paris)
@@ -1939,11 +1919,6 @@ menu = [DE] Vultr (Frankfurt)
 title = [DE] Vultr - Frankfurt, Germany [fra-de-ping.vultr.com]
 host = fra-de-ping.vultr.com
 
-++ hurricane-electric-ham1
-menu = [DE] he.net (Hamburg)
-title = [DE] Hurricane Electric - GlobalConnect, Hamburg Hamburg, DE [core1.ham1.he.net]
-host = core1.ham1.he.net
-
 ++ hurricane-electric-ber1
 menu = [DE] he.net (Berlin)
 title = [DE] Hurricane Electric - IPB CarrierColo Berlin Berlin, DE [core1.ber1.he.net]
@@ -1968,11 +1943,6 @@ title = TITLE-HEADER - Central Europe
 menu = [CH] CERN
 title = [CH] CERN - European Organization for Nuclear Research - Geneva, Switzerland [cern.ch]
 host = cern.ch
-
-++ hurricane-electric-gva1
-menu = [CH] he.net (Geneva)
-title = [CH] Hurricane Electric - Equinix Geneva (GV1) Geneva, CH [core1.gva1.he.net]
-host = core1.gva1.he.net
 
 ++ ethz
 menu = [CH] ETH Zurich
@@ -2883,7 +2853,7 @@ host = lg.tw.psychz.net
 
 
 + PointsInterestAS
-menu = Asia - Northeast / Japan, Korea, Russia
+menu = Asia - Northeast (Japan, Korea, Russia)
 title = TITLE-HEADER - Northeast Asia (Japan, Korea, Russia)
 
 ++ osdn-jp
@@ -3438,12 +3408,12 @@ host = speedtest-khi1.jazz.com.pk
 
 ++ ptcl-kar
 menu = [PK] PTCL (Karachi)
-title = PTCL - Karachi, Pakistan [speedtest3.ptcl.net]
+title = [PK] PTCL - Karachi, Pakistan [speedtest3.ptcl.net]
 host = speedtest3.ptcl.net
 
 ++ ptcl-lah
 menu = [PK] PTCL (Lahore)
-title = PTCL - Lahore, Pakistan [speedtest2.ptcl.net]
+title = [PK] PTCL - Lahore, Pakistan [speedtest2.ptcl.net]
 host = speedtest2.ptcl.net
 
 ++ waheen-lah
@@ -3651,11 +3621,6 @@ host = sp1.afghantelecom.af
 menu = Africa
 title = TITLE-HEADER - Africa
 
-++ hurricane-electric-jnb1
-menu = [ZA] he.net (Johannesburg)
-title = [ZA] Hurricane Electric - Teraco JB1, Johannesburg Johannesburg, GP, ZA [core1.jnb1.he.net]
-host = core1.jnb1.he.net
-
 ++ psychz-jnb
 menu = [ZA] Psychz (Johannesburg)
 title = [ZA] Psychz - Johannesburg, South Africa [lg.jnb.psychz.net]
@@ -3668,7 +3633,7 @@ host = speedtest-jb1.sa.net
 
 ++ zappiehost-za
 menu = [ZA] ZappieHost
-title = [ZA] ZappieHost [lg-za.zappiehost.com]
+title = [ZA] ZappieHost - Johannesburg, South Africa [lg-za.zappiehost.com]
 host = lg-za.zappiehost.com
 
 ++ zeptovm-jnb
