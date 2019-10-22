@@ -169,10 +169,10 @@ menu = [CDN] StackPath
 title = [CDN] StackPath [www.stackpath.com]
 host = www.stackpath.com
 
-++ tmall
+++ tmall0
 menu = [CDN] Tmall.com (Alibaba)
-title = [CDN] Tmall.com (Alibaba Group) @ Alibaba Cloud [tmall.com]
-host = tmall.com
+title = [CDN] Tmall.com (Alibaba Group) @ Alibaba Cloud [www.tmall.com]
+host = www.tmall.com
 
 ++ twitter
 menu = [CDN] Twitter
