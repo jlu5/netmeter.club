@@ -742,6 +742,11 @@ host = 2a02:e00:ffe7:3::1
 menu = {IPv6} Europe - East
 title = TITLE-HEADER6 - Europe (East)
 
++++ yandex-v6
+menu = {IPv6} [RU] Yandex
+title = {IPv6} [RU] Yandex [www.yandex.ru]
+host = www.yandex.ru
+
 +++ edis-ru-v6
 menu = {IPv6} [RU] EDIS (Moscow)
 title = {IPv6} [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
@@ -1008,7 +1013,7 @@ title = {IPv6} [TH] TOT - Bangkok, Thailand [sp1.totbb.net]
 host = sp1.totbb.net
 
 +++ dialog-lk-v6
-menu = {IPv6} [LK] Dialog (Colombo)
+menu = {IPv6} [LK] Dialog
 title = {IPv6} [LK] Dialog - Colombo, Sri Lanka [ookla1.dialog.lk]
 host = ookla1.dialog.lk
 
