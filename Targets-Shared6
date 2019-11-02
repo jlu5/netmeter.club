@@ -487,11 +487,6 @@ menu = {IPv6} [FR] Amazon AWS
 title = {IPv6} [FR] Amazon Web Services - Paris, France [2a05:d012:3:c000::ec2]
 host = 2a05:d012:3:c000::ec2
 
-+++ edis-fr-v6
-menu = {IPv6} [FR] EDIS
-title = {IPv6} [FR] EDIS - Paris, France [fr.edis.at]
-host = fr.edis.at
-
 +++ online-net-par-v6
 menu = {IPv6} [FR] Online.net
 title = {IPv6} [FR] Online.net - Paris, France [ping6.online.net]
@@ -753,12 +748,12 @@ title = {IPv6} [RU] EDIS - Moscow, Russian Federation [ru.edis.at]
 host = ru.edis.at
 
 +++ justhost-dataline-v6
-menu = {IPv6} [RU] JustHost@DataLine
+menu = {IPv6} [RU] DataLine
 title = {IPv6} [RU] JustHost.ru @ DataLine - Moscow, Russia [2a00:b700::3a]
 host = 2a00:b700::3a
 
 +++ justhost-fiord-v6
-menu = {IPv6} [RU] JustHost@Fiord
+menu = {IPv6} [RU] Fiord
 title = {IPv6} [RU] JustHost.ru @ Fiord - Moscow, Russia [2a00:b700:3::88]
 host = 2a00:b700:3::88
 
@@ -768,7 +763,7 @@ title = {IPv6} [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [2a
 host = 2a00:1838:20:1::5b2a:9cbf
 
 +++ justhost-rtcom-v6
-menu = {IPv6} [RU] JustHost(Kazan)
+menu = {IPv6} [RU] JustHost
 title = {IPv6} [RU] JustHost.ru @ RosTelecom - Kazan, Russia [2a00:b700:1::5f]
 host = 2a00:b700:1::5f
 
@@ -796,11 +791,6 @@ host = 2a02:e00:ffe8:3::1
 menu = {IPv6} [RS] EDI
 title = {IPv6} [RS] EDIS - Belgrade, Serbia [2a03:f80:381::1]
 host = 2a03:f80:381::1
-
-+++ albtelecom-v6
-menu = {IPv6} [AL] Albtelecom
-title = {IPv6} [AL] Albtelecom - Tirana, Albania [tirana.albtelecom.al]
-host = tirana.albtelecom.al
 
 +++ edis-si-v6
 menu = {IPv6} [SI] EDIS

@@ -391,8 +391,13 @@ host = wh-netspeed.nwtel.ca
 
 ++ alaska
 menu = [US/AK] Alaska Comm.
-title = [US/AK] Alaska Communications [speedtest.anc.acsalaska.net]
+title = [US/AK] Alaska Communications - Anchorage, AK [speedtest.anc.acsalaska.net]
 host = speedtest.anc.acsalaska.net
+
+++ gci-anchorage
+menu = [US/AK] GCI (Anchorage)
+title = [US/AK] General Communication Inc. (GCI) - Anchorage, AK [speedtest.gci.net]
+host = speedtest.gci.net
 
 
 + PointsInterestNAW2
@@ -458,6 +463,11 @@ host = speedtest.sjc01.softlayer.com
 menu = [US/CA] Tencent Cloud
 title = [US/CA] Tencent Cloud - Silicon Valley, United States [cos.na-siliconvalley.myqcloud.com]
 host = cos.na-siliconvalley.myqcloud.com
+
+++ tmobile-ca-ssf
+menu = [US/CA] T-Mobile (SFO)
+title = [US/CA] T-Mobile - San Francisco, CA, US [ssf.speedtest.t-mobile.com]
+host = ssf.speedtest.t-mobile.com
 
 ++ vultr-sjo
 menu = [US/CA] Vultr (San Jose)
@@ -579,6 +589,11 @@ menu = [US/CA] RFCHost (LA)
 title = [US/CA] RFCHost / Huajuan / BetaIDC - Los Angeles, California [103.86.70.1]
 host = 103.86.70.1
 
+++ verizon-caazp1
+menu = [US/CA] Verizon (Los Angeles)
+title = [US/CA] Verizon - Los Angeles, CA, US [caazp1.speed.vzwnet.com]
+host = caazp1.speed.vzwnet.com
+
 ++ vmhaus-lax
 menu = [US/CA] VMHaus (Los Angeles)
 title = [US/CA] VMHaus - Los Angeles, California [103.105.49.34]
@@ -603,6 +618,11 @@ host = lax-ca-us-ping.vultr.com
 menu = [US/CA] Cox (San Diego)
 title = [US/CA] Cox Communications - San Diego, CA, US [speedtest.rd.sd.cox.net]
 host = speedtest.rd.sd.cox.net
+
+++ verizon-cavtp1
+menu = [US/CA] Verizon (San Diego)
+title = [US/CA] Verizon - San Diego, CA, US [cavtp1.speed.vzwnet.com]
+host = cavtp1.speed.vzwnet.com
 
 ++ buyvm-lv0
 menu = [US/NV] BuyVM (Las Vegas)
@@ -674,6 +694,11 @@ menu = [US/HI] he.net (Honolulu)
 title = [US/HI] Hurricane Electric @ DRFortress - Honolulu, Hawaii [core1.hnl1.he.net]
 host = core1.hnl1.he.net
 
+++ tmobile-hi-hon
+menu = [US/HI] T-Mobile (Honolulu)
+title = [US/HI] T-Mobile - Honolulu, HI, US [hon.speedtest.t-mobile.com]
+host = hon.speedtest.t-mobile.com
+
 
 + PointsInterestNAC
 menu = North America - Central
@@ -743,6 +768,11 @@ host = chi.speedtest.sbcglobal.net
 menu = [US/IL] CenturyLink (Chicago)
 title = [US/IL] CenturyLink - Chicago, IL, US [chicago.speedtest.centurylink.net]
 host = chicago.speedtest.centurylink.net
+
+++ verizon-winbp1
+menu = [US/WI] Verizon (Milwaukee)
+title = [US/WI] Verizon - Milwaukee, WI, US [winbp1.speed.vzwnet.com]
+host = winbp1.speed.vzwnet.com
 
 ++ canadianwebhost-tor
 menu = [CA/ON] Canadianwebhosting
@@ -818,6 +848,11 @@ host = otw23spd01.srvr.bell.ca
 menu = [CA/ON] Rogers (Ottawa)
 title = [CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.com]
 host = speedtestslnt.rogers.com
+
+++ tmobile-co-aro
+menu = [US/CO] T-Mobile (Aurora)
+title = [US/CO] T-Mobile - Aurora, CO, US [aro.speedtest.t-mobile.com]
+host = aro.speedtest.t-mobile.com
 
 #++ comcast-co-dvre
 #menu = [US/CO] Comcast (Denver)
@@ -929,6 +964,16 @@ host = spt01aldlmi.aldl.mi.charter.com
 #title = [US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]
 #host = stosat-taylr-01.sys.comcast.net
 
+++ att-mi-dtt
+menu = [US/MI] AT&T (Detroit)
+title = [US/MI] AT&T - Detroit, MI, US [dtt.speedtest.sbcglobal.net]
+host = dtt.speedtest.sbcglobal.net
+
+++ tmobile-mi-det
+menu = [US/MI] T-Mobile (Detroit)
+title = [US/MI] T-Mobile - Detroit, MI, US [det.speedtest.t-mobile.com]
+host = det.speedtest.t-mobile.com
+
 ++ centurylink-nd-bismarck
 menu = [US/ND] CenturyLink (Bismarck)
 title = [US/ND] CenturyLink - Bismarck, ND, US [bismarck.speedtest.centurylink.net]
@@ -1019,6 +1064,11 @@ menu = [US/TX] Vultr (Dallas)
 title = [US/TX] Vultr - Dallas, Texas [tx-us-ping.vultr.com]
 host = tx-us-ping.vultr.com
 
+++ tmobile-tx-ttn
+menu = [US/TX] T-Mobile (Plano)
+title = [US/TX] T-Mobile - Plano, TX, US [ttn.speedtest.t-mobile.com]
+host = ttn.speedtest.t-mobile.com
+
 ++ charter-tx-spt01ftwotx
 menu = [US/TX] Charter (Fort Worth)
 title = [US/TX] Charter - Fort Worth, TX, US [spt01ftwotx.ftwo.tx.charter.com]
@@ -1033,11 +1083,6 @@ host = speedtest.hou02.softlayer.com
 menu = [US/TX] AT&T (San Antonio)
 title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
 host = sat.speedtest.sbcglobal.net
-
-++ telia-san-b1
-menu = [US/TX] Telia (San Antonio)
-title = [US/TX] Telia - San Antonio, TX, US [san-b1.telia.net]
-host = san-b1.telia.net
 
 ++ cox-ok-ok
 menu = [US/OK] Cox (Oklahoma City)
@@ -1309,6 +1354,11 @@ menu = [US/RI] Cox (Providence)
 title = [US/RI] Cox Communications - Providence, Rhode Island [speedtest.rd.ri.cox.net]
 host = speedtest.rd.ri.cox.net
 
+++ tmobile-md-blt
+menu = [US/MD] T-Mobile (Beltsville)
+title = [US/MD] T-Mobile - Beltsville, MD, US [blt.speedtest.t-mobile.com]
+host = blt.speedtest.t-mobile.com
+
 #++ comcast-md-balt
 #menu = [US/MD] Comcast (Baltimore)
 #title = [US/MD] Comcast - Baltimore, Maryland, US [stosat-balt-01.sys.comcast.net]
@@ -1479,6 +1529,11 @@ menu = [US/FL] AT&T (Orlando)
 title = [US/FL] AT&T - Orlando, FL, US [mco.speedtest.sbcglobal.net]
 host = mco.speedtest.sbcglobal.net
 
+++ tmobile-fl-orl
+menu = [US/FL] T-Mobile (Orlando)
+title = [US/FL] T-Mobile - Orlando, FL, US [orl.speedtest.t-mobile.com]
+host = orl.speedtest.t-mobile.com
+
 ++ centurylink-fl-fort-myers
 menu = [US/FL] CenturyLink
 title = [US/FL] CenturyLink - Fort Myers, FL, US [fort-myers.speedtest.centurylink.net]
@@ -1528,6 +1583,11 @@ host = bna.speedtest.sbcglobal.net
 menu = [US/TN] Charter (Kingsport)
 title = [US/TN] Charter - Kingsport, TN, US [spt01kgpttn.kgpt.tn.charter.com]
 host = spt01kgpttn.kgpt.tn.charter.com
+
+++ tmobile-al-bhm
+menu = [US/AL] T-Mobile (Birmingham)
+title = [US/AL] T-Mobile - Birmingham, AL, US [bhm.speedtest.t-mobile.com]
+host = bhm.speedtest.t-mobile.com
 
 
 + PointsInterestEU
@@ -3077,8 +3137,8 @@ title = [SG] Amazon Web Services (ap-southeast-1) - Singapore [54.255.0.2]
 host = 54.255.0.2
 
 ++ beyotta
-menu = [SG] Beyotta
-title = [SG] Beyotta - Singapore [103.19.9.9]
+menu = [SG] Beyotta @ M1Net
+title = [SG] Beyotta @ M1Net - Singapore [103.19.9.9]
 host = 103.19.9.9
 
 ++ chinatelecomglobal-sg
