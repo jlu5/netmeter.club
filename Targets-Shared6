@@ -72,11 +72,6 @@ menu = [CDN6] kernel.org
 title = [CDN6] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
 host = mirrors.edge.kernel.org
 
-+++ microsoft-bing-v6
-menu = [CDN6] Microsoft
-title = [CDN6] Microsoft [bing.com]
-host = bing.com
-
 +++ microsoft-o365-v6
 menu = [CDN6] Microsoft O365
 title = [CDN6] Microsoft Office 365 [www.outlook.com]
@@ -197,10 +192,20 @@ menu = [US/CA] Ramnode (LA)
 title = {IPv6} [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
 host = lg.la.ramnode.com
 
++++ verizon-caazp1-v6
+menu = {IPv6} [US/CA] Verizon (Los Angeles)
+title = {IPv6} [US/CA] Verizon - Los Angeles, CA, US [caazp1.speed.vzwnet.com]
+host = caazp1.speed.vzwnet.com
+
 +++ vmhaus-lax-v6
 menu = [US/CA] VMHaus (LA)
 title = {IPv6} [US/CA] VMHaus - Los Angeles, California [2402:28c0:2:310::1]
 host = 2402:28c0:2:310::1
+
++++ verizon-cavtp1-v6
+menu = {IPv6} [US/CA] Verizon (San Diego)
+title = {IPv6} [US/CA] Verizon - San Diego, CA, US [cavtp1.speed.vzwnet.com]
+host = cavtp1.speed.vzwnet.com
 
 +++ xmission-v6
 menu = [US/UT] XMission
@@ -236,6 +241,16 @@ host = lookingglass.chi.steadfast.net
 menu = [US/IL] Vultr
 title = {IPv6} [US/IL] Vultr - Chicago, Illinois [2001:19f0:5c00:8401:5054:ff:fe27:19b9]
 host = 2001:19f0:5c00:8401:5054:ff:fe27:19b9
+
++++ verizon-ilhhp1-v6
+menu = {IPv6} [US/IL] Verizon (Chicago)
+title = {IPv6} [US/IL] Verizon - Chicago, IL, US [ilhhp1.speed.vzwnet.com]
+host = ilhhp1.speed.vzwnet.com
+
++++ verizon-winbp1-v6
+menu = {IPv6} [US/WI] Verizon (Milwaukee)
+title = {IPv6} [US/WI] Verizon - Milwaukee, WI, US [winbp1.speed.vzwnet.com]
+host = winbp1.speed.vzwnet.com
 
 +++ linode-dal-v6
 menu = [US/TX] Linode
@@ -766,11 +781,6 @@ host = 2a00:1838:20:1::5b2a:9cbf
 menu = {IPv6} [RU] JustHost
 title = {IPv6} [RU] JustHost.ru @ RosTelecom - Kazan, Russia [2a00:b700:1::5f]
 host = 2a00:b700:1::5f
-
-+++ hostclean-ro-m247-v6
-menu = {IPv6} [RO] M247
-title = {IPv6} [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
-host = lg-m247.hostclean.net
 
 +++ prometeus-rom-v6
 menu = {IPv6} [RO] Prometeus

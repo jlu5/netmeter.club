@@ -129,11 +129,6 @@ menu = [CDN] Linux Kernel Archives
 title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
 host = mirrors.edge.kernel.org
 
-++ microsoft1
-menu = [CDN] Microsoft (msedge)
-title = [CDN] Microsoft (*.msedge.net) [bing.com]
-host = bing.com
-
 ++ microsoft0
 menu = [CDN] Microsoft O365 ACDC
 title = [CDN] Microsoft Office 365 ACDC [www.outlook.com]
@@ -1584,11 +1579,6 @@ menu = [US/TN] Charter (Kingsport)
 title = [US/TN] Charter - Kingsport, TN, US [spt01kgpttn.kgpt.tn.charter.com]
 host = spt01kgpttn.kgpt.tn.charter.com
 
-++ tmobile-al-bhm
-menu = [US/AL] T-Mobile (Birmingham)
-title = [US/AL] T-Mobile - Birmingham, AL, US [bhm.speedtest.t-mobile.com]
-host = bhm.speedtest.t-mobile.com
-
 
 + PointsInterestEU
 menu = Europe - UK, Ireland
@@ -2590,11 +2580,6 @@ title = [CN] Anchnet - Beijing, China (Yizhuang BGP) [43.240.244.14]
 host = 43.240.244.14
 #https://www.anchnet.com/datacenter/yizhuang
 
-++ huawei-cn-north-1
-menu = [CN] Huawei (Beijing 1)
-title = [CN] Huawei Cloud - Beijing 1, China [ecs.cn-north-1.myhuaweicloud.com]
-host = ecs.cn-north-1.myhuaweicloud.com
-
 ++ tencent-ap-beijing
 menu = [CN] Tencent (Beijing)
 title = [CN] Tencent Cloud - Beijing, China [cos.ap-beijing.myqcloud.com]
@@ -2634,11 +2619,6 @@ host = oss-cn-huhehaote.aliyuncs.com
 menu = [CN] Amazon AWS (Ningxia)
 title = [CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [52.82.0.253]
 host = 52.82.0.253
-
-++ uovz-henan-cm
-menu = [CN] UOvZ (Henan CM)
-title = [CN] UOvZ @ China Mobile - Henan 河南移动 [117.159.147.1]
-host = 117.159.147.1
 
 
 + PointsInterestCNE
@@ -3700,11 +3680,6 @@ host = 188.0.133.159
 menu = [KZ] Kazakhtelecom
 title = [KZ] Kazakhtelecom - Astana, Kazakhstan [asta.speedtest.online.kz]
 host = asta.speedtest.online.kz
-
-++ afghan-kabul
-menu = [AF] Afghan Telecom
-title = [AF] Afghan Telecom - Kabul, Afghanistan [sp1.afghantelecom.af]
-host = sp1.afghantelecom.af
 
 
 + PointsInterestAfr
