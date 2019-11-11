@@ -634,6 +634,11 @@ menu = [US/NV] CenturyLink
 title = [US/NV] CenturyLink - Las Vegas, NV, US [lasvegas.speedtest.centurylink.net]
 host = lasvegas.speedtest.centurylink.net
 
+++ fiberhub-nv
+menu = [US/NV] FiberHub (Las Vegas)
+title = [US/NV] Fiberhub - Las Vegas, NV, US [199.241.143.254]
+host = 199.241.143.254
+
 ++ smarthost-nv
 menu = [US/NV] SmartHost (Las Vegas)
 title = [US/NV] SmartHost - Las Vegas, Nevada [199.43.206.3]
@@ -2429,11 +2434,6 @@ menu = [RO] EDIS (Bucharest)
 title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
 host = ro.edis.at
 
-++ hostclean-ro-m247
-menu = [RO] HostClean @ M247
-title = [RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]
-host = lg-m247.hostclean.net
-
 ++ hostsailor-ro
 menu = [RO] HostSailor (Bucharest)
 title = [RO] HostSailor @ M247 - Bucharest, Romania [185.183.99.8]
@@ -3495,11 +3495,6 @@ host = speedtest.wateen.net
 menu = [PK] Zong CMPak (Lahore)
 title = [PK] Zong / China Mobile Pakistan - Lahore, Pakistan [speedtest-lhr1.zong.com.pk]
 host = speedtest-lhr1.zong.com.pk
-
-++ telenor-islamabad
-menu = [PK] Telenor (Islamabad)
-title = [PK] Telenor - Islamabad, Pakistan [speedtest1.telenor.com.pk]
-host = speedtest1.telenor.com.pk
 
 ++ ufone-isl
 menu = [PK] Ufone (Islamabad)

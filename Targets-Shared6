@@ -16,11 +16,10 @@ menu = [CDN6] Akamai
 title = [CDN6] Akamai [www.akamai.com]
 host = www.akamai.com
 
-# TODO: find an address that supports v6
-#+++ amazon-cloudfront-v6
-#menu = [CDN6] Amazon CloudFront
-#title = [CDN6] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
-#host = dq1dnt4af4eyy.cloudfront.net
++++ amazon-cloudfront-v6
+menu = [CDN6] Amazon CloudFront
+title = [CDN6] Amazon CloudFront [cdn-aws.deb.debian.org]
+host = cdn-aws.deb.debian.org
 
 +++ cloudflare-v6
 menu = [CDN6] Cloudflare
