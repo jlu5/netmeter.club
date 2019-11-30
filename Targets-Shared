@@ -1284,6 +1284,11 @@ menu = [CA/QC] Google Cloud
 title = [CA/QC] Google Cloud Platform (northamerica-northeast1) - Montreal, Canada [northamerica-northeast1-gce.cloudharmony.net]
 host = northamerica-northeast1-gce.cloudharmony.net
 
+++ m247-montreal
+menu = [CA/QC] M247 (Montreal)
+title = [CA/QC] M247 - Montreal, Canada [speed.ca.m247.ro]
+host = speed.ca.m247.ro
+
 ++ ovh-bhs
 menu = [CA/QC] OVH (Beauharnois)
 title = [CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]
@@ -1509,6 +1514,11 @@ menu = [US/FL] GTHost (Miami)
 title = [US/FL] GTHost (GlobalTeleHost Corp.) - Miami, United States [162.251.62.162]
 host = 162.251.62.162
 
+++ m247-miami
+menu = [US/FL] M247 (Miami)
+title = [US/FL] M247 - Miami, USA [speed.mia.us.m247.ro]
+host = speed.mia.us.m247.ro
+
 ++ quadranet-mia
 menu = [US/FL] QuadraNet (Miami)
 title = [US/FL] QuadraNet - Miami, Florida [173.44.32.10]
@@ -1654,6 +1664,11 @@ menu = [UK] Linode (London)
 title = [UK] Linode - London, United Kingdom [speedtest.london.linode.com]
 host = speedtest.london.linode.com
 
+++ m247-london
+menu = [UK] M247 (London)
+title = [UK] M247 - London, England [speed.uk.lon.m247.ro]
+host = speed.uk.lon.m247.ro
+
 ++ ovh-lon
 menu = [UK] OVH (London)
 title = [UK] OVH - Erith, London, United Kingdom [lon1-eri.smokeping.ovh.net]
@@ -1689,10 +1704,10 @@ menu = [UK] LoveServers (Manchester)
 title = [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]
 host = lg.loveservers.com
 
-++ virtono-man
-menu = [UK] Virtono @ M247
-title = [UK] Virtono @ M247 - Manchester, United Kingdom [77.81.107.11]
-host = 77.81.107.11
+++ m247-manchester
+menu = [GB] M247 (Manchester)
+title = [GB] M247 - Manchester, England [speed.uk.man.m247.ro]
+host = speed.uk.man.m247.ro
 
 ++ amazon-ir
 menu = [IE] Amazon AWS (Ireland)
@@ -1728,6 +1743,11 @@ host = 52.47.32.127
 menu = [FR] EDIS (Paris)
 title = [FR] EDIS - Paris, France [fr.edis.at]
 host = fr.edis.at
+
+++ m247-paris
+menu = [FR] M247 (Paris)
+title = [FR] M247 - Paris, France [speed.fr.m247.ro]
+host = speed.fr.m247.ro
 
 ++ online-net-par
 menu = [FR] Online.net (Paris)
@@ -1834,6 +1854,11 @@ menu = [NL] LunarVPS
 title = [NL] LunarVPS - The Netherlands [lg.nl.lunarvps.com]
 host = lg.nl.lunarvps.com
 
+++ m247-amsterdam
+menu = [NL] M247 (Amsterdam)
+title = [NL] M247 - Amsterdam, Netherlands [speed.nl.m247.ro]
+host = speed.nl.m247.ro
+
 ++ online-net-ams
 menu = [NL] Online.net (Amsterdam)
 title = [NL] Online.net - Amsterdam, Netherlands [ping-ams1.online.net]
@@ -1874,15 +1899,10 @@ menu = [BE] Google Cloud
 title = [BE] Google Cloud Platform (europe-west1) - St. Ghislain, Belgium [europe-west1-gce.cloudharmony.net]
 host = europe-west1-gce.cloudharmony.net
 
-++ hurricane-electric-bru1
-menu = [BE] he.net (Zaventem)
-title = [BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he.net]
-host = core1.bru1.he.net
-
-++ telia-brx-b2
-menu = [BE] Telia (Brussels)
-title = [BE] Telia - Brussels, Belgium [brx-b2.telia.net]
-host = brx-b2.telia.net
+++ m247-brussels
+menu = [BE] M247 (Brussels)
+title = [BE] M247 - Brussels, Belgium [speed.be.m247.ro]
+host = speed.be.m247.ro
 
 ++ buyvm-lu
 menu = [LU] BuyVM (Luxembourg)
@@ -2024,6 +2044,11 @@ menu = [CH] EDIS (Zurich)
 title = [CH] EDIS - Zurich, Switzerland [ch.edis.at]
 host = ch.edis.at
 
+++ m247-zurich
+menu = [CH] M247 (Zurich)
+title = [CH] M247 - Zurich, Switzerland [speed.ch.m247.ro]
+host = speed.ch.m247.ro
+
 ++ protonmail
 menu = [CH] ProtonMail
 title = [CH] ProtonMail [protonmail.com]
@@ -2053,6 +2078,11 @@ host = speedtest.c1.pol1.dediserve.com
 menu = [PL] EDIS (Warsaw)
 title = [PL] EDIS - Warsaw, Poland [pl.edis.at]
 host = pl.edis.at
+
+++ m247-warsaw
+menu = [PL] M247 (Warsaw)
+title = [PL] M247 - Warsaw, Poland [speed.pl.m247.ro]
+host = speed.pl.m247.ro
 
 ++ ovh-waw
 menu = [PL] OVH (Warsaw)
@@ -2084,15 +2114,20 @@ menu = [AT] HostHatch (Vienna)
 title = [AT] HostHatch - Vienna, Austria [lg.vie.hosthatch.com]
 host = lg.vie.hosthatch.com
 
-++ hurricane-electric-vie1
-menu = [AT] he.net (Vienna)
-title = [AT] Hurricane Electric - Interxion Vienna Vienna, AT [core1.vie1.he.net]
-host = core1.vie1.he.net
+++ m247-vienna
+menu = [AT] M247 (Vienna)
+title = [AT] M247 - Vienna, Austria [speed.at.m247.ro]
+host = speed.at.m247.ro
 
 ++ edis-atgrz
 menu = [AT] EDIS (Graz)
 title = [AT] EDIS - Graz, Austria [atgrz.edis.at]
 host = atgrz.edis.at
+
+++ m247-prague
+menu = [CZ] M247 (Prague)
+title = [CZ] M247 - Prague, Czech Republic [speed.cz.m247.ro]
+host = speed.cz.m247.ro
 
 ++ telia-prag-b3
 menu = [CZ] Telia (Prague)
@@ -2113,6 +2148,11 @@ host = speedtest.vodafone.cz
 menu = [HU] EDIS (Budapest)
 title = [HU] EDIS - Budapest, Hungary [hu.edis.at]
 host = hu.edis.at
+
+++ m247-budapest
+menu = [HU] M247 (Budapest)
+title = [HU] M247 - Budapest, Hungary [speed.hu.m247.ro]
+host = speed.hu.m247.ro
 
 ++ mikrovps
 menu = [HU] MikroVPS (Budapest)
@@ -2148,6 +2188,11 @@ host = se.edis.at
 menu = [SE] HostHatch (Stockholm)
 title = [SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [lg.sto.hosthatch.com]
 host = lg.sto.hosthatch.com
+
+++ m247-stockholm
+menu = [SE] M247 (Stockholm)
+title = [SE] M247 - Stockholm, Sweden [speed.se.m247.ro]
+host = speed.se.m247.ro
 
 ++ tele2-se-kst
 menu = [SE] Tele2 (Kista)
@@ -2199,15 +2244,20 @@ menu = [DK] he.net (Copenhagen)
 title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
 host = core1.cph1.he.net
 
-++ tdc-dk
-menu = [DK] TDC Group (Copenhagen)
-title = [DK] TDC Group - Copenhagen, Denmark [linespeed.nms.tele.dk]
-host = linespeed.nms.tele.dk
+++ m247-copenhagen
+menu = [DK] M247 (Copenhagen)
+title = [DK] M247 - Copenhagen, Denmark [speed.dk.m247.ro]
+host = speed.dk.m247.ro
 
 ++ nordunet-dk
 menu = [DK] NORDUnet (Copenhagen)
 title = [DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]
 host = dk-ore.nordu.net
+
+++ tdc-dk
+menu = [DK] TDC Group (Copenhagen)
+title = [DK] TDC Group - Copenhagen, Denmark [linespeed.nms.tele.dk]
+host = linespeed.nms.tele.dk
 
 ++ dna-fi
 menu = [FI] DNA Oy (Helsinki)
@@ -2269,6 +2319,11 @@ menu = [IT] EDIS (Milan)
 title = [IT] EDIS - Milan, Italy [it.edis.at]
 host = it.edis.at
 
+++ m247-milan
+menu = [IT] M247 (Milan)
+title = [IT] M247 - Milan, Italy [speed.it.m247.ro]
+host = speed.it.m247.ro
+
 ++ netsons-mil
 menu = [IT] Netsons (Milan)
 title = [IT] Netsons - Milan, Italy [46.252.149.1]
@@ -2313,6 +2368,11 @@ host = 93.186.129.94
 menu = [ES] GinerNet (Madrid)
 title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
 host = 5.134.117.74
+
+++ m247-madrid
+menu = [ES] M247 (Madrid)
+title = [ES] M247 - Madrid, Spain [speed.es.m247.ro]
+host = speed.es.m247.ro
 
 ++ telefonica
 menu = [ES] Telefonica
@@ -2434,11 +2494,6 @@ menu = [RO] EDIS (Bucharest)
 title = [RO] EDIS - Bucharest, Romania [ro.edis.at]
 host = ro.edis.at
 
-++ hostsailor-ro
-menu = [RO] HostSailor (Bucharest)
-title = [RO] HostSailor @ M247 - Bucharest, Romania [185.183.99.8]
-host = 185.183.99.8
-
 ++ hostsolutions
 menu = [RO] HostSolutions.ro
 title = [RO] HostSolutions.ro (S.C. Parfumuri-Femei.com S.R.L.) - Romania [secure.hostsolutions.ro]
@@ -2449,15 +2504,15 @@ menu = [RO] IntoVPS (Cluj-Napoca)
 title = [RO] IntoVPS / Hosterion - Cluj-Napoca, Romania [cluj.hosterion.net]
 host = cluj.hosterion.net
 
+++ m247-bucharest
+menu = [RO] M247 (Bucharest)
+title = [RO] M247 - Bucharest, Romania [speed.m247.ro]
+host = speed.m247.ro
+
 ++ prometeus-rom
 menu = [RO] Prometeus (Bucharest)
 title = [RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]
 host = lg-romania.prometeus.net
-
-++ virtono-ro
-menu = [RO] Virtono @ M247
-title = [RO] Virtono @ M247 - Bucharest, Romania [85.204.49.17]
-host = 85.204.49.17
 
 ++ orange-ro
 menu = [RO] Orange Romania
@@ -2508,6 +2563,11 @@ host = speedtest.ht.hr
 menu = [RS] EDIS (Belgrade)
 title = [RS] EDIS - Belgrade, Serbia [rs.edis.at]
 host = rs.edis.at
+
+++ m247-serbia
+menu = [RS] M247 (Serbia)
+title = [RS] M247 - Belgrade, Serbia [speed.rs.m247.ro]
+host = speed.rs.m247.ro
 
 ++ serbia-broadband
 menu = [RS] Serbia Broadband
@@ -2725,11 +2785,6 @@ host = oss-cn-shenzhen.aliyuncs.com
 menu = [CN] Anchnet (Shenzhen)
 title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
 host = 43.240.244.14
-
-++ sina-cn
-menu = [CN] Sina
-title = [CN] Sina @ China Unicom - Guangzhou, Guangdong, China [www.sina.com.cn]
-host = www.sina.com.cn
 
 ++ tcloud-guangzhou-ct
 menu = [CN] TCloud (Guangzhou CT)
@@ -2961,10 +3016,10 @@ menu = [JP] Linode (Tokyo 2)
 title = [JP] Linode (Tokyo 2) - Tokyo, Japan [speedtest.tokyo2.linode.com]
 host = speedtest.tokyo2.linode.com
 
-++ onevps-jp
-menu = [JP] OneVPS @ M247
-title = [JP] OneVPS (Think Huge Ltd.) @ M247 - Japan [193.38.139.1]
-host = 193.38.139.1
+++ m247-tokyo
+menu = [JP] M247 (Tokyo)
+title = [JP] M247 - Tokyo, Japan [speed.jp.m247.ro]
+host = speed.jp.m247.ro
 
 ++ psychz-jp
 menu = [JP] Psychz (Tokyo)
@@ -3015,6 +3070,11 @@ host = cos.ap-tokyo.myqcloud.com
 menu = [JP] Vultr (Tokyo)
 title = [JP] Vultr / Choopa - Tokyo, Japan [hnd-jp-ping.vultr.com]
 host = hnd-jp-ping.vultr.com
+
+++ glbb-jp
+menu = [JP] GLBB Japan (Chatan)
+title = [JP] GLBB Japan - Chatan, Okinawa, Japan [speedtest-xg.glbb.ne.jp]
+host = speedtest-xg.glbb.ne.jp
 
 ++ amazon-kr
 menu = [KR] Amazon AWS (Seoul)
@@ -3161,15 +3221,15 @@ menu = [SG] Linode
 title = [SG] Linode - Singapore [speedtest.singapore.linode.com]
 host = speedtest.singapore.linode.com
 
+++ m247-singapore
+menu = [SG] M247 (Singapore)
+title = [SG] M247 - Singapore [speed.sg.m247.ro]
+host = speed.sg.m247.ro
+
 ++ mrvm-sgp
 menu = [SG] mrvm.net
 title = [SG] mrvm.net @ Equinix SG3 - Singapore [lg-sg-sin.mrvm.net]
 host = lg-sg-sin.mrvm.net
-
-++ onevps-sg
-menu = [SG] OneVPS @ M247
-title = [SG] OneVPS (Think Huge Ltd.) @ M247 - Singapore [81.90.189.197]
-host = 81.90.189.197
 
 ++ ovh-sgp
 menu = [SG] OVH
@@ -3546,6 +3606,11 @@ menu = [AE] he.net (Dubai)
 title = [AE] Hurricane Electric - Equinix Dubai (DX1) Dubai, AE [core1.dxb1.he.net]
 host = core1.dxb1.he.net
 
+++ m247-dubai
+menu = [AE] M247 (Dubai)
+title = [AE] M247 - Dubai, UAE [speed.uae.m247.ro]
+host = speed.uae.m247.ro
+
 ++ etisalat
 menu = [AE] Etisalat (EmIX)
 title = [AE] Etisalat AS8966 @ EmIX [lg.emix.net.ae]
@@ -3606,15 +3671,15 @@ menu = [QA] Vodafone QA
 title = [QA] Vodafone QA - Doha, Qatar [speedtest.vodafone.com.qa]
 host = speedtest.vodafone.com.qa
 
-++ tci-ir
-menu = [IR] TCI
-title = [IR] TCI - Tehran, Iran [tci-tehran.tct.ir]
-host = tci-tehran.tct.ir
-
 ++ shatel-ir
 menu = [IR] SHATEL
 title = [IR] SHATEL - Tehran, Iran [speedtest1.shatel.ir]
 host = speedtest1.shatel.ir
+
+++ tci-ir
+menu = [IR] TCI
+title = [IR] TCI - Tehran, Iran [tci-tehran.tct.ir]
+host = tci-tehran.tct.ir
 
 ++ masarat-telecom-iq
 menu = [IQ] MASARAT Telecom
@@ -3660,11 +3725,6 @@ host = speedtest1.magticom.ge
 menu = [KG] Hoster.KG
 title = [KG] Hoster.KG - Bishkek, Kyrgyzstan [hoster.kg]
 host = hoster.kg
-
-++ azercell-baku
-menu = [AZ] Azercell
-title = [AZ] Azercell Telecom LLC - Baku, Azerbaijan [speedtest01.azercell.com]
-host = speedtest01.azercell.com
 
 ++ kaztranscom-almaty
 menu = [KZ] KazTransCom
@@ -3940,11 +4000,6 @@ host = speedtest.syd01.softlayer.com
 menu = [AU] Telstra (Sydney)
 title = [AU] Telstra - Sydney, Australia [syd1.speedtest.telstra.net]
 host = syd1.speedtest.telstra.net
-
-++ vocus-syd
-menu = [AU] Vocus (Sydney)
-title = [AU] Vocus - Sydney, Australia [speedtest.syd.m2core.net.au]
-host = speedtest.syd.m2core.net.au
 
 ++ vultr-syd
 menu = [AU] Vultr (Sydney)
