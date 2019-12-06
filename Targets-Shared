@@ -534,6 +534,11 @@ menu = [US/CA] HostHatch (LA)
 title = [US/CA] HostHatch - Los Angeles, California [lg.lax.hosthatch.com]
 host = lg.lax.hosthatch.com
 
+++ krypt-ion-lax
+menu = [US/CA] Krypt iON
+title = [US/CA] Krypt iON Cloud (VPLS) - Los Angeles, California [98.126.41.162]
+host = 98.126.41.162
+
 ++ klayer-lax2
 menu = [US/CA] KLayer (Los Angeles)
 title = [US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]
@@ -2449,10 +2454,10 @@ menu = [RU] Vimpelcom (St. Petersburg)
 title = [RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]
 host = speedtest.spb.gldn.net
 
-#++ zeptovm-stp
-#menu = [RU] ZeptoVM (St. Petersburg)
-#title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]
-#host = ru-led01.lg.zeptovm.com
+++ zeptovm-stp
+menu = [RU] ZeptoVM (St. Petersburg)
+title = [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [45.131.68.233]
+host = 45.131.68.233
 
 ++ transtelecom-nizhny
 menu = [RU] TransTelecom (Nizhny)
@@ -2878,7 +2883,7 @@ host = 43.251.159.10
 
 ++ hkserversolution
 menu = [HK] HKServerSolution @ HGC
-title = [HK] HKServerSolution @ HGC Global Communications - Hong Kong, China [210.3.96.1]
+title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
 
 ++ klayer-hk
@@ -2895,6 +2900,11 @@ host = 42.200.162.254
 menu = [HK] LeaseWeb
 title = [HK] LeaseWeb - Hong Kong, China [mirror.hk.leaseweb.net]
 host = mirror.hk.leaseweb.net
+
+++ newmediaexpress-hk
+menu = [HK] NewMedia Express (HK2)
+title = [HK] NewMedia Express (HK2, China Direct) - Hong Kong, China [hk2.newmediaexpress.com]
+host = hk2.newmediaexpress.com
 
 ++ on9host
 menu = [HK] On9host
@@ -3096,6 +3106,11 @@ menu = [KR] Moack
 title = [KR] Moack AS138195 - Seoul, Korea [lg.moack.co.kr]
 host = lg.moack.co.kr
 
+++ newmediaexpress-kr
+menu = [KR] NewMedia Express
+title = [KR] NewMedia Express - Seoul, Korea [kr1.newmediaexpress.com]
+host = kr1.newmediaexpress.com
+
 ++ softlayer-seo
 menu = [KR] SoftLayer (Seoul)
 title = [KR] SoftLayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
@@ -3186,11 +3201,6 @@ menu = [SG] China Telecom Global
 title = [SG] China Telecom Global - Singapore [203.33.10.1]
 host = 203.33.10.1
 
-++ dediserve-sin1
-menu = [SG] Dediserve
-title = [SG] Dediserve - Singapore [speedtest.c1.sin1.dediserve.com]
-host = speedtest.c1.sin1.dediserve.com
-
 ++ digitalocean-sgp
 menu = [SG] Digital Ocean
 title = [SG] Digital Ocean (SGP1) - Singapore [speedtest-sgp1.digitalocean.com]
@@ -3230,6 +3240,11 @@ host = speed.sg.m247.ro
 menu = [SG] mrvm.net
 title = [SG] mrvm.net @ Equinix SG3 - Singapore [lg-sg-sin.mrvm.net]
 host = lg-sg-sin.mrvm.net
+
+++ newmediaexpress-sg
+menu = [SG] NewMedia Express
+title = [SG] NewMedia Express - Singapore [sg1.newmediaexpress.com]
+host = sg1.newmediaexpress.com
 
 ++ ovh-sgp
 menu = [SG] OVH
@@ -3276,10 +3291,10 @@ menu = [ID] Telkom (Bekasi)
 title = [ID] Telkom Indonesia - Bekasi, Indonesia [speedtest1.telkomsel.com]
 host = speedtest1.telkomsel.com
 
-++ dediserve-jkt1
-menu = [ID] Dediserve (Jakarta)
-title = [ID] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]
-host = speedtest.c1.jkt1.dediserve.com
+++ newmediaexpress-id
+menu = [ID] NewMedia Express
+title = [ID] NewMedia Express - Jakarta, Indonesia [id1.newmediaexpress.com]
+host = id1.newmediaexpress.com
 
 ++ wowrack-id-jkt
 menu = [ID] Wowrack (Jakarta)
@@ -3875,6 +3890,11 @@ title = TITLE-HEADER - South, Central America
 menu = [BR] Amazon AWS (Sao Paulo)
 title = [BR] Amazon Web Services (sa-east-1) - Sao Paulo, Brazil [54.94.0.66]
 host = 54.94.0.66
+
+++ maxihost-br
+menu = [BR] Maxihost
+title = [BR] Maxihost - Sao Paulo, Brazil [speedtest-mh1.maxihost.com]
+host = speedtest-mh1.maxihost.com
 
 ++ softlayer-sao
 menu = [BR] SoftLayer (Sao Paulo)

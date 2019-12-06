@@ -191,18 +191,18 @@ menu = [US/CA] Ramnode (LA)
 title = {IPv6} [US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]
 host = lg.la.ramnode.com
 
-+++ verizon-caazp1-v6
-menu = {IPv6} [US/CA] Verizon (Los Angeles)
-title = {IPv6} [US/CA] Verizon - Los Angeles, CA, US [caazp1.speed.vzwnet.com]
-host = caazp1.speed.vzwnet.com
-
 +++ vmhaus-lax-v6
 menu = [US/CA] VMHaus (LA)
 title = {IPv6} [US/CA] VMHaus - Los Angeles, California [2402:28c0:2:310::1]
 host = 2402:28c0:2:310::1
 
++++ verizon-caazp1-v6
+menu = [US/CA] Verizon (LA)
+title = {IPv6} [US/CA] Verizon - Los Angeles, CA, US [caazp1.speed.vzwnet.com]
+host = caazp1.speed.vzwnet.com
+
 +++ verizon-cavtp1-v6
-menu = {IPv6} [US/CA] Verizon (San Diego)
+menu = [US/CA] Verizon (San Diego)
 title = {IPv6} [US/CA] Verizon - San Diego, CA, US [cavtp1.speed.vzwnet.com]
 host = cavtp1.speed.vzwnet.com
 
@@ -242,12 +242,12 @@ title = {IPv6} [US/IL] Vultr - Chicago, Illinois [2001:19f0:5c00:8401:5054:ff:fe
 host = 2001:19f0:5c00:8401:5054:ff:fe27:19b9
 
 +++ verizon-ilhhp1-v6
-menu = {IPv6} [US/IL] Verizon (Chicago)
+menu = [US/IL] Verizon (Chicago)
 title = {IPv6} [US/IL] Verizon - Chicago, IL, US [ilhhp1.speed.vzwnet.com]
 host = ilhhp1.speed.vzwnet.com
 
 +++ verizon-winbp1-v6
-menu = {IPv6} [US/WI] Verizon (Milwaukee)
+menu = [US/WI] Verizon (Milwaukee)
 title = {IPv6} [US/WI] Verizon - Milwaukee, WI, US [winbp1.speed.vzwnet.com]
 host = winbp1.speed.vzwnet.com
 
@@ -776,6 +776,11 @@ menu = {IPv6} [RU] Veesp
 title = {IPv6} [RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [2a00:1838:20:1::5b2a:9cbf]
 host = 2a00:1838:20:1::5b2a:9cbf
 
++++ zeptovm-stp-v6
+menu = {IPv6} [RU] ZeptoVM
+title = {IPv6} [RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [2a0e:5c41:1:233::]
+host = 2a0e:5c41:1:233::
+
 +++ justhost-rtcom-v6
 menu = {IPv6} [RU] JustHost
 title = {IPv6} [RU] JustHost.ru @ RosTelecom - Kazan, Russia [2a00:b700:1::5f]
@@ -921,6 +926,11 @@ menu = {IPv6} [KR] Amazon AWS
 title = {IPv6} [KR] Amazon Web Services (ap-northeast-1) - Seoul, South Korea [2406:da12:128:d200::ec2]
 host = 2406:da12:128:d200::ec2
 
++++ newmediaexpress-kr-v6
+menu = {IPv6} [KR] NewMedia Express
+title = {IPv6} [KR] NewMedia Express - Seoul, Korea [2406:f400:b1:1::2]
+host = 2406:f400:b1:1::2
+
 +++ softlayer-seo-v6
 menu = {IPv6} [KR] SoftLayer
 title = {IPv6} [KR] SoftLayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]
@@ -965,6 +975,11 @@ host = speedtest.singapore.linode.com
 menu = {IPv6} [SG] mrvm.net
 title = {IPv6} [SG] mrvm.net @ Equinix SG3 - Singapore [2406:d500:12:beef:60::1]
 host = 2406:d500:12:beef:60::1
+
++++ newmediaexpress-sg-v6
+menu = {IPv6} [SG] NewMedia Express
+title = {IPv6} [SG] IndoVirtue (SingaporePOP) @ NewMedia Express - Singapore [2400:fb80:1:1::1234]
+host = 2400:fb80:1:1::1234
 
 +++ ovh-sgp-v6
 menu = {IPv6} [SG] OVH
