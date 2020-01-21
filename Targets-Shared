@@ -296,7 +296,7 @@ host = sea.lg.virmach.com
 
 ++ usdedicated-sea
 menu = [US/WA] US Dedicated (Seattle)
-title = [US/WA] US Dedicated @ InterNAP SEF - Seattle, Washington [lg.seadedicated.com]
+title = [US/WA] US Dedicated @ Internap SEF (INAP) - Seattle, Washington [lg.seadedicated.com]
 host = lg.seadedicated.com
 
 ++ vultr-sea
@@ -321,7 +321,7 @@ host = 54.188.0.0
 
 ++ ceranetworks-pdx
 menu = [US/OR] CeraNetworks
-title = [US/OR] 50KVM @ CeraNetworks - Portland, Oregon [lg.cera-ncp.pdx.50network.com]
+title = [US/OR] WikiHost @ CeraNetworks - Portland, Oregon [lg.cera-ncp.pdx.50network.com]
 host = lg.cera-ncp.pdx.50network.com
 
 ++ gcp-pdx
@@ -446,7 +446,7 @@ host = mirror.sfo12.us.leaseweb.net
 
 #++ nfoservers-sjc
 #menu = [US/CA] NFOservers (San Jose)
-#title = [US/CA] NFOservers @ InterNAP - San Jose, California [66.151.138.9]
+#title = [US/CA] NFOservers @ Internap - San Jose, California [66.151.138.9]
 #host = 66.151.138.9
 
 ++ softlayer-sjc
@@ -501,7 +501,7 @@ host = 172.82.152.3
 
 ++ ceranetworks-lax
 menu = [US/CA] CeraNetworks (LA)
-title = [US/CA] 50KVM @ CeraNetworks - Los Angeles, California [lg.cera-163.lax.50network.com]
+title = [US/CA] WikiHost @ CeraNetworks - Los Angeles, California [lg.cera-163.lax.50network.com]
 host = lg.cera-163.lax.50network.com
 
 ++ chinatelecomglobal-us
@@ -518,6 +518,11 @@ host = la.lg.cloudc.one
 menu = [US/CA] ColoCrossing (LA)
 title = [US/CA] ColoCrossing - Los Angeles, California [lg.la.colocrossing.com]
 host = lg.la.colocrossing.com
+
+++ dedipath-lax
+menu = [US/CA] DediPath
+title = [US/CA] DediPath - Los Angeles, California [lg.lax.dedicontrol.com]
+host = lg.lax.dedicontrol.com
 
 ++ dediserve-lax1
 menu = [US/CA] Dediserve (LA)
@@ -543,11 +548,6 @@ host = 98.126.41.162
 menu = [US/CA] KLayer (Los Angeles)
 title = [US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]
 host = lax2.lg.klayer.com
-
-++ letbox
-menu = [US/CA] LetBox (Los Angeles)
-title = [US/CA] LetBox @ Psychz - Los Angeles, California [lg.la.letbox.com]
-host = lg.la.letbox.com
 
 #++ nfoservers-lax
 #menu = [US/CA] NFOservers (LA)
@@ -588,6 +588,11 @@ host = los-angeles-speedtest.reliablesite.net
 menu = [US/CA] RFCHost (LA)
 title = [US/CA] RFCHost / Huajuan / BetaIDC - Los Angeles, California [103.86.70.1]
 host = 103.86.70.1
+
+++ usdedicated-lax
+menu = [US/CA] US Dedicated (LA)
+title = [US/CA] US Dedicated @ Internap (INAP) - Los Angeles, California [lg.ladedicated.com]
+host = lg.ladedicated.com
 
 ++ verizon-caazp1
 menu = [US/CA] Verizon (Los Angeles)
@@ -734,10 +739,10 @@ menu = [US/IL] GTHost (Chicago)
 title = [US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]
 host = 162.251.60.162
 
-#++ nfoservers-chi
-#menu = [US/IL] NFOservers (Chicago)
-#title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
-#host = 216.52.148.4
+++ nfoservers-chi
+menu = [US/IL] NFOservers (Chicago)
+title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
+host = 216.52.148.4
 
 ++ psychz-chi
 menu = [US/IL] Psychz (Chicago)
@@ -758,6 +763,11 @@ host = ord.speedtest.rackspace.com
 menu = [US/IL] Steadfast (Chicago)
 title = [US/IL] Steadfast - Chicago, Illinois [lookingglass.chi.steadfast.net]
 host = lookingglass.chi.steadfast.net
+
+++ usdedicated-chi
+menu = [US/IL] US Dedicated
+title = [US/IL] US Dedicated @ Internap (INAP) - Chicago, Illinois [lg.chidedicated.com]
+host = lg.chidedicated.com
 
 ++ vultr-chi
 menu = [US/IL] Vultr (Chicago)
@@ -1061,7 +1071,7 @@ host = lg.dal.spartanhost.net
 
 ++ usdedicated-dal
 menu = [US/TX] US Dedicated (Dallas)
-title = [US/TX] US Dedicated @ InterNap DAL006 - Dallas, Texas [lg.daldedicated.com]
+title = [US/TX] US Dedicated @ Internap DAL006 (INAP) - Dallas, Texas [lg.daldedicated.com]
 host = lg.daldedicated.com
 
 ++ vultr-dal
@@ -1206,7 +1216,7 @@ host = 172.110.20.1
 
 #++ nfoservers-nyc
 #menu = [US/NY] NFOservers
-#title = [US/NY] NFOservers @ InterNAP - New York, US [63.251.20.100]
+#title = [US/NY] NFOservers @ Internap - New York, US [63.251.20.100]
 #host = 63.251.20.100
 
 ++ ramnode-nyc
@@ -1221,7 +1231,7 @@ host = nycmetro-speedtest.reliablesite.net
 
 ++ usdedicated-ny
 menu = [US/NY] US Dedicated
-title = [US/NY] US Dedicated @ CoreSite NY2 - New York City, New York [lg.nycdedicated.com]
+title = [US/NY] US Dedicated @ CoreSite NY2 + Internap (INAP) - New York City, New York [lg.nycdedicated.com]
 host = lg.nycdedicated.com
 
 ++ colocrossing-buf
@@ -1301,8 +1311,8 @@ host = ymq1-bhs.smokeping.ovh.net
 
 ++ servarica
 menu = [CA/QC] ServaRICA (Montreal)
-title = [CA/QC] ServaRICA - Montreal, Canada [162.250.190.17]
-host = 162.250.190.17
+title = [CA/QC] ServaRICA @ eStruxture - Montreal, Canada [ping.servarica.com]
+host = ping.servarica.com
 
 ++ softlayer-mon
 menu = [CA/QC] SoftLayer (Montreal)
@@ -1496,7 +1506,7 @@ host = 162.211.67.4
 
 ++ usdedicated-atl
 menu = [US/GA] US Dedicated (Atlanta)
-title = [US/GA] US Dedicated @ InterNAP ACS - Atlanta, Georgia [lg.atldedicated.net]
+title = [US/GA] US Dedicated @ Internap ACS (INAP) - Atlanta, Georgia [lg.atldedicated.net]
 host = lg.atldedicated.net
 
 ++ vultr-atl
@@ -2475,13 +2485,13 @@ title = [RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.er
 host = speedtest.rostov.ertelecom.ru
 
 ++ hurricane-electric-kbp1
-menu = [UA] he.net (Kiev)
-title = [UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]
+menu = [UA] he.net (Kyiv)
+title = [UA] Hurricane Electric - NewTelco Ukraine - Kyiv, UA [core1.kbp1.he.net]
 host = core1.kbp1.he.net
 
 ++ kyivstar
-menu = [UA] Kyivstar (Kiev)
-title = [UA] Kyivstar - Kiev, Ukraine [www.speedtest.kyivstar.ua]
+menu = [UA] Kyivstar (Kyiv)
+title = [UA] Kyivstar - Kyiv, Ukraine [www.speedtest.kyivstar.ua]
 host = www.speedtest.kyivstar.ua
 
 ++ vodafone-ua
@@ -2746,11 +2756,6 @@ menu = [CN] Star.do (Xuzhou)
 title = [CN] Star.do @ China Telecom - Xuzhou, Jiangsu (DDoS Protected) [58.218.210.1]
 host = 58.218.210.1
 
-++ tcloud-zhenjiang-ct
-menu = [CN] TCloud (Zhenjiang CT)
-title = [CN] TCloud @ China Telecom - Zhenjiang, Jiangsu 镇江电信 [222.186.52.1]
-host = 222.186.52.1
-
 ++ uovz-xuzhou
 menu = [CN] UOvZ (Xuzhou CT+DP)
 title = [CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州电信 DDoS Protected [58.218.201.1]
@@ -2766,16 +2771,6 @@ menu = [CN] Aliyun (Hangzhou)
 title = [CN] Aliyun / Alibaba Cloud - Hangzhou, Zhejiang 中国杭州 [oss-cn-hangzhou.aliyuncs.com]
 host = oss-cn-hangzhou.aliyuncs.com
 
-++ tcloud-ningbo
-menu = [CN] TCloud (Ningbo)
-title = [CN] TCloud - Ningbo, Zhejiang 宁波BGP [103.88.33.1]
-host = 103.88.33.1
-
-++ tcloud-jiaxing-dl
-menu = [CN] TCloud (Jiaxing)
-title = [CN] TCloud - Jiaxing, Zhejiang 嘉兴双线 [115.231.235.254]
-host = 115.231.235.254
-
 
 + PointsInterestCNS
 menu = Asia - China Mainland (South)
@@ -2790,11 +2785,6 @@ host = oss-cn-shenzhen.aliyuncs.com
 menu = [CN] Anchnet (Shenzhen)
 title = [CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]
 host = 43.240.244.14
-
-++ tcloud-guangzhou-ct
-menu = [CN] TCloud (Guangzhou CT)
-title = [CN] TCloud @ China Telecom - Guangzhou 广州电信 [14.215.171.1]
-host = 14.215.171.1
 
 ++ tencent-ap-guangzhou
 menu = [CN] Tencent (Guangzhou)
@@ -2832,8 +2822,8 @@ menu = Asia - Hong Kong, Taiwan
 title = TITLE-HEADER - Hong Kong, Taiwan
 
 ++ 50kvm-hk-shatin
-menu = [HK] 50KVM
-title = [HK] 50KVM - Hong Kong, China [lg.shatin.hkg.50network.com]
+menu = [HK] WikiHost
+title = [HK] WikiHost - Hong Kong, China [lg.shatin.hkg.50network.com]
 host = lg.shatin.hkg.50network.com
 
 ++ alibabacloud-hk
@@ -3278,8 +3268,8 @@ host = sgp-ping.vultr.com
 
 
 + PointsInterestASSE
-menu = Asia - Southeast (excl. Singapore)
-title = TITLE-HEADER - Southeast Asia (excl. Singapore)
+menu = Asia - Southeast
+title = TITLE-HEADER - Southeast Asia
 
 ++ aliyun-ap-southeast-5
 menu = [ID] Aliyun (Jakarta)
@@ -3538,8 +3528,8 @@ host = speedtestkol.vodafone.ind.in
 
 
 + PointsInterestASSouth2
-menu = Asia - South (excl. India)
-title = TITLE-HEADER - South Asia (excl. India)
+menu = Asia - South
+title = TITLE-HEADER - South Asia
 
 ++ cybernet-kar
 menu = [PK] Cybernet (Karachi)
@@ -3748,7 +3738,7 @@ host = 188.0.133.159
 
 ++ kazakhtelecom-astana
 menu = [KZ] Kazakhtelecom
-title = [KZ] Kazakhtelecom - Astana, Kazakhstan [asta.speedtest.online.kz]
+title = [KZ] Kazakhtelecom - Nur-Sultan, Kazakhstan [asta.speedtest.online.kz]
 host = asta.speedtest.online.kz
 
 

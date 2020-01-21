@@ -427,9 +427,14 @@ title = {IPv6} [CA/QC] Amazon Web Services (ca-central-1) - Central Canada [2600
 host = 2600:1f11:b15:2000::ec2
 
 +++ ovh-bhs-v6
-menu = [CA/QC] OVH
+menu = [CA/QC] OVH (BHS)
 title = {IPv6} [CA/QC] OVH - Beauharnois, Quebec, Canada [speedtest-bhs.as16276.ovh]
 host = speedtest-bhs.as16276.ovh
+
++++ servarica-v6
+menu = [CA/QC] ServaRICA
+title = {IPv6} [CA/QC] ServaRICA @ eStruxture - Montreal, Canada [ping.servarica.com]
+host = ping.servarica.com
 
 +++ quonix-v6
 menu = [US/PA] Quonix
