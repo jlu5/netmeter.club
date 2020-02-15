@@ -11,8 +11,8 @@ host = www.akamai.com
 
 ++ amazon-cloudfront
 menu = [CDN] Amazon CloudFront
-title = [CDN] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]
-host = dq1dnt4af4eyy.cloudfront.net
+title = [CDN] Amazon CloudFront [www.amazon.com]
+host = www.amazon.com
 
 ++ automattic
 menu = [CDN] Automattic
@@ -204,11 +204,6 @@ menu = [CA/BC] Bell (Vancouver)
 title = [CA/BC] Bell - Vancouver, British Columbia [vancnspd01.srvr.bell.ca]
 host = vancnspd01.srvr.bell.ca
 
-++ bandwagonhost-yvr
-menu = [CA/BC] Bandwagonhost
-title = [CA/BC] Bandwagonhost (IT7 Networks) - Vancouver, British Columbia [172.93.32.16]
-host = 172.93.32.16
-
 ++ canadianwebhost-yvr
 menu = [CA/BC] Canadianwebhosting
 title = [CA/BC] Canadianwebhosting - Vancouver, British Columbia [23.111.64.1]
@@ -221,7 +216,7 @@ host = van.lg.freerangecloud.com
 
 ++ fullhost-yvr0
 menu = [CA/BC] FullHost (Vancouver)
-title = [CA/BC] FullHost - Vancouver, British Columbia [lg.vancouver.fullhost.com]
+title = [CA/BC] FullHost (Pretecs Networks) @ Astute Internet - Vancouver, British Columbia [lg.vancouver.fullhost.com]
 host = lg.vancouver.fullhost.com
 
 ++ rogers-yvr
@@ -539,6 +534,11 @@ menu = [US/CA] HostHatch (LA)
 title = [US/CA] HostHatch - Los Angeles, California [lg.lax.hosthatch.com]
 host = lg.lax.hosthatch.com
 
+++ i3d-ca-na
+menu = [US/CA] i3D.net (LA)
+title = [US/CA] i3D.net - Los Angeles, CA, United States [ca.na.speedtest.i3d.net]
+host = ca.na.speedtest.i3d.net
+
 ++ krypt-ion-lax
 menu = [US/CA] Krypt iON
 title = [US/CA] Krypt iON Cloud (VPLS) - Los Angeles, California [98.126.41.162]
@@ -739,6 +739,11 @@ menu = [US/IL] GTHost (Chicago)
 title = [US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]
 host = 162.251.60.162
 
+++ i3d-il-na
+menu = [US/IL] i3D.net (Chicago)
+title = [US/IL] i3D.net - Chicago, IL, United States [il.na.speedtest.i3d.net]
+host = il.na.speedtest.i3d.net
+
 ++ nfoservers-chi
 menu = [US/IL] NFOservers (Chicago)
 title = [US/IL] NFOservers - Chicago, Illinois [216.52.148.4]
@@ -806,7 +811,7 @@ host = speedtest-tor1.digitalocean.com
 
 ++ fullhost-tor
 menu = [CA/ON] FullHost (Toronto)
-title = [CA/ON] FullHost - Toronto, Canada [lg.toronto.fullhost.com]
+title = [CA/ON] FullHost (Pretecs Networks) @ Astute Internet - Toronto, Canada [lg.toronto.fullhost.com]
 host = lg.toronto.fullhost.com
 
 ++ gthost-tor
@@ -931,7 +936,7 @@ host = 4.69.210.125
 
 ++ freerangecloud-ywg
 menu = [CA/MB] Free Range Cloud
-title = [CA/MB] Free Range Cloud - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]
+title = [CA/MB] Free Range Cloud @ FastNet - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]
 host = lg.freerangecloud.com
 
 ++ rogers-wpmb
@@ -1014,11 +1019,6 @@ menu = [US/TX] Dediserve (Dallas)
 title = [US/TX] Dediserve - Dallas, Texas, USA [speedtest.c1.dal1.dediserve.com]
 host = speedtest.c1.dal1.dediserve.com
 
-++ gthost-dal
-menu = [US/TX] GTHost (Dallas)
-title = [US/TX] GTHost (GlobalTeleHost Corp.) - Dallas, United States [38.68.134.162]
-host = 38.68.134.162
-
 ++ impactvps-dal
 menu = [US/TX] ImpactVPS (Dallas)
 title = [US/TX] ImpactVPS @ Incero - Dallas, Texas [172.110.8.1]
@@ -1093,11 +1093,6 @@ host = spt01ftwotx.ftwo.tx.charter.com
 menu = [US/TX] SoftLayer (Houston)
 title = [US/TX] SoftLayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
-
-++ att-tx-sat
-menu = [US/TX] AT&T (San Antonio)
-title = [US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]
-host = sat.speedtest.sbcglobal.net
 
 ++ cox-ok-ok
 menu = [US/OK] Cox (Oklahoma City)
@@ -1274,11 +1269,6 @@ menu = [US/NJ] Vultr
 title = [US/NJ] Vultr (New Jersey) [nj-us-ping.vultr.com]
 host = nj-us-ping.vultr.com
 
-++ colocrossing-pnj
-menu = [US/NJ] Virmach (Piscataway)
-title = [US/NJ] Virmach @ ColoCrossing - Piscataway, New Jersey [107.174.64.68]
-host = 107.174.64.68
-
 ++ securedragon-piscataway
 menu = [US/NJ] SecureDragon
 title = [US/NJ] SecureDragon @ DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]
@@ -1418,6 +1408,11 @@ host = 172.106.200.10
 menu = [US/VA] Free Range Cloud
 title = [US/VA] Free Range Cloud - Ashburn, Virginia [ash.lg.freerangecloud.com]
 host = ash.lg.freerangecloud.com
+
+++ i3d-va-na
+menu = [US/VA] i3D.net (Ashburn)
+title = [US/VA] i3D.net - Ashburn, VA, United States [va.na.speedtest.i3d.net]
+host = va.na.speedtest.i3d.net
 
 ++ ovh-va
 menu = [US/VA] OVH (Vint Hill)
@@ -1674,6 +1669,11 @@ menu = [UK] Google Cloud
 title = [UK] Google Cloud Platform (europe-west2) - London, United Kingdom [europe-west2-gce.cloudharmony.net]
 host = europe-west2-gce.cloudharmony.net
 
+++ iomart-1
+menu = [UK] iomart (Maidenhead)
+title = [UK] iomart - Maidenhead, United Kingdom [speedtest-net1.rapidswitch.co.uk]
+host = speedtest-net1.rapidswitch.co.uk
+
 ++ linode-lon
 menu = [UK] Linode (London)
 title = [UK] Linode - London, United Kingdom [speedtest.london.linode.com]
@@ -1713,6 +1713,11 @@ host = lg.thn2.vmhaus.com
 menu = [UK] Vultr (London)
 title = [UK] Vultr - London, United Kingdom [lon-gb-ping.vultr.com]
 host = lon-gb-ping.vultr.com
+
+++ iomart-5
+menu = [UK] iomart (Gosport)
+title = [UK] iomart - Gosport, United Kingdom [speedtest-net5.rapidswitch.co.uk]
+host = speedtest-net5.rapidswitch.co.uk
 
 ++ loveservers-man
 menu = [UK] LoveServers (Manchester)
@@ -1784,6 +1789,16 @@ menu = [FR] Vultr (Paris)
 title = [FR] Vultr - Paris, France [par-fr-ping.vultr.com]
 host = par-fr-ping.vultr.com
 
+++ sfr
+menu = [FR] SFR (Paris)
+title = [FR] SFR - Paris, France [speedtest.mire.sfr.net]
+host = speedtest.mire.sfr.net
+
+++ sfr-lyon
+menu = [FR] SFR (Lyon)
+title = [FR] SFR - Lyon, France [cor2.speedtest.mire.sfr.net]
+host = cor2.speedtest.mire.sfr.net
+
 ++ ovh-gra
 menu = [FR] OVH (Gravelines)
 title = [FR] OVH - Gravelines, France [lil2-gra.smokeping.ovh.net]
@@ -1799,10 +1814,10 @@ menu = [FR] OVH (Strasbourg)
 title = [FR] OVH - Strasbourg, France [sbg.smokeping.ovh.net]
 host = sbg.smokeping.ovh.net
 
-++ ikoula
-menu = [FR] Ikoula (Reims)
-title = [FR] Ikoula @ Ikoula - Reims, France [lg.ikoula.com]
-host = lg.ikoula.com
+#++ ikoula
+#menu = [FR] Ikoula (Reims)
+#title = [FR] Ikoula - Reims, France [lg.ikoula.com]
+#host = lg.ikoula.com
 
 ++ hurricane-electric-mrs1
 menu = [FR] he.net (Marseille)
@@ -1848,6 +1863,11 @@ host = nl.edis.at
 menu = [NL] HostHatch (Amsterdam)
 title = [NL] HostHatch @ NFOrce - Amsterdam, Netherlands [lg.ams.hosthatch.com]
 host = lg.ams.hosthatch.com
+
+++ i3d-nl1
+menu = [NL] i3D.net (Rotterdam)
+title = [NL] i3D.net - Rotterdam, Netherlands [eu.speedtest.i3d.net]
+host = eu.speedtest.i3d.net
 
 ++ leaseweb-nl
 menu = [NL] LeaseWeb
@@ -1898,6 +1918,16 @@ host = ams-nl-ping.vultr.com
 menu = [NL] UltraVPS (Amsterdam)
 title = [NL] UltraVPS - Amsterdam, Netherlands [lg.ams.nl.ultravps.eu]
 host = lg.ams.nl.ultravps.eu
+
+++ tele2-nl
+menu = [NL] Tele2 (Amsterdam)
+title = [NL] Tele2 Netherlands - Amsterdam, NL [speedtest.tele2.nl]
+host = speedtest.tele2.nl
+
+++ xs4all
+menu = [NL] XS4ALL (Amsterdam)
+title = [NL] XS4ALL - Amsterdam, NL [speedtest.xs4all.nl]
+host = speedtest.xs4all.nl
 
 ++ gcp-nl
 menu = [NL] Google Cloud
@@ -2030,8 +2060,8 @@ title = [DE] Hurricane Electric - IPB CarrierColo Berlin Berlin, DE [core1.ber1.
 host = core1.ber1.he.net
 
 ++ hetzner
-menu = [DE] Hetzner (Falkenstein)
-title = [DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]
+menu = [DE] Hetzner (Nuremberg)
+title = [DE] Hetzner - Nuremberg, Germany [speed.hetzner.de]
 host = speed.hetzner.de
 
 ++ netcup-nbg
@@ -2093,6 +2123,11 @@ host = speedtest.c1.pol1.dediserve.com
 menu = [PL] EDIS (Warsaw)
 title = [PL] EDIS - Warsaw, Poland [pl.edis.at]
 host = pl.edis.at
+
+++ i3d-pl-eu
+menu = [PL] i3D.net (Warsaw)
+title = [PL] i3D.net - Warsaw, Poland [pl.eu.speedtest.i3d.net]
+host = pl.eu.speedtest.i3d.net
 
 ++ m247-warsaw
 menu = [PL] M247 (Warsaw)
@@ -2524,11 +2559,6 @@ menu = [RO] M247 (Bucharest)
 title = [RO] M247 - Bucharest, Romania [speed.m247.ro]
 host = speed.m247.ro
 
-++ prometeus-rom
-menu = [RO] Prometeus (Bucharest)
-title = [RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]
-host = lg-romania.prometeus.net
-
 ++ orange-ro
 menu = [RO] Orange Romania
 title = [RO] Orange Romania - Bucharest, Romania [speedtestbuc.orangero.net]
@@ -2801,20 +2831,10 @@ menu = [CN] Huawei (Guiyang)
 title = [CN] Huawei Cloud - Guiyang, China [as.cn-southwest-2.myhuaweicloud.com]
 host = as.cn-southwest-2.myhuaweicloud.com
 
-++ cloudiplc-qzcm
-menu = [CN] CloudIPLC (Quanzhou CM)
-title = [CN] CloudIPLC @ China Mobile - Quanzhou, Fujian 泉州移动 [ping.qzcm.cloudiplc.com]
-host = ping.qzcm.cloudiplc.com
-
 ++ cloudiplc-qzcn2
 menu = [CN] CloudIPLC (Quanzhou CN2)
 title = [CN] CloudIPLC @ CN2 - Quanzhou, Fujian 泉州CN2 [ping.qzcn2.cloudiplc.com]
 host = ping.qzcn2.cloudiplc.com
-
-++ uovz-fujian-cm
-menu = [CN] UOvZ (Fujian CM)
-title = [CN] UOvZ @ China Mobile - Fujian 福建移动 [112.47.15.1]
-host = 112.47.15.1
 
 
 + PointsInterestCN3
@@ -2876,10 +2896,10 @@ menu = [HK] HKServerSolution @ HGC
 title = [HK] HKServerSolution @ HGC Global - Hong Kong, China [210.3.96.1]
 host = 210.3.96.1
 
-++ klayer-hk
-menu = [HK] KLayer
-title = [HK] KLayer - Hong Kong, China [hk.lg.klayer.com]
-host = hk.lg.klayer.com
+++ i3d-hk-ap
+menu = [HK] i3D.net (Hong Kong)
+title = [HK] i3D.net - Hong Kong, Hong Kong [hk.ap.speedtest.i3d.net]
+host = hk.ap.speedtest.i3d.net
 
 ++ lightcloud-hk
 menu = [HK] LightCloud @ HKT
@@ -3010,6 +3030,11 @@ host = speedtest.c1.jap1.dediserve.com
 menu = [JP] Google Cloud (Tokyo)
 title = [JP] Google Cloud Platform (asia-northeast1) - Tokyo, Japan [asia-northeast1-gce.cloudharmony.net]
 host = asia-northeast1-gce.cloudharmony.net
+
+++ i3d-jp-as
+menu = [JP] i3D.net (Tokyo)
+title = [JP] i3D.net - Tokyo, Japan [jp.as.speedtest.i3d.net]
+host = jp.as.speedtest.i3d.net
 
 ++ linode-jp
 menu = [JP] Linode (Tokyo 2)
@@ -3210,11 +3235,6 @@ host = 27.122.59.1
 menu = [SG] LeaseWeb
 title = [SG] LeaseWeb - Singapore [mirror.sg.leaseweb.net]
 host = mirror.sg.leaseweb.net
-
-++ klayer-sg
-menu = [SG] KLayer
-title = [SG] KLayer - Singapore [sg.lg.klayer.com]
-host = sg.lg.klayer.com
 
 ++ linode-sg
 menu = [SG] Linode
@@ -3546,11 +3566,6 @@ menu = [PK] PTCL (Karachi)
 title = [PK] PTCL - Karachi, Pakistan [speedtest3.ptcl.net]
 host = speedtest3.ptcl.net
 
-++ ptcl-lah
-menu = [PK] PTCL (Lahore)
-title = [PK] PTCL - Lahore, Pakistan [speedtest2.ptcl.net]
-host = speedtest2.ptcl.net
-
 ++ waheen-lah
 menu = [PK] Waheen (Lahore)
 title = [PK] Waheen - Lahore, Pakistan [speedtest.wateen.net]
@@ -3606,10 +3621,10 @@ menu = [AE] Aliyun (Dubai)
 title = [AE] Aliyun - Dubai, United Arab Emirates [oss-me-east-1.aliyuncs.com]
 host = oss-me-east-1.aliyuncs.com
 
-++ hurricane-electric-dxb1
-menu = [AE] he.net (Dubai)
-title = [AE] Hurricane Electric - Equinix Dubai (DX1) Dubai, AE [core1.dxb1.he.net]
-host = core1.dxb1.he.net
+++ i3d-ae-ap
+menu = [AE] i3D.net (Dubai)
+title = [AE] i3D.net - Dubai, United Arab Emirates [ae.ap.speedtest.i3d.net]
+host = ae.ap.speedtest.i3d.net
 
 ++ m247-dubai
 menu = [AE] M247 (Dubai)
@@ -3746,6 +3761,11 @@ host = asta.speedtest.online.kz
 menu = Africa
 title = TITLE-HEADER - Africa
 
+++ i3d-af-speedtest
+menu = [AF] i3D.net (Johannesburg)
+title = [AF] i3D.net - Johannesburg, South Africa [af.speedtest.i3d.net]
+host = af.speedtest.i3d.net
+
 ++ psychz-jnb
 menu = [ZA] Psychz (Johannesburg)
 title = [ZA] Psychz - Johannesburg, South Africa [lg.jnb.psychz.net]
@@ -3836,11 +3856,6 @@ menu = [DJ] he.net (Djibouti City)
 title = [DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]
 host = core1.jib1.he.net
 
-++ seacom-ug-ebb
-menu = [UG] SEACOM (Kampala)
-title = [UG] SEACOM - Kampala, Uganda [lg-01-ebb.ug.seacomnet.com]
-host = lg-01-ebb.ug.seacomnet.com
-
 ++ ugandahosting1
 menu = [UG] Uganda Hosting
 title = [UG] Uganda Hosting [45.221.72.222]
@@ -3861,11 +3876,6 @@ menu = [MZ] SEACOM (Maputo)
 title = [MZ] SEACOM - Maputo, Mozambique [lg-01-mpm.mz.seacomnet.com]
 host = lg-01-mpm.mz.seacomnet.com
 
-++ angolacables-ao
-menu = [AO] Angola Cables
-title = [AO] Angola Cables - Luanda, Angola [197.149.150.178]
-host = 197.149.150.178
-
 ++ telecom-namibia
 menu = [NA] Telecom Namibia
 title = [NA] Telecom Namibia - Windhoek, Namibia [www.speedtest1.ipb.na]
@@ -3880,6 +3890,11 @@ title = TITLE-HEADER - South, Central America
 menu = [BR] Amazon AWS (Sao Paulo)
 title = [BR] Amazon Web Services (sa-east-1) - Sao Paulo, Brazil [54.94.0.66]
 host = 54.94.0.66
+
+++ i3d-sa-speedtest
+menu = [SA] i3D.net (Sao Paulo)
+title = [SA] i3D.net - Sao Paulo, Brazil [sa.speedtest.i3d.net]
+host = sa.speedtest.i3d.net
 
 ++ maxihost-br
 menu = [BR] Maxihost
@@ -3985,6 +4000,11 @@ host = 218.100.88.244
 menu = [AU] Dediserve (Sydney)
 title = [AU] Dediserve - Sydney, Australia [speedtest.c1.syd1.dediserve.com]
 host = speedtest.c1.syd1.dediserve.com
+
+++ i3d-oc
+menu = [AU] i3D.net (Sydney)
+title = [AU] i3D.net - Sydney, Australia [oc.speedtest.i3d.net]
+host = oc.speedtest.i3d.net
 
 ++ leaseweb-syd
 menu = [AU] LeaseWeb (Sydney)
@@ -4120,11 +4140,6 @@ host = speedtest-wellington.spark.co.nz
 menu = [NZ] 2degrees (Christchurch)
 title = [NZ] 2degrees - Christchurch, New Zealand [speed.snap.net.nz]
 host = speed.snap.net.nz
-
-++ digicel-pg
-menu = [PG] Digicel
-title = [PG] Digicel - Port Moresby, Papua New Guinea [speedtest1.online.net.pg]
-host = speedtest1.online.net.pg
 
 ++ telecom-fiji
 menu = [FJ] Telecom Fiji

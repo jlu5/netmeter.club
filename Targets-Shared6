@@ -536,11 +536,6 @@ menu = {IPv6} [FR] OVH (SBG)
 title = {IPv6} [FR] OVH - Strasbourg, France [sbg.proof.ovh.net]
 host = sbg.proof.ovh.net
 
-+++ ikoula-v6
-menu = {IPv6} [FR] Ikoula (Reims)
-title = {IPv6} [FR] Ikoula @ Ikoula - Reims, France [2a00:c70:1:213:246:61:65:1]
-host = 2a00:c70:1:213:246:61:65:1
-
 +++ digitalocean-ams-v6
 menu = {IPv6} [NL] DigitalOcean
 title = {IPv6} [NL] DigitalOcean (AMS2) - Amsterdam, Netherlands [speedtest-ams2.digitalocean.com]
