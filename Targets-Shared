@@ -937,7 +937,7 @@ title = [US/MO] Dedispec - Kansas City, Missouri [198.204.225.10]
 host = 198.204.225.10
 
 ++ nocix
-menu = [US/MO] Nocix / Wholesale Internet
+menu = [US/MO] Nocix
 title = [US/MO] Nocix / Wholesale Internet - Kansas City, Missouri [192.187.107.154]
 host = 192.187.107.154
 slaves = ALL-SLAVES
@@ -1043,11 +1043,6 @@ host = det.speedtest.t-mobile.com
 menu = [US/ND] CenturyLink (Bismarck)
 title = [US/ND] CenturyLink - Bismarck, ND, US [bismarck.speedtest.centurylink.net]
 host = bismarck.speedtest.centurylink.net
-
-++ northwestel-yknt
-menu = [CA/NT] Northwestel
-title = [CA/NT] Northwestel - Yellowknife, Northwest Territories, Canada [yk-netspeed.nwtel.ca]
-host = yk-netspeed.nwtel.ca
 
 
 + PointsInterestNAS

@@ -116,7 +116,7 @@ menu = [CA/BC] Rogers
 title = {IPv6} [CA/BC] Rogers - Vancouver, British Columbia [speedtestbcvan.rogers.com]
 host = speedtestbcvan.rogers.com
 
-++ novusnow-v6
++++ novusnow-v6
 menu = [CA/BC] Novus
 title = {IPv6} [CA/BC] Novus - Vancouver, British Columbia [www.novusnow.ca]
 host = www.novusnow.ca
@@ -206,7 +206,7 @@ menu = [US/CA] Verizon (San Diego)
 title = {IPv6} [US/CA] Verizon - San Diego, CA, US [cavtp1.speed.vzwnet.com]
 host = cavtp1.speed.vzwnet.com
 
-++ wiredblade-v6
++++ wiredblade-v6
 menu = [US/AZ] Wired Blade
 title = {IPv6} [US/AZ] Wired Blade @ InterNAP (INAP) - Phoenix, Arizona [2602:ff23:0:8888::1]
 host = 2602:ff23:0:8888::1
@@ -480,11 +480,6 @@ host = speedtest-lon1.digitalocean.com
 menu = {IPv6} [UK] Linode
 title = {IPv6} [UK] Linode - London, United Kingdom [speedtest.london.linode.com]
 host = speedtest.london.linode.com
-
-+++ ovh-lon-v6
-menu = {IPv6} [UK] OVH
-title = {IPv6} [UK] ExtraVM @ OVH - Erith, London, United Kingdom [lon.lg.extravm.com]
-host = lon.lg.extravm.com
 
 +++ vmhaus-lon-v6-0
 menu = {IPv6} [UK] VMHaus
@@ -1065,11 +1060,6 @@ host = syd1.speedtest.telstra.net
 menu = {IPv6} [AU] Vultr
 title = {IPv6} [AU] Vultr - Sydney, Australia [2001:19f0:5800:8062::33]
 host = 2001:19f0:5800:8062::33
-
-+++ flowvps-v6
-menu = {IPv6} [AU] FlowVPS
-title = {IPv6} [AU] FlowVPS @ Equinix ME1 - Melbourne, Australia [2402:7340:1:1::2]
-host = 2402:7340:1:1::2
 
 +++ ransomit-mel-v6
 menu = {IPv6} [AU] Ransom IT (Melbourne)
