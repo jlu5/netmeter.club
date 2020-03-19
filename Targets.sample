@@ -9,10 +9,9 @@
 # Set to true if master has no IPv6 connectivity
 @define IPV6-NOMASTERPOLL no
 
-@define ALL-SLAVES DEFAULT-SLAVES LITE-SLAVES
+@define ALL-SLAVES slave1 slave2 slave3
 slaves = DEFAULT-SLAVES
 
-#slaves = slave1 slave2 slave3
 probe = FPing
 
 menu = Top
