@@ -116,6 +116,11 @@ menu = [CA/BC] Rogers
 title = {IPv6} [CA/BC] Rogers - Vancouver, British Columbia [speedtestbcvan.rogers.com]
 host = speedtestbcvan.rogers.com
 
+++ novusnow-v6
+menu = [CA/BC] Novus
+title = {IPv6} [CA/BC] Novus - Vancouver, British Columbia [www.novusnow.ca]
+host = www.novusnow.ca
+
 +++ teksavvy-v6
 menu = [CA/BC] Teksavvy
 title = {IPv6} [CA/BC] Teksavvy - Vancouver, Canada [speedtest-van.teksavvy.com]
@@ -176,11 +181,6 @@ menu = [US/CA] Vultr (San Jose)
 title = {IPv6} [US/CA] Vultr / Choopa - Silicon Valley, California [2001:19f0:ac00:126:5054:ff:fe9f:68ec]
 host = 2001:19f0:ac00:126:5054:ff:fe9f:68ec
 
-+++ psychz-la-v6
-menu = [US/CA] Psychz (LA)
-title = {IPv6} [US/CA] Psychz - Los Angeles, California [lg.lax.psychz.net]
-host = lg.lax.psychz.net
-
 +++ quadranet-la-v6
 menu = [US/CA] QuadraNet (LA)
 title = {IPv6} [US/CA] QuadraNet - Los Angeles, California [2607:fcd0:0:a::2]
@@ -205,6 +205,11 @@ host = caazp1.speed.vzwnet.com
 menu = [US/CA] Verizon (San Diego)
 title = {IPv6} [US/CA] Verizon - San Diego, CA, US [cavtp1.speed.vzwnet.com]
 host = cavtp1.speed.vzwnet.com
+
+++ wiredblade-v6
+menu = [US/AZ] Wired Blade
+title = {IPv6} [US/AZ] Wired Blade @ InterNAP (INAP) - Phoenix, Arizona [2602:ff23:0:8888::1]
+host = 2602:ff23:0:8888::1
 
 +++ xmission-v6
 menu = [US/UT] XMission
@@ -395,11 +400,6 @@ host = mirror.wdc1.us.leaseweb.net
 menu = [US/GA] HostUS
 title = {IPv6} [US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]
 host = atl-lg.hostus.us
-
-+++ linode-atl-v6
-menu = [US/GA] Linode
-title = {IPv6} [US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]
-host = speedtest.atlanta.linode.com
 
 +++ ramnode-atl-v6
 menu = [US/GA] Ramnode
@@ -616,6 +616,11 @@ menu = {IPv6} [DE] DigitalOcean
 title = {IPv6} [DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]
 host = speedtest-fra1.digitalocean.com
 
++++ first-colo-v6
+menu = {IPv6} [DE] First-Colo
+title = {IPv6} [DE] First-Colo - Frankfurt, Germany [lg.first-colo.net]
+host = lg.first-colo.net
+
 +++ leaseweb-de-v6
 menu = {IPv6} [DE] LeaseWeb
 title = {IPv6} [DE] LeaseWeb - Germany [mirror.de.leaseweb.net]
@@ -786,11 +791,6 @@ menu = {IPv6} [RU] JustHost
 title = {IPv6} [RU] JustHost.ru @ RosTelecom - Kazan, Russia [2a00:b700:1::5f]
 host = 2a00:b700:1::5f
 
-+++ prometeus-rom-v6
-menu = {IPv6} [RO] Prometeus
-title = {IPv6} [RO] Prometeus - Bucharest, Romania [2a06:fdc0:f:f:185:136:176:99]
-host = 2a06:fdc0:f:f:185:136:176:99
-
 +++ edis-md-v6
 menu = {IPv6} [MD] EDIS
 title = {IPv6} [MD] EDIS - Chisinau, Moldova [2a03:f80:373:192:121:87:10:1]
@@ -960,11 +960,6 @@ host = 2406:da18:ec6:6400::ec2
 menu = {IPv6} [SG] Digital Ocean
 title = {IPv6} [SG] Digital Ocean (SGP1) - Singapore [speedtest-sgp1.digitalocean.com]
 host = speedtest-sgp1.digitalocean.com
-
-+++ leaseweb-sg-v6
-menu = {IPv6} [SG] LeaseWeb
-title = {IPv6} [SG] LeaseWeb - Singapore [mirror.sg.leaseweb.net]
-host = mirror.sg.leaseweb.net
 
 +++ linode-sg-v6
 menu = {IPv6} [SG] Linode

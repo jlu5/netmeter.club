@@ -1,4 +1,17 @@
 *** Targets ***
+# These slaves are served a subset of targets to reduce bandwidth usage
+@define LITE-SLAVES = slave1
+# These slaves are served all destinations
+@define DEFAULT-SLAVES slave2 slave3
+
+# Slaves to serve IPv6 destinations
+@define IPV6-SLAVES slave1 slave3
+# Set to true if master has no IPv6 connectivity
+@define IPV6-NOMASTERPOLL no
+
+@define ALL-SLAVES DEFAULT-SLAVES LITE-SLAVES
+slaves = DEFAULT-SLAVES
+
 #slaves = slave1 slave2 slave3
 probe = FPing
 
@@ -7,11 +20,6 @@ title = netmeter.club Global Ping Monitoring [REGION]
 remark = Connected to this server: <ul>\
     <li>mastername: Someville, Somewhere [XYZ Hosting]</li>\
 </ul>
-
-# List slaves that have IPv6 support
-@define IPV6-SLAVES slave1 slave2
-# Set to yes if master has no IPv6 support
-@define IPV6-NOMASTERPOLL no
 
 @include /etc/smokeping/config.d/Targets-Shared6
 
