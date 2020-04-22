@@ -48,10 +48,10 @@ width = 800
 height = 150
 unison_tolerance = 2
 
-"Last 4 Hours"    4h
-"Last 3 Days"   3d
-"Last 30 Days"    30d
-"Last 180 Days"   180d
+"Last 6 Hours"    6h
+"Last 5 Days"     5d
+"Last 60 Days"    60d
+"Last 360 Days"   360d
 #"Last 360 Days"   360d
 
 #+ hierarchies
