@@ -105,11 +105,6 @@ menu = [CDN] Incapsula
 title = [CDN] Imperva Incapsula [www.incapsula.com]
 host = www.incapsula.com
 
-++ ionos
-menu = [CDN] 1&1 IONOS
-title = [CDN] 1&1 IONOS (United Internet) [www.ionos.com]
-host = www.ionos.com
-
 ++ jsdelivr
 menu = [CDN] jsDelivr
 title = [CDN] jsDelivr [cdn.jsdelivr.net]
@@ -155,11 +150,6 @@ menu = [CDN] QUANTIL / Wangsu
 title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
 host = en.wangsu.com
 
-++ sohu
-menu = [CDN] Sohu
-title = [CDN] Sohu.com [www.sohu.com]
-host = www.sohu.com
-
 ++ stackpath
 menu = [CDN] StackPath
 title = [CDN] StackPath [www.stackpath.com]
@@ -199,6 +189,12 @@ title = TITLE-HEADER - North America (Northwest)
 menu = [CA/BC] UBC (Vancouver)
 title = [CA/BC] The University of British Columbia - Vancouver, British Columbia [mirror.it.ubc.ca]
 host = mirror.it.ubc.ca
+slaves = ALL-SLAVES
+
+++ aebc
+menu = [CA/BC] AEBC / Cipherkey
+title = [CA/BC] AEBC / Cipherkey - Vancouver, British Columbia [www.aebc.com]
+host = www.aebc.com
 slaves = ALL-SLAVES
 
 ++ bell-yvr
@@ -297,11 +293,6 @@ menu = [US/WA] SpartanHost (Seattle)
 title = [US/WA] SpartanHost - Seattle, Washington [lg.sea.spartanhost.net]
 host = lg.sea.spartanhost.net
 slaves = ALL-SLAVES
-
-++ serverhub-sea
-menu = [US/WA] Virmach (Seattle)
-title = [US/WA] Virmach @ ServerHub - Seattle, Washington [sea.lg.virmach.com]
-host = sea.lg.virmach.com
 
 ++ usdedicated-sea
 menu = [US/WA] US Dedicated (Seattle)
@@ -761,6 +752,7 @@ slaves = ALL-SLAVES
 menu = [US/IL] GTHost (Chicago)
 title = [US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]
 host = 162.251.60.162
+slaves = ALL-SLAVES
 
 ++ i3d-il-na
 menu = [US/IL] i3D.net (Chicago)
@@ -1245,6 +1237,7 @@ host = newyork.lg.ftpit.com
 menu = [US/NY] GTHost (NYC)
 title = [US/NY] GTHost (GlobalTeleHost Corp.) - New York, United States [38.99.247.162]
 host = 38.99.247.162
+slaves = ALL-SLAVES
 
 ++ hosthatch-nyc
 menu = [US/NY] HostHatch (NYC)
