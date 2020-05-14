@@ -45,26 +45,6 @@ menu = [CDN] CDN77.com
 title = [CDN] CDN77.com [www.cdn77.com]
 host = www.cdn77.com
 
-#++ cdn-net-x
-#menu = [CDN] CDN.net X
-#title = [CDN] CDN.net CDN-X (Western Hemisphere) [219848522.r.worldcdn.net]
-#host = 219848522.r.worldcdn.net
-
-#++ cdn-net-exec
-#menu = [CDN] CDN.net EXEC
-#title = [CDN] CDN.net CDN-EXEC (Northern Hemisphere) [31560279.r.worldcdn.net]
-#host = 31560279.r.worldcdn.net
-
-#++ cdn-net-lux
-#menu = [CDN] CDN.net LUX
-#title = [CDN] CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]
-#host = 993660212.r.worldcdn.net
-
-++ clearbrowsing
-menu = [CDN] ClearBrowsing
-title = [CDN] ClearBrowsing DNS @ CIDNOC AS205157 [185.228.168.168]
-host = 185.228.168.168
-
 ++ cloudflare-dns
 menu = [CDN] Cloudflare
 title = [CDN] Cloudflare [cloudflare.com]
@@ -120,12 +100,7 @@ menu = [CDN] Level 3 DNS
 title = [CDN] Level 3 DNS Resolver [4.2.2.1]
 host = 4.2.2.1
 
-++ kernel-org
-menu = [CDN] Linux Kernel Archives
-title = [CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]
-host = mirrors.edge.kernel.org
-
-++ microsoft0
+++ microsoft
 menu = [CDN] Microsoft O365 ACDC
 title = [CDN] Microsoft Office 365 ACDC [www.outlook.com]
 host = www.outlook.com
@@ -145,7 +120,7 @@ menu = [CDN] Quad9 DNS
 title = [CDN] Quad9 DNS [9.9.9.9]
 host = 9.9.9.9
 
-++ quantil1
+++ quantil
 menu = [CDN] QUANTIL / Wangsu
 title = [CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]
 host = en.wangsu.com
@@ -155,7 +130,7 @@ menu = [CDN] StackPath
 title = [CDN] StackPath [www.stackpath.com]
 host = www.stackpath.com
 
-++ tmall0
+++ tmall
 menu = [CDN] Tmall.com (Alibaba)
 title = [CDN] Tmall.com (Alibaba Group) @ Alibaba Cloud [www.tmall.com]
 host = www.tmall.com
@@ -260,22 +235,11 @@ menu = [US/WA] GTHost (Seattle)
 title = [US/WA] GTHost (GlobalTeleHost Corp.) - Seattle, United States [38.91.102.162]
 host = 38.91.102.162
 
-++ incero-sea
-menu = [US/WA] Incero (Seattle)
-title = [US/WA] Incero - Seattle, Washington [10gseattle.incero.com]
-host = 10gseattle.incero.com
-slaves = ALL-SLAVES
-
 ++ ionswitch-sea
 menu = [US/WA] IonSwitch (Seattle)
 title = [US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]
 host = lg.ionswitch.com
 slaves = ALL-SLAVES
-
-#++ nfoservers-sea
-#menu = [US/WA] NFOservers (Seattle)
-#title = [US/WA] NFOservers - Seattle, Washington [192.223.25.100]
-#host = 192.223.25.100
 
 ++ quadranet-sea
 menu = [US/WA] QuadraNet (Seattle)
@@ -287,6 +251,11 @@ menu = [US/WA] RamNode (Seattle)
 title = [US/WA] RamNode - Seattle, Washington [lg.sea.ramnode.com]
 host = lg.sea.ramnode.com
 slaves = ALL-SLAVES
+
+++ securedragon-sea
+menu = [US/WA] Hivelocity
+title = [US/WA] SecureDragon @ Hivelocity - Seattle, Washington [198.57.47.4]
+host = 198.57.47.4
 
 ++ spartanhost-sea
 menu = [US/WA] SpartanHost (Seattle)
@@ -340,26 +309,6 @@ title = [US/OR] OVH - Hillsboro, Oregon [pdx1-hil.smokeping.ovh.net]
 host = pdx1-hil.smokeping.ovh.net
 slaves = ALL-SLAVES
 
-++ securedragon-portland
-menu = [US/OR] SecureDragon
-title = [US/OR] SecureDragon @ CNServers - Portland, Oregon [198.57.47.4]
-host = 198.57.47.4
-
-++ charter-or-spt01mdfdor
-menu = [US/OR] Charter (Medford)
-title = [US/OR] Charter - Medford, OR, US [spt01mdfdor.mdfd.or.charter.com]
-host = spt01mdfdor.mdfd.or.charter.com
-
-++ shaw-okbc
-menu = [CA/BC] Shaw (Kelowna)
-title = [CA/BC] Shaw - Kelowna, British Columbia [speedtest.ok.shawcable.net]
-host = speedtest.ok.shawcable.net
-
-#++ rogers-cgab
-#menu = [CA/AB] Rogers (Calgary)
-#title = [CA/AB] Rogers (Calgary) [speedtestcalgary.rogers.com]
-#host = speedtestcalgary.rogers.com
-
 ++ shaw-cgab
 menu = [CA/AB] Shaw (Calgary)
 title = [CA/AB] Shaw - Calgary, Alberta [speedtest.cg.shawcable.net]
@@ -382,21 +331,11 @@ menu = [CA/AB] Shaw (Edmonton)
 title = [CA/AB] Shaw - Edmonton, Alberta [speedtest.ed.shawcable.net]
 host = speedtest.ed.shawcable.net
 
-#++ telus-edab
-#menu = [CA/AB] TELUS (Edmonton)
-#title = [CA/AB] TELUS - Edmonton, Alberta [edmonton.speedtest.telus.com]
-#host = edmonton.speedtest.telus.com
-
 ++ alaska
 menu = [US/AK] Alaska Comm.
 title = [US/AK] Alaska Communications - Anchorage, AK [speedtest.anc.acsalaska.net]
 host = speedtest.anc.acsalaska.net
 slaves = ALL-SLAVES
-
-++ gci-anchorage
-menu = [US/AK] GCI (Anchorage)
-title = [US/AK] General Communication Inc. (GCI) - Anchorage, AK [speedtest.gci.net]
-host = speedtest.gci.net
 
 
 + PointsInterestNAW2
@@ -431,17 +370,6 @@ title = [US/CA] Digital Ocean - San Francisco, California [speedtest-sfo1.digita
 host = speedtest-sfo1.digitalocean.com
 slaves = ALL-SLAVES
 
-++ freerangecloud-fmt
-menu = [US/CA] Free Range (Fremont)
-title = [US/CA] Free Range Cloud - Fremont, California [fmt.lg.freerangecloud.com]
-host = fmt.lg.freerangecloud.com
-slaves = ALL-SLAVES
-
-++ ftpit-fmt
-menu = [US/CA] FTPit (Fremont)
-title = [US/CA] FTPit (Komputer King LLC) - Fremont, California [fremont.lg.ftpit.com]
-host = fremont.lg.ftpit.com
-
 ++ linode-ca
 menu = [US/CA] Linode (Fremont)
 title = [US/CA] Linode - Fremont, California [speedtest.fremont.linode.com]
@@ -459,52 +387,17 @@ title = [US/CA] SoftLayer - San Jose, California [speedtest.sjc01.softlayer.com]
 host = speedtest.sjc01.softlayer.com
 slaves = ALL-SLAVES
 
-++ tencent-na-siliconvalley
-menu = [US/CA] Tencent Cloud
-title = [US/CA] Tencent Cloud - Silicon Valley, United States [cos.na-siliconvalley.myqcloud.com]
-host = cos.na-siliconvalley.myqcloud.com
-
-++ tmobile-ca-ssf
-menu = [US/CA] T-Mobile (SFO)
-title = [US/CA] T-Mobile - San Francisco, CA, US [ssf.speedtest.t-mobile.com]
-host = ssf.speedtest.t-mobile.com
-
 ++ vultr-sjo
 menu = [US/CA] Vultr (San Jose)
 title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
 slaves = ALL-SLAVES
 
-++ xtom-fmt
-menu = [US/CA] xTom (Fremont)
-title = [US/CA] xTom - Fremont, California [mirrors.xtom.com]
-host = mirrors.xtom.com
-
 ++ anynode-la
 menu = [US/CA] anyNode (LA)
 title = [US/CA] anyNode - Los Angeles, California [lg.lax.anynode.net]
 host = lg.lax.anynode.net
 slaves = ALL-SLAVES
-
-++ att-ca-lax
-menu = [US/CA] AT&T (Los Angeles)
-title = [US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]
-host = lax.speedtest.sbcglobal.net
-
-++ bandwagonhost-usca8
-menu = [US/CA] BWH @ C3 (CN2)
-title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC8 CN2 @ C3 Networks) [23.252.99.102]
-host = 23.252.99.102
-
-++ bandwagonhost-usca9
-menu = [US/CA] BWH (CN2 GIA)
-title = [US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC9 CN2 GIA) [65.49.131.102]
-host = 65.49.131.102
-
-++ budgetnode-la
-menu = [US/CA] BudgetNode (LA)
-title = [US/CA] BudgetNode - Los Angeles, California [172.82.152.3]
-host = 172.82.152.3
 
 ++ ceranetworks-lax
 menu = [US/CA] CeraNetworks (LA)
@@ -546,42 +439,17 @@ title = [US/CA] HostHatch - Los Angeles, California [lg.lax.hosthatch.com]
 host = lg.lax.hosthatch.com
 slaves = ALL-SLAVES
 
-++ i3d-ca-na
-menu = [US/CA] i3D.net (LA)
-title = [US/CA] i3D.net - Los Angeles, CA, United States [ca.na.speedtest.i3d.net]
-host = ca.na.speedtest.i3d.net
-
-++ krypt-ion-lax
-menu = [US/CA] Krypt iON
-title = [US/CA] Krypt iON Cloud (VPLS) - Los Angeles, California [98.126.41.162]
-host = 98.126.41.162
-
-++ klayer-lax2
-menu = [US/CA] KLayer (Los Angeles)
-title = [US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]
-host = lax2.lg.klayer.com
-
 ++ psychz-la
 menu = [US/CA] Psychz (Los Angeles)
 title = [US/CA] Psychz - Los Angeles, California [lg.lax.psychz.net]
 host = lg.lax.psychz.net
 slaves = ALL-SLAVES
 
-++ psychz-la-cn2
-menu = [US/CA] Psychz (LA CN2)
-title = [US/CA] Psychz CN2 - Los Angeles, California [172.106.4.54]
-host = 172.106.4.54
-
 ++ quadranet-la
 menu = [US/CA] QuadraNet (LA)
 title = [US/CA] QuadraNet - Los Angeles, California [198.55.111.5]
 host = 198.55.111.5
 slaves = ALL-SLAVES
-
-++ quadranet-la-ao
-menu = [US/CA] QuadraNet (LA, AO)
-title = [US/CA] QuadraNet Asia Optimized - Los Angeles, California [204.152.218.25]
-host = 204.152.218.25
 
 ++ ramnode-la
 menu = [US/CA] Ramnode (LA)
@@ -605,11 +473,6 @@ menu = [US/CA] US Dedicated (LA)
 title = [US/CA] US Dedicated @ Internap (INAP) - Los Angeles, California [lg.ladedicated.com]
 host = lg.ladedicated.com
 
-++ verizon-caazp1
-menu = [US/CA] Verizon (Los Angeles)
-title = [US/CA] Verizon - Los Angeles, CA, US [caazp1.speed.vzwnet.com]
-host = caazp1.speed.vzwnet.com
-
 ++ vmhaus-lax
 menu = [US/CA] VMHaus (Los Angeles)
 title = [US/CA] VMHaus - Los Angeles, California [103.105.49.34]
@@ -626,36 +489,21 @@ menu = [US/CA] Vultr (Los Angeles)
 title = [US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]
 host = lax-ca-us-ping.vultr.com
 
-#++ comcast-ca-scrm
-#menu = [US/CA] Comcast (Sacramento)
-#title = [US/CA] Comcast - Sacramento, CA, US [stosat-scrm-01.sys.comcast.net]
-#host = stosat-scrm-01.sys.comcast.net
+++ att-ca-lax
+menu = [US/CA] AT&T (Los Angeles)
+title = [US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]
+host = lax.speedtest.sbcglobal.net
 
-++ cox-ca-sd
-menu = [US/CA] Cox (San Diego)
-title = [US/CA] Cox Communications - San Diego, CA, US [speedtest.rd.sd.cox.net]
-host = speedtest.rd.sd.cox.net
-
-++ verizon-cavtp1
-menu = [US/CA] Verizon (San Diego)
-title = [US/CA] Verizon - San Diego, CA, US [cavtp1.speed.vzwnet.com]
-host = cavtp1.speed.vzwnet.com
+++ verizon-caazp1
+menu = [US/CA] Verizon (Los Angeles)
+title = [US/CA] Verizon - Los Angeles, CA, US [caazp1.speed.vzwnet.com]
+host = caazp1.speed.vzwnet.com
 
 ++ buyvm-lv0
 menu = [US/NV] BuyVM (Las Vegas)
 title = [US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]
 host = speedtest.lv.buyvm.net
 slaves = ALL-SLAVES
-
-++ buyvm-lv1
-menu = [US/NV] BuyVM @ Voxility
-title = [US/NV] BuyVM @ Voxility (DDOS Protected) - Las Vegas, Nevada [198.251.80.221]
-host = 198.251.80.221
-
-++ centurylink-nv-lasvegas
-menu = [US/NV] CenturyLink
-title = [US/NV] CenturyLink - Las Vegas, NV, US [lasvegas.speedtest.centurylink.net]
-host = lasvegas.speedtest.centurylink.net
 
 ++ fiberhub-nv
 menu = [US/NV] FiberHub (Las Vegas)
@@ -667,11 +515,6 @@ slaves = ALL-SLAVES
 menu = [US/NV] SmartHost (Las Vegas)
 title = [US/NV] SmartHost - Las Vegas, Nevada [199.43.206.3]
 host = 199.43.206.3
-
-++ charter-nv-spt01renonv
-menu = [US/NV] Charter (Reno)
-title = [US/NV] Charter - Reno, NV, US [spt01renonv.reno.nv.charter.com]
-host = spt01renonv.reno.nv.charter.com
 
 ++ ioflood
 menu = [US/AZ] IOFLOOD
@@ -695,16 +538,6 @@ title = [US/AZ] Wired Blade @ InterNAP (INAP) - Phoenix, Arizona [162.216.242.19
 host = 162.216.242.193
 slaves = ALL-SLAVES
 
-++ centurylink-ut-saltlakecity2
-menu = [US/UT] CenturyLink
-title = [US/UT] CenturyLink - Salt Lake City, UT, US [saltlakecity2.speedtest.centurylink.net]
-host = saltlakecity2.speedtest.centurylink.net
-
-#++ comcast-ut-utah
-#menu = [US/UT] Comcast
-#title = [US/UT] Comcast - Salt Lake City, UT, US [stosat-utah-01.sys.comcast.net]
-#host = stosat-utah-01.sys.comcast.net
-
 ++ budgetnode-ogd
 menu = [US/UT] BudgetNode (Ogden)
 title = [US/UT] BudgetNode @ WebNX - Ogden, Utah [ogd.lg.budgetnode.net]
@@ -715,16 +548,6 @@ slaves = ALL-SLAVES
 menu = [US/UT] XMission
 title = [US/UT] XMission - Salt Lake City, Utah, US [xmission.com]
 host = xmission.com
-
-++ izzi-tij
-menu = [MX] IZZI (Tijuana)
-title = [MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]
-host = speedtest.tijuana.izzi.mx
-
-++ hurricane-electric-hnl1
-menu = [US/HI] he.net (Honolulu)
-title = [US/HI] Hurricane Electric @ DRFortress - Honolulu, Hawaii [core1.hnl1.he.net]
-host = core1.hnl1.he.net
 
 ++ tmobile-hi-hon
 menu = [US/HI] T-Mobile (Honolulu)
@@ -753,11 +576,6 @@ menu = [US/IL] GTHost (Chicago)
 title = [US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]
 host = 162.251.60.162
 slaves = ALL-SLAVES
-
-++ i3d-il-na
-menu = [US/IL] i3D.net (Chicago)
-title = [US/IL] i3D.net - Chicago, IL, United States [il.na.speedtest.i3d.net]
-host = il.na.speedtest.i3d.net
 
 ++ nfoservers-chi
 menu = [US/IL] NFOservers (Chicago)
@@ -798,11 +616,6 @@ menu = [US/IL] Vultr (Chicago)
 title = [US/IL] Vultr - Chicago, Illinois [il-us-ping.vultr.com]
 host = il-us-ping.vultr.com
 slaves = ALL-SLAVES
-
-++ att-il-chi
-menu = [US/IL] AT&T (Cicero)
-title = [US/IL] AT&T - Cicero, IL, US [chi.speedtest.sbcglobal.net]
-host = chi.speedtest.sbcglobal.net
 
 ++ centurylink-il-chicago
 menu = [US/IL] CenturyLink (Chicago)
@@ -866,51 +679,11 @@ title = [CA/ON] Teksavvy - Toronto, Canada [speedtest.teksavvy.com]
 host = speedtest.teksavvy.com
 slaves = ALL-SLAVES
 
-++ tencent-na-toronto
-menu = [CA/ON] Tencent (Toronto)
-title = [CA/ON] Tencent Cloud - Toronto, Canada [cos.na-toronto.myqcloud.com]
-host = cos.na-toronto.myqcloud.com
-
 ++ vultr-tor
 menu = [CA/ON] Vultr (Toronto)
 title = [CA/ON] Vultr - Toronto, Ontario, Canada [tor-ca-ping.vultr.com]
 host = tor-ca-ping.vultr.com
 slaves = ALL-SLAVES
-
-++ uoft0
-menu = [CA/ON] UofT
-title = [CA/ON] University of Toronto - Toronto, Canada [utoronto.ca]
-host = utoronto.ca
-
-++ uwaterloo0
-menu = [CA/ON] UWaterloo
-title = [CA/ON] University of Waterloo - Waterloo, Canada [mirror.csclub.uwaterloo.ca]
-host = mirror.csclub.uwaterloo.ca
-
-++ bell-otw
-menu = [CA/ON] Bell (Ottawa)
-title = [CA/ON] Bell - Ottawa, Ontario, Canada [otw23spd01.srvr.bell.ca]
-host = otw23spd01.srvr.bell.ca
-
-++ rogers-oton
-menu = [CA/ON] Rogers (Ottawa)
-title = [CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.com]
-host = speedtestslnt.rogers.com
-
-++ tmobile-co-aro
-menu = [US/CO] T-Mobile (Aurora)
-title = [US/CO] T-Mobile - Aurora, CO, US [aro.speedtest.t-mobile.com]
-host = aro.speedtest.t-mobile.com
-
-#++ comcast-co-dvre
-#menu = [US/CO] Comcast (Denver)
-#title = [US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]
-#host = stosat-dvre-01.sys.comcast.net
-
-++ level3-dvco
-menu = [US/CO] Level 3 (Denver)
-title = [US/CO] Level 3 - Denver, Colorado [4.69.203.238]
-host = 4.69.203.238
 
 ++ smarthost-co
 menu = [US/CO] SmartHost (Denver)
@@ -940,11 +713,6 @@ title = [US/MO] Joe's Datacenter - Kansas City, Missouri [lg.joesdatacenter.com]
 host = lg.joesdatacenter.com
 slaves = ALL-SLAVES
 
-++ centurylink-ia-cedar-rapids
-menu = [US/IA] CenturyLink
-title = [US/IA] CenturyLink - Cedar Rapids, IA, US [cedar-rapids.speedtest.centurylink.net]
-host = cedar-rapids.speedtest.centurylink.net
-
 ++ gcp-iowa
 menu = [US/IA] Google Cloud
 title = [US/IA] Google Cloud Platform (us-central1) - Council Bluffs, Iowa, United States [us-central1-gce.cloudharmony.net]
@@ -957,49 +725,11 @@ title = [US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.
 host = 18.188.0.0
 slaves = ALL-SLAVES
 
-++ att-oh-cle
-menu = [US/OH] AT&T (Cleveland)
-title = [US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]
-host = cle.speedtest.sbcglobal.net
-
-++ level3-cloh
-menu = [US/OH] Level 3 (Cleveland)
-title = [US/OH] Level 3 - Cleveland, Ohio [4.69.210.125]
-host = 4.69.210.125
-slaves = ALL-SLAVES
-
 ++ freerangecloud-ywg
 menu = [CA/MB] Free Range Cloud
 title = [CA/MB] Free Range Cloud @ FastNet - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]
 host = lg.freerangecloud.com
 slaves = ALL-SLAVES
-
-++ rogers-wpmb
-menu = [CA/MB] Rogers (Winnipeg)
-title = [CA/MB] Rogers - Winnipeg, Canada [speedtestwinnipeg.rogers.com]
-host = speedtestwinnipeg.rogers.com
-
-++ shaw-wpmb
-menu = [CA/MB] Shaw (Winnipeg)
-title = [CA/MB] Shaw - Winnipeg, Canada [speedtest.wp.shawcable.net]
-host = speedtest.wp.shawcable.net
-slaves = ALL-SLAVES
-
-++ telus-wpmb
-menu = [CA/MB] TELUS (Winnipeg)
-title = [CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]
-host = winnipeg.speedtest.telus.com
-slaves = ALL-SLAVES
-
-++ hurricane-electric-yxe1
-menu = [CA/SK] he.net (Saskatoon)
-title = [CA/SK] Hurricane Electric - Saskatoon, Saskatchewan [core1.yxe1.he.net]
-host = core1.yxe1.he.net
-
-++ charter-mt-spt01blngmt
-menu = [US/MT] Charter (Billings)
-title = [US/MT] Charter - Billings, MT, US [spt01blngmt.blng.mt.charter.com]
-host = spt01blngmt.blng.mt.charter.com
 
 ++ cox-ne-om
 menu = [US/NE] Cox (Omaha)
@@ -1011,30 +741,10 @@ menu = [US/IN] AT&T (Indianapolis)
 title = [US/IN] AT&T - Indianapolis, IN, US [ind.speedtest.sbcglobal.net]
 host = ind.speedtest.sbcglobal.net
 
-++ charter-mi-spt01aldlmi
-menu = [US/MI] Charter (Allendale)
-title = [US/MI] Charter - Allendale, MI, US [spt01aldlmi.aldl.mi.charter.com]
-host = spt01aldlmi.aldl.mi.charter.com
-
-#++ comcast-mi-taylr
-#menu = [US/MI] Comcast (Detroit)
-#title = [US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]
-#host = stosat-taylr-01.sys.comcast.net
-
-++ att-mi-dtt
-menu = [US/MI] AT&T (Detroit)
-title = [US/MI] AT&T - Detroit, MI, US [dtt.speedtest.sbcglobal.net]
-host = dtt.speedtest.sbcglobal.net
-
 ++ tmobile-mi-det
 menu = [US/MI] T-Mobile (Detroit)
 title = [US/MI] T-Mobile - Detroit, MI, US [det.speedtest.t-mobile.com]
 host = det.speedtest.t-mobile.com
-
-++ centurylink-nd-bismarck
-menu = [US/ND] CenturyLink (Bismarck)
-title = [US/ND] CenturyLink - Bismarck, ND, US [bismarck.speedtest.centurylink.net]
-host = bismarck.speedtest.centurylink.net
 
 
 + PointsInterestNAS
@@ -1080,21 +790,10 @@ menu = [US/TX] SSDBlaze (Dallas)
 title = [US/TX] SSDBlaze - Dallas, Texas [lg-dal.ssdblaze.com]
 host = lg-dal.ssdblaze.com
 
-++ softlayer-dal
-menu = [US/TX] SoftLayer (Dallas)
-title = [US/TX] SoftLayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]
-host = speedtest.dal06.softlayer.com
-
 ++ quadranet-dal
 menu = [US/TX] QuadraNet (Dallas)
 title = [US/TX] QuadraNet - Dallas, Texas [lg.dal.colocrossing.com]
 host = lg.dal.colocrossing.com
-
-++ spartanhost-dal
-menu = [US/TX] SpartanHost (Dallas)
-title = [US/TX] SpartanHost - Dallas, Texas [lg.dal.spartanhost.net]
-host = lg.dal.spartanhost.net
-slaves = ALL-SLAVES
 
 ++ usdedicated-dal
 menu = [US/TX] US Dedicated (Dallas)
@@ -1108,11 +807,6 @@ title = [US/TX] Vultr - Dallas, Texas [tx-us-ping.vultr.com]
 host = tx-us-ping.vultr.com
 slaves = ALL-SLAVES
 
-++ tmobile-tx-ttn
-menu = [US/TX] T-Mobile (Plano)
-title = [US/TX] T-Mobile - Plano, TX, US [ttn.speedtest.t-mobile.com]
-host = ttn.speedtest.t-mobile.com
-
 ++ charter-tx-spt01ftwotx
 menu = [US/TX] Charter (Fort Worth)
 title = [US/TX] Charter - Fort Worth, TX, US [spt01ftwotx.ftwo.tx.charter.com]
@@ -1124,42 +818,16 @@ menu = [US/TX] SoftLayer (Houston)
 title = [US/TX] SoftLayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]
 host = speedtest.hou02.softlayer.com
 
-++ cox-ok-ok
-menu = [US/OK] Cox (Oklahoma City)
-title = [US/OK] Cox Communications - Oklahoma City, OK, US [speedtest.rd.ok.cox.net]
-host = speedtest.rd.ok.cox.net
-
 ++ centurylink-nm-albuquerque
 menu = [US/NM] CenturyLink
 title = [US/NM] CenturyLink - Albuquerque, NM, US [albuquerque.speedtest.centurylink.net]
 host = albuquerque.speedtest.centurylink.net
 slaves = ALL-SLAVES
 
-#++ comcast-nm-albq
-#menu = [US/NM] Comcast (Albuquerque)
-#title = [US/NM] Comcast - Albuquerque, NM, US [stosat-albq-01.sys.comcast.net]
-#host = stosat-albq-01.sys.comcast.net
-
-++ centurylink-ar-little-rock
-menu = [US/AR] CenturyLink
-title = [US/AR] CenturyLink - Little Rock, AR, US [little-rock.speedtest.centurylink.net]
-host = little-rock.speedtest.centurylink.net
-
-#++ comcast-ar-malt
-#menu = [US/AR] Comcast (Little Rock)
-#title = [US/AR] Comcast - Little Rock, AR, US [stosat-malt-01.sys.comcast.net]
-#host = stosat-malt-01.sys.comcast.net
-
 ++ att-la-msy
 menu = [US/LA] AT&T (New Orleans)
 title = [US/LA] AT&T - New Orleans, LA, US [msy.speedtest.sbcglobal.net]
 host = msy.speedtest.sbcglobal.net
-
-++ charter-la-spt01slidla
-menu = [US/LA] Charter (Slidell)
-title = [US/LA] Charter - Slidell, LA, US [spt01slidla.slid.la.charter.com]
-host = spt01slidla.slid.la.charter.com
-slaves = ALL-SLAVES
 
 ++ softlayer-mex
 menu = [MX] SoftLayer (Queretaro)
@@ -1176,17 +844,6 @@ host = speedmax.maxcom.net.mx
 menu = [MX] Alestra (Mexico City)
 title = [MX] Alestra - Mexico City, Mexico [speedtest-mex-01.alestra.net.mx]
 host = speedtest-mex-01.alestra.net.mx
-
-++ telefonica-mx6
-menu = [MX] Telefonica (Guadalajara)
-title = [MX] Telefonica/Movistar Mexico - Guadalajara, Mexico [internet6.movistar.com.mx]
-host = internet6.movistar.com.mx
-slaves = ALL-SLAVES
-
-++ att-mx-mty
-menu = [MX] AT&T (Monterrey)
-title = [MX] AT&T - Monterrey, Mexico [speed1.mty.attmex.mx]
-host = speed1.mty.attmex.mx
 
 ++ telefonica-mx5
 menu = [MX] Telefonica (Cancun)
@@ -1228,17 +885,6 @@ title = [US/NY] DigitalOcean (NYC3) - New York City, NY, US [speedtest-nyc3.digi
 host = speedtest-nyc3.digitalocean.com
 slaves = ALL-SLAVES
 
-++ ftpit-ny
-menu = [US/NY] FTPit (NYC)
-title = [US/NY] FTPit (Komputer King LLC) - New York City, New York [newyork.lg.ftpit.com]
-host = newyork.lg.ftpit.com
-
-++ gthost-nyc
-menu = [US/NY] GTHost (NYC)
-title = [US/NY] GTHost (GlobalTeleHost Corp.) - New York, United States [38.99.247.162]
-host = 38.99.247.162
-slaves = ALL-SLAVES
-
 ++ hosthatch-nyc
 menu = [US/NY] HostHatch (NYC)
 title = [US/NY] HostHatch - New York City [lg.ny.hosthatch.com]
@@ -1273,11 +919,6 @@ menu = [US/NY] ColoCrossing (Buffalo)
 title = [US/NY] ColoCrossing - Buffalo, New York [192.3.180.103]
 host = 192.3.180.103
 slaves = ALL-SLAVES
-
-++ centurylink-ny-rochester
-menu = [US/NY] CenturyLink (Rochester)
-title = [US/NY] CenturyLink - Rochester, NY, US [rochester.speedtest.centurylink.net]
-host = rochester.speedtest.centurylink.net
 
 ++ linode-nj
 menu = [US/NJ] Linode (Newark)
@@ -1318,12 +959,6 @@ title = [CA/QC] Amazon Web Services (ca-central-1) - Central Canada [35.182.0.25
 host = 35.182.0.251
 slaves = ALL-SLAVES
 
-++ bell-moqc
-menu = [CA/QC] Bell (Montreal)
-title = [CA/QC] Bell - Montreal, Canada [mtldjspeedtest01.srvr.bell.ca]
-host = mtldjspeedtest01.srvr.bell.ca
-slaves = ALL-SLAVES
-
 ++ gcp-yul
 menu = [CA/QC] Google Cloud
 title = [CA/QC] Google Cloud Platform (northamerica-northeast1) - Montreal, Canada [northamerica-northeast1-gce.cloudharmony.net]
@@ -1352,42 +987,17 @@ menu = [CA/QC] SoftLayer (Montreal)
 title = [CA/QC] SoftLayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]
 host = speedtest.mon01.softlayer.com
 
-++ telia-motl-b1
-menu = [CA/QC] Telia (Montreal)
-title = [CA/QC] Telia - Montreal, Canada [motl-b1.telia.net]
-host = motl-b1.telia.net
-
 ++ telus-moqc
 menu = [CA/QC] TELUS (Montreal)
 title = [CA/QC] TELUS - Montreal, Canada [montreal.speedtest.telus.com]
 host = montreal.speedtest.telus.com
 slaves = ALL-SLAVES
 
-#++ mcgill
-#menu = [CA/QC] McGill University
-#title = [CA/QC] McGill University [mcgill.ca]
-#host = mcgill.ca
-
 ++ quonix
 menu = [US/PA] Quonix (Philadelphia)
 title = [US/PA] Quonix - Philadelphia, Pennsylvania [www.quonix.net]
 host = www.quonix.net
 slaves = ALL-SLAVES
-
-#++ comcast-pa-crls
-#menu = [US/PA] Comcast (Pittsburgh)
-#title = [US/PA] Comcast - Pittsburgh, Pennsylvania [stosat-crls-01.sys.comcast.net]
-#host = stosat-crls-01.sys.comcast.net
-
-++ telia-pitt-b2
-menu = [US/PA] Telia (Pittsburgh)
-title = [US/PA] Telia - Pittsburgh, PA, US [pitt-b2.telia.net]
-host = pitt-b2.telia.net
-
-#++ comcast-ma-ndhm
-#menu = [US/MA] Comcast (Boston)
-#title = [US/MA] Comcast - Boston, Massachusetts [stosat-ndhm-01.sys.comcast.net]
-#host = stosat-ndhm-01.sys.comcast.net
 
 ++ mit-csail
 menu = [US/MA] MIT
@@ -1401,37 +1011,17 @@ title = [US/MA] SmartHost - Somerville, Massachusetts [38.242.7.129]
 host = 38.242.7.129
 slaves = ALL-SLAVES
 
-++ charter-ma-spt01oxfrma
-menu = [US/MA] Charter (Oxford)
-title = [US/MA] Charter - Oxford, Massachusetts [spt01oxfrma.oxfr.ma.charter.com]
-host = spt01oxfrma.oxfr.ma.charter.com
-
 ++ cox-ri-ri
 menu = [US/RI] Cox (Providence)
 title = [US/RI] Cox Communications - Providence, Rhode Island [speedtest.rd.ri.cox.net]
 host = speedtest.rd.ri.cox.net
 slaves = ALL-SLAVES
 
-++ tmobile-md-blt
-menu = [US/MD] T-Mobile (Beltsville)
-title = [US/MD] T-Mobile - Beltsville, MD, US [blt.speedtest.t-mobile.com]
-host = blt.speedtest.t-mobile.com
-
-#++ comcast-md-balt
-#menu = [US/MD] Comcast (Baltimore)
-#title = [US/MD] Comcast - Baltimore, Maryland, US [stosat-balt-01.sys.comcast.net]
-#host = stosat-balt-01.sys.comcast.net
-
 ++ bellaliant-hfns
 menu = [CA/NS] Bell Aliant (Halifax)
 title = [CA/NS] Bell Aliant - Halifax, Canada [speedtest-ns.bellaliant.net]
 host = speedtest-ns.bellaliant.net
 slaves = ALL-SLAVES
-
-++ telus-hfns
-menu = [CA/NS] TELUS (Halifax)
-title = [CA/NS] TELUS - Halifax, Canada [halifax.speedtest.telus.com]
-host = halifax.speedtest.telus.com
 
 
 + PointsInterestNASE
@@ -1449,11 +1039,6 @@ menu = [US/VA] Amazon AWS
 title = [US/VA] Amazon Web Services (us-east-1) - North Virginia [52.1.255.254]
 host = 52.1.255.254
 slaves = ALL-SLAVES
-
-++ budgetnode-ash
-menu = [US/VA] BudgetNode @ Psychz
-title = [US/VA] BudgetNode @ Psychz - Ashburn, Virginia [172.106.200.10]
-host = 172.106.200.10
 
 ++ freerangecloud-ash
 menu = [US/VA] Free Range Cloud
@@ -1488,28 +1073,13 @@ title = [US/VA] Tencent Cloud - Virginia, United States [cos.na-ashburn.myqcloud
 host = cos.na-ashburn.myqcloud.com
 slaves = ALL-SLAVES
 
-++ zeptovm-ash
-menu = [US/VA] ZeptoVM (Ashburn)
-title = [US/VA] ZeptoVM / Misaka Networks @ Voxility - Ashburn, Virginia [us-iad01.lg.misaka.one]
-host = us-iad01.lg.misaka.one
-
-#++ comcast-va-smil
-#menu = [US/VA] Comcast (Richmond)
-#title = [US/VA] Comcast - Richmond, VA, US [stosat-smil-01.sys.comcast.net]
-#host = stosat-smil-01.sys.comcast.net
-
-++ cox-va-dc
-menu = [US/VA] Cox (Arlington)
-title = [US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]
-host = speedtest.rd.dc.cox.net
-
 ++ leaseweb-wdc1
 menu = [US/DC] LeaseWeb
 title = [US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]
 host = mirror.wdc1.us.leaseweb.net
 
 ++ att-ga-atl
-menu = [US/GA] AT&T (Tucker)
+menu = [US/GA] AT&T
 title = [US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]
 host = atl.speedtest.sbcglobal.net
 
@@ -1519,13 +1089,8 @@ title = [US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]
 host = lg.atl.colocrossing.com
 slaves = ALL-SLAVES
 
-#++ comcast-ga-smtn
-#menu = [US/GA] Comcast (Atlanta)
-#title = [US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]
-#host = stosat-smtn-01.sys.comcast.net
-
 ++ cox-ga-at
-menu = [US/GA] Cox (Alpharetta)
+menu = [US/GA] Cox Communications
 title = [US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]
 host = speedtest.rd.at.cox.net
 
@@ -1558,11 +1123,6 @@ title = [US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]
 host = ga-us-ping.vultr.com
 slaves = ALL-SLAVES
 
-++ gorack
-menu = [US/FL] GoRack (Jacksonville)
-title = [US/FL] GoRack - Jacksonville, Florida [www.gorack.net]
-host = www.gorack.net
-
 ++ securedragon-tampa
 menu = [US/FL] SecureDragon (Tampa)
 title = [US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]
@@ -1572,11 +1132,6 @@ host = 199.167.30.105
 menu = [US/FL] GTHost (Miami)
 title = [US/FL] GTHost (GlobalTeleHost Corp.) - Miami, United States [162.251.62.162]
 host = 162.251.62.162
-
-++ m247-miami
-menu = [US/FL] M247 (Miami)
-title = [US/FL] M247 - Miami, USA [speed.mia.us.m247.ro]
-host = speed.mia.us.m247.ro
 
 ++ quadranet-mia
 menu = [US/FL] QuadraNet (Miami)
@@ -1606,23 +1161,13 @@ menu = [US/FL] T-Mobile (Orlando)
 title = [US/FL] T-Mobile - Orlando, FL, US [orl.speedtest.t-mobile.com]
 host = orl.speedtest.t-mobile.com
 
-++ centurylink-fl-fort-myers
-menu = [US/FL] CenturyLink
-title = [US/FL] CenturyLink - Fort Myers, FL, US [fort-myers.speedtest.centurylink.net]
-host = fort-myers.speedtest.centurylink.net
-
-#++ comcast-fl-tall
-#menu = [US/FL] Comcast (Tallahassee)
-#title = [US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]
-#host = stosat-tall-01.sys.comcast.net
-
 ++ dedispec-wv
 menu = [US/WV] Dedispec
 title = [US/WV] Dedispec - Berkeley Springs, West Virginia [208.73.23.243]
 host = 208.73.23.243
 
-++ mrvm-ler
-menu = [US/NC] mrvm.net (Lenoir)
+++ dacentec-ler
+menu = [US/NC] Dacentec (Lenoir)
 title = [US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [lg-us-ler.mrvm.net]
 host = lg-us-ler.mrvm.net
 slaves = ALL-SLAVES
@@ -1632,11 +1177,6 @@ menu = [US/NC] HostUS (Charlotte)
 title = [US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]
 host = clt-lg.hostus.us
 slaves = ALL-SLAVES
-
-++ att-nc-clt
-menu = [US/NC] AT&T (Charlotte)
-title = [US/NC] AT&T - Charlotte, NC, US [clt.speedtest.sbcglobal.net]
-host = clt.speedtest.sbcglobal.net
 
 ++ centurylink-sc-columbia
 menu = [US/SC] CenturyLink (Columbia)
@@ -1654,30 +1194,10 @@ menu = [US/TN] AT&T (Nashville)
 title = [US/TN] AT&T - Nashville, TN, US [bna.speedtest.sbcglobal.net]
 host = bna.speedtest.sbcglobal.net
 
-++ charter-tn-spt01kgpttn
-menu = [US/TN] Charter (Kingsport)
-title = [US/TN] Charter - Kingsport, TN, US [spt01kgpttn.kgpt.tn.charter.com]
-host = spt01kgpttn.kgpt.tn.charter.com
-
 
 + PointsInterestEU
 menu = Europe - UK, Ireland
 title = TITLE-HEADER - United Kingdom & Ireland
-
-++ launchpad
-menu = [UK] Launchpad / Canonical Ltd.
-title = [UK] Launchpad / Canonical Ltd. [launchpad.net]
-host = launchpad.net
-
-++ cambridge
-menu = [UK] University of Cambridge
-title = [UK] University of Cambridge - Cambridge, England, UK [cam.ac.uk]
-host = cam.ac.uk
-
-++ oxford
-menu = [UK] University of Oxford
-title = [UK] University of Oxford - Oxford, England, UK [mirror.ox.ac.uk]
-host = mirror.ox.ac.uk
 
 ++ aliyun-eu-west-1
 menu = [UK] Aliyun (London)
@@ -1688,16 +1208,6 @@ host = oss-eu-west-1.aliyuncs.com
 menu = [UK] Amazon AWS (London)
 title = [UK] Amazon Web Services - London, United Kingdom [3.8.0.0]
 host = 3.8.0.0
-
-++ arubacloud-lon
-menu = [UK] ArubaCloud (London)
-title = [UK] ArubaCloud - London, United Kingdom [89.36.222.238]
-host = 89.36.222.238
-
-++ budgetnode-lon
-menu = [UK] BudgetNode (London)
-title = [UK] BudgetNode - London, United Kingdom [185.187.242.2]
-host = 185.187.242.2
 
 ++ clouvider-lon
 menu = [UK] Clouvider (London)
@@ -1710,11 +1220,6 @@ menu = [UK] DigitalOcean (London)
 title = [UK] DigitalOcean (LON1) - London, United Kingdom [speedtest-lon1.digitalocean.com]
 host = speedtest-lon1.digitalocean.com
 slaves = ALL-SLAVES
-
-++ edis-uk
-menu = [UK] EDIS (London)
-title = [UK] EDIS - London, United Kingdom [uk.edis.at]
-host = uk.edis.at
 
 ++ gcp-lon
 menu = [UK] Google Cloud
@@ -1734,12 +1239,6 @@ title = [UK] Linode - London, United Kingdom [speedtest.london.linode.com]
 host = speedtest.london.linode.com
 slaves = ALL-SLAVES
 
-++ m247-london
-menu = [UK] M247 (London)
-title = [UK] M247 - London, England [speed.uk.lon.m247.ro]
-host = speed.uk.lon.m247.ro
-slaves = ALL-SLAVES
-
 ++ ovh-lon
 menu = [UK] OVH (London)
 title = [UK] OVH - Erith, London, United Kingdom [lon1-eri.smokeping.ovh.net]
@@ -1749,17 +1248,6 @@ host = lon1-eri.smokeping.ovh.net
 menu = [UK] Psychz (London)
 title = [UK] Psychz - London, United Kingdom [lg.lon.psychz.net]
 host = lg.lon.psychz.net
-
-++ rackspace-lon
-menu = [UK] Rackspace (London)
-title = [UK] Rackspace - London, United Kingdom [lon.speedtest.rackspace.com]
-host = lon.speedtest.rackspace.com
-
-++ rivencloud-london
-menu = [UK] Riven Cloud @ xTom
-title = [UK] Riven Cloud @ xTom - London, United Kingdom [speedtest-ld1.sa.net]
-host = speedtest-ld1.sa.net
-slaves = ALL-SLAVES
 
 ++ vmhaus-lon
 menu = [UK] VMHaus (London)
@@ -1825,21 +1313,11 @@ menu = [FR] EDIS (Paris)
 title = [FR] EDIS - Paris, France [fr.edis.at]
 host = fr.edis.at
 
-++ m247-paris
-menu = [FR] M247 (Paris)
-title = [FR] M247 - Paris, France [speed.fr.m247.ro]
-host = speed.fr.m247.ro
-
 ++ online-net-par
 menu = [FR] Online.net (Paris)
 title = [FR] Online.net - Paris, France [ping.online.net]
 host = ping.online.net
 slaves = ALL-SLAVES
-
-++ renater
-menu = [FR] RENATER
-title = [FR] RENATER - Paris, France [www.renater.fr]
-host = www.renater.fr
 
 ++ softlayer-par
 menu = [FR] SoftLayer (Paris)
@@ -1886,20 +1364,10 @@ slaves = ALL-SLAVES
 #title = [FR] Ikoula - Reims, France [lg.ikoula.com]
 #host = lg.ikoula.com
 
-++ hurricane-electric-mrs1
-menu = [FR] he.net (Marseille)
-title = [FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]
-host = core1.mrs1.he.net
-
 
 + PointsInterestEU5
 menu = Europe - Benelux
 title = TITLE-HEADER - Benelux (Belgium, The Netherlands, Luxembourg)
-
-++ bandwagonhost-nl
-menu = [NL] BandwagonHost
-title = [NL] BandwagonHost (IT7 Networks) - The Netherlands [45.62.120.202]
-host = 45.62.120.202
 
 ++ budgetnode-nl
 menu = [NL] BudgetNode (Lelystad)
@@ -1912,21 +1380,11 @@ title = [NL] CrownCloud @ Switch Datacenter - Amsterdam, Netherlands [185.243.11
 host = 185.243.112.1
 slaves = ALL-SLAVES
 
-++ dediserve-ams1
-menu = [NL] Dediserve (Amsterdam)
-title = [NL] Dediserve @ Serverius - Amsterdam, Netherlands [speedtest.c1.ams1.dediserve.com]
-host = speedtest.c1.ams1.dediserve.com
-
 ++ digitalocean-ams
 menu = [NL] DigitalOcean (Amsterdam)
 title = [NL] DigitalOcean (AMS2) - Amsterdam, Netherlands [speedtest-ams2.digitalocean.com]
 host = speedtest-ams2.digitalocean.com
 slaves = ALL-SLAVES
-
-++ edis-nl
-menu = [NL] EDIS (Amsterdam)
-title = [NL] EDIS - Schiphol Rijk, Amsterdam, Netherlands [nl.edis.at]
-host = nl.edis.at
 
 ++ hosthatch-ams
 menu = [NL] HostHatch (Amsterdam)
@@ -1945,27 +1403,17 @@ menu = [NL] LeaseWeb
 title = [NL] LeaseWeb - The Netherlands [mirror.nl.leaseweb.net]
 host = mirror.nl.leaseweb.net
 
-++ level3-ams
-menu = [NL] Level 3 (Amsterdam)
-title = [NL] Level 3 - Amsterdam, Netherlands [4.69.203.101]
-host = 4.69.203.101
-
 ++ liteserver-dro
 menu = [NL] LiteServer (Dronten)
 title = [NL] LiteServer - Dronten, Netherlands [lg-dro.liteserver.nl]
 host = lg-dro.liteserver.nl
 slaves = ALL-SLAVES
 
-++ lunarvps-nl
-menu = [NL] LunarVPS
-title = [NL] LunarVPS - The Netherlands [lg.nl.lunarvps.com]
-host = lg.nl.lunarvps.com
+++ serverius-nl
+menu = [NL] Serverius (Dronten)
+title = [NL] Serverius - Dronten, Netherlands [lg.serverius.net]
+host = lg.serverius.net
 
-++ m247-amsterdam
-menu = [NL] M247 (Amsterdam)
-title = [NL] M247 - Amsterdam, Netherlands [speed.nl.m247.ro]
-host = speed.nl.m247.ro
-slaves = ALL-SLAVES
 
 ++ online-net-ams
 menu = [NL] Online.net (Amsterdam)
@@ -1979,7 +1427,7 @@ title = [NL] QuadraNet - Amsterdam, Netherlands [161.129.64.235]
 host = 161.129.64.235
 
 ++ ramnode-ams
-menu = [NL] Ramnode (Alblasserdam)
+menu = [NL] Ramnode
 title = [NL] Ramnode - Alblasserdam, Netherlands [lg.nl.ramnode.com]
 host = lg.nl.ramnode.com
 slaves = ALL-SLAVES
@@ -1996,21 +1444,11 @@ title = [NL] UltraVPS - Amsterdam, Netherlands [lg.ams.nl.ultravps.eu]
 host = lg.ams.nl.ultravps.eu
 slaves = ALL-SLAVES
 
-++ tele2-nl
-menu = [NL] Tele2 (Amsterdam)
-title = [NL] Tele2 Netherlands - Amsterdam, NL [speedtest.tele2.nl]
-host = speedtest.tele2.nl
-
 ++ xs4all
 menu = [NL] XS4ALL (Amsterdam)
 title = [NL] XS4ALL - Amsterdam, NL [speedtest.xs4all.nl]
 host = speedtest.xs4all.nl
 slaves = ALL-SLAVES
-
-++ gcp-nl
-menu = [NL] Google Cloud
-title = [NL] Google Cloud Platform (europe-west4) - Eemshaven, Netherlands [europe-west4-gce.cloudharmony.net]
-host = europe-west4-gce.cloudharmony.net
 
 ++ edis-be
 menu = [BE] EDIS (Oostkamp)
@@ -2057,12 +1495,6 @@ title = [DE] AcceleratedIT - Frankfurt, Germany [lg.ip-projects.de]
 host = lg.ip-projects.de
 slaves = ALL-SLAVES
 
-++ aliyun-eu-central-1
-menu = [DE] Aliyun (Frankfurt)
-title = [DE] Aliyun - Frankfurt, Germany [oss-eu-central-1.aliyuncs.com]
-host = oss-eu-central-1.aliyuncs.com
-slaves = ALL-SLAVES
-
 ++ amazon-fra
 menu = [DE] Amazon AWS (Frankfurt)
 title = [DE] Amazon Web Services - Frankfurt, Germany [18.196.0.253]
@@ -2074,31 +1506,15 @@ title = [DE] combahton IT Services (FFM2) - Frankfurt, Germany [lg.combahton.net
 host = lg.combahton.net
 slaves = ALL-SLAVES
 
-++ chinatelecomglobal-de
-menu = [DE] China Telecom Global
-title = [DE] China Telecom Global - Germany [5.154.145.1]
-host = 5.154.145.1
-
 ++ first-colo
 menu = [DE] First-Colo (Frankfurt)
 title = [DE] First-Colo - Frankfurt, Germany [lg.first-colo.net]
 host = lg.first-colo.net
 
-#++ dtag
-#menu = [DE] Deutsche Telekom
-#title = [DE] Deutsche Telekom - Frankfurt, Germany [f-lga1.f.de.net.dtag.de]
-#host = f-lga1.f.de.net.dtag.de
-
 ++ digitalocean-fra
 menu = [DE] DigitalOcean (Frankfurt)
 title = [DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]
 host = speedtest-fra1.digitalocean.com
-
-++ edis-de
-menu = [DE] EDIS (Frankfurt)
-title = [DE] EDIS - Frankfurt, Germany [de.edis.at]
-host = de.edis.at
-slaves = ALL-SLAVES
 
 ++ gcp-fra
 menu = [DE] Google Cloud
@@ -2127,11 +1543,6 @@ menu = [DE] OVH (Frankfurt)
 title = [DE] OVH - Frankfurt, Germany [fra1-lim.smokeping.ovh.net]
 host = fra1-lim.smokeping.ovh.net
 
-++ tencent-eu-frankfurt
-menu = [DE] Tencent (Frankfurt)
-title = [DE] Tencent Cloud - Frankfurt, Germany [cos.eu-frankfurt.myqcloud.com]
-host = cos.eu-frankfurt.myqcloud.com
-
 ++ serverhub-ffm
 menu = [DE] Virmach (Frankfurt)
 title = [DE] Virmach @ ServerHub - Frankfurt, Germany [ffm.lg.virmach.com]
@@ -2142,11 +1553,6 @@ menu = [DE] Vultr (Frankfurt)
 title = [DE] Vultr - Frankfurt, Germany [fra-de-ping.vultr.com]
 host = fra-de-ping.vultr.com
 slaves = ALL-SLAVES
-
-++ hurricane-electric-ber1
-menu = [DE] he.net (Berlin)
-title = [DE] Hurricane Electric - IPB CarrierColo Berlin Berlin, DE [core1.ber1.he.net]
-host = core1.ber1.he.net
 
 ++ hetzner
 menu = [DE] Hetzner (Nuremberg)
@@ -2165,12 +1571,6 @@ slaves = ALL-SLAVES
 menu = Europe - Central
 title = TITLE-HEADER - Central Europe
 
-++ cern-ch
-menu = [CH] CERN
-title = [CH] CERN - European Organization for Nuclear Research - Geneva, Switzerland [cern.ch]
-host = cern.ch
-slaves = ALL-SLAVES
-
 ++ ethz
 menu = [CH] ETH Zurich
 title = [CH] Swiss Federal Institute of Technology in Zurich - Zurich, Switzerland [ubuntu.ethz.ch]
@@ -2180,11 +1580,6 @@ host = ubuntu.ethz.ch
 menu = [CH] EDIS (Zurich)
 title = [CH] EDIS - Zurich, Switzerland [ch.edis.at]
 host = ch.edis.at
-
-++ m247-zurich
-menu = [CH] M247 (Zurich)
-title = [CH] M247 - Zurich, Switzerland [speed.ch.m247.ro]
-host = speed.ch.m247.ro
 
 ++ protonmail
 menu = [CH] ProtonMail
@@ -2204,11 +1599,6 @@ title = [CH] PrivateLayer - Zurich, Switzerland [www.privatelayer.com]
 host = www.privatelayer.com
 slaves = ALL-SLAVES
 
-++ sunrise-zrh
-menu = [CH] Sunrise Communications
-title = [CH] Sunrise Communications AG - Zurich, Switzerland [pzur01speedtst02.sunrise.ch]
-host = pzur01speedtst02.sunrise.ch
-
 ++ dediserve-pol1
 menu = [PL] Dediserve (Warsaw)
 title = [PL] Dediserve @ iomart - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]
@@ -2226,11 +1616,6 @@ title = [PL] i3D.net - Warsaw, Poland [pl.eu.speedtest.i3d.net]
 host = pl.eu.speedtest.i3d.net
 slaves = ALL-SLAVES
 
-++ m247-warsaw
-menu = [PL] M247 (Warsaw)
-title = [PL] M247 - Warsaw, Poland [speed.pl.m247.ro]
-host = speed.pl.m247.ro
-
 ++ ovh-waw
 menu = [PL] OVH (Warsaw)
 title = [PL] OVH - Warsaw, Poland [waw1-oza.smokeping.ovh.net]
@@ -2241,12 +1626,6 @@ slaves = ALL-SLAVES
 menu = [PL] webh (Lodz)
 title = [PL] webh @ IWACOM - Lodz, Poland [91.205.74.1]
 host = 91.205.74.1
-slaves = ALL-SLAVES
-
-++ orange-pl-gdo
-menu = [PL] Orange (Gdansk)
-title = [PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]
-host = gda-o1.speedtest.orange.pl
 slaves = ALL-SLAVES
 
 ++ anexia-vie1
@@ -2284,17 +1663,6 @@ title = [CZ] M247 - Prague, Czech Republic [speed.cz.m247.ro]
 host = speed.cz.m247.ro
 slaves = ALL-SLAVES
 
-++ telia-prag-b3
-menu = [CZ] Telia (Prague)
-title = [CZ] Telia - Prague, Czech Republic [prag-b3.telia.net]
-host = prag-b3.telia.net
-
-++ t-mobile-cz
-menu = [CZ] T-Mobile (Prague)
-title = [CZ] T-Mobile - Prague, Czech Republic [speedtest3.t-mobile.cz]
-host = speedtest3.t-mobile.cz
-slaves = ALL-SLAVES
-
 ++ vodafone-cz
 menu = [CZ] Vodafone (Prague)
 title = [CZ] Vodafone - Prague, Czech Republic [speedtest.vodafone.cz]
@@ -2305,21 +1673,11 @@ menu = [HU] EDIS (Budapest)
 title = [HU] EDIS - Budapest, Hungary [hu.edis.at]
 host = hu.edis.at
 
-++ m247-budapest
-menu = [HU] M247 (Budapest)
-title = [HU] M247 - Budapest, Hungary [speed.hu.m247.ro]
-host = speed.hu.m247.ro
-
 ++ mikrovps
 menu = [HU] MikroVPS (Budapest)
 title = [HU] MikroVPS - Budapest, Hungary [185.112.156.25]
 host = 185.112.156.25
 slaves = ALL-SLAVES
-
-++ magyar-telecom
-menu = [HU] Magyar Telecom
-title = [HU] Magyar Telecom - Budapest, Hungary [speedtest.telekom.hu]
-host = speedtest.telekom.hu
 
 ++ slovak-telecom
 menu = [SK] Slovak Telekom (Bratislava)
@@ -2347,11 +1705,6 @@ menu = [SE] HostHatch (Stockholm)
 title = [SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [lg.sto.hosthatch.com]
 host = lg.sto.hosthatch.com
 slaves = ALL-SLAVES
-
-++ m247-stockholm
-menu = [SE] M247 (Stockholm)
-title = [SE] M247 - Stockholm, Sweden [speed.se.m247.ro]
-host = speed.se.m247.ro
 
 ++ tele2-se-kst
 menu = [SE] Tele2 (Kista)
@@ -2381,31 +1734,11 @@ title = [NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]
 host = lg.terrahost.no
 slaves = ALL-SLAVES
 
-++ nextgentel-no
-menu = [NO] NextGenTel (Bergen)
-title = [NO] NextGenTel - Bergen, Norway [speedtest.nextgentel.no]
-host = speedtest.nextgentel.no
-
 ++ telenor
 menu = [NO] Telenor (Oslo)
 title = [NO] Telenor - Oslo, Norway [test.telenor.net]
 host = test.telenor.net
 slaves = ALL-SLAVES
-
-++ hurricane-electric-cph1
-menu = [DK] he.net (Copenhagen)
-title = [DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]
-host = core1.cph1.he.net
-
-++ m247-copenhagen
-menu = [DK] M247 (Copenhagen)
-title = [DK] M247 - Copenhagen, Denmark [speed.dk.m247.ro]
-host = speed.dk.m247.ro
-
-++ nordunet-dk
-menu = [DK] NORDUnet (Copenhagen)
-title = [DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]
-host = dk-ore.nordu.net
 
 ++ tdc-dk
 menu = [DK] TDC Group (Copenhagen)
@@ -2430,11 +1763,6 @@ title = [FI] Hetzner - Helsinki, Finland [95.216.24.40]
 host = 95.216.24.40
 slaves = ALL-SLAVES
 
-++ xhostfire-esp
-menu = [FI] XHostFire (Espoo)
-title = [FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]
-host = 81.22.243.1
-
 ++ bacloud-lt
 menu = [LT] BaCloud (Siauliai)
 title = [LT] BaCloud - Siauliai, Lithuania [185.25.48.2]
@@ -2452,21 +1780,11 @@ menu = [LT] VPSnet (Vilnius)
 title = [LT] VPSnet - Vilnius, Lithuania [91.211.244.3]
 host = 91.211.244.3
 
-++ hurricane-electric-tll1
-menu = [EE] he.net (Tallinn)
-title = [EE] Hurricane Electric - Elion Tallinn Tallinn, EE [core1.tll1.he.net]
-host = core1.tll1.he.net
-
 ++ edis-is
 menu = [IS] EDIS (Hafnarfjordur)
 title = [IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]
 host = is.edis.at
 slaves = ALL-SLAVES
-
-#++ nordunet-is
-#menu = [IS] NORDUnet (Reykjavik)
-#title = [IS] NORDUnet (Nordic Gateway for Research & Education) - Reykjavik, Iceland [is-rey.nordu.net]
-#host = is-rey.nordu.net
 
 
 + PointsInterestEU7
@@ -2477,11 +1795,6 @@ title = TITLE-HEADER - Southern Europe
 menu = [IT] EDIS (Milan)
 title = [IT] EDIS - Milan, Italy [it.edis.at]
 host = it.edis.at
-
-++ m247-milan
-menu = [IT] M247 (Milan)
-title = [IT] M247 - Milan, Italy [speed.it.m247.ro]
-host = speed.it.m247.ro
 
 ++ netsons-mil
 menu = [IT] Netsons (Milan)
@@ -2511,11 +1824,6 @@ title = [IT] Fastweb - Rome, Italy [spd-pub-rm-01-01.fastwebnet.it]
 host = spd-pub-rm-01-01.fastwebnet.it
 slaves = ALL-SLAVES
 
-++ hurricane-electric-rom1
-menu = [IT] he.net (Rome)
-title = [IT] Hurricane Electric - NaMeX Roma, IT [core1.rom1.he.net]
-host = core1.rom1.he.net
-
 ++ edis-itpa
 menu = [IT] EDIS (Palermo)
 title = [IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]
@@ -2531,11 +1839,6 @@ menu = [ES] GinerNet (Madrid)
 title = [ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]
 host = 5.134.117.74
 slaves = ALL-SLAVES
-
-++ m247-madrid
-menu = [ES] M247 (Madrid)
-title = [ES] M247 - Madrid, Spain [speed.es.m247.ro]
-host = speed.es.m247.ro
 
 ++ telefonica
 menu = [ES] Telefonica
@@ -2591,11 +1894,6 @@ menu = [RU] ReTN (Moscow)
 title = [RU] ReTN - Moscow, Russian Federation [speedtest.retn.net]
 host = speedtest.retn.net
 
-++ tele2-moscow
-menu = [RU] Tele2 (Moscow)
-title = [RU] Tele2 Russia - Moscow, Russian Federation [msk1.companion.tele2.ru]
-host = msk1.companion.tele2.ru
-
 ++ tencent-eu-moscow
 menu = [RU] Tencent (Moscow)
 title = [RU] Tencent Cloud - Moscow, Russia [cos.eu-moscow.myqcloud.com]
@@ -2630,7 +1928,7 @@ title = [RU] TransTelecom TTK - Nizhny Novgorod, Russian Federation [speed.ttknn
 host = speed.ttknn.net
 
 ++ justhost-rtcom
-menu = [RU] JustHost @ RosTelecom
+menu = [RU] JustHost (Kazan)
 title = [RU] JustHost.ru @ RosTelecom - Kazan, Russia [lg-rtcom.justhost.ru]
 host = lg-rtcom.justhost.ru
 
@@ -2639,11 +1937,6 @@ menu = [RU] ER-Telecom (Rostov)
 title = [RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.ertelecom.ru]
 host = speedtest.rostov.ertelecom.ru
 slaves = ALL-SLAVES
-
-++ hurricane-electric-kbp1
-menu = [UA] he.net (Kyiv)
-title = [UA] Hurricane Electric - NewTelco Ukraine - Kyiv, UA [core1.kbp1.he.net]
-host = core1.kbp1.he.net
 
 ++ kyivstar
 menu = [UA] Kyivstar (Kyiv)
@@ -2682,11 +1975,6 @@ menu = [RO] M247 (Bucharest)
 title = [RO] M247 - Bucharest, Romania [speed.m247.ro]
 host = speed.m247.ro
 slaves = ALL-SLAVES
-
-++ orange-ro
-menu = [RO] Orange Romania
-title = [RO] Orange Romania - Bucharest, Romania [speedtestbuc.orangero.net]
-host = speedtestbuc.orangero.net
 
 ++ edis-md
 menu = [MD] EDIS (Chisinau)
@@ -2749,11 +2037,6 @@ title = [RS] Serbia Broadband - Belgrade, Serbia [mirror.sbb.rs]
 host = mirror.sbb.rs
 slaves = ALL-SLAVES
 
-++ edis-si
-menu = [SI] EDIS (Ljubljana)
-title = [SI] EDIS - Ljubljana, Slovenia [si.edis.at]
-host = si.edis.at
-
 ++ telekom-slovenije
 menu = [SI] Telekom Slovenije
 title = [SI] Telekom Slovenije - Ljubljana, Slovenia [speedtest1.telekom.si]
@@ -2776,26 +2059,11 @@ title = [GR] Cosmote (OTE) - Athens, Greece [speedtest2.cosmote.net]
 host = speedtest2.cosmote.net
 slaves = ALL-SLAVES
 
-++ gr-ix
-menu = [GR] GRNET GR-IX (Athens)
-title = [GR] GR-IX Greek Internet Exchange - Athens, Greece [speedtest.gr-ix.gr]
-host = speedtest.gr-ix.gr
-
-++ cosmote-1
-menu = [GR] Cosmote (Thessaloniki)
-title = [GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]
-host = speedtest.cosmote.net
-
 ++ turkcell-ist
 menu = [TR] Turkcell (Istanbul)
 title = [TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]
 host = medn01.hizinitestet.com
 slaves = ALL-SLAVES
-
-++ vodafone-tr-ank
-menu = [TR] Vodafone (Ankara)
-title = [TR] Vodafone - Ankara, Turkey [speedtest.vodafone.com.tr]
-host = speedtest.vodafone.com.tr
 
 
 + PointsInterestCN
@@ -3012,21 +2280,11 @@ title = [HK] China Unicom Global - Hong Kong, China [www.chinaunicomglobal.com]
 host = www.chinaunicomglobal.com
 slaves = ALL-SLAVES
 
-++ dediserve-hkg1
-menu = [HK] Dediserve
-title = [HK] Dediserve - Hong Kong, China [speedtest.c1.hkg1.dediserve.com]
-host = speedtest.c1.hkg1.dediserve.com
-
 ++ dmit-io-hk
 menu = [HK] DMIT (PVM.n2)
 title = [HK] DMIT (PVM.n2) - Hong Kong, China [193.110.200.233]
 host = 193.110.200.233
 slaves = ALL-SLAVES
-
-++ edis-hk
-menu = [HK] EDIS
-title = [HK] EDIS - New Territories, Hong Kong [hk.edis.at]
-host = hk.edis.at
 
 ++ gigsgigscloud-hk
 menu = [HK] GigsGigsCloud
@@ -3076,11 +2334,6 @@ menu = [HK] StarryDNS (HK4)
 title = [HK] StarryDNS (HK4) - Hong Kong, China [hk4.lg.starrydns.com]
 host = hk4.lg.starrydns.com
 slaves = ALL-SLAVES
-
-++ ransomit-hk
-menu = [HK] Ransom IT
-title = [HK] Ransom IT - Hong Kong, China [hongkong-lg.ransomit.com.au]
-host = hongkong-lg.ransomit.com.au
 
 ++ softlayer-hk
 menu = [HK] SoftLayer
@@ -3190,11 +2443,6 @@ title = [JP] Linode (Tokyo 2) - Tokyo, Japan [speedtest.tokyo2.linode.com]
 host = speedtest.tokyo2.linode.com
 slaves = ALL-SLAVES
 
-++ m247-tokyo
-menu = [JP] M247 (Tokyo)
-title = [JP] M247 - Tokyo, Japan [speed.jp.m247.ro]
-host = speed.jp.m247.ro
-
 ++ psychz-jp
 menu = [JP] Psychz (Tokyo)
 title = [JP] Psychz - Tokyo, Japan [lg.jp.psychz.net]
@@ -3234,11 +2482,6 @@ menu = [JP] StarryDNS (Tokyo)
 title = [JP] StarryDNS - Tokyo, Japan [jp4.lg.starrydns.com]
 host = jp4.lg.starrydns.com
 
-++ telia-tky-b1
-menu = [JP] Telia (Tokyo)
-title = [JP] Telia - Tokyo, Japan [tky-b1.telia.net]
-host = tky-b1.telia.net
-
 ++ tencent-ap-tokyo
 menu = [JP] Tencent (Tokyo)
 title = [JP] Tencent Cloud - Tokyo, Japan [cos.ap-tokyo.myqcloud.com]
@@ -3249,11 +2492,6 @@ menu = [JP] Vultr (Tokyo)
 title = [JP] Vultr / Choopa - Tokyo, Japan [hnd-jp-ping.vultr.com]
 host = hnd-jp-ping.vultr.com
 slaves = ALL-SLAVES
-
-++ glbb-jp
-menu = [JP] GLBB Japan (Chatan)
-title = [JP] GLBB Japan - Chatan, Okinawa, Japan [speedtest-xg.glbb.ne.jp]
-host = speedtest-xg.glbb.ne.jp
 
 ++ amazon-kr
 menu = [KR] Amazon AWS (Seoul)
@@ -3295,11 +2533,6 @@ title = [KR] Tencent Cloud - Seoul, Korea [cos.ap-seoul.myqcloud.com]
 host = cos.ap-seoul.myqcloud.com
 slaves = ALL-SLAVES
 
-++ megafon-khabarovsk
-menu = [RU] MegaFon (Khabarovsk)
-title = [RU] MegaFon - Khabarovsk, Russian Federation [khb.speedtest-dvf.megafon.ru]
-host = khb.speedtest-dvf.megafon.ru
-
 ++ rfchost-khv
 menu = [RU] RFChost (Khabarovsk)
 title = [RU] RFChost / Huajuan / BetaIDC - Khabarovsk, Russia [103.102.4.4]
@@ -3323,7 +2556,7 @@ title = [RU] JustHost.ru @ RosTelecom - Novosibirsk, Russia [lg-nsk.justhost.ru]
 host = lg-nsk.justhost.ru
 slaves = ALL-SLAVES
 
-++ xhostfire-nvo0
+++ rostelecom-nvo
 menu = [RU] Rostelecom (Novosibirsk)
 title = [RU] Rostelecom - Novosibirsk, Russia [95.167.6.12]
 host = hd.ncc.snt.ru
@@ -3377,11 +2610,6 @@ menu = [SG] Beyotta @ M1Net
 title = [SG] Beyotta @ M1Net - Singapore [103.19.9.9]
 host = 103.19.9.9
 
-++ chinatelecomglobal-sg
-menu = [SG] China Telecom Global
-title = [SG] China Telecom Global - Singapore [203.33.10.1]
-host = 203.33.10.1
-
 ++ digitalocean-sgp
 menu = [SG] Digital Ocean
 title = [SG] Digital Ocean (SGP1) - Singapore [speedtest-sgp1.digitalocean.com]
@@ -3409,11 +2637,6 @@ menu = [SG] Linode
 title = [SG] Linode - Singapore [speedtest.singapore.linode.com]
 host = speedtest.singapore.linode.com
 slaves = ALL-SLAVES
-
-++ m247-singapore
-menu = [SG] M247 (Singapore)
-title = [SG] M247 - Singapore [speed.sg.m247.ro]
-host = speed.sg.m247.ro
 
 ++ mrvm-sgp
 menu = [SG] mrvm.net
@@ -3559,16 +2782,6 @@ menu = [VN] FPT Telecom (HCMC)
 title = [VN] FPT Telecom - Ho Chi Minh City, Vietnam [speedtest.fpt.vn]
 host = speedtest.fpt.vn
 
-++ viettel-hcmc
-menu = [VN] Viettel (HCMC)
-title = [VN] Viettel - Ho Chi Minh City, Vietnam [speed-hht1.viettelidc.com.vn]
-host = speed-hht1.viettelidc.com.vn
-
-++ vnpt-danang
-menu = [VN] VNPT (Da Nang)
-title = [VN] VNPT - Da Nang, Vietnam [speedtest5.vtn.com.vn]
-host = speedtest5.vtn.com.vn
-
 ++ huawei-ap-southeast-2
 menu = [TH] Huawei (Bangkok)
 title = [TH] Huawei Cloud - Bangkok, Thailand [ecs.ap-southeast-2.myhuaweicloud.com]
@@ -3596,11 +2809,6 @@ menu = [MN] MPT (Yangon)
 title = [MN] Myanmar Posts and Telecommunications - Yangon, Myanmar [mpt01.mpt.net.mm]
 host = mpt01.mpt.net.mm
 slaves = ALL-SLAVES
-
-++ myanmarnet
-menu = [MN] Myanmar Net
-title = [MN] Myanmar Net - Yangon, Myanmar [sp1.myanmarnet.com]
-host = sp1.myanmarnet.com
 
 ++ cambohost
 menu = [KH] Cambo.Host
@@ -3646,11 +2854,10 @@ menu = [IN] Tencent (Mumbai)
 title = [IN] Tencent Cloud - Mumbai, India [cos.ap-mumbai.myqcloud.com]
 host = cos.ap-mumbai.myqcloud.com
 
-++ bharti-mumbai
-menu = [IN] Airtel (Mumbai)
-title = [IN] Airtel Broadband - Delhi, India [speedtestmh.airtelbroadband.in]
-host = speedtestmh.airtelbroadband.in
-slaves = ALL-SLAVES
+++ softlayer-che
+menu = [IN] SoftLayer (Chennai)
+title = [IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
+host = speedtest.che01.softlayer.com
 
 ++ jio-mumbai
 menu = [IN] Jio (Mumbai)
@@ -3701,16 +2908,6 @@ menu = [IN] Jio (Bangalore)
 title = [IN] Jio - Bangalore, India [speedbgl1.jioconnect.com]
 host = speedbgl1.jioconnect.com
 
-++ act-fibernet-hyd
-menu = [IN] ACT Fibernet (Hyderabad)
-title = [IN] ACT Fibernet - Hyderabad, India [speedtesthyd.actcorp.in]
-host = speedtesthyd.actcorp.in
-
-++ vodafone-ahm
-menu = [IN] Vodafone India (Ahmedabad)
-title = [IN] Vodafone India - Ahmedabad, India [speedtestahm.vodafone.ind.in]
-host = speedtestahm.vodafone.ind.in
-
 ++ bharti-chn
 menu = [IN] Airtel (Chennai)
 title = [IN] Airtel - Chennai, India [speedtestchn1.airtel.in]
@@ -3721,16 +2918,6 @@ menu = [IN] Jio (Chennai)
 title = [IN] Jio - Chennai, India [speedchn1.jioconnect.com]
 host = speedchn1.jioconnect.com
 slaves = ALL-SLAVES
-
-++ softlayer-che
-menu = [IN] SoftLayer (Chennai)
-title = [IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]
-host = speedtest.che01.softlayer.com
-
-++ jio-kol
-menu = [IN] Jio (Kolkata)
-title = [IN] Jio - Chennai, India [speedkol1.jioconnect.com]
-host = speedkol1.jioconnect.com
 
 ++ vodafone-kol
 menu = [IN] Vodafone India (Kolkata)
@@ -3758,11 +2945,6 @@ menu = [PK] Waheen (Lahore)
 title = [PK] Waheen - Lahore, Pakistan [speedtest.wateen.net]
 host = speedtest.wateen.net
 
-++ zong-lah
-menu = [PK] Zong CMPak (Lahore)
-title = [PK] Zong / China Mobile Pakistan - Lahore, Pakistan [speedtest-lhr1.zong.com.pk]
-host = speedtest-lhr1.zong.com.pk
-
 ++ ufone-isl
 menu = [PK] Ufone (Islamabad)
 title = [PK] Ufone - Islamabad, Pakistan [uspeedtest01.ufone.com]
@@ -3784,11 +2966,6 @@ slaves = ALL-SLAVES
 menu = [BD] Teletalk (Dhaka)
 title = [BD] Teletalk Bangladesh - Dhaka, Bangladesh [testspeed1.teletalk.com.bd]
 host = testspeed1.teletalk.com.bd
-
-++ robi-cht
-menu = [BD] Robi (Chittagong)
-title = [BD] Robi Axiata - Chittagong, Bangladesh [speedtest2.robi.com.bd]
-host = speedtest2.robi.com.bd
 
 ++ dialog-lk
 menu = [LK] Dialog (Colombo)
@@ -3835,12 +3012,7 @@ title = [BH] Amazon Web Services (me-south-1) - Bahrain [15.185.32.254]
 host = 15.185.32.254
 slaves = ALL-SLAVES
 
-++ edis-il
-menu = [IL] EDIS (Tel Aviv)
-title = [IL] EDIS - Tel Aviv, Israel [il.edis.at]
-host = il.edis.at
-
-++ partner-communications-il
+++ partner-il
 menu = [IL] Partner
 title = [IL] Partner Communications - Tel Aviv, Israel [speedtest2.partner.co.il]
 host = speedtest2.partner.co.il
@@ -4047,11 +3219,6 @@ title = [KE] Angani - Kenya [hosting.angani.co]
 host = hosting.angani.co
 slaves = ALL-SLAVES
 
-++ hurricane-electric-nbo1
-menu = [KE] he.net (Nairobi)
-title = [KE] Hurricane Electric - EADC Nairobi Nairobi, KE [core1.nbo1.he.net]
-host = core1.nbo1.he.net
-
 ++ seacom-ke-mba
 menu = [KE] SEACOM (Mombasa)
 title = [KE] SEACOM - Mombasa, Kenya [lg-01-mba.ke.seacomnet.com]
@@ -4157,16 +3324,6 @@ menu = [AR] Telecom Argentina
 title = [AR] Telecom Argentina - Buenos Aires, Argentina [st1.telecom.com.ar]
 host = st1.telecom.com.ar
 
-++ telecom-argentina-cor1
-menu = [AR] Tel. Argentina (Cordoba)
-title = [AR] Telecom Argentina - Cordoba, Argentina [stcor1.telecom.com.ar]
-host = stcor1.telecom.com.ar
-
-++ edis-cl
-menu = [CL] EDIS (Vina del Mar)
-title = [CL] EDIS - Viña del Mar, Chile [cl.edis.at]
-host = cl.edis.at
-
 ++ claro-cl
 menu = [CL] Claro (Santiago)
 title = [CL] Claro Chile - Santiago, Chile [speedtest.clarochile.cl]
@@ -4187,11 +3344,6 @@ host = core1.bog1.he.net
 menu = Oceania
 title = TITLE-HEADER - Oceania
 
-++ aarnet-syd
-menu = [AU] AARNet (Sydney)
-title = [AU] AARNet Australian Academic and Research Network - Sydney, Australia [nsw-brwy-speedtest.aarnet.net.au]
-host = nsw-brwy-speedtest.aarnet.net.au
-
 ++ aliyun-ap-southeast-2
 menu = [AU] Aliyun (Sydney)
 title = [AU] Aliyun - Sydney, Australia [oss-ap-southeast-2.aliyuncs.com]
@@ -4202,11 +3354,6 @@ menu = [AU] Amazon AWS
 title = [AU] Amazon Web Services (ap-southeast-2) - Sydney, Australia [54.206.128.2]
 host = 54.206.128.2
 slaves = ALL-SLAVES
-
-++ chinatelecomglobal-au
-menu = [AU] China Telecom Global
-title = [AU] China Telecom Global - Sydney, Australia [218.100.88.244]
-host = 218.100.88.244
 
 ++ dediserve-syd1
 menu = [AU] Dediserve (Sydney)
@@ -4290,11 +3437,6 @@ menu = [AU] Ransom IT (Brisbane)
 title = [AU] Ransom IT - Brisbane, Australia [brisbane-lg.ransomit.com.au]
 host = brisbane-lg.ransomit.com.au
 
-++ internode-ade
-menu = [AU] Internode (Adelaide)
-title = [AU] Internode - Adelaide, Australia [speedtest-adl.cdn.on.net]
-host = speedtest-adl.cdn.on.net
-
 ++ ransomit-ade
 menu = [AU] Ransom IT (Adelaide)
 title = [AU] Ransom IT - Adelaide, Australia [adelaide-lg.ransomit.com.au]
@@ -4343,11 +3485,6 @@ menu = [NZ] Spark (Auckland)
 title = [NZ] Spark - Auckland, New Zealand [speedtest-auckland.telecom.co.nz]
 host = speedtest-auckland.telecom.co.nz
 slaves = ALL-SLAVES
-
-++ vodafone-nz
-menu = [NZ] Vodafone (Auckland)
-title = [NZ] Vodafone - Auckland, New Zealand [auckland.speedtest.vodafone.co.nz]
-host = auckland.speedtest.vodafone.co.nz
 
 ++ zappiehost-nz
 menu = [NZ] ZappieHost (Auckland)
