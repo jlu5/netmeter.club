@@ -393,6 +393,11 @@ title = [US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]
 host = sjo-ca-us-ping.vultr.com
 slaves = ALL-SLAVES
 
+++ anchnet-la
+menu = [US/CA] Anchnet (LA)
+title = [US/CA] Anchnet - Los Angeles, California (CN2 / CDIA) [118.184.73.13]
+host = 118.184.73.13
+
 ++ anynode-la
 menu = [US/CA] anyNode (LA)
 title = [US/CA] anyNode - Los Angeles, California [lg.lax.anynode.net]
@@ -1272,8 +1277,8 @@ title = [UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.c
 host = lg.loveservers.com
 
 ++ m247-manchester
-menu = [GB] M247 (Manchester)
-title = [GB] M247 - Manchester, England [speed.uk.man.m247.ro]
+menu = [UK] M247 (Manchester)
+title = [UK] M247 - Manchester, England [speed.uk.man.m247.ro]
 host = speed.uk.man.m247.ro
 slaves = ALL-SLAVES
 
